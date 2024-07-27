@@ -65,4 +65,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: http://blone.hifo.fun/sitemap.xml
+Sitemap: http://blog.hifo.fun/sitemap.xml

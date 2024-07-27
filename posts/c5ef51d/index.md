@@ -91,5 +91,5 @@ mtd write breed.bin
 ---
 
 > 作者: 布冷  
-> URL: http://blone.hifo.fun/posts/c5ef51d/  
+> URL: http://blog.hifo.fun/posts/c5ef51d/  
 

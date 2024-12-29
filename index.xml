@@ -1,4 +1,128 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bulone</title><link>http://blog.hifo.fun/</link><description>Bulone</description><generator>Hugo 0.140.1 &amp; FixIt v0.3.17-21750077</generator><language>zh-CN</language><managingEditor>mxsix112@gmail.com (bulone)</managingEditor><webMaster>mxsix112@gmail.com (bulone)</webMaster><lastBuildDate>Fri, 26 Jul 2024 09:29:17 +0800</lastBuildDate><atom:link href="http://blog.hifo.fun/index.xml" rel="self" type="application/rss+xml"/><item><title>小米4A百兆版刷机</title><link>http://blog.hifo.fun/posts/c5ef51d/</link><pubDate>Fri, 26 Jul 2024 09:29:17 +0800</pubDate><author>mxsix112@gmail.com (bulone)</author><guid>http://blog.hifo.fun/posts/c5ef51d/</guid><category domain="http://blog.hifo.fun/categories/%E8%AE%B0%E5%BD%95/">记录</category><description>&lt;img src="http://blog.hifo.fun/posts/c5ef51d/pics/cover_918410.webp" alt="featured image" referrerpolicy="no-referrer">&lt;p>刷机时没有截图的习惯所以文中部分图片来源已标出。本次刷机小米路由器版本 2.18.58&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bulone</title><link>http://blog.hifo.fun/</link><description>Bulone</description><generator>Hugo 0.140.1 &amp; FixIt v0.3.17-21750077</generator><language>zh-CN</language><managingEditor>mxsix112@gmail.com (bulone)</managingEditor><webMaster>mxsix112@gmail.com (bulone)</webMaster><lastBuildDate>Sun, 29 Dec 2024 16:03:15 +0800</lastBuildDate><atom:link href="http://blog.hifo.fun/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo+Obsidian自动部署</title><link>http://blog.hifo.fun/posts/dy3e4f7/</link><pubDate>Sun, 29 Dec 2024 16:03:15 +0800</pubDate><author>mxsix112@gmail.com (bulone)</author><guid>http://blog.hifo.fun/posts/dy3e4f7/</guid><category domain="http://blog.hifo.fun/categories/%E8%AE%B0%E5%BD%95/">记录</category><description>&lt;p>之前搭建的博客站都是基于 php 构建的博客程序，对于备份来说是有点麻烦。也尝试过静态博客，觉得写文章和发布文章时比有 UI 界面的麻烦了很多。但是了解了 Obsidian 和 GitHub Page 后，创建文章也很简单。&lt;strong>以下为我个人配置，不代表大多数人&lt;/strong>。&lt;/p>
+&lt;h2 id="hugo" class="heading-element">&lt;span>Hugo&lt;/span>
+ &lt;a href="#hugo" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>在 Windows 上通过 Scoop 管理软件进行 Hugo 安装。&lt;/p>
+&lt;ol>
+&lt;li>打开 PowerShell 粘贴以下代码安装 Scoop&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>然后通过 scoop install hugo-extended 安装 hugo extended 版本。&lt;/li>
+&lt;li>hugo new site 路径名 生成 hugo 结构。&lt;/li>
+&lt;li>将该结构创建 Git 上传到 Github 库中。&lt;/li>
+&lt;/ol>
+&lt;h2 id="obsidian" class="heading-element">&lt;span>Obsidian&lt;/span>
+ &lt;a href="#obsidian" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>1.将上述 Hugo 结构目录作为 Obsidian 的文档库，由于 Obsidian 会默认生成.obsidian 文件夹已保存相关配置，所以要在.gitignore 中将.obsidian/ 进行忽略防止上传。
+2.设置中新建文章位置指定为 content/posts/下。
+3.使用模板或者 quickadd 对于新文档的创建，减少和在进入命令行进行生成文档。
+4.写完文章后可以通过 git 插件或者通过 git 命令进行更新。&lt;/p>
+&lt;h2 id="github-workflow" class="heading-element">&lt;span>Github WorkFlow&lt;/span>
+ &lt;a href="#github-workflow" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>1.在 &lt;a href="https://github.com/settings/tokens"target="_blank" rel="external nofollow noopener noreferrer">Personal access tokens (classic)&lt;/a> 生成一个新 token，根据个人需求选择过期时间或不过期。切记，只会在创建后显示一次，因此要保存好 Token。当然忘记后创建新的也是可以的。
+2.在 GitHub 库的设置中选择 Secrets or variables - Actions 创建一个名为 ACTIONS_DEPLOY_KEY，将上述 token 粘贴到框内保存。
+3.创建一个 GitHub Action，将下述代码复制粘贴，再根据文字内容进行修改。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">github_pages&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 名字自取&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">branches&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">master &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 这里的意思是当 main分支发生push的时候，运行下面的jobs，这里先改为github-actions&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">deploy&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 任务名自取&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ubuntu-latest	# 在什么环境运行任务&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/checkout@v2	# 引用actions/checkout这个action，与所在的github仓库同名&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">submodules&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch Hugo themes (true OR recursive) 获取submodule主题&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">fetch-depth&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch all history for .GitInfo and .Lastmod&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Setup Hugo	# 步骤名自取&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-hugo@v2	# hugo官方提供的action，用于在任务环境中获取hugo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">hugo-version&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;latest&amp;#39;&lt;/span>&lt;span class="w">	&lt;/span>&lt;span class="c"># 获取最新版本的hugo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># extended: true&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Build&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">hugo --minify	# 使用hugo构建静态网页&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Deploy&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-gh-pages@v3	# 一个自动发布github pages的action&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># github_token: ${{ secrets.GITHUB_TOKEN }} 该项适用于发布到源码相同repo的情况，不能用于发布到其他repo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">external_repository&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> 	&lt;/span>&lt;span class="c"># 发布到哪个repo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">personal_token&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ secrets.ACTIONS_DEPLOY_KEY }}	# 发布到其他repo需要提供上面生成的personal access token&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_dir&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">./public	# 注意这里指的是要发布哪个文件夹的内容，而不是指发布到目的仓库的什么位置，因为hugo默认生成静态网页到public文件夹，所以这里发布public文件夹里的内容&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_branch&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">main	# 发布到哪个branch&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="4">
+&lt;li>之后当 GitHub 库更新后就会自动重新发布 Github Page。&lt;/li>
+&lt;/ol>
+&lt;h2 id="问题" class="heading-element">&lt;span>问题&lt;/span>
+ &lt;a href="#%e9%97%ae%e9%a2%98" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;ol>
+&lt;li>因为 Obsidian 和 Hugo 的图片链接不同，导致其中一个显示另一个就不显示。
+[# &lt;a href="https://discourse.gohugo.io/t/help-with-link-images-to-see-from-absolute-path-including-static/41177"target="_blank" rel="external nofollow noopener noreferrer">Help with link images to see from absolute path including “/static”?&lt;/a>](&lt;a href="https://discourse.gohugo.io/t/help-with-link-images-to-see-from-absolute-path-including-static/41177/3"target="_blank" rel="external nofollow noopener noreferrer">https://discourse.gohugo.io/t/help-with-link-images-to-see-from-absolute-path-including-static/41177/3&lt;/a>)&lt;/li>
+&lt;/ol>
+&lt;h2 id="obsidian-插件" class="heading-element">&lt;span>Obsidian 插件&lt;/span>
+ &lt;a href="#obsidian-%e6%8f%92%e4%bb%b6" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>&lt;a class="lightgallery" href="http://blog.hifo.fun/images/Hugo&amp;#43;Obsidian%e8%87%aa%e5%8a%a8%e9%83%a8%e7%bd%b2-20241229171358468.webp?size=large" data-thumbnail="/images/Hugo&amp;#43;Obsidian自动部署-20241229171358468.webp?size=small" data-sub-html="&lt;h2>插件&lt;/h2>">&lt;img loading="lazy" src="http://blog.hifo.fun/images/Hugo&amp;#43;Obsidian%e8%87%aa%e5%8a%a8%e9%83%a8%e7%bd%b2-20241229171358468.webp" alt="插件" srcset="http://blog.hifo.fun/images/Hugo&amp;#43;Obsidian%e8%87%aa%e5%8a%a8%e9%83%a8%e7%bd%b2-20241229171358468.webp?size=small, http://blog.hifo.fun/images/Hugo&amp;#43;Obsidian%e8%87%aa%e5%8a%a8%e9%83%a8%e7%bd%b2-20241229171358468.webp?size=medium 1.5x, http://blog.hifo.fun/images/Hugo&amp;#43;Obsidian%e8%87%aa%e5%8a%a8%e9%83%a8%e7%bd%b2-20241229171358468.webp?size=large 2x" data-title="插件" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&lt;/a>&lt;/p></description></item><item><title>小米4A百兆版刷机</title><link>http://blog.hifo.fun/posts/c5ef51d/</link><pubDate>Fri, 26 Jul 2024 09:29:17 +0800</pubDate><author>mxsix112@gmail.com (bulone)</author><guid>http://blog.hifo.fun/posts/c5ef51d/</guid><category domain="http://blog.hifo.fun/categories/%E8%AE%B0%E5%BD%95/">记录</category><description>&lt;img src="http://blog.hifo.fun/posts/c5ef51d/pics/cover_918410.webp" alt="featured image" referrerpolicy="no-referrer">&lt;p>刷机时没有截图的习惯所以文中部分图片来源已标出。本次刷机小米路由器版本 2.18.58&lt;/p>
 &lt;hr>
 &lt;h2 id="telnet开启" class="heading-element">&lt;span>Telnet开启&lt;/span>
  &lt;a href="#telnet%e5%bc%80%e5%90%af" class="heading-mark">

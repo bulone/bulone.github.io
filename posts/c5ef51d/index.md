@@ -31,7 +31,6 @@
 ```
 pip install requests
 python remote_command_execution_vulnerability.py
-
 ```
 
 5.  输入路由器管理地址 192.168.31.1， 然后回车;
@@ -81,7 +80,7 @@ mtd write breed.bin
 - OpenWRTInvasion-0.0.8: [第6](https://www.right.com.cn/FORUM/thread-6074185-1-1.html)
 - breed: [密码2333](https://pan.baidu.com/s/1MqmhIQNmv2VMhHleIDp-QQ?pwd=2333)
 - 第三方Pavadan: [小米4A百兆版padavan精简固件r4ac](https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=8225989&amp;highlight=r4ac)
-- 原固件完整备份:  [提取码:n8vs百度网盘](https://pan.baidu.com/s/1cJt2FRuGNF2pi41HEVzz4Q)
+- 原固件完整备份:  [Bulone Share](https://web.hifo.fun/Application/share/r4ac100m%E5%A4%87%E4%BB%BD.zip)
 ## 参考
 - [【教程】傻瓜版无需拆机 u盘 ssh小米3G 3a 3c 4c 4a百兆千兆版本等开启telnet刷breed-小米无线路由器及小米网络设备-恩山无线论坛](https://www.right.com.cn/forum/thread-4017759-1-1.html)
 - [小米路由器4A千兆版(R4A)刷openwrt官方固件(附Telnet连接失败解决方案)-小米无线路由器及小米网络设备](https://www.right.com.cn/FORUM/thread-6074185-1-1.html)
@@ -90,6 +89,6 @@ mtd write breed.bin
 
 ---
 
-> 作者: 布冷  
+> 作者: bulone  
 > URL: http://blog.hifo.fun/posts/c5ef51d/  
 

@@ -14,19 +14,26 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 2. 然后通过 scoop install hugo-extended 安装 hugo extended 版本。
+
 3. hugo new site 路径名 生成 hugo 结构。
+
 4. 将该结构创建 Git 上传到 Github 库中。
 
 ## Obsidian
 
 1.将上述 Hugo 结构目录作为 Obsidian 的文档库，由于 Obsidian 会默认生成.obsidian 文件夹已保存相关配置，所以要在.gitignore 中将.obsidian/ 进行忽略防止上传。
+
 2.设置中新建文章位置指定为 content/posts/下。
+
 3.使用模板或者 quickadd 对于新文档的创建，减少和在进入命令行进行生成文档。
+
 4.写完文章后可以通过 git 插件或者通过 git 命令进行更新。
 
 ## Github WorkFlow
 1.在 [Personal access tokens (classic)](https://github.com/settings/tokens) 生成一个新 token，根据个人需求选择过期时间或不过期。切记，只会在创建后显示一次，因此要保存好 Token。当然忘记后创建新的也是可以的。
+
 2.在 GitHub 库的设置中选择 Secrets or variables - Actions 创建一个名为 ACTIONS_DEPLOY_KEY，将上述 token 粘贴到框内保存。
+
 3.创建一个 GitHub Action，将下述代码复制粘贴，再根据文字内容进行修改。
 ```yml
 name: github_pages # 名字自取
@@ -68,10 +75,9 @@ jobs:
 ## 问题
 
 1. 因为 Obsidian 和 Hugo 的图片链接不同，导致其中一个显示另一个就不显示。
-	[# [Help with link images to see from absolute path including “/static”?](https://discourse.gohugo.io/t/help-with-link-images-to-see-from-absolute-path-including-static/41177)](https://discourse.gohugo.io/t/help-with-link-images-to-see-from-absolute-path-including-static/41177/3)
 
+	[Help with link images to see from absolute path including “/static”?](https://discourse.gohugo.io/t/help-with-link-images-to-see-from-absolute-path-including-static/41177)
 # Obsidian 插件
-
 
 
 ![插件](/images/Hugo&#43;Obsidian自动部署-20241229171358468.webp)

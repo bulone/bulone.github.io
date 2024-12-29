@@ -17,25 +17,31 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;ol start="2">
-&lt;li>然后通过 scoop install hugo-extended 安装 hugo extended 版本。&lt;/li>
-&lt;li>hugo new site 路径名 生成 hugo 结构。&lt;/li>
-&lt;li>将该结构创建 Git 上传到 Github 库中。&lt;/li>
+&lt;li>
+&lt;p>然后通过 scoop install hugo-extended 安装 hugo extended 版本。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>hugo new site 路径名 生成 hugo 结构。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>将该结构创建 Git 上传到 Github 库中。&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;h2 id="obsidian" class="heading-element">&lt;span>Obsidian&lt;/span>
  &lt;a href="#obsidian" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
-&lt;/h2>&lt;p>1.将上述 Hugo 结构目录作为 Obsidian 的文档库，由于 Obsidian 会默认生成.obsidian 文件夹已保存相关配置，所以要在.gitignore 中将.obsidian/ 进行忽略防止上传。
-2.设置中新建文章位置指定为 content/posts/下。
-3.使用模板或者 quickadd 对于新文档的创建，减少和在进入命令行进行生成文档。
-4.写完文章后可以通过 git 插件或者通过 git 命令进行更新。&lt;/p>
+&lt;/h2>&lt;p>1.将上述 Hugo 结构目录作为 Obsidian 的文档库，由于 Obsidian 会默认生成.obsidian 文件夹已保存相关配置，所以要在.gitignore 中将.obsidian/ 进行忽略防止上传。&lt;/p>
+&lt;p>2.设置中新建文章位置指定为 content/posts/下。&lt;/p>
+&lt;p>3.使用模板或者 quickadd 对于新文档的创建，减少和在进入命令行进行生成文档。&lt;/p>
+&lt;p>4.写完文章后可以通过 git 插件或者通过 git 命令进行更新。&lt;/p>
 &lt;h2 id="github-workflow" class="heading-element">&lt;span>Github WorkFlow&lt;/span>
  &lt;a href="#github-workflow" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
-&lt;/h2>&lt;p>1.在 &lt;a href="https://github.com/settings/tokens"target="_blank" rel="external nofollow noopener noreferrer">Personal access tokens (classic)&lt;/a> 生成一个新 token，根据个人需求选择过期时间或不过期。切记，只会在创建后显示一次，因此要保存好 Token。当然忘记后创建新的也是可以的。
-2.在 GitHub 库的设置中选择 Secrets or variables - Actions 创建一个名为 ACTIONS_DEPLOY_KEY，将上述 token 粘贴到框内保存。
-3.创建一个 GitHub Action，将下述代码复制粘贴，再根据文字内容进行修改。&lt;/p>
+&lt;/h2>&lt;p>1.在 &lt;a href="https://github.com/settings/tokens"target="_blank" rel="external nofollow noopener noreferrer">Personal access tokens (classic)&lt;/a> 生成一个新 token，根据个人需求选择过期时间或不过期。切记，只会在创建后显示一次，因此要保存好 Token。当然忘记后创建新的也是可以的。&lt;/p>
+&lt;p>2.在 GitHub 库的设置中选择 Secrets or variables - Actions 创建一个名为 ACTIONS_DEPLOY_KEY，将上述 token 粘贴到框内保存。&lt;/p>
+&lt;p>3.创建一个 GitHub Action，将下述代码复制粘贴，再根据文字内容进行修改。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -115,8 +121,10 @@
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
 &lt;/h2>&lt;ol>
-&lt;li>因为 Obsidian 和 Hugo 的图片链接不同，导致其中一个显示另一个就不显示。
-[# &lt;a href="https://discourse.gohugo.io/t/help-with-link-images-to-see-from-absolute-path-including-static/41177"target="_blank" rel="external nofollow noopener noreferrer">Help with link images to see from absolute path including “/static”?&lt;/a>](&lt;a href="https://discourse.gohugo.io/t/help-with-link-images-to-see-from-absolute-path-including-static/41177/3"target="_blank" rel="external nofollow noopener noreferrer">https://discourse.gohugo.io/t/help-with-link-images-to-see-from-absolute-path-including-static/41177/3&lt;/a>)&lt;/li>
+&lt;li>
+&lt;p>因为 Obsidian 和 Hugo 的图片链接不同，导致其中一个显示另一个就不显示。&lt;/p>
+&lt;p>&lt;a href="https://discourse.gohugo.io/t/help-with-link-images-to-see-from-absolute-path-including-static/41177"target="_blank" rel="external nofollow noopener noreferrer">Help with link images to see from absolute path including “/static”?&lt;/a>&lt;/p>
+&lt;/li>
 &lt;/ol>
 &lt;h2 id="obsidian-插件" class="heading-element">&lt;span>Obsidian 插件&lt;/span>
  &lt;a href="#obsidian-%e6%8f%92%e4%bb%b6" class="heading-mark">

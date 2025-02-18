@@ -26,23 +26,23 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 scoop install hugo-extended
 ```
-2. 创建网站(选择合适位置)
+2. 创建网站 (选择合适位置)
 ```
 hugo new site xxx
 ```
 ## 选择主题
-当然还是[Fixit](https://github.com/hugo-fixit/FixIt)，主要是Fixit的教程十分详细，而且还是国内开发者，对于一些东西都进行了详细的优化，因此不二之选（记得在Github上给开发者一个⭐Star）。
+当然还是 [Fixit](https://github.com/hugo-fixit/FixIt)，主要是 Fixit 的教程十分详细，而且还是国内开发者，对于一些东西都进行了详细的优化，因此不二之选（记得在 Github 上给开发者一个⭐Star）。
 
-详细教程请到[开发者主题网站](https://fixit.lruihao.cn/zh-cn/)根据教程来配置
+详细教程请到 [主题示例网站](https://fixit.lruihao.cn/zh-cn/) 根据教程来进行相关选项配置。
 
 ## 推送仓库
-利用Github Page创建博客网站，将生成的public传送到Github Page仓库或者将博客框架主体传送到新建的仓库，再利用Workflow进行推送也行。不过还是第二种可靠些，毕竟将主体都备份到Github上。以后换电脑时可以直接克隆仓库。
+利用 Github Page 创建博客网站，将生成的 public 传送到 Github Page 仓库或者将博客框架主体传送到新建的仓库，再利用 Workflow 进行推送也行。不过还是第二种可靠些，毕竟将主体都备份到 Github 上。以后换电脑时可以直接克隆仓库。
 
 1. 创建主体仓库
-2. 创建GIthub Page仓库
+2. 创建 GIthub Page 仓库
 3. 每次更新直接推送主体仓库
 
-&gt; workflow代码
+&gt; workflow 代码
 ```
 name: github_pages # 名字自取
 
@@ -78,6 +78,8 @@ jobs:
           publish_dir: ./public	# 注意这里指的是要发布哪个文件夹的内容，而不是指发布到目的仓库的什么位置，因为hugo默认生成静态网页到public文件夹，所以这里发布public文件夹里的内容
           publish_branch: main	# 发布到哪个branch
 ```
+
+
 
 ---
 

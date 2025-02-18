@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>吐司气泡</title><link>http://localhost:1313/</link><description>吐司气泡</description><generator>Hugo 0.143.1 &amp; FixIt v0.3.17-8b402129</generator><language>zh-CN</language><managingEditor>mxsix112@gmail.com (蓝莓吐司)</managingEditor><webMaster>mxsix112@gmail.com (蓝莓吐司)</webMaster><lastBuildDate>Sun, 16 Feb 2025 14:12:43 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>建站日志</title><link>http://localhost:1313/posts/jbb6623/</link><pubDate>Sun, 16 Feb 2025 14:12:43 +0800</pubDate><author>mxsix112@gmail.com (蓝莓吐司)</author><guid>http://localhost:1313/posts/jbb6623/</guid><category domain="http://localhost:1313/categories/%E8%AE%B0%E5%BD%95/">记录</category><description>&lt;p>建站四部走：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>吐司气泡</title><link>http://localhost:1313/</link><description>吐司气泡</description><generator>Hugo 0.142.0 &amp; FixIt v0.3.17-8b402129</generator><language>zh-CN</language><managingEditor>mxsix112@gmail.com (蓝莓吐司)</managingEditor><webMaster>mxsix112@gmail.com (蓝莓吐司)</webMaster><lastBuildDate>Tue, 18 Feb 2025 16:35:20 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>建站日志</title><link>http://localhost:1313/posts/jbb6623/</link><pubDate>Sun, 16 Feb 2025 14:12:43 +0800</pubDate><author>mxsix112@gmail.com (蓝莓吐司)</author><guid>http://localhost:1313/posts/jbb6623/</guid><category domain="http://localhost:1313/categories/%E8%AE%B0%E5%BD%95/">记录</category><description>&lt;p>建站四部走：&lt;/p>
 &lt;ul>
 &lt;li>安装框架&lt;/li>
 &lt;li>选择主题&lt;/li>
@@ -40,7 +40,7 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">scoop install hugo-extended&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;ol start="2">
-&lt;li>创建网站(选择合适位置)&lt;/li>
+&lt;li>创建网站 (选择合适位置)&lt;/li>
 &lt;/ol>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -53,20 +53,21 @@
  &lt;a href="#%e9%80%89%e6%8b%a9%e4%b8%bb%e9%a2%98" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
-&lt;/h2>&lt;p>当然还是&lt;a href="https://github.com/hugo-fixit/FixIt"target="_blank" rel="external nofollow noopener noreferrer">Fixit&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a>，主要是Fixit的教程十分详细，而且还是国内开发者，对于一些东西都进行了详细的优化，因此不二之选（记得在Github上给开发者一个⭐Star）。&lt;/p>
-&lt;p>详细教程请到&lt;a href="https://fixit.lruihao.cn/zh-cn/"target="_blank" rel="external nofollow noopener noreferrer">开发者主题网站&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a>根据教程来配置&lt;/p>
+&lt;/h2>&lt;p>当然还是 &lt;a href="https://github.com/hugo-fixit/FixIt"target="_blank" rel="external nofollow noopener noreferrer">Fixit&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a>，主要是 Fixit 的教程十分详细，而且还是国内开发者，对于一些东西都进行了详细的优化，因此不二之选（记得在 Github 上给开发者一个⭐Star）。&lt;/p>
+&lt;p>详细教程请到 &lt;a href="https://fixit.lruihao.cn/zh-cn/"target="_blank" rel="external nofollow noopener noreferrer">主题示例网站&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a> 根据教程来进行相关选项配置。&lt;/p>
 &lt;h2 id="推送仓库" class="heading-element">&lt;span>推送仓库&lt;/span>
  &lt;a href="#%e6%8e%a8%e9%80%81%e4%bb%93%e5%ba%93" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
-&lt;/h2>&lt;p>利用Github Page创建博客网站，将生成的public传送到Github Page仓库或者将博客框架主体传送到新建的仓库，再利用Workflow进行推送也行。不过还是第二种可靠些，毕竟将主体都备份到Github上。以后换电脑时可以直接克隆仓库。&lt;/p>
+&lt;/h2>&lt;p>利用 Github Page 创建博客网站，将生成的 public 传送到 Github Page 仓库或者将博客框架主体传送到新建的仓库，再利用 Workflow 进行推送也行。不过还是第二种可靠些，毕竟将主体都备份到 Github 上。以后换电脑时可以直接克隆仓库。&lt;/p>
 &lt;ol>
 &lt;li>创建主体仓库&lt;/li>
-&lt;li>创建GIthub Page仓库&lt;/li>
+&lt;li>创建 GIthub Page 仓库&lt;/li>
 &lt;li>每次更新直接推送主体仓库&lt;/li>
 &lt;/ol>
 &lt;blockquote>
-&lt;p>workflow代码&lt;/p>&lt;/blockquote>
+&lt;p>workflow 代码&lt;/p>
+&lt;/blockquote>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1

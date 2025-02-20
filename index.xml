@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>吐司气泡</title><link>http://localhost:1313/</link><description>吐司气泡</description><generator>Hugo 0.142.0 &amp; FixIt v0.3.17-8b402129</generator><language>zh-CN</language><managingEditor>mxsix112@gmail.com (蓝莓吐司)</managingEditor><webMaster>mxsix112@gmail.com (蓝莓吐司)</webMaster><lastBuildDate>Wed, 19 Feb 2025 23:58:30 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>博客“装修”记录</title><link>http://localhost:1313/posts/m1tn66o/</link><pubDate>Wed, 19 Feb 2025 22:24:26 +0800</pubDate><author>mxsix112@gmail.com (蓝莓吐司)</author><guid>http://localhost:1313/posts/m1tn66o/</guid><category domain="http://localhost:1313/categories/%E8%AE%B0%E5%BD%95/">记录</category><description>&lt;img src="http://localhost:1313/images/feature-博客装修记录-20250219222732037.webp" alt="featured image" referrerpolicy="no-referrer">&lt;p>博客使用的主题是 Fixit，一个简约的主题风格。不过为了满足自己的需求，就用了 deepseek 进行代码生成以及相关问题的解决，极大的帮助了我这半吊子的语言水平。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>吐司气泡</title><link>http://localhost:1313/</link><description>吐司气泡</description><generator>Hugo 0.142.0 &amp; FixIt v0.3.17-8b402129</generator><language>zh-CN</language><managingEditor>mxsix112@gmail.com (蓝莓吐司)</managingEditor><webMaster>mxsix112@gmail.com (蓝莓吐司)</webMaster><lastBuildDate>Thu, 20 Feb 2025 00:16:56 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>博客“装修”记录</title><link>http://localhost:1313/posts/m1tn66o/</link><pubDate>Wed, 19 Feb 2025 22:24:26 +0800</pubDate><author>mxsix112@gmail.com (蓝莓吐司)</author><guid>http://localhost:1313/posts/m1tn66o/</guid><category domain="http://localhost:1313/categories/%E8%AE%B0%E5%BD%95/">记录</category><description>&lt;img src="http://localhost:1313/images/feature-博客装修记录-20250219222732037.webp" alt="featured image" referrerpolicy="no-referrer">&lt;p>博客使用的主题是 Fixit，一个简约的主题风格。不过为了满足自己的需求，就用了 deepseek 进行代码生成以及相关问题的解决，极大的帮助了我这半吊子的语言水平。&lt;/p>
 &lt;div class="details admonition tip open disabled">
  &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-regular fa-lightbulb" aria-hidden="true">&lt;/i>样式修改&lt;br>&lt;/div>
  &lt;div class="details-content">
@@ -819,6 +819,40 @@
 &lt;/span>&lt;span class="lnt">105
 &lt;/span>&lt;span class="lnt">106
 &lt;/span>&lt;span class="lnt">107
+&lt;/span>&lt;span class="lnt">108
+&lt;/span>&lt;span class="lnt">109
+&lt;/span>&lt;span class="lnt">110
+&lt;/span>&lt;span class="lnt">111
+&lt;/span>&lt;span class="lnt">112
+&lt;/span>&lt;span class="lnt">113
+&lt;/span>&lt;span class="lnt">114
+&lt;/span>&lt;span class="lnt">115
+&lt;/span>&lt;span class="lnt">116
+&lt;/span>&lt;span class="lnt">117
+&lt;/span>&lt;span class="lnt">118
+&lt;/span>&lt;span class="lnt">119
+&lt;/span>&lt;span class="lnt">120
+&lt;/span>&lt;span class="lnt">121
+&lt;/span>&lt;span class="lnt">122
+&lt;/span>&lt;span class="lnt">123
+&lt;/span>&lt;span class="lnt">124
+&lt;/span>&lt;span class="lnt">125
+&lt;/span>&lt;span class="lnt">126
+&lt;/span>&lt;span class="lnt">127
+&lt;/span>&lt;span class="lnt">128
+&lt;/span>&lt;span class="lnt">129
+&lt;/span>&lt;span class="lnt">130
+&lt;/span>&lt;span class="lnt">131
+&lt;/span>&lt;span class="lnt">132
+&lt;/span>&lt;span class="lnt">133
+&lt;/span>&lt;span class="lnt">134
+&lt;/span>&lt;span class="lnt">135
+&lt;/span>&lt;span class="lnt">136
+&lt;/span>&lt;span class="lnt">137
+&lt;/span>&lt;span class="lnt">138
+&lt;/span>&lt;span class="lnt">139
+&lt;/span>&lt;span class="lnt">140
+&lt;/span>&lt;span class="lnt">141
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-scss" data-lang="scss">&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.cover-image&lt;/span> &lt;span class="p">{&lt;/span>
@@ -924,6 +958,40 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="nt">img&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="na">border-radius&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="kt">rem&lt;/span> &lt;span class="k">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nc">.post-entry&lt;/span> &lt;span class="nc">.post-footer&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">margin-block&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="mf">.4&lt;/span>&lt;span class="kt">rem&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">display&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">flex&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">justify-content&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">space-between&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">align-items&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">center&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">font-size&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="mf">.875&lt;/span>&lt;span class="kt">rem&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="na">flex-wrap&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="ni">wrap&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="cm">/* 允许内容换行 */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="nc">.post-meta&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err"> &lt;/span> &lt;span class="err"> &lt;/span> &lt;span class="nc">.post-info&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="na">flex&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="cm">/* 让子元素平分空间 */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="na">min-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">50&lt;/span>&lt;span class="kt">%&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">        &lt;span class="cm">/* 设置最小宽度，防止内容过小时换行 */&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">    &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">

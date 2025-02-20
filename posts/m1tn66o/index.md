@@ -479,6 +479,40 @@ s
     }
 
 }
+
+.post-entry .post-footer {
+
+    margin-block: 0.4rem 0;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    font-size: 0.875rem;
+
+    flex-wrap: wrap;
+
+  
+
+    /* 允许内容换行 */
+
+    .post-meta,
+
+    .post-info {
+
+        flex: 1;
+
+        /* 让子元素平分空间 */
+
+        min-width: 50%;
+
+        /* 设置最小宽度，防止内容过小时换行 */
+
+    }
+
+}
 ```
 
 ## 文章页

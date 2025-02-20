@@ -566,7 +566,7 @@ html： `\themes\FixIt\layouts\_default\_markup\render-image.html`
 ```
 ## 字体
 
-十分感谢❤[中文网字计划](https://chinese-font.netlify.app/zh-cn/cdn/)，本站的网站 title 字体和作者姓名都是使用了该网站的字体 `全小素` 的 CDN，其他字体除代码字体外使用的是 `OPPO Sans 4.0 SC`。也是使用了该网站的分包技术，是的网站依旧能快速加载。
+十分感谢❤[中文网字计划](https://chinese-font.netlify.app/zh-cn/cdn/)，本站的网站 title 字体和作者姓名都是使用了该网站的字体 `全小素` CDN，其他字体除代码字体外使用的是 `OPPO Sans 4.0 SC`。也是使用了该网站的分包技术，使得网站依旧能快速加载。
 
 ```SCSS
 @import url(&#34;你的字体链接&#34;);

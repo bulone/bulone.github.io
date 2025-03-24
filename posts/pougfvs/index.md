@@ -1,0 +1,79 @@
+# 博客建站记录
+
+
+&lt;!--more--&gt;
+
+虽然文笔不好，但是看见一个属于自己的站点就很开心。之后尝试过很多博客系统，耳熟能详的Wordpress,Typecho还有Emblog等。文章没写几篇系统倒是换了不少。而且每次更换都不进行文章备份，所以每次都是全新的博客站。有点跑题了，这些系统无一例外都要购买服务器或虚拟空间，对于当时还是学生的我只能寻找几块一月随时跑路的虚拟空间安装。所以上面说这么多，有钱就尝试动态博客系统，在线随时编写发布。静态博客就需要有台电脑方便些。
+
+静态博客也有很多不过还是选择了Hugo，因为从`建立`-&gt;`编写`-&gt;`发布`所需要的代码量相对很少，而且不接触npm那些。
+
+## 安装Hugo
+
+所需工具：Hugo，Git
+Git无需多言，之间下载安装即可。
+[Hugo官网](https://gohugo.io/installation/)Windows提供三种三种通过包管理器进行安装，之后选择按照教程安装即可。
+
+## 选择主题
+选择合适的主题进行安装，每个主题都有详细的安装教程，根据教程进行安装。
+
+## 选择编写工具
+
+因为Hugo的文章都是Markdown类型，所以选择Markdown编写软件体验会更好。选择Obsidian的原因是可提供的插件多而且免费。在里面就可以一套流程走完，不需要再开命令行之类的。
+
+### 使用的插件
+
+![截图](./images/index-1742823737781.webp &#34;插件截图&#34;)
+1. DataView：创建代码块查询文章数据。
+2. HomePage：搭配DataView可以轻松的创建文章回顾。
+3. Git：在Obsidian中进行git相关操作。
+4. Image Converter：压缩转换图片用。
+5. Linter： 格式化文档，保存时插入最后更新时间等。
+6. QuickAdd：编写js代码在Obsidian中就可以新建文章。
+其他的插件自行搜索查询相关功能。
+
+## 发布
+编写完成保存后直接推送到远程Hugo源码仓库，仓库接收到更新后自动使用Github Action生成网站内容推送到Github Page仓库，直接一步到位更新网站。
+
+Github Action代码：来自[KrislinBlog](https://krislinzhao.github.io/docs/create-a-wesite-using-github-pages-and-hugo)
+```yml
+name: github pages # 名字自取
+
+on:
+  push:
+    branches:
+      - main  # 这里的意思是当 main分支发生push的时候，运行下面的jobs，这里先改为github-actions
+
+jobs:
+  deploy: # 任务名自取
+    runs-on: ubuntu-latest	# 在什么环境运行任务
+    steps:
+      - uses: actions/checkout@v2	# 引用actions/checkout这个action，与所在的github仓库同名
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive) 获取submodule主题
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo	# 步骤名自取
+        uses: peaceiris/actions-hugo@v2	# hugo官方提供的action，用于在任务环境中获取hugo
+        with:
+          hugo-version: &#39;latest&#39;	# 获取最新版本的hugo
+          # extended: true
+
+      - name: Build
+        run: hugo --minify	# 使用hugo构建静态网页
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3	# 一个自动发布github pages的action
+        with:
+          # github_token: ${{ secrets.GITHUB_TOKEN }} 该项适用于发布到源码相同repo的情况，不能用于发布到其他repo
+          external_repository: bulone/bulone.github.io	# 发布到哪个repo
+          personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }}	# 发布到其他repo需要提供上面生成的personal access token
+          publish_dir: ./public	# 注意这里指的是要发布哪个文件夹的内容，而不是指发布到目的仓库的什么位置，因为hugo默认生成静态网页到public文件夹，所以这里发布public文件夹里的内容
+          publish_branch: main	# 发布到哪个branch
+
+```
+
+---
+
+> 作者: 吐司气泡  
+> URL: https://bulone.github.io/posts/pougfvs/  
+

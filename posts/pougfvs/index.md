@@ -31,6 +31,86 @@ Git 无需多言，之间下载安装即可。
 6. QuickAdd：编写 js 代码在 Obsidian 中就可以新建文章。  
 其他的插件自行搜索查询相关功能。
 
+QuickAdd 新增文章代码 (由 Deepseek 生成)：
+```javascript
+// 使用QuickAdd插件的scripting功能
+module.exports = async (params) =&gt; {
+    // 获取文件夹名称
+    const folderName = await params.quickAddApi.inputPrompt(&#34;请输入文件夹名称&#34;);
+    if (!folderName) {
+        new Notice(&#34;未输入文件夹名称。操作已取消。&#34;);
+        return;
+    }
+
+    const basePath = &#39;/content/posts&#39;;
+    const folderPath = `${basePath}/${folderName}`;
+    const filePath = `${folderPath}/index.md`;
+
+    try {
+        // 创建文件夹（如果不存在）
+        if (!await params.app.vault.adapter.exists(folderPath)) {
+            await params.app.vault.createFolder(folderPath);
+        }
+    } catch (err) {
+        new Notice(&#34;创建文件夹失败：&#34; &#43; err.message);
+        return;
+    }
+
+    // 获取当前日期
+    const currentDate = window.moment().format(&#34;YYYY-MM-DDTHH:mm:ss&#43;08:00&#34;);
+
+    // 生成唯一ID
+    const uniqueID = Math.random().toString(36).substring(2, 9);
+
+    // 创建文件内容需要的Frontmatter自行添删
+    const fileContent = `---
+title: ${folderName.replace(/-/g, &#34; &#34;).replace(/\b\w/g, l =&gt; l.toUpperCase())}
+date: ${currentDate}
+slug: ${uniqueID}
+description:
+draft: true
+tags:
+  - draft
+categories:
+  - draft
+featuredImage: 
+featuredImagePreview: 
+---
+
+&lt;!--more--&gt;`;
+
+    try {
+        // 创建文件并获取文件引用
+        const newFile = await params.app.vault.create(filePath, fileContent);
+        new Notice(`已在 ${folderName} 文件夹中创建 index.md`);
+        
+        // 获取当前活动的叶子（标签页）或在新的叶子中打开文件
+        let leaf = params.app.workspace.getLeaf();
+        
+        // 打开新创建的文件
+        await leaf.openFile(newFile);
+        
+        // 可选：将焦点移动到编辑器
+        params.app.workspace.setActiveLeaf(leaf, { focus: true });
+        
+    } catch (err) {
+        new Notice(&#34;创建文件失败：&#34; &#43; err.message);
+    }
+};
+```
+*该代码在 posts 生成 `文件夹/index.md` 效果*  
+使用方法：
+1. 复制并新建 js 文件在 Hugo 文件夹内，如 _scripts/newpost.js；
+2. 在 QuickAdd 插件配置中的 `Template Folder Path` 中将文件夹名称填入；  
+   ![如图所示](./images/index-1742863085352.webp &#34;模板文件夹路径&#34;)
+3. 点击 `Mange Macros` 按钮，在新弹窗底部输入框内输入名称后点击 `Add macro`；
+4. 新建完成后点击 `Config`-&gt;Use Scripts 选择刚才创建的 js 文件 -&gt;点击 `ADD`；
+5. 返回到插件主选项，将 Template 点击选择 Macro 然后输入 Name 后 Add Choice；  
+   ![截图](./images/index-1742863386808.webp &#34;截图&#34;)
+6. 点击⚙，选择刚才新增的 Macro 名称然后叉掉即可；  
+   ![如图所示](images/index-1742863657263.webp &#34;如图&#34;)
+7. `Ctrl&#43;P` 输入 QuickAdd 刚才新建的 Choice 名称即可，也可以新增快捷键快速添加。
+
 ## 发布
 编写完成保存后直接推送到远程 Hugo 源码仓库，仓库接收到更新后自动使用 Github Action 生成网站内容推送到 Github Page 仓库，直接一步到位更新网站。
 

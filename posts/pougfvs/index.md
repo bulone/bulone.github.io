@@ -3,38 +3,38 @@
 
 &lt;!--more--&gt;
 
-虽然文笔不好，但是看见一个属于自己的站点就很开心。之后尝试过很多博客系统，耳熟能详的Wordpress,Typecho还有Emblog等。文章没写几篇系统倒是换了不少。而且每次更换都不进行文章备份，所以每次都是全新的博客站。有点跑题了，这些系统无一例外都要购买服务器或虚拟空间，对于当时还是学生的我只能寻找几块一月随时跑路的虚拟空间安装。所以上面说这么多，有钱就尝试动态博客系统，在线随时编写发布。静态博客就需要有台电脑方便些。
+虽然文笔不好，但是看见一个属于自己的站点就很开心。之后尝试过很多博客系统，耳熟能详的 Wordpress,Typecho 还有 Emblog 等。文章没写几篇系统倒是换了不少。而且每次更换都不进行文章备份，所以每次都是全新的博客站。有点跑题了，这些系统无一例外都要购买服务器或虚拟空间，对于当时还是学生的我只能寻找几块一月随时跑路的虚拟空间安装。所以上面说这么多，有钱就尝试动态博客系统，在线随时编写发布。静态博客就需要有台电脑方便些。
 
-静态博客也有很多不过还是选择了Hugo，因为从`建立`-&gt;`编写`-&gt;`发布`所需要的代码量相对很少，而且不接触npm那些。
+静态博客也有很多不过还是选择了 Hugo，因为从 `建立`-&gt;`编写`-&gt;`发布` 所需要的代码量相对很少，而且不接触 npm 那些。
 
-## 安装Hugo
+## 安装 Hugo
 
-所需工具：Hugo，Git
-Git无需多言，之间下载安装即可。
-[Hugo官网](https://gohugo.io/installation/)Windows提供三种三种通过包管理器进行安装，之后选择按照教程安装即可。
+所需工具：Hugo，Git  
+Git 无需多言，之间下载安装即可。  
+[Hugo官网](https://gohugo.io/installation/)Windows 提供三种三种通过包管理器进行安装，之后选择按照教程安装即可。
 
 ## 选择主题
 选择合适的主题进行安装，每个主题都有详细的安装教程，根据教程进行安装。
 
 ## 选择编写工具
 
-因为Hugo的文章都是Markdown类型，所以选择Markdown编写软件体验会更好。选择Obsidian的原因是可提供的插件多而且免费。在里面就可以一套流程走完，不需要再开命令行之类的。
+因为 Hugo 的文章都是 Markdown 类型，所以选择 Markdown 编写软件体验会更好。选择 Obsidian 的原因是可提供的插件多而且免费。在里面就可以一套流程走完，不需要再开命令行之类的。
 
 ### 使用的插件
 
 ![截图](./images/index-1742823737781.webp &#34;插件截图&#34;)
 1. DataView：创建代码块查询文章数据。
-2. HomePage：搭配DataView可以轻松的创建文章回顾。
-3. Git：在Obsidian中进行git相关操作。
+2. HomePage：搭配 DataView 可以轻松的创建文章回顾。
+3. Git：在 Obsidian 中进行 git 相关操作。
 4. Image Converter：压缩转换图片用。
 5. Linter： 格式化文档，保存时插入最后更新时间等。
-6. QuickAdd：编写js代码在Obsidian中就可以新建文章。
+6. QuickAdd：编写 js 代码在 Obsidian 中就可以新建文章。  
 其他的插件自行搜索查询相关功能。
 
 ## 发布
-编写完成保存后直接推送到远程Hugo源码仓库，仓库接收到更新后自动使用Github Action生成网站内容推送到Github Page仓库，直接一步到位更新网站。
+编写完成保存后直接推送到远程 Hugo 源码仓库，仓库接收到更新后自动使用 Github Action 生成网站内容推送到 Github Page 仓库，直接一步到位更新网站。
 
-Github Action代码：来自[KrislinBlog](https://krislinzhao.github.io/docs/create-a-wesite-using-github-pages-and-hugo)
+Github Action 代码：来自 [KrislinBlog](https://krislinzhao.github.io/docs/create-a-wesite-using-github-pages-and-hugo)
 ```yml
 name: github pages # 名字自取
 
@@ -56,7 +56,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2	# hugo官方提供的action，用于在任务环境中获取hugo
         with:
           hugo-version: &#39;latest&#39;	# 获取最新版本的hugo
-          # extended: true
+          extended: true
 
       - name: Build
         run: hugo --minify	# 使用hugo构建静态网页

@@ -1,4 +1,104 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>吐司气泡</title><link>https://bulone.github.io/</link><description>吐司气泡</description><generator>Hugo 0.145.0 &amp; FixIt v0.3.17-8212d6fd</generator><language>zh-CN</language><lastBuildDate>Sat, 15 Feb 2025 08:49:51 +0800</lastBuildDate><atom:link href="https://bulone.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>博客建站记录</title><link>https://bulone.github.io/posts/pougfvs/</link><pubDate>Mon, 10 Feb 2025 21:14:45 +0800</pubDate><guid>https://bulone.github.io/posts/pougfvs/</guid><category domain="https://bulone.github.io/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://bulone.github.io/posts/pougfvs/images/cover.webp" alt="featured image" referrerpolicy="no-referrer">&lt;p>虽然文笔不好，但是看见一个属于自己的站点就很开心。之后尝试过很多博客系统，耳熟能详的 Wordpress,Typecho 还有 Emblog 等。文章没写几篇系统倒是换了不少。而且每次更换都不进行文章备份，所以每次都是全新的博客站。有点跑题了，这些系统无一例外都要购买服务器或虚拟空间，对于当时还是学生的我只能寻找几块一月随时跑路的虚拟空间安装。所以上面说这么多，有钱就尝试动态博客系统，在线随时编写发布。静态博客就需要有台电脑方便些。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>吐司气泡</title><link>https://bulone.github.io/</link><description>吐司气泡</description><generator>Hugo 0.145.0 &amp; FixIt v0.3.17-8212d6fd</generator><language>zh-CN</language><lastBuildDate>Tue, 25 Mar 2025 21:48:13 +0800</lastBuildDate><atom:link href="https://bulone.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Fixit主题美化</title><link>https://bulone.github.io/posts/aa6eb19/</link><pubDate>Mon, 24 Mar 2025 19:08:53 +0800</pubDate><guid>https://bulone.github.io/posts/aa6eb19/</guid><category domain="https://bulone.github.io/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://bulone.github.io/posts/aa6eb19/images/cover.webp" alt="featured image" referrerpolicy="no-referrer">&lt;div class="details admonition warning open disabled">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-fw fa-solid fa-exclamation-triangle" aria-hidden="true">&lt;/i>声明&lt;br>&lt;/div>
+ &lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;p>本文章部分内容借助 AI 辅助创作。&lt;/p>&lt;/div>
+ &lt;/div>
+&lt;/div>&lt;p>安装博客也一月有余，期间也拜访过其他博客站，当然是因为搜索知识进行拜访。对于主题的一些内容进行自定义并完善。&lt;/p>
+&lt;p>&lt;strong>注：涉及到 html 修改部分请将所需修改文件复制一份到主题外相同位置，修改后既能应用也能不破坏原主题文件。&lt;/strong>&lt;/p>
+&lt;h2 id="css-样式" class="heading-element">&lt;span>CSS 样式&lt;/span>
+ &lt;a href="#css-%e6%a0%b7%e5%bc%8f" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>对于主题 CSS 参数，可以在 &lt;code>assets/css&lt;/code> 中创建 &lt;code>_override.scss&lt;/code> 进行设置，会进行覆盖。 其他样式可以在同文件夹内创建 &lt;code>_custom.scss&lt;/code> 进行编写。&lt;/p>
+&lt;p>本博客使用的是个人免费使用的 &lt;a href="https://www.coloros.com/article/A00000074/"target="_blank" rel="external nofollow noopener noreferrer">OPPO Sans4.0&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a> 字体，主要喜欢这个字体的数字部分。利用 &lt;a href="https://chinese-font.netlify.app/zh-cn/"target="_blank" rel="external nofollow noopener noreferrer">中文网字计划网站&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a> 进行字体分包，在使用字体后不影响网站访问速度。&lt;/p>
+&lt;h2 id="首页列表部分" class="heading-element">&lt;span>首页列表部分&lt;/span>
+ &lt;a href="#%e9%a6%96%e9%a1%b5%e5%88%97%e8%a1%a8%e9%83%a8%e5%88%86" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>原主题的首页列表部分是每行一个，列排布。没有封面图还好，如果有封面图因为比例显示为 1000 * 420，所以在屏幕上会显得很大，那么一页下来也显示不了几张图片。偶然进入 &lt;a href="https://atpx.com/blog/"target="_blank" rel="external nofollow noopener noreferrer">Atpx&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a> 的空间，发现其博客页很简约整齐，双列排布文章，每个文章块也很小。所以就借鉴了其样式内容，为了不同宽度设备整个块比例适当，所以也顺势调整了图片的宽高比达到合适程度。&lt;/p>
+&lt;p>文件位置：&lt;/p>
+&lt;ul>
+&lt;li>layouts/_default/home.html &amp;amp; summary.html&lt;/li>
+&lt;li>layouts/partials/single/post-included-in.html&lt;/li>
+&lt;/ul>
+&lt;p>&lt;figure>&lt;a class="lightgallery" href="https://bulone.github.io/posts/aa6eb19/images/index-1742907969794.webp" title="文章列表图" data-thumbnail="/posts/aa6eb19/images/index-1742907969794.webp" data-sub-html="&lt;h2>文章列表图&lt;/h2>&lt;p>文章列表图&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/aa6eb19/images/index-1742907969794.webp' alt="文章列表图" height="705" width="1177">&lt;/a>&lt;figcaption class="image-caption">文章列表图&lt;/figcaption>
+ &lt;/figure>&lt;/p>
+&lt;h2 id="文章页" class="heading-element">&lt;span>文章页&lt;/span>
+ &lt;a href="#%e6%96%87%e7%ab%a0%e9%a1%b5" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>主要删除了作者信息，其余未作变化。&lt;br>
+文件位置：layouts/post/single.html&lt;/p>
+&lt;p>&lt;figure>&lt;a class="lightgallery" href="https://bulone.github.io/posts/aa6eb19/images/index-1742908689762.webp" title="调整位置" data-thumbnail="/posts/aa6eb19/images/index-1742908689762.webp" data-sub-html="&lt;h2>文章页顶部&lt;/h2>&lt;p>调整位置&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/aa6eb19/images/index-1742908689762.webp' alt="文章页顶部" height="213" width="1074">&lt;/a>&lt;figcaption class="image-caption">调整位置&lt;/figcaption>
+ &lt;/figure>&lt;/p>
+&lt;h2 id="msemoji" class="heading-element">&lt;span>MSEmoji🎉&lt;/span>
+ &lt;a href="#msemoji" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>&lt;figure>&lt;a class="lightgallery" href="https://bulone.github.io/posts/aa6eb19/images/index-1742908925710.webp" title="表情展示" data-thumbnail="/posts/aa6eb19/images/index-1742908925710.webp" data-sub-html="&lt;h2>项目宣传图&lt;/h2>&lt;p>表情展示&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/aa6eb19/images/index-1742908925710.webp' alt="项目宣传图" height="800" width="1765">&lt;/a>&lt;figcaption class="image-caption">表情展示&lt;/figcaption>
+ &lt;/figure>&lt;br>
+主题自带有 Twemoji，可以在主题配置文件中选择开启。不过我开启后还是加载失败，所以还是把他关闭了。很喜欢微软的表情，在 Github 上搜索类似 Twemoji 的项目，最终找寻该项目符合。&lt;/p>
+&lt;a href="https://github.com/DellZHackintosh/msemoji" title=" 基于 Twemoji 修改的微软风格表情 Emoji。"target="_blank" rel="external nofollow noopener noreferrer" class="card-link">&lt;span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);">&lt;/span>
+ &lt;span class="cl-content">
+ &lt;span class="cl-text">
+ &lt;span class="cl-title">Msemoji&lt;/span>
+ &lt;span class="cl-meta">
+ &lt;svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16">&lt;path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3">&lt;/path>&lt;path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3">&lt;/path>&lt;/svg>
+ &lt;span class="cl-url">https://github.com/DellZHackintosh/msemoji&lt;/span>
+ &lt;/span>
+ &lt;/span>&lt;img src="https://bulone.github.io/images/remote/github_14075797050460861398.png" alt="card image" class="cl-shortcut-image">&lt;/span>&lt;/a>
+&lt;p>&lt;strong>使用方法&lt;/strong>：&lt;/p>
+&lt;ol>
+&lt;li>在配置文档中搜索 &lt;code>params.page.library.js&lt;/code>，在其内部添加&lt;br>
+someJavascript = &amp;ldquo;&lt;a href="https://unpkg.com/msemoji@1.1.2/dist/msemoji.min.js%22"target="_blank" rel="external nofollow noopener noreferrer">https://unpkg.com/msemoji@1.1.2/dist/msemoji.min.js"&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>创建 &lt;code>custom.js&lt;/code>，位置在 &lt;code>assets/js/&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">msemoji&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">parse&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nb">document&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">body&lt;/span>&lt;span class="p">,{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">base&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;https://raw.gitmirror.com/DellZHackintosh/msemoji/refs/heads/main/src/&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">ext&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;.svg&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">folder&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;Color&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>base&lt;/th>
+ &lt;th>ext&lt;/th>
+ &lt;th>folder&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>表情仓库位置&lt;/td>
+ &lt;td>表情拓展名&lt;/td>
+ &lt;td>表情所在目录&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>主要这三个参数即可，如果还想要其他参数配置，请参考原文档。&lt;/p>
+&lt;h2 id="waline-评论系统" class="heading-element">&lt;span>Waline 评论系统&lt;/span>
+ &lt;a href="#waline-%e8%af%84%e8%ae%ba%e7%b3%bb%e7%bb%9f" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>博客使用的是 Waline，因为就它带有文章 Reaction，可以自定义图片。其他的几个评论系统都大差不差。使用方法请到 &lt;a href="https://waline.js.org/"target="_blank" rel="external nofollow noopener noreferrer">Waline官网&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a> 配置参数。&lt;/p>
+&lt;p>其余好像没什么内容了，如果有新变化，会及时更新内容。&lt;/p>
+&lt;h2 id="相关链接" class="heading-element">&lt;span>相关链接&lt;/span>
+ &lt;a href="#%e7%9b%b8%e5%85%b3%e9%93%be%e6%8e%a5" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;ol>
+&lt;li>文章Reaction表情：&lt;a href="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis"target="_blank" rel="external nofollow noopener noreferrer">Animated-Fluent-Emojis&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.deepseek.com"target="_blank" rel="external nofollow noopener noreferrer">Deepseek&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a>：辅助生成样式代码。&lt;/li>
+&lt;/ol></description></item><item><title>博客建站记录</title><link>https://bulone.github.io/posts/pougfvs/</link><pubDate>Mon, 10 Feb 2025 21:14:45 +0800</pubDate><guid>https://bulone.github.io/posts/pougfvs/</guid><category domain="https://bulone.github.io/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://bulone.github.io/posts/pougfvs/images/cover.webp" alt="featured image" referrerpolicy="no-referrer">&lt;p>虽然文笔不好，但是看见一个属于自己的站点就很开心。之后尝试过很多博客系统，耳熟能详的 Wordpress,Typecho 还有 Emblog 等。文章没写几篇系统倒是换了不少。而且每次更换都不进行文章备份，所以每次都是全新的博客站。有点跑题了，这些系统无一例外都要购买服务器或虚拟空间，对于当时还是学生的我只能寻找几块一月随时跑路的虚拟空间安装。所以上面说这么多，有钱就尝试动态博客系统，在线随时编写发布。静态博客就需要有台电脑方便些。&lt;/p>
 &lt;p>静态博客也有很多不过还是选择了 Hugo，因为从 &lt;code>建立&lt;/code>-&amp;gt;&lt;code>编写&lt;/code>-&amp;gt;&lt;code>发布&lt;/code> 所需要的代码量相对很少，而且不接触 npm 那些。&lt;/p>
 &lt;h2 id="安装-hugo" class="heading-element">&lt;span>安装 Hugo&lt;/span>
  &lt;a href="#%e5%ae%89%e8%a3%85-hugo" class="heading-mark">

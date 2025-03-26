@@ -10,12 +10,39 @@
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
 &lt;/h2>&lt;p>对于主题 CSS 参数，可以在 &lt;code>assets/css&lt;/code> 中创建 &lt;code>_override.scss&lt;/code> 进行设置，会进行覆盖。 其他样式可以在同文件夹内创建 &lt;code>_custom.scss&lt;/code> 进行编写。&lt;/p>
-&lt;p>本博客使用的是个人免费使用的 &lt;a href="https://www.coloros.com/article/A00000074/"target="_blank" rel="external nofollow noopener noreferrer">OPPO Sans4.0&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a> 字体，主要喜欢这个字体的数字部分。利用 &lt;a href="https://chinese-font.netlify.app/zh-cn/"target="_blank" rel="external nofollow noopener noreferrer">中文网字计划网站&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a> 进行字体分包，在使用字体后不影响网站访问速度。&lt;/p>
+&lt;p>本博客使用的是个人免费使用的 
+ &lt;a href="https://bulone.github.io/redirect/?url=aHR0cHM6Ly93d3cuY29sb3Jvcy5jb20vYXJ0aWNsZS9BMDAwMDAwNzQv"
+ class="external-link"
+ data-external-destination="https://www.coloros.com/article/A00000074/"
+ title=""
+ target="_blank"
+ data-external-icon="true">
+ OPPO Sans4.0
+ &lt;span class="external-icon">↗&lt;/span>
+ &lt;/a> 字体，主要喜欢这个字体的数字部分。利用 
+ &lt;a href="https://bulone.github.io/redirect/?url=aHR0cHM6Ly9jaGluZXNlLWZvbnQubmV0bGlmeS5hcHAvemgtY24v"
+ class="external-link"
+ data-external-destination="https://chinese-font.netlify.app/zh-cn/"
+ title=""
+ target="_blank"
+ data-external-icon="true">
+ 中文网字计划网站
+ &lt;span class="external-icon">↗&lt;/span>
+ &lt;/a> 进行字体分包，在使用字体后不影响网站访问速度。&lt;/p>
 &lt;h2 id="首页列表部分" class="heading-element">&lt;span>首页列表部分&lt;/span>
  &lt;a href="#%e9%a6%96%e9%a1%b5%e5%88%97%e8%a1%a8%e9%83%a8%e5%88%86" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
-&lt;/h2>&lt;p>原主题的首页列表部分是每行一个，列排布。没有封面图还好，如果有封面图因为比例显示为 1000 * 420，所以在屏幕上会显得很大，那么一页下来也显示不了几张图片。偶然进入 &lt;a href="https://atpx.com/blog/"target="_blank" rel="external nofollow noopener noreferrer">Atpx&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a> 的空间，发现其博客页很简约整齐，双列排布文章，每个文章块也很小。所以就借鉴了其样式内容，为了不同宽度设备整个块比例适当，所以也顺势调整了图片的宽高比达到合适程度。&lt;/p>
+&lt;/h2>&lt;p>原主题的首页列表部分是每行一个，列排布。没有封面图还好，如果有封面图因为比例显示为 1000 * 420，所以在屏幕上会显得很大，那么一页下来也显示不了几张图片。偶然进入 
+ &lt;a href="https://bulone.github.io/redirect/?url=aHR0cHM6Ly9hdHB4LmNvbS9ibG9nLw%3d%3d"
+ class="external-link"
+ data-external-destination="https://atpx.com/blog/"
+ title=""
+ target="_blank"
+ data-external-icon="true">
+ Atpx
+ &lt;span class="external-icon">↗&lt;/span>
+ &lt;/a> 的空间，发现其博客页很简约整齐，双列排布文章，每个文章块也很小。所以就借鉴了其样式内容，为了不同宽度设备整个块比例适当，所以也顺势调整了图片的宽高比达到合适程度。&lt;/p>
 &lt;p>文件位置：&lt;/p>
 &lt;ul>
 &lt;li>layouts/_default/home.html &amp;amp; summary.html&lt;/li>
@@ -50,7 +77,16 @@
 &lt;p>&lt;strong>使用方法&lt;/strong>：&lt;/p>
 &lt;ol>
 &lt;li>在配置文档中搜索 &lt;code>params.page.library.js&lt;/code>，在其内部添加&lt;br>
-someJavascript = &amp;ldquo;&lt;a href="https://unpkg.com/msemoji@1.1.2/dist/msemoji.min.js%22"target="_blank" rel="external nofollow noopener noreferrer">https://unpkg.com/msemoji@1.1.2/dist/msemoji.min.js"&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a>&lt;/li>
+someJavascript = &amp;ldquo;
+ &lt;a href="https://bulone.github.io/redirect/?url=aHR0cHM6Ly91bnBrZy5jb20vbXNlbW9qaUAxLjEuMi9kaXN0L21zZW1vamkubWluLmpzIg%3d%3d"
+ class="external-link"
+ data-external-destination="https://unpkg.com/msemoji@1.1.2/dist/msemoji.min.js&amp;#34;"
+ title=""
+ target="_blank"
+ data-external-icon="true">
+ https://unpkg.com/msemoji@1.1.2/dist/msemoji.min.js"
+ &lt;span class="external-icon">↗&lt;/span>
+ &lt;/a>&lt;/li>
 &lt;li>创建 &lt;code>custom.js&lt;/code>，位置在 &lt;code>assets/js/&lt;/code>&lt;/li>
 &lt;/ol>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -89,15 +125,41 @@ someJavascript = &amp;ldquo;&lt;a href="https://unpkg.com/msemoji@1.1.2/dist/mse
  &lt;a href="#waline-%e8%af%84%e8%ae%ba%e7%b3%bb%e7%bb%9f" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
-&lt;/h2>&lt;p>博客使用的是 Waline，因为就它带有文章 Reaction，可以自定义图片。其他的几个评论系统都大差不差。使用方法请到 &lt;a href="https://waline.js.org/"target="_blank" rel="external nofollow noopener noreferrer">Waline官网&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a> 配置参数。&lt;/p>
-&lt;p>其余好像没什么内容了，如果有新变化，会及时更新内容。&lt;/p>
+&lt;/h2>&lt;p>博客使用的是 Waline，因为就它带有文章 Reaction，可以自定义图片。其他的几个评论系统都大差不差。使用方法请到 
+ &lt;a href="https://bulone.github.io/redirect/?url=aHR0cHM6Ly93YWxpbmUuanMub3JnLw%3d%3d"
+ class="external-link"
+ data-external-destination="https://waline.js.org/"
+ title=""
+ target="_blank"
+ data-external-icon="true">
+ Waline官网
+ &lt;span class="external-icon">↗&lt;/span>
+ &lt;/a> 配置参数。&lt;/p>
 &lt;h2 id="相关链接" class="heading-element">&lt;span>相关链接&lt;/span>
  &lt;a href="#%e7%9b%b8%e5%85%b3%e9%93%be%e6%8e%a5" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
 &lt;/h2>&lt;ol>
-&lt;li>文章Reaction表情：&lt;a href="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis"target="_blank" rel="external nofollow noopener noreferrer">Animated-Fluent-Emojis&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.deepseek.com"target="_blank" rel="external nofollow noopener noreferrer">Deepseek&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a>：辅助生成样式代码。&lt;/li>
+&lt;li>文章Reaction表情：
+ &lt;a href="https://bulone.github.io/redirect/?url=aHR0cHM6Ly9naXRodWIuY29tL1RhcmlrdWwtSXNsYW0tQW5pay9BbmltYXRlZC1GbHVlbnQtRW1vamlz"
+ class="external-link"
+ data-external-destination="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis"
+ title=""
+ target="_blank"
+ data-external-icon="true">
+ Animated-Fluent-Emojis
+ &lt;span class="external-icon">↗&lt;/span>
+ &lt;/a>&lt;/li>
+&lt;li>
+ &lt;a href="https://bulone.github.io/redirect/?url=aHR0cHM6Ly93d3cuZGVlcHNlZWsuY29t"
+ class="external-link"
+ data-external-destination="https://www.deepseek.com"
+ title=""
+ target="_blank"
+ data-external-icon="true">
+ Deepseek
+ &lt;span class="external-icon">↗&lt;/span>
+ &lt;/a>：辅助生成样式代码。&lt;/li>
 &lt;/ol></description></item><item><title>博客建站记录</title><link>https://bulone.github.io/posts/pougfvs/</link><pubDate>Mon, 10 Feb 2025 21:14:45 +0800</pubDate><guid>https://bulone.github.io/posts/pougfvs/</guid><category domain="https://bulone.github.io/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://bulone.github.io/posts/pougfvs/images/cover.webp" alt="featured image" referrerpolicy="no-referrer">&lt;p>虽然文笔不好，但是看见一个属于自己的站点就很开心。之后尝试过很多博客系统，耳熟能详的 Wordpress,Typecho 还有 Emblog 等。文章没写几篇系统倒是换了不少。而且每次更换都不进行文章备份，所以每次都是全新的博客站。有点跑题了，这些系统无一例外都要购买服务器或虚拟空间，对于当时还是学生的我只能寻找几块一月随时跑路的虚拟空间安装。所以上面说这么多，有钱就尝试动态博客系统，在线随时编写发布。静态博客就需要有台电脑方便些。&lt;/p>
 &lt;p>静态博客也有很多不过还是选择了 Hugo，因为从 &lt;code>建立&lt;/code>-&amp;gt;&lt;code>编写&lt;/code>-&amp;gt;&lt;code>发布&lt;/code> 所需要的代码量相对很少，而且不接触 npm 那些。&lt;/p>
 &lt;h2 id="安装-hugo" class="heading-element">&lt;span>安装 Hugo&lt;/span>
@@ -106,7 +168,16 @@ someJavascript = &amp;ldquo;&lt;a href="https://unpkg.com/msemoji@1.1.2/dist/mse
  &lt;/a>
 &lt;/h2>&lt;p>所需工具：Hugo，Git&lt;br>
 Git 无需多言，之间下载安装即可。&lt;br>
-&lt;a href="https://gohugo.io/installation/"target="_blank" rel="external nofollow noopener noreferrer">Hugo官网&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a>Windows 提供三种三种通过包管理器进行安装，之后选择按照教程安装即可。&lt;/p>
+
+ &lt;a href="https://bulone.github.io/redirect/?url=aHR0cHM6Ly9nb2h1Z28uaW8vaW5zdGFsbGF0aW9uLw%3d%3d"
+ class="external-link"
+ data-external-destination="https://gohugo.io/installation/"
+ title=""
+ target="_blank"
+ data-external-icon="true">
+ Hugo官网
+ &lt;span class="external-icon">↗&lt;/span>
+ &lt;/a>Windows 提供三种三种通过包管理器进行安装，之后选择按照教程安装即可。&lt;/p>
 &lt;h2 id="选择主题" class="heading-element">&lt;span>选择主题&lt;/span>
  &lt;a href="#%e9%80%89%e6%8b%a9%e4%b8%bb%e9%a2%98" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
@@ -288,7 +359,16 @@ Git 无需多言，之间下载安装即可。&lt;br>
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
 &lt;/h2>&lt;p>编写完成保存后直接推送到远程 Hugo 源码仓库，仓库接收到更新后自动使用 Github Action 生成网站内容推送到 Github Page 仓库，直接一步到位更新网站。&lt;/p>
-&lt;p>Github Action 代码：来自 &lt;a href="https://krislinzhao.github.io/docs/create-a-wesite-using-github-pages-and-hugo"target="_blank" rel="external nofollow noopener noreferrer">KrislinBlog&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>Github Action 代码：来自 
+ &lt;a href="https://bulone.github.io/redirect/?url=aHR0cHM6Ly9rcmlzbGluemhhby5naXRodWIuaW8vZG9jcy9jcmVhdGUtYS13ZXNpdGUtdXNpbmctZ2l0aHViLXBhZ2VzLWFuZC1odWdv"
+ class="external-link"
+ data-external-destination="https://krislinzhao.github.io/docs/create-a-wesite-using-github-pages-and-hugo"
+ title=""
+ target="_blank"
+ data-external-icon="true">
+ KrislinBlog
+ &lt;span class="external-icon">↗&lt;/span>
+ &lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1

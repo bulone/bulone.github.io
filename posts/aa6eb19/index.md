@@ -56,8 +56,6 @@ msemoji.parse(document.body,{
 ## Waline 评论系统
 博客使用的是 Waline，因为就它带有文章 Reaction，可以自定义图片。其他的几个评论系统都大差不差。使用方法请到 [Waline官网](https://waline.js.org/) 配置参数。
 
-其余好像没什么内容了，如果有新变化，会及时更新内容。
-
 ## 相关链接
 
 1. 文章Reaction表情：[Animated-Fluent-Emojis](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis)

@@ -41,7 +41,7 @@
 2. 创建 `custom.js`，位置在 `assets/js/`
 ```js
 msemoji.parse(document.body,{
-    base: &#34;https://raw.gitmirror.com/DellZHackintosh/msemoji/refs/heads/main/src/&#34;,
+    base: &#34;https://gcore.jsdelivr.net/gh/DellZHackintosh/msemoji@1.1.2/src/&#34;,
     ext: &#34;.svg&#34;, 
     folder: &#34;Color&#34;
   });
@@ -58,7 +58,7 @@ msemoji.parse(document.body,{
 
 ## 相关链接
 
-1. 文章Reaction表情：[Animated-Fluent-Emojis](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis)
+1. 文章 Reaction 表情：[Animated-Fluent-Emojis](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis)
 2. [Deepseek](https://www.deepseek.com)：辅助生成样式代码。
 
 ---

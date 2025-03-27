@@ -163,7 +163,7 @@ document.body.addEventListener(&#39;click&#39;, function(e) {
 1. [HUGO 外链跳转到中间页 - 空白Koobai](https://koobai.com/zhongjiantiaozhuan/)
 2. [Hugo外部链接跳转提示页面](https://www.eallion.com/hugo-redirect-landing-page/)
 3. [博客外链跳转到中间页 \| Solitudes](https://blog.ysicing.net/site-jump-external-link)
-4. [DeepSeek \| 深度求索](www.deepseek.com)
+4. [DeepSeek \| 深度求索](https://www.deepseek.com)
 
 ---
 

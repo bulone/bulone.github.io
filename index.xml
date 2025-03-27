@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>吐司气泡</title><link>https://bulone.github.io/</link><description>吐司气泡</description><generator>Hugo 0.145.0 &amp; FixIt v0.3.17-8212d6fd</generator><language>zh-CN</language><lastBuildDate>Thu, 27 Mar 2025 21:52:49 +0800</lastBuildDate><atom:link href="https://bulone.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>增加设备展示页</title><link>https://bulone.github.io/posts/q7xf0ep/</link><pubDate>Thu, 27 Mar 2025 20:23:46 +0800</pubDate><guid>https://bulone.github.io/posts/q7xf0ep/</guid><category domain="https://bulone.github.io/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://bulone.github.io/posts/q7xf0ep/images/cover.webp" alt="featured image" referrerpolicy="no-referrer">&lt;p>&lt;mark class="mark-danger">本文章使用 AI 辅助创作&lt;/mark>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>吐司气泡</title><link>https://bulone.github.io/</link><description>吐司气泡</description><generator>Hugo 0.145.0 &amp; FixIt v0.3.17-8212d6fd</generator><language>zh-CN</language><lastBuildDate>Fri, 28 Mar 2025 07:11:54 +0800</lastBuildDate><atom:link href="https://bulone.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>增加设备展示页</title><link>https://bulone.github.io/posts/q7xf0ep/</link><pubDate>Thu, 27 Mar 2025 20:23:46 +0800</pubDate><guid>https://bulone.github.io/posts/q7xf0ep/</guid><category domain="https://bulone.github.io/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://bulone.github.io/posts/q7xf0ep/images/cover.webp" alt="featured image" referrerpolicy="no-referrer">&lt;p>&lt;mark class="mark-danger">本文章使用 AI 辅助创作&lt;/mark>&lt;/p>
 &lt;h2 id="引言" class="heading-element">&lt;span>引言&lt;/span>
  &lt;a href="#%e5%bc%95%e8%a8%80" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
@@ -454,7 +454,7 @@
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
 &lt;/h2>&lt;p>之前挺烦一些网站的链接跳转，类如 CSDN，掘金之类的，浪费时间还浪费精力。不过对于一些链接做中间页跳转还是有必要的，毕竟一些网站域名过期被一些非法网站使用，那么就会导致博客内文章直接引向非法网站，这是万万不可的。所以做中间页提醒访客链接安全未知，请保护好个人信息。相关方面参考了一些网站内容，🙏感谢这些博主的分享。&lt;br>
-&lt;figure>&lt;a class="lightgallery" href="https://bulone.github.io/posts/nyzk0nu/images/index-1742980281921.webp" title="效果展示" data-thumbnail="/posts/nyzk0nu/images/index-1742980281921.webp" data-sub-html="&lt;h2>跳转页效果&lt;/h2>&lt;p>效果展示&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/nyzk0nu/images/index-1742980281921.webp' alt="跳转页效果" height="1061" width="2058">&lt;/a>&lt;figcaption class="image-caption">效果展示&lt;/figcaption>
+&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">&lt;a class="lightgallery" href="https://bulone.github.io/posts/nyzk0nu/images/index-1742980281921.webp" title="效果展示" data-thumbnail="/posts/nyzk0nu/images/index-1742980281921.webp" data-sub-html="&lt;h2>跳转页效果&lt;/h2>&lt;p>效果展示&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/nyzk0nu/images/index-1742980281921.webp' alt="跳转页效果" height="1061" width="2058">&lt;/a>&lt;figcaption class="image-caption">效果展示&lt;/figcaption>
  &lt;/figure>&lt;/p>
 &lt;h2 id="创建" class="heading-element">&lt;span>创建&lt;/span>
  &lt;a href="#%e5%88%9b%e5%bb%ba" class="heading-mark">
@@ -616,7 +616,7 @@
 &lt;/div>
 &lt;/div>&lt;p>title 指的是跳转页网站 Title，layout 指的是使用 redirect 模板。&lt;/p>
 &lt;ol start="4">
-&lt;li>在 &lt;code>custom.scss&lt;/code> 中粘贴下述样式。&lt;/li>
+&lt;li>在 &lt;code>_custom.scss&lt;/code> 中粘贴下述样式。&lt;/li>
 &lt;/ol>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -739,7 +739,7 @@
  &lt;span class="external-icon">↗&lt;/span>
  &lt;/a>&lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;div class="highlight" title="assets/js/_custom.js">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
 &lt;/span>&lt;span class="lnt"> 2
@@ -752,18 +752,64 @@
 &lt;/span>&lt;span class="lnt"> 9
 &lt;/span>&lt;span class="lnt">10
 &lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm">/* ------------------ 跳转风险提示 ------------------ */&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">document&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">body&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">addEventListener&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;click&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kd">function&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">e&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">let&lt;/span> &lt;span class="nx">target&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">e&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">target&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">closest&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;.wl-cards a,.card-link&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">target&lt;/span> &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="o">!&lt;/span>&lt;span class="nx">target&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">href&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">includes&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;bulone.github.io&amp;#39;&lt;/span>&lt;span class="p">))&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">e&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">preventDefault&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">let&lt;/span> &lt;span class="nx">encodedUrl&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">btoa&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">target&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">href&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">let&lt;/span> &lt;span class="nx">url&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;/redirect?url=&amp;#39;&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="nx">encodedUrl&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">open&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">url&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;_blank&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">target&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">e&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">target&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">closest&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;.wl-cards a, .card-link, .device-link&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="o">!&lt;/span>&lt;span class="nx">target&lt;/span> &lt;span class="o">||&lt;/span> &lt;span class="nx">target&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">hasAttribute&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;download&amp;#39;&lt;/span>&lt;span class="p">))&lt;/span> &lt;span class="k">return&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// 排除无目标或 download 链接
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">try&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">href&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">target&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getAttribute&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;href&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 排除本地链接：空链接、#锚点、js代码、邮件电话、相对路径
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="o">!&lt;/span>&lt;span class="nx">href&lt;/span> &lt;span class="o">||&lt;/span> &lt;span class="nx">href&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">startsWith&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;#&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">||&lt;/span> &lt;span class="nx">href&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">startsWith&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;javascript:&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">||&lt;/span> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">href&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">startsWith&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;mailto:&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">||&lt;/span> &lt;span class="nx">href&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">startsWith&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;tel:&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">||&lt;/span> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">href&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">startsWith&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">||&lt;/span> &lt;span class="o">!&lt;/span>&lt;span class="nx">href&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">includes&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;://&amp;#39;&lt;/span>&lt;span class="p">))&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// 不处理本地链接
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">url&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nx">URL&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">target&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">href&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 排除特定域名（如 bulone.github.io）和路径（如 /download/）
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">url&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">hostname&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">includes&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;bulone.github.io&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">||&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">url&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">pathname&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">includes&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/download/&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// 不处理排除的域名和路径
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 符合条件的链接：执行重定向
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="nx">e&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">preventDefault&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">encodedUrl&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">btoa&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">target&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">href&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">window&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">open&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sb">`/redirect?url=&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">encodedUrl&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb">`&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;_blank&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span> &lt;span class="k">catch&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">e&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">warn&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;Link handling error:&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">e&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// 捕获 URL 解析错误
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h2 id="缺点" class="heading-element">&lt;span>缺点&lt;/span>
@@ -866,7 +912,7 @@
 &lt;li>layouts/_default/home.html &amp;amp; summary.html&lt;/li>
 &lt;li>layouts/partials/single/post-included-in.html&lt;/li>
 &lt;/ul>
-&lt;p>&lt;figure>&lt;a class="lightgallery" href="https://bulone.github.io/posts/aa6eb19/images/index-1742907969794.webp" title="文章列表图" data-thumbnail="/posts/aa6eb19/images/index-1742907969794.webp" data-sub-html="&lt;h2>文章列表图&lt;/h2>&lt;p>文章列表图&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/aa6eb19/images/index-1742907969794.webp' alt="文章列表图" height="705" width="1177">&lt;/a>&lt;figcaption class="image-caption">文章列表图&lt;/figcaption>
+&lt;p>&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">&lt;a class="lightgallery" href="https://bulone.github.io/posts/aa6eb19/images/index-1742907969794.webp" title="文章列表图" data-thumbnail="/posts/aa6eb19/images/index-1742907969794.webp" data-sub-html="&lt;h2>文章列表图&lt;/h2>&lt;p>文章列表图&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/aa6eb19/images/index-1742907969794.webp' alt="文章列表图" height="705" width="1177">&lt;/a>&lt;figcaption class="image-caption">文章列表图&lt;/figcaption>
  &lt;/figure>&lt;/p>
 &lt;h2 id="文章页" class="heading-element">&lt;span>文章页&lt;/span>
  &lt;a href="#%e6%96%87%e7%ab%a0%e9%a1%b5" class="heading-mark">
@@ -874,13 +920,13 @@
  &lt;/a>
 &lt;/h2>&lt;p>主要删除了作者信息，其余未作变化。&lt;br>
 文件位置：layouts/post/single.html&lt;/p>
-&lt;p>&lt;figure>&lt;a class="lightgallery" href="https://bulone.github.io/posts/aa6eb19/images/index-1742908689762.webp" title="调整位置" data-thumbnail="/posts/aa6eb19/images/index-1742908689762.webp" data-sub-html="&lt;h2>文章页顶部&lt;/h2>&lt;p>调整位置&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/aa6eb19/images/index-1742908689762.webp' alt="文章页顶部" height="213" width="1074">&lt;/a>&lt;figcaption class="image-caption">调整位置&lt;/figcaption>
+&lt;p>&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">&lt;a class="lightgallery" href="https://bulone.github.io/posts/aa6eb19/images/index-1742908689762.webp" title="调整位置" data-thumbnail="/posts/aa6eb19/images/index-1742908689762.webp" data-sub-html="&lt;h2>文章页顶部&lt;/h2>&lt;p>调整位置&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/aa6eb19/images/index-1742908689762.webp' alt="文章页顶部" height="213" width="1074">&lt;/a>&lt;figcaption class="image-caption">调整位置&lt;/figcaption>
  &lt;/figure>&lt;/p>
 &lt;h2 id="msemoji" class="heading-element">&lt;span>MSEmoji🎉&lt;/span>
  &lt;a href="#msemoji" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
-&lt;/h2>&lt;p>&lt;figure>&lt;a class="lightgallery" href="https://bulone.github.io/posts/aa6eb19/images/index-1742908925710.webp" title="表情展示" data-thumbnail="/posts/aa6eb19/images/index-1742908925710.webp" data-sub-html="&lt;h2>项目宣传图&lt;/h2>&lt;p>表情展示&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/aa6eb19/images/index-1742908925710.webp' alt="项目宣传图" height="800" width="1765">&lt;/a>&lt;figcaption class="image-caption">表情展示&lt;/figcaption>
+&lt;/h2>&lt;p>&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">&lt;a class="lightgallery" href="https://bulone.github.io/posts/aa6eb19/images/index-1742908925710.webp" title="表情展示" data-thumbnail="/posts/aa6eb19/images/index-1742908925710.webp" data-sub-html="&lt;h2>项目宣传图&lt;/h2>&lt;p>表情展示&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/aa6eb19/images/index-1742908925710.webp' alt="项目宣传图" height="800" width="1765">&lt;/a>&lt;figcaption class="image-caption">表情展示&lt;/figcaption>
  &lt;/figure>&lt;br>
 主题自带有 Twemoji，可以在主题配置文件中选择开启。不过我开启后还是加载失败，所以还是把他关闭了。很喜欢微软的表情，在 Github 上搜索类似 Twemoji 的项目，最终找寻该项目符合。&lt;/p>
 &lt;a href="https://github.com/DellZHackintosh/msemoji" title=" 基于 Twemoji 修改的微软风格表情 Emoji。"target="_blank" rel="external nofollow noopener noreferrer" class="card-link">&lt;span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);">&lt;/span>
@@ -953,6 +999,28 @@ someJavascript = &amp;ldquo;
  Waline官网
  &lt;span class="external-icon">↗&lt;/span>
  &lt;/a> 配置参数。&lt;/p>
+&lt;h2 id="aos动画库" class="heading-element">&lt;span>AOS动画库&lt;/span>
+ &lt;a href="#aos%e5%8a%a8%e7%94%bb%e5%ba%93" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>滑动动画库，依赖于Jquery。
+在&lt;code>hugo.toml&lt;/code>中的[params.page.library]加入所需CSS，Js文件。然后再_custom.js中添加&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">AOS&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">init&lt;/span>&lt;span class="p">({&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">	&lt;span class="nx">once&lt;/span>&lt;span class="o">:&lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">	&lt;span class="nx">duration&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">400&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">	&lt;span class="nx">delay&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>init内可以自选参数初始化。&lt;/p>
 &lt;h2 id="相关链接" class="heading-element">&lt;span>相关链接&lt;/span>
  &lt;a href="#%e7%9b%b8%e5%85%b3%e9%93%be%e6%8e%a5" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
@@ -978,6 +1046,26 @@ someJavascript = &amp;ldquo;
  Deepseek
  &lt;span class="external-icon">↗&lt;/span>
  &lt;/a>：辅助生成样式代码。&lt;/li>
+&lt;li>
+ &lt;a href="https://bulone.github.io/redirect/?url=aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTI3NzE2MS9hcnRpY2xlL2RldGFpbHMvMTEyMzAyNTY5"
+ class="external-link"
+ data-external-destination="https://blog.csdn.net/weixin_45277161/article/details/112302569"
+ title=""
+ target="_blank"
+ data-external-icon="true">
+ 前端炫酷的动画效果库&amp;ndash;AOS使用详解_aos-easing-CSDN博客
+ &lt;span class="external-icon">↗&lt;/span>
+ &lt;/a>&lt;/li>
+&lt;li>
+ &lt;a href="https://bulone.github.io/redirect/?url=aHR0cHM6Ly9qdWVqaW4uY24vcG9zdC83MDE4ODUwNjY3NjUzNDk2ODM5"
+ class="external-link"
+ data-external-destination="https://juejin.cn/post/7018850667653496839"
+ title=""
+ target="_blank"
+ data-external-icon="true">
+ 插件 ｜ AOS 滚动动画库aos.js（Animate on scroll）是一个轻量的jQuery动画库插件，可以简 - 掘金
+ &lt;span class="external-icon">↗&lt;/span>
+ &lt;/a>&lt;/li>
 &lt;/ol></description></item><item><title>博客建站记录</title><link>https://bulone.github.io/posts/pougfvs/</link><pubDate>Mon, 10 Feb 2025 21:14:45 +0800</pubDate><guid>https://bulone.github.io/posts/pougfvs/</guid><category domain="https://bulone.github.io/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://bulone.github.io/posts/pougfvs/images/cover.webp" alt="featured image" referrerpolicy="no-referrer">&lt;p>虽然文笔不好，但是看见一个属于自己的站点就很开心。之后尝试过很多博客系统，耳熟能详的 Wordpress,Typecho 还有 Emblog 等。文章没写几篇系统倒是换了不少。而且每次更换都不进行文章备份，所以每次都是全新的博客站。有点跑题了，这些系统无一例外都要购买服务器或虚拟空间，对于当时还是学生的我只能寻找几块一月随时跑路的虚拟空间安装。所以上面说这么多，有钱就尝试动态博客系统，在线随时编写发布。静态博客就需要有台电脑方便些。&lt;/p>
 &lt;p>静态博客也有很多不过还是选择了 Hugo，因为从 &lt;code>建立&lt;/code>-&amp;gt;&lt;code>编写&lt;/code>-&amp;gt;&lt;code>发布&lt;/code> 所需要的代码量相对很少，而且不接触 npm 那些。&lt;/p>
 &lt;h2 id="安装-hugo" class="heading-element">&lt;span>安装 Hugo&lt;/span>
@@ -1010,7 +1098,7 @@ Git 无需多言，之间下载安装即可。&lt;br>
  &lt;a href="#%e4%bd%bf%e7%94%a8%e7%9a%84%e6%8f%92%e4%bb%b6" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
-&lt;/h3>&lt;p>&lt;figure>&lt;a class="lightgallery" href="https://bulone.github.io/posts/pougfvs/images/index-1742823737781.webp" title="插件截图" data-thumbnail="/posts/pougfvs/images/index-1742823737781.webp" data-sub-html="&lt;h2>截图&lt;/h2>&lt;p>插件截图&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/pougfvs/images/index-1742823737781.webp' alt="截图" height="322" width="275">&lt;/a>&lt;figcaption class="image-caption">插件截图&lt;/figcaption>
+&lt;/h3>&lt;p>&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">&lt;a class="lightgallery" href="https://bulone.github.io/posts/pougfvs/images/index-1742823737781.webp" title="插件截图" data-thumbnail="/posts/pougfvs/images/index-1742823737781.webp" data-sub-html="&lt;h2>截图&lt;/h2>&lt;p>插件截图&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/pougfvs/images/index-1742823737781.webp' alt="截图" height="322" width="275">&lt;/a>&lt;figcaption class="image-caption">插件截图&lt;/figcaption>
  &lt;/figure>&lt;/p>
 &lt;ol>
 &lt;li>DataView：创建代码块查询文章数据。&lt;/li>
@@ -1160,15 +1248,15 @@ Git 无需多言，之间下载安装即可。&lt;br>
 &lt;ol>
 &lt;li>复制并新建 js 文件在 Hugo 文件夹内，如 _scripts/newpost.js；&lt;/li>
 &lt;li>在 QuickAdd 插件配置中的 &lt;code>Template Folder Path&lt;/code> 中将文件夹名称填入；&lt;br>
-&lt;figure>&lt;a class="lightgallery" href="https://bulone.github.io/posts/pougfvs/images/index-1742863085352.webp" title="模板文件夹路径" data-thumbnail="/posts/pougfvs/images/index-1742863085352.webp" data-sub-html="&lt;h2>如图所示&lt;/h2>&lt;p>模板文件夹路径&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/pougfvs/images/index-1742863085352.webp' alt="如图所示" height="84" width="961">&lt;/a>&lt;figcaption class="image-caption">模板文件夹路径&lt;/figcaption>
+&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">&lt;a class="lightgallery" href="https://bulone.github.io/posts/pougfvs/images/index-1742863085352.webp" title="模板文件夹路径" data-thumbnail="/posts/pougfvs/images/index-1742863085352.webp" data-sub-html="&lt;h2>如图所示&lt;/h2>&lt;p>模板文件夹路径&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/pougfvs/images/index-1742863085352.webp' alt="如图所示" height="84" width="961">&lt;/a>&lt;figcaption class="image-caption">模板文件夹路径&lt;/figcaption>
  &lt;/figure>&lt;/li>
 &lt;li>点击 &lt;code>Mange Macros&lt;/code> 按钮，在新弹窗底部输入框内输入名称后点击 &lt;code>Add macro&lt;/code>；&lt;/li>
 &lt;li>新建完成后点击 &lt;code>Config&lt;/code>-&amp;gt;Use Scripts 选择刚才创建的 js 文件 -&amp;gt;点击 &lt;code>ADD&lt;/code>；&lt;/li>
 &lt;li>返回到插件主选项，将 Template 点击选择 Macro 然后输入 Name 后 Add Choice；&lt;br>
-&lt;figure>&lt;a class="lightgallery" href="https://bulone.github.io/posts/pougfvs/images/index-1742863386808.webp" title="截图" data-thumbnail="/posts/pougfvs/images/index-1742863386808.webp" data-sub-html="&lt;h2>截图&lt;/h2>&lt;p>截图&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/pougfvs/images/index-1742863386808.webp' alt="截图" height="69" width="474">&lt;/a>&lt;figcaption class="image-caption">截图&lt;/figcaption>
+&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">&lt;a class="lightgallery" href="https://bulone.github.io/posts/pougfvs/images/index-1742863386808.webp" title="截图" data-thumbnail="/posts/pougfvs/images/index-1742863386808.webp" data-sub-html="&lt;h2>截图&lt;/h2>&lt;p>截图&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/pougfvs/images/index-1742863386808.webp' alt="截图" height="69" width="474">&lt;/a>&lt;figcaption class="image-caption">截图&lt;/figcaption>
  &lt;/figure>&lt;/li>
 &lt;li>点击⚙，选择刚才新增的 Macro 名称然后叉掉即可；&lt;br>
-&lt;figure>&lt;a class="lightgallery" href="https://bulone.github.io/posts/pougfvs/images/index-1742863657263.webp" title="如图" data-thumbnail="/posts/pougfvs/images/index-1742863657263.webp" data-sub-html="&lt;h2>如图所示&lt;/h2>&lt;p>如图&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/pougfvs/images/index-1742863657263.webp' alt="如图所示" height="402" width="989">&lt;/a>&lt;figcaption class="image-caption">如图&lt;/figcaption>
+&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">&lt;a class="lightgallery" href="https://bulone.github.io/posts/pougfvs/images/index-1742863657263.webp" title="如图" data-thumbnail="/posts/pougfvs/images/index-1742863657263.webp" data-sub-html="&lt;h2>如图所示&lt;/h2>&lt;p>如图&lt;/p>">&lt;img loading="lazy" src='https://bulone.github.io/posts/pougfvs/images/index-1742863657263.webp' alt="如图所示" height="402" width="989">&lt;/a>&lt;figcaption class="image-caption">如图&lt;/figcaption>
  &lt;/figure>&lt;/li>
 &lt;li>&lt;code>Ctrl+P&lt;/code> 输入 QuickAdd 刚才新建的 Choice 名称即可，也可以新增快捷键快速添加。&lt;/li>
 &lt;/ol>

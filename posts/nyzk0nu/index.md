@@ -86,7 +86,7 @@ type: &#34;redirect&#34;
 ```
 title 指的是跳转页网站 Title，layout 指的是使用 redirect 模板。
 
-4. 在 `custom.scss` 中粘贴下述样式。
+4. 在 `_custom.scss` 中粘贴下述样式。
 ```scss
 /* -------------------- 跳转页 ------------------- */
 .external-warning {
@@ -142,16 +142,39 @@ title 指的是跳转页网站 Title，layout 指的是使用 redirect 模板。
 }
 ```
 5. 上述只是包含了文章页 content 部分的链接，在 `custom.js` 复制下述代码，把特殊样式以及 Waline 评论的 a 链接属性都包含。代码来自 [@空白Koobai](https://koobai.com/zhongjiantiaozhuan/)
-```js
+```js {title=&#34;assets/js/_custom.js&#34;}
 
 /* ------------------ 跳转风险提示 ------------------ */
 document.body.addEventListener(&#39;click&#39;, function(e) {
-  let target = e.target.closest(&#39;.wl-cards a,.card-link&#39;);
-  if (target &amp;&amp; !target.href.includes(&#39;bulone.github.io&#39;)) {
-      e.preventDefault();
-      let encodedUrl = btoa(target.href);
-      let url = &#39;/redirect?url=&#39; &#43; encodedUrl;
-      window.open(url, &#39;_blank&#39;);
+  const target = e.target.closest(&#39;.wl-cards a, .card-link, .device-link&#39;);
+  if (!target || target.hasAttribute(&#39;download&#39;)) return; // 排除无目标或 download 链接
+
+  try {
+    const href = target.getAttribute(&#39;href&#39;);
+    
+    // 排除本地链接：空链接、#锚点、js代码、邮件电话、相对路径
+    if (!href || href.startsWith(&#39;#&#39;) || href.startsWith(&#39;javascript:&#39;) || 
+        href.startsWith(&#39;mailto:&#39;) || href.startsWith(&#39;tel:&#39;) || 
+        href.startsWith(&#39;/&#39;) || !href.includes(&#39;://&#39;)) {
+      return; // 不处理本地链接
+    }
+
+    const url = new URL(target.href);
+    
+    // 排除特定域名（如 bulone.github.io）和路径（如 /download/）
+    if (
+      url.hostname.includes(&#39;bulone.github.io&#39;) ||
+      url.pathname.includes(&#39;/download/&#39;)
+    ) {
+      return; // 不处理排除的域名和路径
+    }
+
+    // 符合条件的链接：执行重定向
+    e.preventDefault();
+    const encodedUrl = btoa(target.href);
+    window.open(`/redirect?url=${encodedUrl}`, &#39;_blank&#39;);
+  } catch (e) {
+    console.warn(&#39;Link handling error:&#39;, e); // 捕获 URL 解析错误
   }
 });
 ```

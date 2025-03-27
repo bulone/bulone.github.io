@@ -56,10 +56,24 @@ msemoji.parse(document.body,{
 ## Waline 评论系统
 博客使用的是 Waline，因为就它带有文章 Reaction，可以自定义图片。其他的几个评论系统都大差不差。使用方法请到 [Waline官网](https://waline.js.org/) 配置参数。
 
+## AOS动画库
+
+滑动动画库，依赖于Jquery。
+在`hugo.toml`中的[params.page.library]加入所需CSS，Js文件。然后再_custom.js中添加
+```js
+AOS.init({
+	once:true,
+	duration: 400,
+	delay: 0,
+});
+```
+init内可以自选参数初始化。
 ## 相关链接
 
 1. 文章 Reaction 表情：[Animated-Fluent-Emojis](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis)
 2. [Deepseek](https://www.deepseek.com)：辅助生成样式代码。
+3. [前端炫酷的动画效果库--AOS使用详解\_aos-easing-CSDN博客](https://blog.csdn.net/weixin_45277161/article/details/112302569)
+4. [插件 ｜ AOS 滚动动画库aos.js（Animate on scroll）是一个轻量的jQuery动画库插件，可以简 - 掘金](https://juejin.cn/post/7018850667653496839)
 
 ---
 

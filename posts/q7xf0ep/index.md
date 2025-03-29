@@ -204,7 +204,7 @@ layout: &#34;devices&#34;
 
 ## 参考链接
 
-1. [eallion.com/goods/](https://www.eallion.com/goods/)
+1. [好物beta](https://www.eallion.com/goods/)
 2. [我的装备 \| 张洪Heo](https://blog.zhheo.com/equipment/)
 3. [DIN- CDNFont](https://www.cdnfonts.com/d-din.font?__cf_chl_rt_tk=nzoRSStBfMypN47isN61eMWawNeHcy8.CopGOguj1xY-1743081133-1.0.1.1-69LlfaZhF0D42wp0OyGq0SLegJwnQdLdxinvpahQRbY)
 4. [Deepseek](https://www.deepseek.com)

@@ -298,5 +298,5 @@ document.body.addEventListener(&#39;click&#39;, function (e) {
 ---
 
 > 作者: 吐司气泡  
-> URL: https://bulone.github.io/posts/nyzk0nu/  
+> URL: https://blog.toastbubble.top/posts/nyzk0nu/  
 

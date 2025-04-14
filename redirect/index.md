@@ -5,5 +5,5 @@
 ---
 
 > 作者:   
-> URL: https://bulone.github.io/redirect/  
+> URL: https://blog.toastbubble.top/redirect/  
 

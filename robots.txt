@@ -97,4 +97,4 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 
-Sitemap: https://bulone.github.io/sitemap.xml
+Sitemap: https://blog.toastbubble.top/sitemap.xml

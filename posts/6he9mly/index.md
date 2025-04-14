@@ -23,5 +23,5 @@
 ---
 
 > 作者: 吐司气泡  
-> URL: https://bulone.github.io/posts/6he9mly/  
+> URL: https://blog.toastbubble.top/posts/6he9mly/  
 

@@ -36,5 +36,5 @@
 ---
 
 > 作者: 吐司气泡  
-> URL: https://bulone.github.io/posts/9avfttm/  
+> URL: https://blog.toastbubble.top/posts/9avfttm/  
 

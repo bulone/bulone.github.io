@@ -78,5 +78,5 @@ init内可以自选参数初始化。
 ---
 
 > 作者: 吐司气泡  
-> URL: https://bulone.github.io/posts/aa6eb19/  
+> URL: https://blog.toastbubble.top/posts/aa6eb19/  
 

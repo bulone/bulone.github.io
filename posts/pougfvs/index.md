@@ -155,5 +155,5 @@ jobs:
 ---
 
 > 作者: 吐司气泡  
-> URL: https://bulone.github.io/posts/pougfvs/  
+> URL: https://blog.toastbubble.top/posts/pougfvs/  
 

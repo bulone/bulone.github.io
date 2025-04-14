@@ -5,5 +5,5 @@
 ---
 
 > 作者:   
-> URL: https://bulone.github.io/devices/  
+> URL: https://blog.toastbubble.top/devices/  
 

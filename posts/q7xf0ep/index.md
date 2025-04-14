@@ -212,5 +212,5 @@ layout: &#34;devices&#34;
 ---
 
 > 作者: 吐司气泡  
-> URL: https://bulone.github.io/posts/q7xf0ep/  
+> URL: https://blog.toastbubble.top/posts/q7xf0ep/  
 

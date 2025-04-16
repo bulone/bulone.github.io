@@ -13,498 +13,498 @@
 </span>&nbsp;</div></div><div class="details toc" id=toc-static data-kept=false><div class="details-summary toc-title"><span>目录</span>
 <span><i class="details-icon fa-solid fa-angle-right" aria-hidden=true></i></span></div><div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents><ul><li><a href=#引言>引言</a></li><li><a href=#目录文件树>目录文件树</a></li><li><a href=#链接渲染>链接渲染</a></li><li><a href=#跳转页网页>跳转页网页</a></li><li><a href=#页面文件>页面文件</a></li><li><a href=#css-样式文件>CSS 样式文件</a></li><li><a href=#js-文件>JS 文件</a></li><li><a href=#缺点>缺点</a></li><li><a href=#参考链接>参考链接</a></li></ul></nav></div></div><div class=content id=content data-end-flag=-🎉结束了来片吐司休息下-><p>3-29：重新修改代码，使用主题的链接渲染。</p><h2 id=引言 class=heading-element><span>引言</span>
 <a href=#%e5%bc%95%e8%a8%80 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><p>之前挺烦一些网站的链接跳转，类如 CSDN，掘金之类的，浪费时间还浪费精力。不过话说回来做中间页跳转还是有必要的，毕竟一些网站域名过期被一些非法网站使用，那么就会导致博客内文章直接引向非法网站，这是万万不可的。所以做中间页提醒访客链接安全未知，在此期间参考了一些博客站文章，感谢博主的分享🙇。<br><figure data-aos=fade-up data-aos-anchor-placement=top-bottom><a class=lightgallery href=/posts/nyzk0nu/images/index-1742980281921.webp title=效果展示 data-thumbnail=/posts/nyzk0nu/images/index-1742980281921.webp data-sub-html="<h2>跳转页效果</h2><p>效果展示</p>"><img loading=lazy src=/posts/nyzk0nu/images/index-1742980281921.webp srcset="/posts/nyzk0nu/images/index-1742980281921_hu_50176cdc4ff98ccb.webp 800w, /posts/nyzk0nu/images/index-1742980281921_hu_749f62721d175317.webp 1200w, /posts/nyzk0nu/images/index-1742980281921_hu_514fbcbf4c1908bb.webp 1600w" alt=跳转页效果 height=1061 width=2058></a><figcaption class=image-caption>效果展示</figcaption></figure></p><h2 id=目录文件树 class=heading-element><span>目录文件树</span>
-<a href=#%e7%9b%ae%e5%bd%95%e6%96%87%e4%bb%b6%e6%a0%91 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><div class=highlight data-open=true><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>.
-</span></span><span style=display:flex><span>├── assets/
-</span></span><span style=display:flex><span>│   ├── css/
-</span></span><span style=display:flex><span>│   │   └── _custom.css         # 自定义 CSS 文件
-</span></span><span style=display:flex><span>│   └── js/
-</span></span><span style=display:flex><span>│       └── _custom.js          # 自定义 JavaScript 文件
-</span></span><span style=display:flex><span>│
-</span></span><span style=display:flex><span>├── content/
-</span></span><span style=display:flex><span>│   └── redirect.md               # Markdown 内容文件
-</span></span><span style=display:flex><span>│
-</span></span><span style=display:flex><span>└── layouts/
-</span></span><span style=display:flex><span>    ├── _default/
-</span></span><span style=display:flex><span>    │   └── redirect.html       # 默认重定向模板
-</span></span><span style=display:flex><span>    │
-</span></span><span style=display:flex><span>    └── plugin/
-</span></span><span style=display:flex><span>        └── link.html           # 插件链接模板</span></span></code></pre></td></tr></table></div></div><h2 id=链接渲染 class=heading-element><span>链接渲染</span>
-<a href=#%e9%93%be%e6%8e%a5%e6%b8%b2%e6%9f%93 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><p>复制一份主题文件中 <code>layouts/partials/plugin/link.html </code>的到根目录，并修改成如下。</p><div class=highlight title=layouts/partials/plugin/link.html><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">18
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">19
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">20
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">21
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">22
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">23
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">24
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">25
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">26
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">27
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">28
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">29
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">30
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">31
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">32
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">33
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">34
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">35
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">36
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">37
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">38
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">39
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">40
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">41
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">42
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">43
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">44
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">45
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">46
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">47
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">48
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">49
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">50
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">51
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">52
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">53
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">54
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">55
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">56
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">57
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">58
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">59
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">60
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">61
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">62
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">63
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">64
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">65
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">66
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">67
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">68
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">69
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">70
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">71
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">72
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">73
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">74
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">75
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">76
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">77
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">78
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">79
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">80
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">81
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">82
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">83
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">84
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">85
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">86
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">87
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">88
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">89
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>{{- $rel := &#34;&#34; -}}
-</span></span><span style=display:flex><span>{{- $encoded := &#34;&#34; -}}
-</span></span><span style=display:flex><span>{{- $external := false -}}
-</span></span><span style=display:flex><span>{{- $noreferrer := true -}}
-</span></span><span style=display:flex><span>{{- if eq .Noreferrer false -}}
-</span></span><span style=display:flex><span>  {{- $noreferrer = false -}}
-</span></span><span style=display:flex><span>{{- end -}}
-</span></span><span style=display:flex><span>{{- $url := urls.Parse .Destination -}}
-</span></span><span style=display:flex><span>{{- if $url.IsAbs | or .Newtab -}}
-</span></span><span style=display:flex><span>  {{- $rel = cond $noreferrer &#34;external nofollow noopener noreferrer&#34; &#34;external nofollow&#34; -}}
-</span></span><span style=display:flex><span>  {{- $encoded  = printf &#34;/redirect/?url=%s&#34; (.Destination | base64Encode | safeURL) -}}
-</span></span><span style=display:flex><span>  {{- $external = true -}}
-</span></span><span style=display:flex><span>{{- end -}}
-</span></span><span style=display:flex><span>{{- $class := .Class | default &#34;&#34; -}}
-</span></span><span style=display:flex><span>{{- if eq .Card true -}}
-</span></span><span style=display:flex><span>  {{- $class = trim (printf &#34;%v %v&#34; &#34;card-link&#34; $class) &#34; &#34; -}}
-</span></span><span style=display:flex><span>{{- end -}}
-</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>a</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;{{ $encoded | default .Destination | safeURL }}&#34;</span>
-</span></span><span style=display:flex><span>  <span style=color:#960050;background-color:#1e0010>{{</span><span style=color:#a6e22e>-</span> <span style=color:#a6e22e>with</span> <span style=color:#960050;background-color:#1e0010>.</span><span style=color:#a6e22e>Title</span> <span style=color:#960050;background-color:#1e0010>}}</span> <span style=color:#a6e22e>title</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;{{ . }}&#34;</span><span style=color:#960050;background-color:#1e0010>{{</span><span style=color:#a6e22e>-</span> <span style=color:#a6e22e>end</span> <span style=color:#a6e22e>-</span><span style=color:#960050;background-color:#1e0010>}}</span>
-</span></span><span style=display:flex><span>  <span style=color:#960050;background-color:#1e0010>{{</span><span style=color:#a6e22e>-</span> <span style=color:#a6e22e>if</span> <span style=color:#960050;background-color:#1e0010>$</span><span style=color:#a6e22e>external</span> <span style=color:#a6e22e>-</span><span style=color:#960050;background-color:#1e0010>}}</span> <span style=color:#a6e22e>target</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;_blank&#34;</span><span style=color:#960050;background-color:#1e0010>{{</span><span style=color:#a6e22e>-</span> <span style=color:#a6e22e>end</span> <span style=color:#a6e22e>-</span><span style=color:#960050;background-color:#1e0010>}}</span>
-</span></span><span style=display:flex><span>  <span style=color:#960050;background-color:#1e0010>{{</span><span style=color:#a6e22e>-</span> <span style=color:#a6e22e>if</span> <span style=color:#960050;background-color:#1e0010>$</span><span style=color:#a6e22e>rel</span> <span style=color:#960050;background-color:#1e0010>|</span> <span style=color:#a6e22e>or</span> <span style=color:#960050;background-color:#1e0010>.</span><span style=color:#a6e22e>Rel</span> <span style=color:#960050;background-color:#1e0010>}}</span> <span style=color:#a6e22e>rel</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;{{ $rel }}{{ with .Rel }} {{ . }}{{ end }}&#34;</span><span style=color:#960050;background-color:#1e0010>{{</span><span style=color:#a6e22e>-</span> <span style=color:#a6e22e>end</span> <span style=color:#a6e22e>-</span><span style=color:#960050;background-color:#1e0010>}}</span>
-</span></span><span style=display:flex><span>  <span style=color:#960050;background-color:#1e0010>{{</span><span style=color:#a6e22e>-</span> <span style=color:#a6e22e>with</span> <span style=color:#960050;background-color:#1e0010>$</span><span style=color:#a6e22e>class</span> <span style=color:#960050;background-color:#1e0010>}}</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;{{ with $class }}{{ . }}{{ end }}&#34;</span><span style=color:#960050;background-color:#1e0010>{{</span><span style=color:#a6e22e>-</span> <span style=color:#a6e22e>end</span> <span style=color:#a6e22e>-</span><span style=color:#960050;background-color:#1e0010>}}</span>
-</span></span><span style=display:flex><span>  <span style=color:#960050;background-color:#1e0010>{{</span><span style=color:#a6e22e>-</span> <span style=color:#a6e22e>with</span> <span style=color:#960050;background-color:#1e0010>.</span><span style=color:#a6e22e>Download</span> <span style=color:#960050;background-color:#1e0010>}}</span> <span style=color:#a6e22e>download</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;{{ . }}&#34;</span><span style=color:#960050;background-color:#1e0010>{{</span><span style=color:#a6e22e>-</span> <span style=color:#a6e22e>end</span> <span style=color:#a6e22e>-</span><span style=color:#960050;background-color:#1e0010>}}</span>
-</span></span><span style=display:flex><span>&gt;
-</span></span><span style=display:flex><span>  {{- if ne .Card true -}}
-</span></span><span style=display:flex><span>    {{- with .Icon -}}
-</span></span><span style=display:flex><span>      {{- partial &#34;plugin/icon.html&#34; . }}
-</span></span><span style=display:flex><span>    {{ end -}}
-</span></span><span style=display:flex><span>    {{- with .Content -}}
-</span></span><span style=display:flex><span>      {{- . | safeHTML -}}
-</span></span><span style=display:flex><span>    {{- end -}}
-</span></span><span style=display:flex><span>    {{- if 
-</span></span><span style=display:flex><span>      (.ExternalIcon | default false) 
-</span></span><span style=display:flex><span>      | and $external | and (eq (hasPrefix .Content `&lt;<span style=color:#f92672>img</span><span style=color:#960050;background-color:#1e0010>`)</span> <span style=color:#a6e22e>false</span><span style=color:#960050;background-color:#1e0010>)</span>
-</span></span><span style=display:flex><span>      <span style=color:#960050;background-color:#1e0010>|</span> <span style=color:#a6e22e>and</span> <span style=color:#960050;background-color:#1e0010>(</span><span style=color:#a6e22e>eq</span> <span style=color:#960050;background-color:#1e0010>((</span><span style=color:#a6e22e>strings</span><span style=color:#960050;background-color:#1e0010>.</span><span style=color:#a6e22e>HasSuffix</span> <span style=color:#960050;background-color:#1e0010>.</span><span style=color:#a6e22e>Content</span> <span style=color:#960050;background-color:#1e0010>`&lt;/</span><span style=color:#a6e22e>i</span>&gt;`) | or (strings.HasSuffix .Content `):`)) false)
-</span></span><span style=display:flex><span>    -}}
-</span></span><span style=display:flex><span>      {{- if .Download -}}
-</span></span><span style=display:flex><span>        {{- dict &#34;Class&#34; &#34;fa-solid fa-cloud-download-alt fa-fw ms-1 text-secondary&#34; | partial &#34;plugin/icon.html&#34; -}}
-</span></span><span style=display:flex><span>      {{- else -}}
-</span></span><span style=display:flex><span>        {{- dict &#34;Class&#34; &#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; | partial &#34;plugin/icon.html&#34; -}}
-</span></span><span style=display:flex><span>      {{- end -}}
-</span></span><span style=display:flex><span>    {{- else if .Download }}
-</span></span><span style=display:flex><span>      {{- dict &#34;Class&#34; &#34;fa-solid fa-download fa-fw ms-1 text-secondary&#34; | partial &#34;plugin/icon.html&#34; -}}
-</span></span><span style=display:flex><span>    {{- end -}}
-</span></span><span style=display:flex><span>  {{- else -}}
-</span></span><span style=display:flex><span>    {{- $cardIcon := .CardIcon -}}
-</span></span><span style=display:flex><span>    {{- if not $cardIcon -}}
-</span></span><span style=display:flex><span>      {{- with partial &#34;function/get-remote-image.html&#34; (dict &#34;Src&#34; (add &#34;https://favicon.im/&#34; $url.Host)) -}}
-</span></span><span style=display:flex><span>        {{- $cardIcon = .RelPermalink -}}
-</span></span><span style=display:flex><span>      {{- end -}}
-</span></span><span style=display:flex><span>    {{- end -}}
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    {{- $attrs := `class=&#34;cl-backdrop&#34;` -}}
-</span></span><span style=display:flex><span>    {{- $attrs = printf ` style=&#34;--cl-bg-url: url(%v);&#34;` (resources.Get &#34;images/fixit.svg&#34; | minify).RelPermalink | add $attrs -}}
-</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>span</span> <span style=color:#960050;background-color:#1e0010>{{</span> <span style=color:#960050;background-color:#1e0010>$</span><span style=color:#a6e22e>attrs</span> <span style=color:#960050;background-color:#1e0010>|</span> <span style=color:#a6e22e>safeHTMLAttr</span> <span style=color:#960050;background-color:#1e0010>}}</span>&gt;&lt;/<span style=color:#f92672>span</span>&gt;
-</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>span</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;cl-content&#34;</span>&gt;
-</span></span><span style=display:flex><span>      &lt;<span style=color:#f92672>span</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;cl-text&#34;</span>&gt;
-</span></span><span style=display:flex><span>        &lt;<span style=color:#f92672>span</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;cl-title&#34;</span>&gt;
-</span></span><span style=display:flex><span>          {{- with .Icon -}}
-</span></span><span style=display:flex><span>            {{- partial &#34;plugin/icon.html&#34; . }}
-</span></span><span style=display:flex><span>          {{ end -}}
-</span></span><span style=display:flex><span>          {{- with .Content -}}
-</span></span><span style=display:flex><span>            {{- . | safeHTML -}}
-</span></span><span style=display:flex><span>          {{- end -}}
-</span></span><span style=display:flex><span>        &lt;/<span style=color:#f92672>span</span>&gt;
-</span></span><span style=display:flex><span>        &lt;<span style=color:#f92672>span</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;cl-meta&#34;</span>&gt;
-</span></span><span style=display:flex><span>          &lt;<span style=color:#f92672>svg</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;cl-icon-link&#34;</span> <span style=color:#a6e22e>viewBox</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0 0 1024 1024&#34;</span> <span style=color:#a6e22e>version</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;1.1&#34;</span> <span style=color:#a6e22e>xmlns</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;http://www.w3.org/2000/svg&#34;</span> <span style=color:#a6e22e>width</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;16&#34;</span> <span style=color:#a6e22e>height</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;16&#34;</span>&gt;&lt;<span style=color:#f92672>path</span> <span style=color:#a6e22e>d</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z&#34;</span> <span style=color:#a6e22e>fill</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#a9a9b3&#34;</span>&gt;&lt;/<span style=color:#f92672>path</span>&gt;&lt;<span style=color:#f92672>path</span> <span style=color:#a6e22e>d</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z&#34;</span> <span style=color:#a6e22e>fill</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#a9a9b3&#34;</span>&gt;&lt;/<span style=color:#f92672>path</span>&gt;&lt;/<span style=color:#f92672>svg</span>&gt;
-</span></span><span style=display:flex><span>          &lt;<span style=color:#f92672>span</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;cl-url&#34;</span>&gt;
-</span></span><span style=display:flex><span>            {{- .Destination | safeURL -}}
-</span></span><span style=display:flex><span>          &lt;/<span style=color:#f92672>span</span>&gt;
-</span></span><span style=display:flex><span>        &lt;/<span style=color:#f92672>span</span>&gt;
-</span></span><span style=display:flex><span>      &lt;/<span style=color:#f92672>span</span>&gt;
-</span></span><span style=display:flex><span>      {{- if .Download -}}
-</span></span><span style=display:flex><span>        &lt;<span style=color:#f92672>svg</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;cl-shortcut-icon&#34;</span> <span style=color:#a6e22e>viewBox</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0 0 1024 1024&#34;</span> <span style=color:#a6e22e>version</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;1.1&#34;</span> <span style=color:#a6e22e>xmlns</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;http://www.w3.org/2000/svg&#34;</span> <span style=color:#a6e22e>width</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;64&#34;</span> <span style=color:#a6e22e>height</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;64&#34;</span>&gt;&lt;<span style=color:#f92672>path</span> <span style=color:#a6e22e>d</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;M824.32 473.6c-15.36-2.56-25.6-15.36-25.6-30.72 0-112.64-71.68-217.6-179.2-250.88-148.48-46.08-289.28 38.4-332.8 166.4-2.56 10.24-12.8 17.92-23.04 20.48C143.36 401.92 51.2 509.44 51.2 637.44v2.56c0 115.2 97.28 204.8 209.92 204.8h524.8c102.4-2.56 184.32-84.48 184.32-186.88 2.56-89.6-61.44-163.84-145.92-184.32z m-273.92 225.28c-12.8 12.8-30.72 15.36-46.08 10.24H501.76c-5.12-2.56-10.24-5.12-15.36-10.24L366.08 578.56c-15.36-15.36-15.36-43.52 0-58.88 15.36-15.36 43.52-15.36 58.88 0l51.2 51.2V352.4608c0-23.04 17.92-40.96 40.96-40.96 23.04 0 40.96 17.92 40.96 40.96v218.4192l51.2-51.2c17.92-17.92 43.52-17.92 61.44 0 17.92 15.36 17.92 40.96 0 58.88l-120.32 120.32z&#34;</span> <span style=color:#a6e22e>fill</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#4FC089&#34;</span>&gt;&lt;/<span style=color:#f92672>path</span>&gt;&lt;/<span style=color:#f92672>svg</span>&gt;
-</span></span><span style=display:flex><span>      {{- else -}}
-</span></span><span style=display:flex><span>        {{- with $cardIcon -}}
-</span></span><span style=display:flex><span>          {{- if (strings.HasPrefix . &#34;fa&#34;) -}}
-</span></span><span style=display:flex><span>            &lt;<span style=color:#f92672>i</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;{{ . }} cl-shortcut-icon&#34;</span>&gt;&lt;/<span style=color:#f92672>i</span>&gt;
-</span></span><span style=display:flex><span>          {{- else -}}
-</span></span><span style=display:flex><span>            &lt;<span style=color:#f92672>img</span> <span style=color:#a6e22e>src</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;{{ . }}&#34;</span> <span style=color:#a6e22e>alt</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;card image&#34;</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;cl-shortcut-image&#34;</span>&gt;
-</span></span><span style=display:flex><span>          {{- end -}}
-</span></span><span style=display:flex><span>        {{- else -}}
-</span></span><span style=display:flex><span>          &lt;<span style=color:#f92672>svg</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;cl-shortcut-icon&#34;</span> <span style=color:#a6e22e>viewBox</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;0 0 1024 1024&#34;</span> <span style=color:#a6e22e>version</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;1.1&#34;</span> <span style=color:#a6e22e>xmlns</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;http://www.w3.org/2000/svg&#34;</span> <span style=color:#a6e22e>width</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;64&#34;</span> <span style=color:#a6e22e>height</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;64&#34;</span>&gt;&lt;<span style=color:#f92672>path</span> <span style=color:#a6e22e>d</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448&#34;</span> <span style=color:#a6e22e>fill</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#2196F3&#34;</span>&gt;&lt;/<span style=color:#f92672>path</span>&gt;&lt;<span style=color:#f92672>path</span> <span style=color:#a6e22e>d</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104&#34;</span> <span style=color:#a6e22e>fill</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;#CDDC39&#34;</span>&gt;&lt;/<span style=color:#f92672>path</span>&gt;&lt;/<span style=color:#f92672>svg</span>&gt;
-</span></span><span style=display:flex><span>        {{- end -}}
-</span></span><span style=display:flex><span>      {{- end -}}
-</span></span><span style=display:flex><span>    &lt;/<span style=color:#f92672>span</span>&gt;
-</span></span><span style=display:flex><span>  {{- end -}}
-</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>a</span>&gt;
-</span></span><span style=display:flex><span>{{- /* EOF */ -}}</span></span></code></pre></td></tr></table></div></div><h2 id=跳转页网页 class=heading-element><span>跳转页网页</span>
-<a href=#%e8%b7%b3%e8%bd%ac%e9%a1%b5%e7%bd%91%e9%a1%b5 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><p>在 <code>layouts/_default/</code> 中创建 <code>redirect.html</code> 文件，复制下面代码。<br><sub>注：仅适用于 Fixit 主题，其他主题自行测试。</sub></p><div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">18
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">19
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">20
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">21
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">22
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">23
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">24
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">25
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">26
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">27
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">28
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">29
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">30
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">31
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">32
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">33
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">34
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>{{- define &#34;title&#34; -}}
-</span></span><span style=display:flex><span>  {{- cond (.Param &#34;capitalizeTitles&#34;) (title .Title) .Title -}}
-</span></span><span style=display:flex><span>  {{- if .Site.Params.withSiteTitle }} {{ .Site.Params.titleDelimiter }} {{ .Site.Title }}{{- end -}}
-</span></span><span style=display:flex><span>{{- end -}}
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>{{ define &#34;custom-head&#34; }}
-</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>meta</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;robots&#34;</span> <span style=color:#a6e22e>content</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;noindex, nofollow&#34;</span>&gt;
-</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>meta</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;referrer&#34;</span> <span style=color:#a6e22e>content</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;no-referrer&#34;</span>&gt;
-</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>meta</span> <span style=color:#a6e22e>charset</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;utf-8&#34;</span>&gt;
-</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>meta</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;viewport&#34;</span> <span style=color:#a6e22e>content</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;width=device-width, initial-scale=1&#34;</span>&gt;
-</span></span><span style=display:flex><span>{{ end }}
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>{{ define &#34;content&#34; }}
-</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;external-warning&#34;</span>&gt;
-</span></span><span style=display:flex><span>        &lt;<span style=color:#f92672>h2</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;warning-title&#34;</span>&gt;⚠️ 您即将离开 {{ .Site.Title }}&lt;/<span style=color:#f92672>h2</span>&gt;
-</span></span><span style=display:flex><span>        &lt;<span style=color:#f92672>p</span>&gt;将要访问的外部链接：&lt;/<span style=color:#f92672>p</span>&gt;
-</span></span><span style=display:flex><span>        &lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;external-url&#34;</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;target-url&#34;</span>&gt;{{ .Params.url }}&lt;/<span style=color:#f92672>div</span>&gt;
-</span></span><span style=display:flex><span>        
-</span></span><span style=display:flex><span>        &lt;<span style=color:#f92672>p</span>&gt;🛡请自行识别链接是否安全，注意您的帐号和财产安全。&lt;/<span style=color:#f92672>p</span>&gt;
-</span></span><span style=display:flex><span>        
-</span></span><span style=display:flex><span>        &lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;button-group&#34;</span>&gt;
-</span></span><span style=display:flex><span>            &lt;<span style=color:#f92672>a</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;{{ .Params.url }}&#34;</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;button continue-btn&#34;</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;proceed-link&#34;</span>&gt;🚀 继续访问&lt;/<span style=color:#f92672>a</span>&gt;
-</span></span><span style=display:flex><span>        &lt;/<span style=color:#f92672>div</span>&gt;
-</span></span><span style=display:flex><span>    &lt;/<span style=color:#f92672>div</span>&gt;
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>script</span>&gt;
-</span></span><span style=display:flex><span>        <span style=color:#75715e>// 解码URL并显示
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>params</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>URLSearchParams</span>(window.<span style=color:#a6e22e>location</span>.<span style=color:#a6e22e>search</span>);
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>encodedUrl</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>params</span>.<span style=color:#a6e22e>get</span>(<span style=color:#e6db74>&#34;url&#34;</span>);
-</span></span><span style=display:flex><span>        <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>decodedUrl</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>atob</span>(<span style=color:#a6e22e>encodedUrl</span>);
-</span></span><span style=display:flex><span>        document.<span style=color:#a6e22e>getElementById</span>(<span style=color:#e6db74>&#39;target-url&#39;</span>).<span style=color:#a6e22e>textContent</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>decodedUrl</span>;
-</span></span><span style=display:flex><span>        document.<span style=color:#a6e22e>getElementById</span>(<span style=color:#e6db74>&#39;proceed-link&#39;</span>).<span style=color:#a6e22e>href</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>decodedUrl</span>;
-</span></span><span style=display:flex><span>    &lt;/<span style=color:#f92672>script</span>&gt;
-</span></span><span style=display:flex><span>{{ end }}</span></span></code></pre></td></tr></table></div></div><h2 id=页面文件 class=heading-element><span>页面文件</span>
-<a href=#%e9%a1%b5%e9%9d%a2%e6%96%87%e4%bb%b6 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><p>在 content 中创建 <code>redirect.md</code>。</p><div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span>---
-</span></span><span style=display:flex><span><span style=color:#f92672>title</span>: <span style=color:#ae81ff>风险跳转提示</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>layout</span>: <span style=color:#e6db74>&#34;redirect&#34;</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>type</span>: <span style=color:#e6db74>&#34;redirect&#34;</span>
-</span></span><span style=display:flex><span>---</span></span></code></pre></td></tr></table></div></div><p>title 指的是跳转页网站 Title，layout 指的是使用 redirect 模板。</p><h2 id=css-样式文件 class=heading-element><span>CSS 样式文件</span>
-<a href=#css-%e6%a0%b7%e5%bc%8f%e6%96%87%e4%bb%b6 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><p>在 <code>_custom.scss</code> 中粘贴下述样式。</p><div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">18
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">19
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">20
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">21
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">22
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">23
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">24
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">25
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">26
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">27
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">28
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">29
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">30
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">31
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">32
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">33
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">34
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">35
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">36
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">37
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">38
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">39
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">40
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">41
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">42
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">43
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">44
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">45
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">46
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">47
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">48
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">49
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">50
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">51
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">52
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-scss data-lang=scss><span style=display:flex><span><span style=color:#75715e>/* -------------------- 跳转页 ------------------- */</span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>.external-warning</span> {
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>max-width</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>700</span><span style=color:#66d9ef>px</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>margin</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>3</span><span style=color:#66d9ef>rem</span> auto;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>padding</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>2</span><span style=color:#66d9ef>rem</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>border</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>1</span><span style=color:#66d9ef>px</span> solid <span style=color:#ae81ff>#eee</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>border-radius</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>1</span><span style=color:#66d9ef>rem</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>box-shadow</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>2</span><span style=color:#66d9ef>px</span> <span style=color:#ae81ff>12</span><span style=color:#66d9ef>px</span> <span style=color:#a6e22e>rgba</span>(<span style=color:#ae81ff>0</span><span style=color:#f92672>,</span><span style=color:#ae81ff>0</span><span style=color:#f92672>,</span><span style=color:#ae81ff>0</span><span style=color:#f92672>,</span><span style=color:#ae81ff>0</span><span style=color:#ae81ff>.1</span>);
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>line-height</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>1</span><span style=color:#ae81ff>.6</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>text-align</span><span style=color:#f92672>:</span> center;
-</span></span><span style=display:flex><span>}
-</span></span><span style=display:flex><span><span style=color:#a6e22e>.warning-title</span> {
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>color</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>#d32f2f</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>margin-top</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>0</span>;
-</span></span><span style=display:flex><span>}
-</span></span><span style=display:flex><span><span style=color:#a6e22e>.external-url</span> {
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>word-break</span><span style=color:#f92672>:</span> break-all;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>background</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>#f5f5f5</span>;
-</span></span><span style=display:flex><span>    <span style=color:#f92672>[</span><span style=color:#f92672>data-theme</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;dark&#34;</span><span style=color:#f92672>]</span> <span style=color:#66d9ef>&amp;</span> {
-</span></span><span style=display:flex><span>	    <span style=color:#a6e22e>background</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>#363636</span>
-</span></span><span style=display:flex><span>    }
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>padding</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>0</span><span style=color:#ae81ff>.5</span><span style=color:#66d9ef>rem</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>border-radius</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>1</span><span style=color:#66d9ef>rem</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>display</span><span style=color:#f92672>:</span> inline-block;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>max-width</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>100</span><span style=color:#66d9ef>%</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>overflow</span><span style=color:#f92672>:</span> hidden;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>text-overflow</span><span style=color:#f92672>:</span> ellipsis;
-</span></span><span style=display:flex><span>}
-</span></span><span style=display:flex><span><span style=color:#a6e22e>.button-group</span> {
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>margin-top</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>1</span><span style=color:#ae81ff>.5</span><span style=color:#66d9ef>rem</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>display</span><span style=color:#f92672>:</span> flex;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>gap</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>1</span><span style=color:#66d9ef>rem</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>flex-wrap</span><span style=color:#f92672>:</span> wrap;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>justify-content</span><span style=color:#f92672>:</span> center;
-</span></span><span style=display:flex><span>}
-</span></span><span style=display:flex><span><span style=color:#a6e22e>.button</span> {
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>padding</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>0</span><span style=color:#ae81ff>.75</span><span style=color:#66d9ef>rem</span> <span style=color:#ae81ff>1</span><span style=color:#ae81ff>.5</span><span style=color:#66d9ef>rem</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>border-radius</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>1</span><span style=color:#66d9ef>rem</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>text-decoration</span><span style=color:#f92672>:</span> none;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>font-weight</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>500</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>transition</span><span style=color:#f92672>:</span> all <span style=color:#ae81ff>0</span><span style=color:#ae81ff>.2</span><span style=color:#66d9ef>s</span>;
-</span></span><span style=display:flex><span>}
-</span></span><span style=display:flex><span><span style=color:#a6e22e>.continue-btn</span> {
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>background</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>#8B4513</span>;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>color</span><span style=color:#f92672>:</span> white;
-</span></span><span style=display:flex><span>}
-</span></span><span style=display:flex><span><span style=color:#a6e22e>.continue-btn</span><span style=color:#a6e22e>:hover</span> {
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>background</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>#D2A679</span>;
-</span></span><span style=display:flex><span>    <span style=color:#f92672>[</span><span style=color:#f92672>data-theme</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;dark&#34;</span><span style=color:#f92672>]</span> <span style=color:#66d9ef>&amp;</span> {
-</span></span><span style=display:flex><span>        <span style=color:#a6e22e>color</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>#8B4513</span>;
-</span></span><span style=display:flex><span>    }
-</span></span><span style=display:flex><span>}</span></span></code></pre></td></tr></table></div></div><h2 id=js-文件 class=heading-element><span>JS 文件</span>
-<a href=#js-%e6%96%87%e4%bb%b6 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><p>上述只是包含了文章页 content 部分的链接，在 <code>custom.js</code> 复制下述代码，把特殊样式以及 Waline 评论的 a 链接属性都包含。代码来自 <a href="/redirect/?url=aHR0cHM6Ly9rb29iYWkuY29tL3pob25namlhbnRpYW96aHVhbi8=" target=_blank rel="external nofollow noopener noreferrer">@空白Koobai<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden=true></i></a></p><div class=highlight title=assets/js/_custom.js><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">18
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">19
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">20
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">21
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">22
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">23
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">24
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">25
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">26
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">27
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">28
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">29
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">30
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">31
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">32
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">33
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">34
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">35
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">36
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">37
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">38
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">39
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">40
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">41
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">42
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">43
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">44
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">45
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">46
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">47
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">48
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">49
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">50
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span><span style=color:#75715e>/* ------------------ 跳转风险提示 ------------------ */</span>
-</span></span><span style=display:flex><span>document.<span style=color:#a6e22e>body</span>.<span style=color:#a6e22e>addEventListener</span>(<span style=color:#e6db74>&#39;click&#39;</span>, <span style=color:#66d9ef>function</span> (<span style=color:#a6e22e>e</span>) {
-</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>target</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>e</span>.<span style=color:#a6e22e>target</span>.<span style=color:#a6e22e>closest</span>(<span style=color:#e6db74>&#39;.wl-cards a, .card-link, .device-link&#39;</span>);
-</span></span><span style=display:flex><span>  <span style=color:#66d9ef>if</span> (<span style=color:#f92672>!</span><span style=color:#a6e22e>target</span>) <span style=color:#66d9ef>return</span>;
-</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>href</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>target</span>.<span style=color:#a6e22e>getAttribute</span>(<span style=color:#e6db74>&#39;href&#39;</span>);
-</span></span><span style=display:flex><span>  <span style=color:#66d9ef>if</span> (<span style=color:#f92672>!</span><span style=color:#a6e22e>href</span>) <span style=color:#66d9ef>return</span>;
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>  <span style=color:#75715e>// 排除本地链接
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>isLocalLink</span> <span style=color:#f92672>=</span>
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>href</span>.<span style=color:#a6e22e>startsWith</span>(<span style=color:#e6db74>&#39;#&#39;</span>) <span style=color:#f92672>||</span>
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>href</span>.<span style=color:#a6e22e>startsWith</span>(<span style=color:#e6db74>&#39;javascript:&#39;</span>) <span style=color:#f92672>||</span>
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>href</span>.<span style=color:#a6e22e>startsWith</span>(<span style=color:#e6db74>&#39;mailto:&#39;</span>) <span style=color:#f92672>||</span>
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>href</span>.<span style=color:#a6e22e>startsWith</span>(<span style=color:#e6db74>&#39;tel:&#39;</span>) <span style=color:#f92672>||</span>
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>href</span>.<span style=color:#a6e22e>startsWith</span>(<span style=color:#e6db74>&#39;/&#39;</span>) <span style=color:#f92672>||</span>
-</span></span><span style=display:flex><span>    <span style=color:#f92672>!</span><span style=color:#a6e22e>href</span>.<span style=color:#a6e22e>includes</span>(<span style=color:#e6db74>&#39;://&#39;</span>);
-</span></span><span style=display:flex><span>  <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>isLocalLink</span>) <span style=color:#66d9ef>return</span>;
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>url</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>URL</span>(<span style=color:#a6e22e>target</span>.<span style=color:#a6e22e>href</span>, window.<span style=color:#a6e22e>location</span>.<span style=color:#a6e22e>href</span>);
-</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>currentDomain</span> <span style=color:#f92672>=</span> window.<span style=color:#a6e22e>location</span>.<span style=color:#a6e22e>hostname</span>;
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>  <span style=color:#75715e>// 域名白名单（直接放行的外部域名）
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>whitelistDomains</span> <span style=color:#f92672>=</span> [
-</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#39;bulone.github.io&#39;</span>,
-</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#39;blog.toastbubble.top&#39;</span>
-</span></span><span style=display:flex><span>  ];
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>  <span style=color:#75715e>// 检查是否在白名单中
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>isWhitelisted</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>whitelistDomains</span>.<span style=color:#a6e22e>some</span>(<span style=color:#a6e22e>domain</span> =&gt;
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>url</span>.<span style=color:#a6e22e>hostname</span> <span style=color:#f92672>===</span> <span style=color:#a6e22e>domain</span> <span style=color:#f92672>||</span> <span style=color:#a6e22e>url</span>.<span style=color:#a6e22e>hostname</span>.<span style=color:#a6e22e>endsWith</span>(<span style=color:#e6db74>`.</span><span style=color:#e6db74>${</span><span style=color:#a6e22e>domain</span><span style=color:#e6db74>}</span><span style=color:#e6db74>`</span>)
-</span></span><span style=display:flex><span>  );
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>  <span style=color:#75715e>// 排除当前域名及其子域名
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>isCurrentOrSubDomain</span> <span style=color:#f92672>=</span>
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>url</span>.<span style=color:#a6e22e>hostname</span> <span style=color:#f92672>===</span> <span style=color:#a6e22e>currentDomain</span> <span style=color:#f92672>||</span>
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>url</span>.<span style=color:#a6e22e>hostname</span>.<span style=color:#a6e22e>endsWith</span>(<span style=color:#e6db74>`.</span><span style=color:#e6db74>${</span><span style=color:#a6e22e>currentDomain</span><span style=color:#e6db74>}</span><span style=color:#e6db74>`</span>);
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>  <span style=color:#75715e>// 条件判断优先级：
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#75715e>// 1. 白名单域名 -&gt; 直接放行（不拦截）
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#75715e>// 2. 当前域名/子域名或排除路径 -&gt; 不处理
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#75715e>// 3. 其他外部链接 -&gt; 重定向
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>isWhitelisted</span>) {
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span>; <span style=color:#75715e>// 允许白名单域名正常跳转
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  } <span style=color:#66d9ef>else</span> <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>isCurrentOrSubDomain</span>) {
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span>; <span style=color:#75715e>// 不处理当前域名或排除路径
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  } <span style=color:#66d9ef>else</span> {
-</span></span><span style=display:flex><span>    <span style=color:#a6e22e>e</span>.<span style=color:#a6e22e>preventDefault</span>();
-</span></span><span style=display:flex><span>    <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>encodedUrl</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>btoa</span>(<span style=color:#a6e22e>target</span>.<span style=color:#a6e22e>href</span>);
-</span></span><span style=display:flex><span>    window.<span style=color:#a6e22e>open</span>(<span style=color:#e6db74>`/redirect?url=</span><span style=color:#e6db74>${</span><span style=color:#a6e22e>encodedUrl</span><span style=color:#e6db74>}</span><span style=color:#e6db74>`</span>, <span style=color:#e6db74>&#39;_blank&#39;</span>);
-</span></span><span style=display:flex><span>  }
-</span></span><span style=display:flex><span>});</span></span></code></pre></td></tr></table></div></div><h2 id=缺点 class=heading-element><span>缺点</span>
+<a href=#%e7%9b%ae%e5%bd%95%e6%96%87%e4%bb%b6%e6%a0%91 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><div class=highlight data-open=true><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>.
+</span></span><span class=line><span class=cl>├── assets/
+</span></span><span class=line><span class=cl>│   ├── css/
+</span></span><span class=line><span class=cl>│   │   └── _custom.css         # 自定义 CSS 文件
+</span></span><span class=line><span class=cl>│   └── js/
+</span></span><span class=line><span class=cl>│       └── _custom.js          # 自定义 JavaScript 文件
+</span></span><span class=line><span class=cl>│
+</span></span><span class=line><span class=cl>├── content/
+</span></span><span class=line><span class=cl>│   └── redirect.md               # Markdown 内容文件
+</span></span><span class=line><span class=cl>│
+</span></span><span class=line><span class=cl>└── layouts/
+</span></span><span class=line><span class=cl>    ├── _default/
+</span></span><span class=line><span class=cl>    │   └── redirect.html       # 默认重定向模板
+</span></span><span class=line><span class=cl>    │
+</span></span><span class=line><span class=cl>    └── plugin/
+</span></span><span class=line><span class=cl>        └── link.html           # 插件链接模板</span></span></code></pre></td></tr></table></div></div><h2 id=链接渲染 class=heading-element><span>链接渲染</span>
+<a href=#%e9%93%be%e6%8e%a5%e6%b8%b2%e6%9f%93 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><p>复制一份主题文件中 <code>layouts/partials/plugin/link.html </code>的到根目录，并修改成如下。</p><div class=highlight title=layouts/partials/plugin/link.html><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span><span class=lnt>56
+</span><span class=lnt>57
+</span><span class=lnt>58
+</span><span class=lnt>59
+</span><span class=lnt>60
+</span><span class=lnt>61
+</span><span class=lnt>62
+</span><span class=lnt>63
+</span><span class=lnt>64
+</span><span class=lnt>65
+</span><span class=lnt>66
+</span><span class=lnt>67
+</span><span class=lnt>68
+</span><span class=lnt>69
+</span><span class=lnt>70
+</span><span class=lnt>71
+</span><span class=lnt>72
+</span><span class=lnt>73
+</span><span class=lnt>74
+</span><span class=lnt>75
+</span><span class=lnt>76
+</span><span class=lnt>77
+</span><span class=lnt>78
+</span><span class=lnt>79
+</span><span class=lnt>80
+</span><span class=lnt>81
+</span><span class=lnt>82
+</span><span class=lnt>83
+</span><span class=lnt>84
+</span><span class=lnt>85
+</span><span class=lnt>86
+</span><span class=lnt>87
+</span><span class=lnt>88
+</span><span class=lnt>89
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl>{{- $rel := &#34;&#34; -}}
+</span></span><span class=line><span class=cl>{{- $encoded := &#34;&#34; -}}
+</span></span><span class=line><span class=cl>{{- $external := false -}}
+</span></span><span class=line><span class=cl>{{- $noreferrer := true -}}
+</span></span><span class=line><span class=cl>{{- if eq .Noreferrer false -}}
+</span></span><span class=line><span class=cl>  {{- $noreferrer = false -}}
+</span></span><span class=line><span class=cl>{{- end -}}
+</span></span><span class=line><span class=cl>{{- $url := urls.Parse .Destination -}}
+</span></span><span class=line><span class=cl>{{- if $url.IsAbs | or .Newtab -}}
+</span></span><span class=line><span class=cl>  {{- $rel = cond $noreferrer &#34;external nofollow noopener noreferrer&#34; &#34;external nofollow&#34; -}}
+</span></span><span class=line><span class=cl>  {{- $encoded  = printf &#34;/redirect/?url=%s&#34; (.Destination | base64Encode | safeURL) -}}
+</span></span><span class=line><span class=cl>  {{- $external = true -}}
+</span></span><span class=line><span class=cl>{{- end -}}
+</span></span><span class=line><span class=cl>{{- $class := .Class | default &#34;&#34; -}}
+</span></span><span class=line><span class=cl>{{- if eq .Card true -}}
+</span></span><span class=line><span class=cl>  {{- $class = trim (printf &#34;%v %v&#34; &#34;card-link&#34; $class) &#34; &#34; -}}
+</span></span><span class=line><span class=cl>{{- end -}}
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>a</span> <span class=na>href</span><span class=o>=</span><span class=s>&#34;{{ $encoded | default .Destination | safeURL }}&#34;</span>
+</span></span><span class=line><span class=cl>  <span class=err>{{</span><span class=na>-</span> <span class=na>with</span> <span class=err>.</span><span class=na>Title</span> <span class=err>}}</span> <span class=na>title</span><span class=o>=</span><span class=s>&#34;{{ . }}&#34;</span><span class=err>{{</span><span class=na>-</span> <span class=na>end</span> <span class=na>-</span><span class=err>}}</span>
+</span></span><span class=line><span class=cl>  <span class=err>{{</span><span class=na>-</span> <span class=na>if</span> <span class=err>$</span><span class=na>external</span> <span class=na>-</span><span class=err>}}</span> <span class=na>target</span><span class=o>=</span><span class=s>&#34;_blank&#34;</span><span class=err>{{</span><span class=na>-</span> <span class=na>end</span> <span class=na>-</span><span class=err>}}</span>
+</span></span><span class=line><span class=cl>  <span class=err>{{</span><span class=na>-</span> <span class=na>if</span> <span class=err>$</span><span class=na>rel</span> <span class=err>|</span> <span class=na>or</span> <span class=err>.</span><span class=na>Rel</span> <span class=err>}}</span> <span class=na>rel</span><span class=o>=</span><span class=s>&#34;{{ $rel }}{{ with .Rel }} {{ . }}{{ end }}&#34;</span><span class=err>{{</span><span class=na>-</span> <span class=na>end</span> <span class=na>-</span><span class=err>}}</span>
+</span></span><span class=line><span class=cl>  <span class=err>{{</span><span class=na>-</span> <span class=na>with</span> <span class=err>$</span><span class=na>class</span> <span class=err>}}</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;{{ with $class }}{{ . }}{{ end }}&#34;</span><span class=err>{{</span><span class=na>-</span> <span class=na>end</span> <span class=na>-</span><span class=err>}}</span>
+</span></span><span class=line><span class=cl>  <span class=err>{{</span><span class=na>-</span> <span class=na>with</span> <span class=err>.</span><span class=na>Download</span> <span class=err>}}</span> <span class=na>download</span><span class=o>=</span><span class=s>&#34;{{ . }}&#34;</span><span class=err>{{</span><span class=na>-</span> <span class=na>end</span> <span class=na>-</span><span class=err>}}</span>
+</span></span><span class=line><span class=cl><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>  {{- if ne .Card true -}}
+</span></span><span class=line><span class=cl>    {{- with .Icon -}}
+</span></span><span class=line><span class=cl>      {{- partial &#34;plugin/icon.html&#34; . }}
+</span></span><span class=line><span class=cl>    {{ end -}}
+</span></span><span class=line><span class=cl>    {{- with .Content -}}
+</span></span><span class=line><span class=cl>      {{- . | safeHTML -}}
+</span></span><span class=line><span class=cl>    {{- end -}}
+</span></span><span class=line><span class=cl>    {{- if 
+</span></span><span class=line><span class=cl>      (.ExternalIcon | default false) 
+</span></span><span class=line><span class=cl>      | and $external | and (eq (hasPrefix .Content `<span class=p>&lt;</span><span class=nt>img</span><span class=err>`)</span> <span class=na>false</span><span class=err>)</span>
+</span></span><span class=line><span class=cl>      <span class=err>|</span> <span class=na>and</span> <span class=err>(</span><span class=na>eq</span> <span class=err>((</span><span class=na>strings</span><span class=err>.</span><span class=na>HasSuffix</span> <span class=err>.</span><span class=na>Content</span> <span class=err>`&lt;/</span><span class=na>i</span><span class=p>&gt;</span>`) | or (strings.HasSuffix .Content `):`)) false)
+</span></span><span class=line><span class=cl>    -}}
+</span></span><span class=line><span class=cl>      {{- if .Download -}}
+</span></span><span class=line><span class=cl>        {{- dict &#34;Class&#34; &#34;fa-solid fa-cloud-download-alt fa-fw ms-1 text-secondary&#34; | partial &#34;plugin/icon.html&#34; -}}
+</span></span><span class=line><span class=cl>      {{- else -}}
+</span></span><span class=line><span class=cl>        {{- dict &#34;Class&#34; &#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; | partial &#34;plugin/icon.html&#34; -}}
+</span></span><span class=line><span class=cl>      {{- end -}}
+</span></span><span class=line><span class=cl>    {{- else if .Download }}
+</span></span><span class=line><span class=cl>      {{- dict &#34;Class&#34; &#34;fa-solid fa-download fa-fw ms-1 text-secondary&#34; | partial &#34;plugin/icon.html&#34; -}}
+</span></span><span class=line><span class=cl>    {{- end -}}
+</span></span><span class=line><span class=cl>  {{- else -}}
+</span></span><span class=line><span class=cl>    {{- $cardIcon := .CardIcon -}}
+</span></span><span class=line><span class=cl>    {{- if not $cardIcon -}}
+</span></span><span class=line><span class=cl>      {{- with partial &#34;function/get-remote-image.html&#34; (dict &#34;Src&#34; (add &#34;https://favicon.im/&#34; $url.Host)) -}}
+</span></span><span class=line><span class=cl>        {{- $cardIcon = .RelPermalink -}}
+</span></span><span class=line><span class=cl>      {{- end -}}
+</span></span><span class=line><span class=cl>    {{- end -}}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    {{- $attrs := `class=&#34;cl-backdrop&#34;` -}}
+</span></span><span class=line><span class=cl>    {{- $attrs = printf ` style=&#34;--cl-bg-url: url(%v);&#34;` (resources.Get &#34;images/fixit.svg&#34; | minify).RelPermalink | add $attrs -}}
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>span</span> <span class=err>{{</span> <span class=err>$</span><span class=na>attrs</span> <span class=err>|</span> <span class=na>safeHTMLAttr</span> <span class=err>}}</span><span class=p>&gt;&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;cl-content&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>      <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;cl-text&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;cl-title&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>          {{- with .Icon -}}
+</span></span><span class=line><span class=cl>            {{- partial &#34;plugin/icon.html&#34; . }}
+</span></span><span class=line><span class=cl>          {{ end -}}
+</span></span><span class=line><span class=cl>          {{- with .Content -}}
+</span></span><span class=line><span class=cl>            {{- . | safeHTML -}}
+</span></span><span class=line><span class=cl>          {{- end -}}
+</span></span><span class=line><span class=cl>        <span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;cl-meta&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>          <span class=p>&lt;</span><span class=nt>svg</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;cl-icon-link&#34;</span> <span class=na>viewBox</span><span class=o>=</span><span class=s>&#34;0 0 1024 1024&#34;</span> <span class=na>version</span><span class=o>=</span><span class=s>&#34;1.1&#34;</span> <span class=na>xmlns</span><span class=o>=</span><span class=s>&#34;http://www.w3.org/2000/svg&#34;</span> <span class=na>width</span><span class=o>=</span><span class=s>&#34;16&#34;</span> <span class=na>height</span><span class=o>=</span><span class=s>&#34;16&#34;</span><span class=p>&gt;&lt;</span><span class=nt>path</span> <span class=na>d</span><span class=o>=</span><span class=s>&#34;M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z&#34;</span> <span class=na>fill</span><span class=o>=</span><span class=s>&#34;#a9a9b3&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>path</span><span class=p>&gt;&lt;</span><span class=nt>path</span> <span class=na>d</span><span class=o>=</span><span class=s>&#34;M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z&#34;</span> <span class=na>fill</span><span class=o>=</span><span class=s>&#34;#a9a9b3&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>path</span><span class=p>&gt;&lt;/</span><span class=nt>svg</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>          <span class=p>&lt;</span><span class=nt>span</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;cl-url&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>            {{- .Destination | safeURL -}}
+</span></span><span class=line><span class=cl>          <span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>      <span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>      {{- if .Download -}}
+</span></span><span class=line><span class=cl>        <span class=p>&lt;</span><span class=nt>svg</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;cl-shortcut-icon&#34;</span> <span class=na>viewBox</span><span class=o>=</span><span class=s>&#34;0 0 1024 1024&#34;</span> <span class=na>version</span><span class=o>=</span><span class=s>&#34;1.1&#34;</span> <span class=na>xmlns</span><span class=o>=</span><span class=s>&#34;http://www.w3.org/2000/svg&#34;</span> <span class=na>width</span><span class=o>=</span><span class=s>&#34;64&#34;</span> <span class=na>height</span><span class=o>=</span><span class=s>&#34;64&#34;</span><span class=p>&gt;&lt;</span><span class=nt>path</span> <span class=na>d</span><span class=o>=</span><span class=s>&#34;M824.32 473.6c-15.36-2.56-25.6-15.36-25.6-30.72 0-112.64-71.68-217.6-179.2-250.88-148.48-46.08-289.28 38.4-332.8 166.4-2.56 10.24-12.8 17.92-23.04 20.48C143.36 401.92 51.2 509.44 51.2 637.44v2.56c0 115.2 97.28 204.8 209.92 204.8h524.8c102.4-2.56 184.32-84.48 184.32-186.88 2.56-89.6-61.44-163.84-145.92-184.32z m-273.92 225.28c-12.8 12.8-30.72 15.36-46.08 10.24H501.76c-5.12-2.56-10.24-5.12-15.36-10.24L366.08 578.56c-15.36-15.36-15.36-43.52 0-58.88 15.36-15.36 43.52-15.36 58.88 0l51.2 51.2V352.4608c0-23.04 17.92-40.96 40.96-40.96 23.04 0 40.96 17.92 40.96 40.96v218.4192l51.2-51.2c17.92-17.92 43.52-17.92 61.44 0 17.92 15.36 17.92 40.96 0 58.88l-120.32 120.32z&#34;</span> <span class=na>fill</span><span class=o>=</span><span class=s>&#34;#4FC089&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>path</span><span class=p>&gt;&lt;/</span><span class=nt>svg</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>      {{- else -}}
+</span></span><span class=line><span class=cl>        {{- with $cardIcon -}}
+</span></span><span class=line><span class=cl>          {{- if (strings.HasPrefix . &#34;fa&#34;) -}}
+</span></span><span class=line><span class=cl>            <span class=p>&lt;</span><span class=nt>i</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;{{ . }} cl-shortcut-icon&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>          {{- else -}}
+</span></span><span class=line><span class=cl>            <span class=p>&lt;</span><span class=nt>img</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;{{ . }}&#34;</span> <span class=na>alt</span><span class=o>=</span><span class=s>&#34;card image&#34;</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;cl-shortcut-image&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>          {{- end -}}
+</span></span><span class=line><span class=cl>        {{- else -}}
+</span></span><span class=line><span class=cl>          <span class=p>&lt;</span><span class=nt>svg</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;cl-shortcut-icon&#34;</span> <span class=na>viewBox</span><span class=o>=</span><span class=s>&#34;0 0 1024 1024&#34;</span> <span class=na>version</span><span class=o>=</span><span class=s>&#34;1.1&#34;</span> <span class=na>xmlns</span><span class=o>=</span><span class=s>&#34;http://www.w3.org/2000/svg&#34;</span> <span class=na>width</span><span class=o>=</span><span class=s>&#34;64&#34;</span> <span class=na>height</span><span class=o>=</span><span class=s>&#34;64&#34;</span><span class=p>&gt;&lt;</span><span class=nt>path</span> <span class=na>d</span><span class=o>=</span><span class=s>&#34;M960 512c0 249.408-203.2 448-448 448-244.778667 0-448-198.592-448-448S262.592 64 512 64s448 198.592 448 448&#34;</span> <span class=na>fill</span><span class=o>=</span><span class=s>&#34;#2196F3&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>path</span><span class=p>&gt;&lt;</span><span class=nt>path</span> <span class=na>d</span><span class=o>=</span><span class=s>&#34;M507.52 718.08c0-8.96-4.48-13.44-13.44-17.92-26.88-8.96-53.76-8.96-76.16-31.381333-4.48-8.96-4.48-17.92-8.96-26.88-8.96-8.96-31.36-13.44-44.8-17.92h-89.6c-13.44-4.48-22.4-22.4-31.36-35.84 0-4.48 0-13.461333-8.96-13.461334-8.96-4.458667-17.92 4.501333-26.88 0-4.48-4.458667-4.48-8.96-4.48-13.418666 0-13.461333 8.96-26.901333 17.92-35.861334 13.44-8.96 26.88 4.48 40.32 4.48 4.48 0 4.48 0 8.96 4.48 13.44 4.48 17.92 22.4 17.92 35.861334v8.96c0 4.48 4.48 4.48 8.96 4.48 4.48-22.4 4.48-44.821333 8.96-67.2 0-26.88 26.88-53.781333 49.28-62.72 8.96-4.458667 13.44 4.501333 22.4 0 26.88-8.96 94.08-35.84 80.64-71.658667-8.96-31.381333-35.84-62.698667-71.68-58.24-8.96 4.501333-13.44 8.96-22.4 13.461333-13.44 8.96-40.32 35.84-53.76 35.84-22.4-4.48-22.4-35.84-17.92-49.301333 4.48-17.92 44.8-76.138667 71.68-67.178667l17.92 17.92c8.96 4.48 22.4 4.48 35.84 4.48 4.48 0 8.96 0 13.44-4.48 4.48-4.48 4.48-4.48 4.48-8.96 0-13.44-13.44-26.901333-22.4-35.861333s-22.4-17.92-35.84-22.378667c-44.8-13.461333-116.48 4.458667-152.32 35.84-35.84 31.36-62.72 85.12-80.64 129.92-8.96 26.88-17.92 62.698667-22.4 94.08-4.48 22.4-8.96 40.32 4.48 62.698667 13.44 26.88 40.32 53.781333 67.2 71.68 17.92 13.44 53.76 13.44 71.68 35.84 13.44 17.941333 8.96 40.32 8.96 62.72 0 26.88 17.92 49.28 26.88 71.658667 4.48 13.461333 8.96 31.381333 13.44 44.821333 0 4.48 4.48 31.36 4.48 35.84 26.88 13.44 49.28 26.901333 80.64 35.861333 4.48 0 22.4-26.901333 22.4-31.381333 13.44-13.44 22.4-31.36 35.84-40.32 8.96-4.48 17.92-8.96 26.88-17.941333 8.96-8.96 13.44-26.88 17.92-40.32 4.48-8.938667 8.96-26.858667 4.48-40.298667M516.48 305.92c4.48 0 8.96-4.48 17.92-8.96 13.44-8.96 26.901333-22.4 40.32-31.36 13.461333-8.96 26.901333-22.4 35.861333-31.36 13.44-8.96 22.4-26.88 26.88-40.341333 4.48-8.96 17.941333-26.88 13.44-40.32-4.48-8.96-26.88-13.44-35.84-17.92C579.2 126.698667 547.84 122.24 512 122.24c-13.44 0-31.36 4.458667-35.84 17.92-4.48 22.4 13.44 17.92 31.36 22.4 0 0 4.48 35.84 4.48 40.32 4.48 22.421333-8.96 35.84-8.96 58.24 0 13.44 0 35.84 8.96 44.8h4.48zM892.8 619.52c4.501333-8.96 4.501333-22.4 8.96-31.36 4.501333-22.421333 4.501333-44.8 4.501333-67.2 0-44.8-4.501333-89.578667-17.92-129.92-8.96-13.44-13.461333-26.88-17.941333-40.341333-8.96-22.378667-22.4-44.8-40.32-62.698667-17.92-22.4-40.341333-85.12-80.64-67.2-13.44 4.501333-22.4 22.421333-31.36 31.381333l-26.88 40.32c-4.501333 4.48-8.96 13.44-4.501333 17.92 0 4.48 4.501333 4.48 8.96 4.48 8.96 4.501333 13.461333 4.501333 22.421333 8.96 4.48 0 8.96 4.501333 4.48 8.96 0 0 0 4.501333-4.48 4.501334-22.421333 22.4-44.8 40.32-67.2 62.698666-4.48 4.48-8.96 13.44-8.96 17.92s4.48 4.48 4.48 8.96c0 4.501333-4.48 4.501333-8.96 8.96-8.96 4.501333-17.92 8.96-22.4 13.461334-4.48 8.96 0 22.4-4.48 31.36-4.48 22.4-17.941333 40.32-26.901333 62.72-8.96 13.418667-13.418667 26.88-22.378667 40.32 0 17.92-4.501333 31.36 4.458667 44.8 22.421333 31.36 62.72 13.44 94.08 26.901333 8.96 4.458667 17.92 4.458667 22.421333 13.418667 13.418667 13.461333 13.418667 35.861333 17.92 49.301333 4.458667 17.92 8.96 35.84 17.92 53.76 4.48 22.421333 13.44 44.821333 17.92 62.72 40.341333-31.36 76.16-67.178667 103.04-112 26.88-31.424 40.341333-67.242667 53.76-103.104&#34;</span> <span class=na>fill</span><span class=o>=</span><span class=s>&#34;#CDDC39&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>path</span><span class=p>&gt;&lt;/</span><span class=nt>svg</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        {{- end -}}
+</span></span><span class=line><span class=cl>      {{- end -}}
+</span></span><span class=line><span class=cl>    <span class=p>&lt;/</span><span class=nt>span</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>  {{- end -}}
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>a</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>{{- /* EOF */ -}}</span></span></code></pre></td></tr></table></div></div><h2 id=跳转页网页 class=heading-element><span>跳转页网页</span>
+<a href=#%e8%b7%b3%e8%bd%ac%e9%a1%b5%e7%bd%91%e9%a1%b5 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><p>在 <code>layouts/_default/</code> 中创建 <code>redirect.html</code> 文件，复制下面代码。<br><sub>注：仅适用于 Fixit 主题，其他主题自行测试。</sub></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl>{{- define &#34;title&#34; -}}
+</span></span><span class=line><span class=cl>  {{- cond (.Param &#34;capitalizeTitles&#34;) (title .Title) .Title -}}
+</span></span><span class=line><span class=cl>  {{- if .Site.Params.withSiteTitle }} {{ .Site.Params.titleDelimiter }} {{ .Site.Title }}{{- end -}}
+</span></span><span class=line><span class=cl>{{- end -}}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>{{ define &#34;custom-head&#34; }}
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>meta</span> <span class=na>name</span><span class=o>=</span><span class=s>&#34;robots&#34;</span> <span class=na>content</span><span class=o>=</span><span class=s>&#34;noindex, nofollow&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>meta</span> <span class=na>name</span><span class=o>=</span><span class=s>&#34;referrer&#34;</span> <span class=na>content</span><span class=o>=</span><span class=s>&#34;no-referrer&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>meta</span> <span class=na>charset</span><span class=o>=</span><span class=s>&#34;utf-8&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>meta</span> <span class=na>name</span><span class=o>=</span><span class=s>&#34;viewport&#34;</span> <span class=na>content</span><span class=o>=</span><span class=s>&#34;width=device-width, initial-scale=1&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>{{ end }}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>{{ define &#34;content&#34; }}
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>div</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;external-warning&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=p>&lt;</span><span class=nt>h2</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;warning-title&#34;</span><span class=p>&gt;</span>⚠️ 您即将离开 {{ .Site.Title }}<span class=p>&lt;/</span><span class=nt>h2</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=p>&lt;</span><span class=nt>p</span><span class=p>&gt;</span>将要访问的外部链接：<span class=p>&lt;/</span><span class=nt>p</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=p>&lt;</span><span class=nt>div</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;external-url&#34;</span> <span class=na>id</span><span class=o>=</span><span class=s>&#34;target-url&#34;</span><span class=p>&gt;</span>{{ .Params.url }}<span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        
+</span></span><span class=line><span class=cl>        <span class=p>&lt;</span><span class=nt>p</span><span class=p>&gt;</span>🛡请自行识别链接是否安全，注意您的帐号和财产安全。<span class=p>&lt;/</span><span class=nt>p</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        
+</span></span><span class=line><span class=cl>        <span class=p>&lt;</span><span class=nt>div</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;button-group&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>            <span class=p>&lt;</span><span class=nt>a</span> <span class=na>href</span><span class=o>=</span><span class=s>&#34;{{ .Params.url }}&#34;</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;button continue-btn&#34;</span> <span class=na>id</span><span class=o>=</span><span class=s>&#34;proceed-link&#34;</span><span class=p>&gt;</span>🚀 继续访问<span class=p>&lt;/</span><span class=nt>a</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>script</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=c1>// 解码URL并显示
+</span></span></span><span class=line><span class=cl><span class=c1></span>        <span class=kr>const</span> <span class=nx>params</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>URLSearchParams</span><span class=p>(</span><span class=nb>window</span><span class=p>.</span><span class=nx>location</span><span class=p>.</span><span class=nx>search</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=kr>const</span> <span class=nx>encodedUrl</span> <span class=o>=</span> <span class=nx>params</span><span class=p>.</span><span class=nx>get</span><span class=p>(</span><span class=s2>&#34;url&#34;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=kr>const</span> <span class=nx>decodedUrl</span> <span class=o>=</span> <span class=nx>atob</span><span class=p>(</span><span class=nx>encodedUrl</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=nb>document</span><span class=p>.</span><span class=nx>getElementById</span><span class=p>(</span><span class=s1>&#39;target-url&#39;</span><span class=p>).</span><span class=nx>textContent</span> <span class=o>=</span> <span class=nx>decodedUrl</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=nb>document</span><span class=p>.</span><span class=nx>getElementById</span><span class=p>(</span><span class=s1>&#39;proceed-link&#39;</span><span class=p>).</span><span class=nx>href</span> <span class=o>=</span> <span class=nx>decodedUrl</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;/</span><span class=nt>script</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>{{ end }}</span></span></code></pre></td></tr></table></div></div><h2 id=页面文件 class=heading-element><span>页面文件</span>
+<a href=#%e9%a1%b5%e9%9d%a2%e6%96%87%e4%bb%b6 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><p>在 content 中创建 <code>redirect.md</code>。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=nn>---</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>title</span><span class=p>:</span><span class=w> </span><span class=l>风险跳转提示</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>layout</span><span class=p>:</span><span class=w> </span><span class=s2>&#34;redirect&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=s2>&#34;redirect&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nn>---</span></span></span></code></pre></td></tr></table></div></div><p>title 指的是跳转页网站 Title，layout 指的是使用 redirect 模板。</p><h2 id=css-样式文件 class=heading-element><span>CSS 样式文件</span>
+<a href=#css-%e6%a0%b7%e5%bc%8f%e6%96%87%e4%bb%b6 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><p>在 <code>_custom.scss</code> 中粘贴下述样式。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-scss data-lang=scss><span class=line><span class=cl><span class=cm>/* -------------------- 跳转页 ------------------- */</span>
+</span></span><span class=line><span class=cl><span class=nc>.external-warning</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>max-width</span><span class=o>:</span> <span class=mi>700</span><span class=kt>px</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>margin</span><span class=o>:</span> <span class=mi>3</span><span class=kt>rem</span> <span class=ni>auto</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>padding</span><span class=o>:</span> <span class=mi>2</span><span class=kt>rem</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>border</span><span class=o>:</span> <span class=mi>1</span><span class=kt>px</span> <span class=ni>solid</span> <span class=mh>#eee</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>border-radius</span><span class=o>:</span> <span class=mi>1</span><span class=kt>rem</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>box-shadow</span><span class=o>:</span> <span class=mi>0</span> <span class=mi>2</span><span class=kt>px</span> <span class=mi>12</span><span class=kt>px</span> <span class=nf>rgba</span><span class=p>(</span><span class=mi>0</span><span class=o>,</span><span class=mi>0</span><span class=o>,</span><span class=mi>0</span><span class=o>,</span><span class=mi>0</span><span class=mf>.1</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=na>line-height</span><span class=o>:</span> <span class=mi>1</span><span class=mf>.6</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>text-align</span><span class=o>:</span> <span class=ni>center</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=nc>.warning-title</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>color</span><span class=o>:</span> <span class=mh>#d32f2f</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>margin-top</span><span class=o>:</span> <span class=mi>0</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=nc>.external-url</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>word-break</span><span class=o>:</span> <span class=ni>break-all</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>background</span><span class=o>:</span> <span class=mh>#f5f5f5</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=o>[</span><span class=nt>data-theme</span><span class=o>=</span><span class=s2>&#34;dark&#34;</span><span class=o>]</span> <span class=k>&amp;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>	    <span class=na>background</span><span class=o>:</span> <span class=mh>#363636</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=na>padding</span><span class=o>:</span> <span class=mi>0</span><span class=mf>.5</span><span class=kt>rem</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>border-radius</span><span class=o>:</span> <span class=mi>1</span><span class=kt>rem</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>display</span><span class=o>:</span> <span class=ni>inline-block</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>max-width</span><span class=o>:</span> <span class=mi>100</span><span class=kt>%</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>overflow</span><span class=o>:</span> <span class=ni>hidden</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>text-overflow</span><span class=o>:</span> <span class=ni>ellipsis</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=nc>.button-group</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>margin-top</span><span class=o>:</span> <span class=mi>1</span><span class=mf>.5</span><span class=kt>rem</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>display</span><span class=o>:</span> <span class=ni>flex</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>gap</span><span class=o>:</span> <span class=mi>1</span><span class=kt>rem</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>flex-wrap</span><span class=o>:</span> <span class=ni>wrap</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>justify-content</span><span class=o>:</span> <span class=ni>center</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=nc>.button</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>padding</span><span class=o>:</span> <span class=mi>0</span><span class=mf>.75</span><span class=kt>rem</span> <span class=mi>1</span><span class=mf>.5</span><span class=kt>rem</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>border-radius</span><span class=o>:</span> <span class=mi>1</span><span class=kt>rem</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>text-decoration</span><span class=o>:</span> <span class=ni>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>font-weight</span><span class=o>:</span> <span class=mi>500</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>transition</span><span class=o>:</span> <span class=ni>all</span> <span class=mi>0</span><span class=mf>.2</span><span class=kt>s</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=nc>.continue-btn</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>background</span><span class=o>:</span> <span class=mh>#8B4513</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=na>color</span><span class=o>:</span> <span class=ni>white</span><span class=p>;</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=nc>.continue-btn</span><span class=nd>:hover</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=na>background</span><span class=o>:</span> <span class=mh>#D2A679</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=o>[</span><span class=nt>data-theme</span><span class=o>=</span><span class=s2>&#34;dark&#34;</span><span class=o>]</span> <span class=k>&amp;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=na>color</span><span class=o>:</span> <span class=mh>#8B4513</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span></span></span></code></pre></td></tr></table></div></div><h2 id=js-文件 class=heading-element><span>JS 文件</span>
+<a href=#js-%e6%96%87%e4%bb%b6 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><p>上述只是包含了文章页 content 部分的链接，在 <code>custom.js</code> 复制下述代码，把特殊样式以及 Waline 评论的 a 链接属性都包含。代码来自 <a href="/redirect/?url=aHR0cHM6Ly9rb29iYWkuY29tL3pob25namlhbnRpYW96aHVhbi8=" target=_blank rel="external nofollow noopener noreferrer">@空白Koobai<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden=true></i></a></p><div class=highlight title=assets/js/_custom.js><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=line><span class=cl><span class=cm>/* ------------------ 跳转风险提示 ------------------ */</span>
+</span></span><span class=line><span class=cl><span class=nb>document</span><span class=p>.</span><span class=nx>body</span><span class=p>.</span><span class=nx>addEventListener</span><span class=p>(</span><span class=s1>&#39;click&#39;</span><span class=p>,</span> <span class=kd>function</span> <span class=p>(</span><span class=nx>e</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>target</span> <span class=o>=</span> <span class=nx>e</span><span class=p>.</span><span class=nx>target</span><span class=p>.</span><span class=nx>closest</span><span class=p>(</span><span class=s1>&#39;.wl-cards a, .card-link, .device-link&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=k>if</span> <span class=p>(</span><span class=o>!</span><span class=nx>target</span><span class=p>)</span> <span class=k>return</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>href</span> <span class=o>=</span> <span class=nx>target</span><span class=p>.</span><span class=nx>getAttribute</span><span class=p>(</span><span class=s1>&#39;href&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=k>if</span> <span class=p>(</span><span class=o>!</span><span class=nx>href</span><span class=p>)</span> <span class=k>return</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=c1>// 排除本地链接
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=kr>const</span> <span class=nx>isLocalLink</span> <span class=o>=</span>
+</span></span><span class=line><span class=cl>    <span class=nx>href</span><span class=p>.</span><span class=nx>startsWith</span><span class=p>(</span><span class=s1>&#39;#&#39;</span><span class=p>)</span> <span class=o>||</span>
+</span></span><span class=line><span class=cl>    <span class=nx>href</span><span class=p>.</span><span class=nx>startsWith</span><span class=p>(</span><span class=s1>&#39;javascript:&#39;</span><span class=p>)</span> <span class=o>||</span>
+</span></span><span class=line><span class=cl>    <span class=nx>href</span><span class=p>.</span><span class=nx>startsWith</span><span class=p>(</span><span class=s1>&#39;mailto:&#39;</span><span class=p>)</span> <span class=o>||</span>
+</span></span><span class=line><span class=cl>    <span class=nx>href</span><span class=p>.</span><span class=nx>startsWith</span><span class=p>(</span><span class=s1>&#39;tel:&#39;</span><span class=p>)</span> <span class=o>||</span>
+</span></span><span class=line><span class=cl>    <span class=nx>href</span><span class=p>.</span><span class=nx>startsWith</span><span class=p>(</span><span class=s1>&#39;/&#39;</span><span class=p>)</span> <span class=o>||</span>
+</span></span><span class=line><span class=cl>    <span class=o>!</span><span class=nx>href</span><span class=p>.</span><span class=nx>includes</span><span class=p>(</span><span class=s1>&#39;://&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=k>if</span> <span class=p>(</span><span class=nx>isLocalLink</span><span class=p>)</span> <span class=k>return</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>url</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>URL</span><span class=p>(</span><span class=nx>target</span><span class=p>.</span><span class=nx>href</span><span class=p>,</span> <span class=nb>window</span><span class=p>.</span><span class=nx>location</span><span class=p>.</span><span class=nx>href</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>currentDomain</span> <span class=o>=</span> <span class=nb>window</span><span class=p>.</span><span class=nx>location</span><span class=p>.</span><span class=nx>hostname</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=c1>// 域名白名单（直接放行的外部域名）
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=kr>const</span> <span class=nx>whitelistDomains</span> <span class=o>=</span> <span class=p>[</span>
+</span></span><span class=line><span class=cl>    <span class=s1>&#39;bulone.github.io&#39;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=s1>&#39;blog.toastbubble.top&#39;</span>
+</span></span><span class=line><span class=cl>  <span class=p>];</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=c1>// 检查是否在白名单中
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=kr>const</span> <span class=nx>isWhitelisted</span> <span class=o>=</span> <span class=nx>whitelistDomains</span><span class=p>.</span><span class=nx>some</span><span class=p>(</span><span class=nx>domain</span> <span class=p>=&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=nx>url</span><span class=p>.</span><span class=nx>hostname</span> <span class=o>===</span> <span class=nx>domain</span> <span class=o>||</span> <span class=nx>url</span><span class=p>.</span><span class=nx>hostname</span><span class=p>.</span><span class=nx>endsWith</span><span class=p>(</span><span class=sb>`.</span><span class=si>${</span><span class=nx>domain</span><span class=si>}</span><span class=sb>`</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=p>);</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=c1>// 排除当前域名及其子域名
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=kr>const</span> <span class=nx>isCurrentOrSubDomain</span> <span class=o>=</span>
+</span></span><span class=line><span class=cl>    <span class=nx>url</span><span class=p>.</span><span class=nx>hostname</span> <span class=o>===</span> <span class=nx>currentDomain</span> <span class=o>||</span>
+</span></span><span class=line><span class=cl>    <span class=nx>url</span><span class=p>.</span><span class=nx>hostname</span><span class=p>.</span><span class=nx>endsWith</span><span class=p>(</span><span class=sb>`.</span><span class=si>${</span><span class=nx>currentDomain</span><span class=si>}</span><span class=sb>`</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=c1>// 条件判断优先级：
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=c1>// 1. 白名单域名 -&gt; 直接放行（不拦截）
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=c1>// 2. 当前域名/子域名或排除路径 -&gt; 不处理
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=c1>// 3. 其他外部链接 -&gt; 重定向
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=k>if</span> <span class=p>(</span><span class=nx>isWhitelisted</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>return</span><span class=p>;</span> <span class=c1>// 允许白名单域名正常跳转
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=p>}</span> <span class=k>else</span> <span class=k>if</span> <span class=p>(</span><span class=nx>isCurrentOrSubDomain</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>return</span><span class=p>;</span> <span class=c1>// 不处理当前域名或排除路径
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=nx>e</span><span class=p>.</span><span class=nx>preventDefault</span><span class=p>();</span>
+</span></span><span class=line><span class=cl>    <span class=kr>const</span> <span class=nx>encodedUrl</span> <span class=o>=</span> <span class=nx>btoa</span><span class=p>(</span><span class=nx>target</span><span class=p>.</span><span class=nx>href</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=nb>window</span><span class=p>.</span><span class=nx>open</span><span class=p>(</span><span class=sb>`/redirect?url=</span><span class=si>${</span><span class=nx>encodedUrl</span><span class=si>}</span><span class=sb>`</span><span class=p>,</span> <span class=s1>&#39;_blank&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>});</span></span></span></code></pre></td></tr></table></div></div><h2 id=缺点 class=heading-element><span>缺点</span>
 <a href=#%e7%bc%ba%e7%82%b9 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><p>文章内的链接没有做白名单处理，只是博客站才没进行链接加密操作。</p><h2 id=参考链接 class=heading-element><span>参考链接</span>
 <a href=#%e5%8f%82%e8%80%83%e9%93%be%e6%8e%a5 class=heading-mark><svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5.0 114.95 4.95l-2.5 2.5a3.5 3.5.0 01-4.95.0.751.751.0 01.018-1.042.751.751.0 011.042-.018 1.998 1.998.0 002.83.0l2.5-2.5a2.002 2.002.0 00-2.83-2.83l-1.25 1.25a.751.751.0 01-1.042-.018.751.751.0 01-.018-1.042zm-4.69 9.64a1.998 1.998.0 002.83.0l1.25-1.25a.751.751.0 011.042.018.751.751.0 01.018 1.042l-1.25 1.25a3.5 3.5.0 11-4.95-4.95l2.5-2.5a3.5 3.5.0 014.95.0.751.751.0 01-.018 1.042.751.751.0 01-1.042.018 1.998 1.998.0 00-2.83.0l-2.5 2.5a1.998 1.998.0 000 2.83z"/></svg></a></h2><ol><li><a href="/redirect/?url=aHR0cHM6Ly9rb29iYWkuY29tL3pob25namlhbnRpYW96aHVhbi8=" target=_blank rel="external nofollow noopener noreferrer">HUGO 外链跳转到中间页 - 空白Koobai<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden=true></i></a></li><li><a href="/redirect/?url=aHR0cHM6Ly93d3cuZWFsbGlvbi5jb20vaHVnby1yZWRpcmVjdC1sYW5kaW5nLXBhZ2Uv" target=_blank rel="external nofollow noopener noreferrer">Hugo外部链接跳转提示页面<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden=true></i></a></li><li><a href="/redirect/?url=aHR0cHM6Ly9ibG9nLnlzaWNpbmcubmV0L3NpdGUtanVtcC1leHRlcm5hbC1saW5r" target=_blank rel="external nofollow noopener noreferrer">博客外链跳转到中间页 | Solitudes<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden=true></i></a></li><li><a href="/redirect/?url=aHR0cHM6Ly93d3cuZGVlcHNlZWsuY29t" target=_blank rel="external nofollow noopener noreferrer">DeepSeek | 深度求索<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden=true></i></a></li></ol></div><div class=collection-card><div class="collection-title text-secondary"><a href=/collections/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E8%AE%B0/><i class="fa-solid fa-layer-group fa-fw" aria-hidden=true></i> <span>合集・博客折腾记</span></span></a> 4</div><div class=collection-nav><a href=/posts/aa6eb19/ class=collection-nav-item rel=prev title=Fixit主题美化><i class="fa-solid fa-angle-left fa-fw" aria-hidden=true></i><span>Fixit主题美化</span>
 </a><a href=/posts/q7xf0ep/ class=collection-nav-item rel=next title=增加设备展示页><span>增加设备展示页</span><i class="fa-solid fa-angle-right fa-fw" aria-hidden=true></i></a></div></div><div class=post-footer id=post-footer><div class=post-info><div class=post-info-line><div class=post-info-mod><span title="2025-03-29 23:22:51">2025-03-29&nbsp;</span></div><div class=post-info-license><span><a rel="license external nofollow noopener noreferrer" href=https://creativecommons.org/licenses/by-nc-sa/4.0/ target=_blank>CC BY-NC-SA 4.0</a></span></div></div><div class=post-info-line><div class=post-info-md><span><a href=/posts/nyzk0nu/index.md title=阅读源文档 class=link-to-markdown>阅读源文档</a></span></div><div class=post-info-share><span><a href=javascript:void(0); title="分享到 X" data-sharer=twitter data-url=https://blog.toastbubble.top/posts/nyzk0nu/ data-title=增加跳转中间页 data-hashtags=fixit><i class="fa-brands fa-x-twitter fa-fw" aria-hidden=true></i></a>

@@ -1,11 +1,11 @@
 # 博客建站记录
 
 
-&lt;!--more--&gt;
+<!--more-->
 
 虽然文笔不好，但是看见一个属于自己的站点就很开心。之后尝试过很多博客系统，耳熟能详的 Wordpress,Typecho 还有 Emblog 等。文章没写几篇系统倒是换了不少。而且每次更换都不进行文章备份，所以每次都是全新的博客站。有点跑题了，这些系统无一例外都要购买服务器或虚拟空间，对于当时还是学生的我只能寻找几块一月随时跑路的虚拟空间安装。所以上面说这么多，有钱就尝试动态博客系统，在线随时编写发布。静态博客就需要有台电脑方便些。
 
-静态博客也有很多不过还是选择了 Hugo，因为从 `建立`-&gt;`编写`-&gt;`发布` 所需要的代码量相对很少，而且不接触 npm 那些。
+静态博客也有很多不过还是选择了 Hugo，因为从 `建立`->`编写`->`发布` 所需要的代码量相对很少，而且不接触 npm 那些。
 
 ## 安装 Hugo
 
@@ -22,7 +22,7 @@ Git 无需多言，之间下载安装即可。
 
 ### 使用的插件
 
-![截图](./images/index-1742823737781.webp &#34;插件截图&#34;)
+![截图](./images/index-1742823737781.webp "插件截图")
 1. DataView：创建代码块查询文章数据。
 2. HomePage：搭配 DataView 可以轻松的创建文章回顾。
 3. Git：在 Obsidian 中进行 git 相关操作。
@@ -34,15 +34,15 @@ Git 无需多言，之间下载安装即可。
 QuickAdd 新增文章代码 (由 Deepseek 生成)：
 ```javascript
 // 使用QuickAdd插件的scripting功能
-module.exports = async (params) =&gt; {
+module.exports = async (params) => {
     // 获取文件夹名称
-    const folderName = await params.quickAddApi.inputPrompt(&#34;请输入文件夹名称&#34;);
+    const folderName = await params.quickAddApi.inputPrompt("请输入文件夹名称");
     if (!folderName) {
-        new Notice(&#34;未输入文件夹名称。操作已取消。&#34;);
+        new Notice("未输入文件夹名称。操作已取消。");
         return;
     }
 
-    const basePath = &#39;/content/posts&#39;;
+    const basePath = '/content/posts';
     const folderPath = `${basePath}/${folderName}`;
     const filePath = `${folderPath}/index.md`;
 
@@ -52,19 +52,19 @@ module.exports = async (params) =&gt; {
             await params.app.vault.createFolder(folderPath);
         }
     } catch (err) {
-        new Notice(&#34;创建文件夹失败：&#34; &#43; err.message);
+        new Notice("创建文件夹失败：" + err.message);
         return;
     }
 
     // 获取当前日期
-    const currentDate = window.moment().format(&#34;YYYY-MM-DDTHH:mm:ss&#43;08:00&#34;);
+    const currentDate = window.moment().format("YYYY-MM-DDTHH:mm:ss+08:00");
 
     // 生成唯一ID
     const uniqueID = Math.random().toString(36).substring(2, 9);
 
     // 创建文件内容需要的Frontmatter自行添删
     const fileContent = `---
-title: ${folderName.replace(/-/g, &#34; &#34;).replace(/\b\w/g, l =&gt; l.toUpperCase())}
+title: ${folderName.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase())}
 date: ${currentDate}
 slug: ${uniqueID}
 description:
@@ -77,7 +77,7 @@ featuredImage:
 featuredImagePreview: 
 ---
 
-&lt;!--more--&gt;`;
+<!--more-->`;
 
     try {
         // 创建文件并获取文件引用
@@ -94,7 +94,7 @@ featuredImagePreview:
         params.app.workspace.setActiveLeaf(leaf, { focus: true });
         
     } catch (err) {
-        new Notice(&#34;创建文件失败：&#34; &#43; err.message);
+        new Notice("创建文件失败：" + err.message);
     }
 };
 ```
@@ -102,14 +102,14 @@ featuredImagePreview:
 使用方法：
 1. 复制并新建 js 文件在 Hugo 文件夹内，如 _scripts/newpost.js；
 2. 在 QuickAdd 插件配置中的 `Template Folder Path` 中将文件夹名称填入；  
-   ![如图所示](./images/index-1742863085352.webp &#34;模板文件夹路径&#34;)
+   ![如图所示](./images/index-1742863085352.webp "模板文件夹路径")
 3. 点击 `Mange Macros` 按钮，在新弹窗底部输入框内输入名称后点击 `Add macro`；
-4. 新建完成后点击 `Config`-&gt;Use Scripts 选择刚才创建的 js 文件 -&gt;点击 `ADD`；
+4. 新建完成后点击 `Config`->Use Scripts 选择刚才创建的 js 文件 ->点击 `ADD`；
 5. 返回到插件主选项，将 Template 点击选择 Macro 然后输入 Name 后 Add Choice；  
-   ![截图](./images/index-1742863386808.webp &#34;截图&#34;)
+   ![截图](./images/index-1742863386808.webp "截图")
 6. 点击⚙，选择刚才新增的 Macro 名称然后叉掉即可；  
-   ![如图所示](images/index-1742863657263.webp &#34;如图&#34;)
-7. `Ctrl&#43;P` 输入 QuickAdd 刚才新建的 Choice 名称即可，也可以新增快捷键快速添加。
+   ![如图所示](images/index-1742863657263.webp "如图")
+7. `Ctrl+P` 输入 QuickAdd 刚才新建的 Choice 名称即可，也可以新增快捷键快速添加。
 
 ## 发布
 编写完成保存后直接推送到远程 Hugo 源码仓库，仓库接收到更新后自动使用 Github Action 生成网站内容推送到 Github Page 仓库，直接一步到位更新网站。
@@ -135,7 +135,7 @@ jobs:
       - name: Setup Hugo	# 步骤名自取
         uses: peaceiris/actions-hugo@v2	# hugo官方提供的action，用于在任务环境中获取hugo
         with:
-          hugo-version: &#39;latest&#39;	# 获取最新版本的hugo
+          hugo-version: 'latest'	# 获取最新版本的hugo
           extended: true
 
       - name: Build

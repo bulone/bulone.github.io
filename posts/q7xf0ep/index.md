@@ -4,12 +4,15 @@
 <!--more-->
 
 ==本文章使用 AI 辅助创作==[danger]
+
 ## 引言
 之间就馋 [@张洪Heo](https://blog.zhheo.com/equipment/) 博主博客的我的装备页，模仿着主题的 Friends 模板进行修改，在 Fixit 上也增加了~~相同~~类似的装备展示页，因为设备没那么多所以也没进行分类。如果有想法直接修改 device.html 文件，不会的问 Deepseek<sub>这玩意可真好用啊，Hugo 文档较少比搜索引擎快得多。</sub>
 
 演示地址: [设备陈列馆](/devices)
 
 ## 目录文件树
+--2025 年 6 月 24 日更新 --  
+将 devices.html 移到 layouts > _default
 
 ``` { title="文件树状图"}
 根目录
@@ -18,8 +21,8 @@
 │   └── devices.md          # 内容文档
 ├── data
 │   └── devices.yml         # 数据配置
-├── layout
-│   └── page
+├── layouts
+│   └── _default
 │       └── devices.html    # 页面模板
 └── static
     └── devices             # 存放设备图片本地文件夹

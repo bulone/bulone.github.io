@@ -26,30 +26,29 @@ docker run -dit \
   # 冒号后面的 5700 为默认端口，如果设置了 QlPort, 需要跟 QlPort 保持一致
   -p 5700:5700 \
   --name qinglong \
+  --network=mynet \
   --hostname qinglong \
   --restart unless-stopped \
   whyour/qinglong:latest
 ```
 
-
+注：`--network=mynet` 在下一节说明，为指定自定义的 docker 网络名称，如 docker 默认网络访问没问题请删除该选项！
 ## 网络
 容器使用 bridge 模式访问网络，不清楚为什么无法访问外网，根据搜索来的解决方案，修改后是可以访问的。
 
-1、网络 - 防火墙 - 转发：接受  
-2、添加如下防火墙规则  
+1. Docker > 网络 > 新建，填写网络名称，其他不用修改。  
+   ![截图](./images/index-1751076152635.webp "截图展示")
+2. 新建镜像时，网络选取刚才创建的网络，不要选取默认的 bridge 网络接口。  
+   ![网络选择](./images/index-1751076278713.webp "网络选择")
+3. 完成后可在终端设备中进入 docker 容器内对外网进行 ping 操作检测是否可以访问外网。
 ```bash
-iptables -t nat -A POSTROUTING -s 172.31.0.0/16 ! -o docker0 -j MASQUERADE
+docker exec -it 容器名称 /bin/sh
 ```
-   （172.31.0.0 改成自己 docker0 的网段）  
-3、删除 docker0 并重启  
-```bash
-ip link del docker0  
-reboot
-```
-重启后重启下防火墙，位置概览 - 防火墙 - 右上角重启防火墙。
+4. 如果还是无法访问，在网络 > 防火墙中将转发由拒绝改为接受，保存应用后重启设备。
 
-目前只能在内网中访问青龙主页，后续有机会在进行内网穿透。最后，还是感慨下 7981 还是有点热的，期待 7986 白菜价。  
-😘如果有什么问题希望慷慨指出。  
+以上是参考一些链接和询问 Deepseek 给出的解决方案，如果有安全问题或有简单的方法希望能够指出，感谢🙇‍。
+
+
 ![系统概览](./images/index-1750659931740.webp "系统概览")
 ## 参考
 1. [刷了flippy大神的openwrt固件，容器无法联网-斐讯无线路由器以及其它斐迅网络设备-恩山无线论坛](https://www.right.com.cn/FORUM/thread-4069232-1-1.html)、

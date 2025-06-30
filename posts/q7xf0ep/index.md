@@ -11,8 +11,8 @@
 演示地址: [设备陈列馆](/devices)
 
 ## 目录文件树
---2025 年 6 月 24 日更新 --  
-将 devices.html 移到 layouts > _default
+--2025 年 6 月 30 日更新 --  
+将 devices.html 移到 layouts 目录下
 
 ``` { title="文件树状图"}
 根目录
@@ -22,7 +22,6 @@
 ├── data
 │   └── devices.yml         # 数据配置
 ├── layouts
-│   └── _default
 │       └── devices.html    # 页面模板
 └── static
     └── devices             # 存放设备图片本地文件夹

@@ -21,7 +21,6 @@
 │   └── redirect.md               # Markdown 内容文件
 │
 └── layouts/
-    ├── _default/
     │   └── redirect.html       # 默认重定向模板
     │
     └── plugin/

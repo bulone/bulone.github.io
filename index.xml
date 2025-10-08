@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>吐司气泡</title><link>https://blog.toastbubble.top/</link><description>吐司气泡是一个个人生活类，数码类，实践类博客，记录了相关信息和实践内容。</description><generator>Hugo 0.149.0 &amp; FixIt v0.4.0-alpha-20250812094854-45f101a4</generator><language>zh-CN</language><lastBuildDate>Tue, 29 Jul 2025 07:46:00 +0800</lastBuildDate><atom:link href="https://blog.toastbubble.top/index.xml" rel="self" type="application/rss+xml"/><item><title>笔记本清灰</title><link>https://blog.toastbubble.top/posts/mvml7er/</link><pubDate>Mon, 28 Jul 2025 23:48:52 +0800</pubDate><guid>https://blog.toastbubble.top/posts/mvml7er/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/mvml7er/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;笔记本使用已经多年有余，无论什么季节使用表面都十分的烫手，于是打算将其拆开然后把风扇取下清灰。如果网上有类似的拆机视频，建议还是看下那些地方需要格外注意以及拆机手法，否则拆坏了就得不偿失。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>吐司气泡</title><link>https://blog.toastbubble.top/</link><description>吐司气泡是一个个人生活类，数码类，实践类博客，记录了相关信息和实践内容。</description><generator>Hugo 0.151.0 &amp; FixIt v0.4.0-alpha-20250812094854-45f101a4</generator><language>zh-CN</language><lastBuildDate>Wed, 08 Oct 2025 10:31:46 +0800</lastBuildDate><atom:link href="https://blog.toastbubble.top/index.xml" rel="self" type="application/rss+xml"/><item><title>保数据降级微信版本</title><link>https://blog.toastbubble.top/posts/e01fg78/</link><pubDate>Wed, 08 Oct 2025 10:31:46 +0800</pubDate><guid>https://blog.toastbubble.top/posts/e01fg78/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/e01fg78/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;blockquote&gt;
+&lt;p&gt;本内容适用于安卓系统。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;目前微信更新内容毫无实际内容的情况下，占用越来越大，运行越来越卡。并且新版本的公众号和服务号折叠在一条，导致看信息非常的麻烦和繁琐，所以利用adb命令进行保数据降级。&lt;/p&gt;
+&lt;h2 class="heading-element" id="步骤"&gt;&lt;span&gt;步骤&lt;/span&gt;
+ &lt;a href="#%e6%ad%a5%e9%aa%a4" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;&lt;h3 class="heading-element" id="配置adb"&gt;&lt;span&gt;配置ADB&lt;/span&gt;
+ &lt;a href="#%e9%85%8d%e7%bd%aeadb" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;&lt;p&gt;下载&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly93d3B3LmxhbnpvdWIuY29tL2l1YjBaMzd3cnQwag=="target="_blank" rel="external nofollow noopener noreferrer"&gt;platform-tools.zip - 蓝奏云&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;并进行解压，在系统环境变量的path中增加解压的路径，完成后打开cmd输入adb测试即可。&lt;/p&gt;
+&lt;h3 class="heading-element" id="降级"&gt;&lt;span&gt;降级&lt;/span&gt;
+ &lt;a href="#%e9%99%8d%e7%ba%a7" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;打开手机开发者模式（手机版本号点击7次开次，具体品牌系统请自行搜索）；&lt;/li&gt;
+&lt;li&gt;打开USB调试，安卓11+可以使用无线调试，更加方便。
+&lt;ol&gt;
+&lt;li&gt;点击无线调试；&lt;/li&gt;
+&lt;li&gt;使用配对码配对设备；&lt;/li&gt;
+&lt;li&gt;电脑上打开命令行，输入 adb pari ip地址和端口；&lt;/li&gt;
+&lt;li&gt;接着输入wlan配对码即可。
+无线调试需要进行wifi链接，连接过后在同一网络范围内会自动链接。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;在命令行输入以下内容并回车，该命令意思是保数据进行卸载并重启手机；
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;adb&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;shell&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;cmd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kn"&gt;package&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;uninstall&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;k&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;com&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;tencent&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;mm&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nx"&gt;adb&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;reboot&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;重启完成后等待手机链接无线调试后安装8.0.42版本，完成打开并随便选择一条聊天记录进行加载，否则后无升级版本可能或出现闪退现象。小程序也建议随机选择一个，软件弹窗提示升级并确定。
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;adb install 名称.apk&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;以上步骤完成后，安装8.0.48版本即可。与8.0.42命令一致。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;目前8.0.48版本整体功能完整，小程序大部分能够正常打开使用，没有提示升级需求。而且貌似也是最后一版服务号和公众号没有折叠的版本，能够清晰明确。&lt;/p&gt;
+&lt;h2 class="heading-element" id="相关文件"&gt;&lt;span&gt;相关文件&lt;/span&gt;
+ &lt;a href="#%e7%9b%b8%e5%85%b3%e6%96%87%e4%bb%b6" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly9ibG9nLjUxY3RvLmNvbS91XzEyMTkyODYyLzExNjA4NzAz"target="_blank" rel="external nofollow noopener noreferrer"&gt;微信各平台历史版本含下载地址大全（ 安卓 | Windows | MAC ）_51CTO博客_官方微信历史版本大全&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>笔记本清灰</title><link>https://blog.toastbubble.top/posts/mvml7er/</link><pubDate>Mon, 28 Jul 2025 23:48:52 +0800</pubDate><guid>https://blog.toastbubble.top/posts/mvml7er/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/mvml7er/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;笔记本使用已经多年有余，无论什么季节使用表面都十分的烫手，于是打算将其拆开然后把风扇取下清灰。如果网上有类似的拆机视频，建议还是看下那些地方需要格外注意以及拆机手法，否则拆坏了就得不偿失。&lt;/p&gt;
 &lt;p&gt;首先就是关机，然后使用螺丝刀和翘片将后盖取下来。取下来后发现整个机身背部几乎每个部分都有细小灰尘，风扇里面更不用说堵塞很严重。&lt;/p&gt;
 &lt;p&gt;重要的是先断开电池，避免带电操作防止静电击穿。将风扇周围的排线卸下后，用螺丝刀将固定风扇的螺丝拧下。记得选择合适的螺丝刀，施加合适的力度避免滑丝情况（之前换网卡的时候固定网卡的螺丝就被我拧一定程度的滑丝，还好最后拧下来了）。&lt;/p&gt;
 &lt;p&gt;风扇取下后用软毛刷轻轻扫灰，如果有灰尘聚集类似棉状用镊子轻轻挑出，然后再用软毛刷轻轻刷内部灰尘。对于机身的排风口也是一样的操作。清理完成后将其装回原来的位置，盖上后盖，开机确保没问题后在将后盖的螺丝拧上。&lt;/p&gt;

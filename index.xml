@@ -594,7 +594,7 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;price(可选)&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;设备价格&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;sub&gt;注：可选的意思是加活不加都行&lt;/sub&gt;&lt;/p&gt;
-&lt;p&gt;以上配置完成后别忘了把图片放到 static/devices 内。图片的推荐大小为 450*300，尽量周围留有空白，保证图片完美展示。小点没关系，图片有点击放大功能。&lt;/p&gt;
+&lt;p&gt;以上配置完成后别忘了把图片放到 static/devices 内。图片的推荐大小比例为 1.5:2，尽量周围留有空白，保证图片完美展示。小点没关系，图片有点击放大功能。&lt;/p&gt;
 &lt;a href="https://blog.toastbubble.top/devices/white.webp" title=" 展位图下载 " class="card-link" download="white.webp"&gt;&lt;span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"&gt;&lt;/span&gt;
  &lt;span class="cl-content"&gt;
  &lt;span class="cl-text"&gt;

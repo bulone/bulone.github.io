@@ -200,7 +200,7 @@ layout: "devices"
 ```
 <sub>注：可选的意思是加活不加都行</sub>
 
-以上配置完成后别忘了把图片放到 static/devices 内。图片的推荐大小为 450*300，尽量周围留有空白，保证图片完美展示。小点没关系，图片有点击放大功能。
+以上配置完成后别忘了把图片放到 static/devices 内。图片的推荐大小比例为 1.5:2，尽量周围留有空白，保证图片完美展示。小点没关系，图片有点击放大功能。
 
 {{< link href="/devices/white.webp" title=" 展位图下载 " content=" 设备展位图 " card=true download="white.webp" >}}
 

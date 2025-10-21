@@ -1,4 +1,98 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>吐司气泡</title><link>https://blog.toastbubble.top/</link><description>吐司气泡是一个个人生活类，数码类，实践类博客，记录了相关信息和实践内容。</description><generator>Hugo 0.151.2 &amp; FixIt v0.4.0-alpha-20250812094854-45f101a4</generator><language>zh-CN</language><lastBuildDate>Wed, 08 Oct 2025 10:31:46 +0800</lastBuildDate><atom:link href="https://blog.toastbubble.top/index.xml" rel="self" type="application/rss+xml"/><item><title>保数据降级微信版本</title><link>https://blog.toastbubble.top/posts/e01fg78/</link><pubDate>Wed, 08 Oct 2025 10:31:46 +0800</pubDate><guid>https://blog.toastbubble.top/posts/e01fg78/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/e01fg78/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>吐司气泡</title><link>https://blog.toastbubble.top/</link><description>吐司气泡是一个个人生活类，数码类，实践类博客，记录了相关信息和实践内容。</description><generator>Hugo 0.151.2 &amp; FixIt v0.4.0-alpha.2-20251014082535-5c74d431</generator><language>zh-CN</language><lastBuildDate>Tue, 21 Oct 2025 09:40:24 +0800</lastBuildDate><atom:link href="https://blog.toastbubble.top/index.xml" rel="self" type="application/rss+xml"/><item><title>补电搭子</title><link>https://blog.toastbubble.top/posts/sa6va10/</link><pubDate>Mon, 20 Oct 2025 19:50:10 +0800</pubDate><guid>https://blog.toastbubble.top/posts/sa6va10/</guid><category domain="https://blog.toastbubble.top/categories/%E6%95%B0%E7%A0%81%E7%83%A9/">数码烩</category><description>&lt;img src="https://blog.toastbubble.top/posts/sa6va10/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;h2 class="heading-element" id="充电宝"&gt;&lt;span&gt;充电宝&lt;/span&gt;
+ &lt;a href="#%e5%85%85%e7%94%b5%e5%ae%9d" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;&lt;h3 class="heading-element" id="前言"&gt;&lt;span&gt;前言&lt;/span&gt;
+ &lt;a href="#%e5%89%8d%e8%a8%80" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;&lt;p&gt;前几个月罗马仕充电宝事件，加速了充电宝行业的正规化、安全化发展，并且强制执行 3C 标准。对于 19 年淘宝买的迈珀充电宝，终于找到理由也可以下岗了，经过了几个月的时间充电宝的价格相对于稳定了许多，可以下手选择了。&lt;/p&gt;
+&lt;p&gt;因为是绿厂老款手机，当时对于公有协议的支持十分有限，最大也就 PD/QC18W 速率充电。首先考虑过绿厂自家出品的充电宝，20000mAh 仅有一款，其他部分为 10000mAh 左右，而且其充电宝在网上风评确实褒贬不一，部分款还出现过断冲现象，所以首先 pass。&lt;/p&gt;
+&lt;p&gt;&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/sa6va10/images/index-1761007529826.webp" title="一加150W充电包宣传图" data-thumbnail="/posts/sa6va10/images/index-1761007529826.webp" data-sub-html="&lt;h2&gt;一加150W充电包宣传图&lt;/h2&gt;&lt;p&gt;一加150W充电包宣传图&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/sa6va10/images/index-1761007529826.webp' alt="一加150W充电包宣传图" height="639" width="1199"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;一加150W充电包宣传图&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;自家的首先排除后，目标就转向第三方。当时想着后续新款手机可能会支持 UFCS/PPS，所以买一个不带有私有协议的大功率充电宝，老款手机使用协议线就行，因此就买了绿联 165w 充电宝。其屏幕设定还有伸缩线确实非常喜欢，而且采用的长虹三杰电池也有一定的保障。拿到手后发现其体积和重量确实是一个无法忽视的点，整个外型是属于矮胖的类型，拿在手里很粗，有收纳包没挂绳，携带的话可能会有点麻烦。后续还是接受不了因此转卖给了需要的人，协议线当时也没购买，因为总感觉第三方破解的协议后续会出现问题，而且这种协议线的厂家并非大厂所以品质和品控也难以把握。&lt;br&gt;
+&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/sa6va10/images/index-1761007680371.webp" title="绿联165W充电宝宣传图" data-thumbnail="/posts/sa6va10/images/index-1761007680371.webp" data-sub-html="&lt;h2&gt;绿联165W充电宝宣传图&lt;/h2&gt;&lt;p&gt;绿联165W充电宝宣传图&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/sa6va10/images/index-1761007680371.webp' alt="绿联165W充电宝宣传图" height="627" width="772"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;绿联165W充电宝宣传图&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;接着就刷到了京东京造的这款 165W 充电宝，受委托生产为深圳乔威，一家专注代工的公司。&lt;br&gt;
+&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/sa6va10/images/index-1760970334089.webp" title="京东京造能量怪兽15号" data-thumbnail="/posts/sa6va10/images/index-1760970334089.webp" data-sub-html="&lt;h2&gt;京东京造能量怪兽15号&lt;/h2&gt;&lt;p&gt;京东京造能量怪兽15号&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/sa6va10/images/index-1760970334089.webp' alt="京东京造能量怪兽15号" height="546" width="807"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;京东京造能量怪兽15号&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/p&gt;
+&lt;h3 class="heading-element" id="介绍"&gt;&lt;span&gt;介绍&lt;/span&gt;
+ &lt;a href="#%e4%bb%8b%e7%bb%8d" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;&lt;p&gt;锂电池能量：20000mAh 72Wh&lt;br&gt;
+额定能量：11000mAh (5V 3A)&lt;br&gt;
+外围大小：159*53*43.88mm&lt;br&gt;
+重量：460g 左右&lt;br&gt;
+输出功率：最大 100W&lt;br&gt;
+输入功率：PD 65W&lt;/p&gt;
+&lt;p&gt;外观就是普通的柱状，没有大屏幕只是一个简单的电量屏。商品详情说明的协议与实际测得的协议有出入，反向虚标还是其他原因不得而知，以下是测得各口协议。&lt;/p&gt;
+&lt;tab-container default-tab="0" placement="top" type="card"&gt;&lt;button class="tab-button" type="button" role="tab" id="tab-id-4" aria-selected="true"&gt;自带线 C1 口&lt;/button&gt;&lt;button class="tab-button" type="button" role="tab" id="tab-id-5" aria-selected="false"&gt;USB-C2 口&lt;/button&gt;&lt;button class="tab-button" type="button" role="tab" id="tab-id-6" aria-selected="false"&gt;USB-A 口&lt;/button&gt; 
+&lt;div role="tabpanel" aria-labelledby="tab-id-4" class="tab-panel"&gt;&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/sa6va10/images/index-1761009904777.webp" title="协议检测" data-thumbnail="/posts/sa6va10/images/index-1761009904777.webp" data-sub-html="&lt;h2&gt;协议检测&lt;/h2&gt;&lt;p&gt;协议检测&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/sa6va10/images/index-1761009904777.webp' alt="协议检测" height="1280" width="1280"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;协议检测&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/th&gt;
+ &lt;th&gt;&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/sa6va10/images/index-1761009928751.webp" title="PD/PPS档位" data-thumbnail="/posts/sa6va10/images/index-1761009928751.webp" data-sub-html="&lt;h2&gt;PD/PPS档位&lt;/h2&gt;&lt;p&gt;PD/PPS档位&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/sa6va10/images/index-1761009928751.webp' alt="PD/PPS档位" height="1280" width="1280"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;PD/PPS档位&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt; 
+&lt;div role="tabpanel" aria-labelledby="tab-id-5" class="tab-panel"&gt;&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/sa6va10/images/index-1761010063050.webp" title="协议检测" data-thumbnail="/posts/sa6va10/images/index-1761010063050.webp" data-sub-html="&lt;h2&gt;协议检测&lt;/h2&gt;&lt;p&gt;协议检测&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/sa6va10/images/index-1761010063050.webp' alt="协议检测" height="1280" width="1280"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;协议检测&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/th&gt;
+ &lt;th&gt;&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/sa6va10/images/index-1761010067407.webp" title="PD/PPS档位" data-thumbnail="/posts/sa6va10/images/index-1761010067407.webp" data-sub-html="&lt;h2&gt;PD/PPS档位&lt;/h2&gt;&lt;p&gt;PD/PPS档位&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/sa6va10/images/index-1761010067407.webp' alt="PD/PPS档位" height="1280" width="1280"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;PD/PPS档位&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt; 
+&lt;div role="tabpanel" aria-labelledby="tab-id-6" class="tab-panel"&gt;&lt;p&gt;&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/sa6va10/images/index-1761010089678.webp" title="协议检测" data-thumbnail="/posts/sa6va10/images/index-1761010089678.webp" data-sub-html="&lt;h2&gt;协议检测&lt;/h2&gt;&lt;p&gt;协议检测&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/sa6va10/images/index-1761010089678.webp' alt="协议检测" height="1280" width="1280"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;协议检测&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/p&gt;&lt;/div&gt; 
+&lt;/tab-container&gt;
+&lt;p&gt;三个口支持的协议数量功率还是可以的，虽然有 SuperVooc，不过测试的时候最大电流貌似不超过 5A，自带线和绿厂原装线均如此。三口均有 UFCS 协议和 SCP,因此荣耀系充电首先识别低功率 SCP 而非大功率 PPS 协议。我手上这个充电宝自充时间大约在 1 小时 45 分钟左右，整体时间略长不过处于合理范围之内，自充功率会受到温度影响因此时间可能会有变化。&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/sa6va10/images/index-1761010535135.webp" title="自充功率曲线图1" data-thumbnail="/posts/sa6va10/images/index-1761010535135.webp" data-sub-html="&lt;h2&gt;自充功率曲线图1&lt;/h2&gt;&lt;p&gt;自充功率曲线图1&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/sa6va10/images/index-1761010535135.webp' alt="自充功率曲线图1" height="875" width="1250"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;自充功率曲线图1&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/th&gt;
+ &lt;th&gt;&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/sa6va10/images/index-1761010538538.webp" title="自充功率曲线图2" data-thumbnail="/posts/sa6va10/images/index-1761010538538.webp" data-sub-html="&lt;h2&gt;自充功率曲线图2&lt;/h2&gt;&lt;p&gt;自充功率曲线图2&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/sa6va10/images/index-1761010538538.webp' alt="自充功率曲线图2" height="874" width="1248"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;自充功率曲线图2&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;以上是利用维简 K2 对充电宝自充时功率检测，充电宝的最后涓流时间过长，几乎很慢充，两次冲入能量约为 69Wh 左右，与额定还是有一定点差距。&lt;/p&gt;
+&lt;p&gt;拿到手后建议一次完整的充放电过程，避免电量检测不准。&lt;/p&gt;
+&lt;h2 class="heading-element" id="充电头"&gt;&lt;span&gt;充电头&lt;/span&gt;
+ &lt;a href="#%e5%85%85%e7%94%b5%e5%a4%b4" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;绿厂在今年出品了一款新的充电头，整体小巧支持针脚折叠，并且支持大功率私有协议，对共有协议的支持也很友好。再过了几个月的时间，整体价格也下降到合适的价位。10月份要出联名套装，PD功率也来到100W了，不过价格相对于普通版加了几十块不是太合适。&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/sa6va10/images/index-1761011077683.webp" title="协议检测" data-thumbnail="/posts/sa6va10/images/index-1761011077683.webp" data-sub-html="&lt;h2&gt;协议检测&lt;/h2&gt;&lt;p&gt;协议检测&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/sa6va10/images/index-1761011077683.webp' alt="协议检测" height="800" width="800"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;协议检测&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/th&gt;
+ &lt;th&gt;&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/sa6va10/images/index-1761011080592.webp" title="PD/PPS档位" data-thumbnail="/posts/sa6va10/images/index-1761011080592.webp" data-sub-html="&lt;h2&gt;PD/PPS档位&lt;/h2&gt;&lt;p&gt;PD/PPS档位&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/sa6va10/images/index-1761011080592.webp' alt="PD/PPS档位" height="800" width="800"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;PD/PPS档位&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;正如其名字一般，充电头的体积相对于手机原装大体积充电头而言，变得更加格式携带。而且支持公有协议，对于其他设备来说也可以少带一个充电头。单口情况下并没有多大的缺点，毕竟这么小的氮化镓充电头多口情况下发热情况、功率就难以保障了。&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;充电头套装赠送的一根1m磁力数据线，方便收纳。就是整体外观估计时间长了出现发黄的迹象，而且拿到手之后发现出现了锈点。&lt;/p&gt;
+&lt;p&gt;以上充电宝充电头对于短时补电挺合适的，建议充电宝购买两年全保换新，毕竟那根数据线的位置很尴尬，外皮扁平状容易断开（在评论区看到几个了）。&lt;/p&gt;</description></item><item><title>保数据降级微信版本</title><link>https://blog.toastbubble.top/posts/e01fg78/</link><pubDate>Wed, 08 Oct 2025 10:31:46 +0800</pubDate><guid>https://blog.toastbubble.top/posts/e01fg78/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/e01fg78/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;blockquote&gt;
 &lt;p&gt;本内容适用于安卓系统。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;目前微信更新内容毫无实际内容的情况下，占用越来越大，运行越来越卡。并且新版本的公众号和服务号折叠在一条，导致看信息非常的麻烦和繁琐，所以利用adb命令进行保数据降级。&lt;/p&gt;
@@ -206,7 +300,7 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
  &lt;tbody&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;div id="id-4"&gt;&lt;sub&gt;*估计是保存在网盘里没原图上传现在都发绿了&lt;/sub&gt;&lt;/div&gt;</description></item><item><title>增加设备展示页</title><link>https://blog.toastbubble.top/posts/q7xf0ep/</link><pubDate>Thu, 27 Mar 2025 20:23:46 +0800</pubDate><guid>https://blog.toastbubble.top/posts/q7xf0ep/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/q7xf0ep/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;&lt;mark class="mark-danger"&gt;本文章使用 AI 辅助创作&lt;/mark&gt;&lt;/p&gt;
+&lt;div id="id-4"&gt;&lt;sub&gt;*估计是保存在网盘里没原图上传现在都发绿了&lt;/sub&gt;&lt;/div&gt;</description></item><item><title>增加设备展示页</title><link>https://blog.toastbubble.top/posts/q7xf0ep/</link><pubDate>Thu, 27 Mar 2025 20:23:46 +0800</pubDate><guid>https://blog.toastbubble.top/posts/q7xf0ep/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/q7xf0ep/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;&lt;mark class="mark-danger"&gt;本文章代码部分内容使用 AI 辅助创作&lt;/mark&gt;&lt;/p&gt;
 &lt;h2 class="heading-element" id="引言"&gt;&lt;span&gt;引言&lt;/span&gt;
  &lt;a href="#%e5%bc%95%e8%a8%80" class="heading-mark"&gt;
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
@@ -613,7 +707,8 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 &lt;li&gt;&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly9ibG9nLnpoaGVvLmNvbS9lcXVpcG1lbnQv"target="_blank" rel="external nofollow noopener noreferrer"&gt;我的装备 | 张洪Heo&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly93d3cuY2RuZm9udHMuY29tL2QtZGluLmZvbnQ/X19jZl9jaGxfcnRfdGs9bnpvUlNTdEJmTXlwTjQ3aXNONjFlTVdhd05lSGN5OC5Db3BHT2d1ajF4WS0xNzQzMDgxMTMzLTEuMC4xLjEtNjlMbGZhWmhGMEQ0MndwME95R3EwU0xlZ0p3blFkTGR4aW52cGFoUVJiWQ=="target="_blank" rel="external nofollow noopener noreferrer"&gt;DIN- CDNFont&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly93d3cuZGVlcHNlZWsuY29t"target="_blank" rel="external nofollow noopener noreferrer"&gt;Deepseek&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>增加跳转中间页</title><link>https://blog.toastbubble.top/posts/nyzk0nu/</link><pubDate>Wed, 26 Mar 2025 15:11:15 +0800</pubDate><guid>https://blog.toastbubble.top/posts/nyzk0nu/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/nyzk0nu/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;3-29：重新修改代码，使用主题的链接渲染。&lt;/p&gt;
+&lt;/ol&gt;</description></item><item><title>增加跳转中间页</title><link>https://blog.toastbubble.top/posts/nyzk0nu/</link><pubDate>Wed, 26 Mar 2025 15:11:15 +0800</pubDate><guid>https://blog.toastbubble.top/posts/nyzk0nu/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/nyzk0nu/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;&lt;mark class="mark-danger"&gt;本文章代码部分内容使用 AI 辅助创作&lt;/mark&gt;
+3-29：重新修改代码，使用主题的链接渲染。&lt;/p&gt;
 &lt;h2 class="heading-element" id="引言"&gt;&lt;span&gt;引言&lt;/span&gt;
  &lt;a href="#%e5%bc%95%e8%a8%80" class="heading-mark"&gt;
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
@@ -1186,12 +1281,8 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 &lt;li&gt;&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly93d3cuZWFsbGlvbi5jb20vaHVnby1yZWRpcmVjdC1sYW5kaW5nLXBhZ2Uv"target="_blank" rel="external nofollow noopener noreferrer"&gt;Hugo外部链接跳转提示页面&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly9ibG9nLnlzaWNpbmcubmV0L3NpdGUtanVtcC1leHRlcm5hbC1saW5r"target="_blank" rel="external nofollow noopener noreferrer"&gt;博客外链跳转到中间页 | Solitudes&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly93d3cuZGVlcHNlZWsuY29t"target="_blank" rel="external nofollow noopener noreferrer"&gt;DeepSeek | 深度求索&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Fixit主题美化</title><link>https://blog.toastbubble.top/posts/aa6eb19/</link><pubDate>Mon, 24 Mar 2025 19:08:53 +0800</pubDate><guid>https://blog.toastbubble.top/posts/aa6eb19/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/aa6eb19/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;div class="details admonition warning open disabled"&gt;
- &lt;div class="details-summary admonition-title"&gt;&lt;i class="icon fa-fw fa-solid fa-exclamation-triangle" aria-hidden="true"&gt;&lt;/i&gt;声明&lt;br&gt;&lt;/div&gt;
- &lt;div class="details-content"&gt;
- &lt;div class="admonition-content"&gt;&lt;p&gt;本文章部分内容借助 AI 辅助创作。&lt;/p&gt;&lt;/div&gt;
- &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;安装博客也一月有余，期间也拜访过其他博客站，当然是因为搜索知识进行拜访。对于主题的一些内容进行自定义并完善。&lt;/p&gt;
+&lt;/ol&gt;</description></item><item><title>Fixit主题美化</title><link>https://blog.toastbubble.top/posts/aa6eb19/</link><pubDate>Mon, 24 Mar 2025 19:08:53 +0800</pubDate><guid>https://blog.toastbubble.top/posts/aa6eb19/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/aa6eb19/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;&lt;mark class="mark-danger"&gt;本文章代码部分内容使用 AI 辅助创作&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;安装博客也一月有余，期间也拜访过其他博客站，当然是因为搜索知识进行拜访。对于主题的一些内容进行自定义并完善。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注：涉及到 html 修改部分请将所需修改文件复制一份到主题外相同位置，修改后既能应用也能不破坏原主题文件。&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 class="heading-element" id="css-样式"&gt;&lt;span&gt;CSS 样式&lt;/span&gt;
  &lt;a href="#css-%e6%a0%b7%e5%bc%8f" class="heading-mark"&gt;
@@ -1203,7 +1294,7 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
  &lt;a href="#%e9%a6%96%e9%a1%b5%e5%88%97%e8%a1%a8%e9%83%a8%e5%88%86" class="heading-mark"&gt;
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
  &lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;原主题的首页列表部分是每行一个，列排布。没有封面图还好，如果有封面图因为比例显示为 1000 * 420，所以在屏幕上会显得很大，那么一页下来也显示不了几张图片。偶然进入 &lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly9hdHB4LmNvbS9ibG9nLw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;Atpx&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 的空间，发现其博客页很简约整齐，双列排布文章，每个文章块也很小。所以就借鉴了其样式内容，为了不同宽度设备整个块比例适当，所以也顺势调整了图片的宽高比达到合适程度。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;原主题的首页列表部分是每行一个，列排布。没有封面图还好，如果有封面图因为比例显示为 50:21，所以在屏幕上会显得很大，那么一页下来也显示不了几张图片。偶然进入 &lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly9hdHB4LmNvbS9ibG9nLw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;Atpx&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 的空间，发现其博客页很简约整齐，双列排布文章，每个文章块也很小。所以就借鉴了其样式内容，为了不同宽度设备整个块比例适当，所以也顺势调整了图片的宽高比达到合适程度。&lt;/p&gt;
 &lt;p&gt;文件位置：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;layouts/_default/home.html &amp;amp; summary.html&lt;/li&gt;
@@ -1309,266 +1400,4 @@ someJavascript = &amp;ldquo;&lt;a href="https://blog.toastbubble.top/redirect/?u
 &lt;li&gt;&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly93d3cuZGVlcHNlZWsuY29t"target="_blank" rel="external nofollow noopener noreferrer"&gt;Deepseek&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;：辅助生成样式代码。&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTI3NzE2MS9hcnRpY2xlL2RldGFpbHMvMTEyMzAyNTY5"target="_blank" rel="external nofollow noopener noreferrer"&gt;前端炫酷的动画效果库&amp;ndash;AOS使用详解_aos-easing-CSDN博客&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly9qdWVqaW4uY24vcG9zdC83MDE4ODUwNjY3NjUzNDk2ODM5"target="_blank" rel="external nofollow noopener noreferrer"&gt;插件 ｜ AOS 滚动动画库aos.js - 掘金&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>博客建站记录</title><link>https://blog.toastbubble.top/posts/pougfvs/</link><pubDate>Mon, 10 Feb 2025 21:14:45 +0800</pubDate><guid>https://blog.toastbubble.top/posts/pougfvs/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/pougfvs/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;虽然文笔不好，但是看见一个属于自己的站点就很开心。之后尝试过很多博客系统，耳熟能详的 Wordpress,Typecho 还有 Emblog 等。文章没写几篇系统倒是换了不少。而且每次更换都不进行文章备份，所以每次都是全新的博客站。有点跑题了，这些系统无一例外都要购买服务器或虚拟空间，对于当时还是学生的我只能寻找几块一月随时跑路的虚拟空间安装。所以上面说这么多，有钱就尝试动态博客系统，在线随时编写发布。静态博客就需要有台电脑方便些。&lt;/p&gt;
-&lt;p&gt;静态博客也有很多不过还是选择了 Hugo，因为从 &lt;code&gt;建立&lt;/code&gt;-&amp;gt;&lt;code&gt;编写&lt;/code&gt;-&amp;gt;&lt;code&gt;发布&lt;/code&gt; 所需要的代码量相对很少，而且不接触 npm 那些。&lt;/p&gt;
-&lt;h2 class="heading-element" id="安装-hugo"&gt;&lt;span&gt;安装 Hugo&lt;/span&gt;
- &lt;a href="#%e5%ae%89%e8%a3%85-hugo" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;所需工具：Hugo，Git&lt;br&gt;
-Git 无需多言，之间下载安装即可。&lt;br&gt;
-&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly9nb2h1Z28uaW8vaW5zdGFsbGF0aW9uLw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;Hugo官网&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;Windows 提供三种三种通过包管理器进行安装，之后选择按照教程安装即可。&lt;/p&gt;
-&lt;h2 class="heading-element" id="选择主题"&gt;&lt;span&gt;选择主题&lt;/span&gt;
- &lt;a href="#%e9%80%89%e6%8b%a9%e4%b8%bb%e9%a2%98" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;选择合适的主题进行安装，每个主题都有详细的安装教程，根据教程进行安装。&lt;/p&gt;
-&lt;h2 class="heading-element" id="选择编写工具"&gt;&lt;span&gt;选择编写工具&lt;/span&gt;
- &lt;a href="#%e9%80%89%e6%8b%a9%e7%bc%96%e5%86%99%e5%b7%a5%e5%85%b7" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;因为 Hugo 的文章都是 Markdown 类型，所以选择 Markdown 编写软件体验会更好。选择 Obsidian 的原因是可提供的插件多而且免费。在里面就可以一套流程走完，不需要再开命令行之类的。&lt;/p&gt;
-&lt;h3 class="heading-element" id="使用的插件"&gt;&lt;span&gt;使用的插件&lt;/span&gt;
- &lt;a href="#%e4%bd%bf%e7%94%a8%e7%9a%84%e6%8f%92%e4%bb%b6" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h3&gt;&lt;p&gt;&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/pougfvs/images/index-1742823737781.webp" title="插件截图" data-thumbnail="/posts/pougfvs/images/index-1742823737781.webp" data-sub-html="&lt;h2&gt;截图&lt;/h2&gt;&lt;p&gt;插件截图&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/pougfvs/images/index-1742823737781.webp' alt="截图" height="322" width="275"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;插件截图&lt;/figcaption&gt;
- &lt;/figure&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;DataView：创建代码块查询文章数据。&lt;/li&gt;
-&lt;li&gt;HomePage：搭配 DataView 可以轻松的创建文章回顾。&lt;/li&gt;
-&lt;li&gt;Git：在 Obsidian 中进行 git 相关操作。&lt;/li&gt;
-&lt;li&gt;Image Converter：压缩转换图片用。&lt;/li&gt;
-&lt;li&gt;Linter： 格式化文档，保存时插入最后更新时间等。&lt;/li&gt;
-&lt;li&gt;QuickAdd：编写 js 代码在 Obsidian 中就可以新建文章。&lt;br&gt;
-其他的插件自行搜索查询相关功能。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;QuickAdd 新增文章代码 (由 Deepseek 生成)：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
-&lt;/span&gt;&lt;span class="lnt"&gt; 2
-&lt;/span&gt;&lt;span class="lnt"&gt; 3
-&lt;/span&gt;&lt;span class="lnt"&gt; 4
-&lt;/span&gt;&lt;span class="lnt"&gt; 5
-&lt;/span&gt;&lt;span class="lnt"&gt; 6
-&lt;/span&gt;&lt;span class="lnt"&gt; 7
-&lt;/span&gt;&lt;span class="lnt"&gt; 8
-&lt;/span&gt;&lt;span class="lnt"&gt; 9
-&lt;/span&gt;&lt;span class="lnt"&gt;10
-&lt;/span&gt;&lt;span class="lnt"&gt;11
-&lt;/span&gt;&lt;span class="lnt"&gt;12
-&lt;/span&gt;&lt;span class="lnt"&gt;13
-&lt;/span&gt;&lt;span class="lnt"&gt;14
-&lt;/span&gt;&lt;span class="lnt"&gt;15
-&lt;/span&gt;&lt;span class="lnt"&gt;16
-&lt;/span&gt;&lt;span class="lnt"&gt;17
-&lt;/span&gt;&lt;span class="lnt"&gt;18
-&lt;/span&gt;&lt;span class="lnt"&gt;19
-&lt;/span&gt;&lt;span class="lnt"&gt;20
-&lt;/span&gt;&lt;span class="lnt"&gt;21
-&lt;/span&gt;&lt;span class="lnt"&gt;22
-&lt;/span&gt;&lt;span class="lnt"&gt;23
-&lt;/span&gt;&lt;span class="lnt"&gt;24
-&lt;/span&gt;&lt;span class="lnt"&gt;25
-&lt;/span&gt;&lt;span class="lnt"&gt;26
-&lt;/span&gt;&lt;span class="lnt"&gt;27
-&lt;/span&gt;&lt;span class="lnt"&gt;28
-&lt;/span&gt;&lt;span class="lnt"&gt;29
-&lt;/span&gt;&lt;span class="lnt"&gt;30
-&lt;/span&gt;&lt;span class="lnt"&gt;31
-&lt;/span&gt;&lt;span class="lnt"&gt;32
-&lt;/span&gt;&lt;span class="lnt"&gt;33
-&lt;/span&gt;&lt;span class="lnt"&gt;34
-&lt;/span&gt;&lt;span class="lnt"&gt;35
-&lt;/span&gt;&lt;span class="lnt"&gt;36
-&lt;/span&gt;&lt;span class="lnt"&gt;37
-&lt;/span&gt;&lt;span class="lnt"&gt;38
-&lt;/span&gt;&lt;span class="lnt"&gt;39
-&lt;/span&gt;&lt;span class="lnt"&gt;40
-&lt;/span&gt;&lt;span class="lnt"&gt;41
-&lt;/span&gt;&lt;span class="lnt"&gt;42
-&lt;/span&gt;&lt;span class="lnt"&gt;43
-&lt;/span&gt;&lt;span class="lnt"&gt;44
-&lt;/span&gt;&lt;span class="lnt"&gt;45
-&lt;/span&gt;&lt;span class="lnt"&gt;46
-&lt;/span&gt;&lt;span class="lnt"&gt;47
-&lt;/span&gt;&lt;span class="lnt"&gt;48
-&lt;/span&gt;&lt;span class="lnt"&gt;49
-&lt;/span&gt;&lt;span class="lnt"&gt;50
-&lt;/span&gt;&lt;span class="lnt"&gt;51
-&lt;/span&gt;&lt;span class="lnt"&gt;52
-&lt;/span&gt;&lt;span class="lnt"&gt;53
-&lt;/span&gt;&lt;span class="lnt"&gt;54
-&lt;/span&gt;&lt;span class="lnt"&gt;55
-&lt;/span&gt;&lt;span class="lnt"&gt;56
-&lt;/span&gt;&lt;span class="lnt"&gt;57
-&lt;/span&gt;&lt;span class="lnt"&gt;58
-&lt;/span&gt;&lt;span class="lnt"&gt;59
-&lt;/span&gt;&lt;span class="lnt"&gt;60
-&lt;/span&gt;&lt;span class="lnt"&gt;61
-&lt;/span&gt;&lt;span class="lnt"&gt;62
-&lt;/span&gt;&lt;span class="lnt"&gt;63
-&lt;/span&gt;&lt;span class="lnt"&gt;64
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;// 使用QuickAdd插件的scripting功能
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;exports&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kr"&gt;async&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;params&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;// 获取文件夹名称
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;&lt;/span&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;folderName&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kr"&gt;await&lt;/span&gt; &lt;span class="nx"&gt;params&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;quickAddApi&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;inputPrompt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;请输入文件夹名称&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="nx"&gt;folderName&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nx"&gt;Notice&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;未输入文件夹名称。操作已取消。&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;basePath&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;/content/posts&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;folderPath&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sb"&gt;`&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;basePath&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="sb"&gt;/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;folderName&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;filePath&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sb"&gt;`&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;folderPath&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="sb"&gt;/index.md`&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;try&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;// 创建文件夹（如果不存在）
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="kr"&gt;await&lt;/span&gt; &lt;span class="nx"&gt;params&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;app&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;vault&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;adapter&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;exists&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;folderPath&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kr"&gt;await&lt;/span&gt; &lt;span class="nx"&gt;params&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;app&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;vault&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createFolder&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;folderPath&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;catch&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;err&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nx"&gt;Notice&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;创建文件夹失败：&amp;#34;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nx"&gt;err&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;message&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;// 获取当前日期
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;&lt;/span&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;currentDate&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;window&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;moment&lt;/span&gt;&lt;span class="p"&gt;().&lt;/span&gt;&lt;span class="nx"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;YYYY-MM-DDTHH:mm:ss+08:00&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;// 生成唯一ID
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;&lt;/span&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;uniqueID&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;random&lt;/span&gt;&lt;span class="p"&gt;().&lt;/span&gt;&lt;span class="nx"&gt;toString&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;36&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;substring&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;// 创建文件内容需要的Frontmatter自行添删
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;&lt;/span&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;fileContent&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sb"&gt;`---
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;title: &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;folderName&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sr"&gt;/-/g&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34; &amp;#34;&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sr"&gt;/\b\w/g&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;l&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="nx"&gt;l&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;toUpperCase&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="sb"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;date: &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;currentDate&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="sb"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;slug: &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;uniqueID&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="sb"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;description:
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;draft: true
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;tags:
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt; - draft
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;categories:
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt; - draft
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;featuredImage: 
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;featuredImagePreview: 
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;&amp;lt;!--more--&amp;gt;`&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;try&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;// 创建文件并获取文件引用
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;&lt;/span&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;newFile&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kr"&gt;await&lt;/span&gt; &lt;span class="nx"&gt;params&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;app&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;vault&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;create&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;filePath&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;fileContent&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nx"&gt;Notice&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sb"&gt;`已在 &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nx"&gt;folderName&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="sb"&gt; 文件夹中创建 index.md`&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;// 获取当前活动的叶子（标签页）或在新的叶子中打开文件
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;&lt;/span&gt; &lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;leaf&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;params&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;app&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;workspace&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getLeaf&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;// 打开新创建的文件
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;&lt;/span&gt; &lt;span class="kr"&gt;await&lt;/span&gt; &lt;span class="nx"&gt;leaf&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;openFile&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;newFile&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;// 可选：将焦点移动到编辑器
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;&lt;/span&gt; &lt;span class="nx"&gt;params&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;app&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;workspace&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;setActiveLeaf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;leaf&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;focus&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt; &lt;span class="p"&gt;});&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="k"&gt;catch&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;err&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nx"&gt;Notice&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;创建文件失败：&amp;#34;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nx"&gt;err&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;message&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;};&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;em&gt;该代码在 posts 生成 &lt;code&gt;文件夹/index.md&lt;/code&gt; 效果&lt;/em&gt;&lt;br&gt;
-使用方法：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;复制并新建 js 文件在 Hugo 文件夹内，如 _scripts/newpost.js；&lt;/li&gt;
-&lt;li&gt;在 QuickAdd 插件配置中的 &lt;code&gt;Template Folder Path&lt;/code&gt; 中将文件夹名称填入；&lt;br&gt;
-&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/pougfvs/images/index-1742863085352.webp" title="模板文件夹路径" data-thumbnail="/posts/pougfvs/images/index-1742863085352.webp" data-sub-html="&lt;h2&gt;如图所示&lt;/h2&gt;&lt;p&gt;模板文件夹路径&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/pougfvs/images/index-1742863085352.webp' alt="如图所示" height="84" width="961"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;模板文件夹路径&lt;/figcaption&gt;
- &lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;点击 &lt;code&gt;Mange Macros&lt;/code&gt; 按钮，在新弹窗底部输入框内输入名称后点击 &lt;code&gt;Add macro&lt;/code&gt;；&lt;/li&gt;
-&lt;li&gt;新建完成后点击 &lt;code&gt;Config&lt;/code&gt;-&amp;gt;Use Scripts 选择刚才创建的 js 文件 -&amp;gt;点击 &lt;code&gt;ADD&lt;/code&gt;；&lt;/li&gt;
-&lt;li&gt;返回到插件主选项，将 Template 点击选择 Macro 然后输入 Name 后 Add Choice；&lt;br&gt;
-&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/pougfvs/images/index-1742863386808.webp" title="截图" data-thumbnail="/posts/pougfvs/images/index-1742863386808.webp" data-sub-html="&lt;h2&gt;截图&lt;/h2&gt;&lt;p&gt;截图&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/pougfvs/images/index-1742863386808.webp' alt="截图" height="69" width="474"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;截图&lt;/figcaption&gt;
- &lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;点击⚙，选择刚才新增的 Macro 名称然后叉掉即可；&lt;br&gt;
-&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/pougfvs/images/index-1742863657263.webp" title="如图" data-thumbnail="/posts/pougfvs/images/index-1742863657263.webp" data-sub-html="&lt;h2&gt;如图所示&lt;/h2&gt;&lt;p&gt;如图&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/pougfvs/images/index-1742863657263.webp' alt="如图所示" height="402" width="989"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;如图&lt;/figcaption&gt;
- &lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Ctrl+P&lt;/code&gt; 输入 QuickAdd 刚才新建的 Choice 名称即可，也可以新增快捷键快速添加。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 class="heading-element" id="发布"&gt;&lt;span&gt;发布&lt;/span&gt;
- &lt;a href="#%e5%8f%91%e5%b8%83" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;编写完成保存后直接推送到远程 Hugo 源码仓库，仓库接收到更新后自动使用 Github Action 生成网站内容推送到 Github Page 仓库，直接一步到位更新网站。&lt;/p&gt;
-&lt;p&gt;Github Action 代码：来自 &lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly9rcmlzbGluemhhby5naXRodWIuaW8vZG9jcy9jcmVhdGUtYS13ZXNpdGUtdXNpbmctZ2l0aHViLXBhZ2VzLWFuZC1odWdv"target="_blank" rel="external nofollow noopener noreferrer"&gt;KrislinBlog&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
-&lt;/span&gt;&lt;span class="lnt"&gt; 2
-&lt;/span&gt;&lt;span class="lnt"&gt; 3
-&lt;/span&gt;&lt;span class="lnt"&gt; 4
-&lt;/span&gt;&lt;span class="lnt"&gt; 5
-&lt;/span&gt;&lt;span class="lnt"&gt; 6
-&lt;/span&gt;&lt;span class="lnt"&gt; 7
-&lt;/span&gt;&lt;span class="lnt"&gt; 8
-&lt;/span&gt;&lt;span class="lnt"&gt; 9
-&lt;/span&gt;&lt;span class="lnt"&gt;10
-&lt;/span&gt;&lt;span class="lnt"&gt;11
-&lt;/span&gt;&lt;span class="lnt"&gt;12
-&lt;/span&gt;&lt;span class="lnt"&gt;13
-&lt;/span&gt;&lt;span class="lnt"&gt;14
-&lt;/span&gt;&lt;span class="lnt"&gt;15
-&lt;/span&gt;&lt;span class="lnt"&gt;16
-&lt;/span&gt;&lt;span class="lnt"&gt;17
-&lt;/span&gt;&lt;span class="lnt"&gt;18
-&lt;/span&gt;&lt;span class="lnt"&gt;19
-&lt;/span&gt;&lt;span class="lnt"&gt;20
-&lt;/span&gt;&lt;span class="lnt"&gt;21
-&lt;/span&gt;&lt;span class="lnt"&gt;22
-&lt;/span&gt;&lt;span class="lnt"&gt;23
-&lt;/span&gt;&lt;span class="lnt"&gt;24
-&lt;/span&gt;&lt;span class="lnt"&gt;25
-&lt;/span&gt;&lt;span class="lnt"&gt;26
-&lt;/span&gt;&lt;span class="lnt"&gt;27
-&lt;/span&gt;&lt;span class="lnt"&gt;28
-&lt;/span&gt;&lt;span class="lnt"&gt;29
-&lt;/span&gt;&lt;span class="lnt"&gt;30
-&lt;/span&gt;&lt;span class="lnt"&gt;31
-&lt;/span&gt;&lt;span class="lnt"&gt;32
-&lt;/span&gt;&lt;span class="lnt"&gt;33
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yml" data-lang="yml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;github pages&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c"&gt;# 名字自取&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nt"&gt;on&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;push&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;branches&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="l"&gt;main &lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c"&gt;# 这里的意思是当 main分支发生push的时候，运行下面的jobs，这里先改为github-actions&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nt"&gt;jobs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;deploy&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c"&gt;# 任务名自取&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;runs-on&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;ubuntu-latest	# 在什么环境运行任务&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;steps&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="nt"&gt;uses&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;actions/checkout@v2	# 引用actions/checkout这个action，与所在的github仓库同名&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;with&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;submodules&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c"&gt;# Fetch Hugo themes (true OR recursive) 获取submodule主题&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;fetch-depth&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c"&gt;# Fetch all history for .GitInfo and .Lastmod&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;Setup Hugo	# 步骤名自取&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;uses&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;peaceiris/actions-hugo@v2	# hugo官方提供的action，用于在任务环境中获取hugo&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;with&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;hugo-version&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;latest&amp;#39;&lt;/span&gt;&lt;span class="w"&gt;	&lt;/span&gt;&lt;span class="c"&gt;# 获取最新版本的hugo&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;extended&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;Build&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;run&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;hugo --minify	# 使用hugo构建静态网页&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;Deploy&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;uses&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;peaceiris/actions-gh-pages@v3	# 一个自动发布github pages的action&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;with&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c"&gt;# github_token: ${{ secrets.GITHUB_TOKEN }} 该项适用于发布到源码相同repo的情况，不能用于发布到其他repo&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;external_repository&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;bulone/bulone.github.io	# 发布到哪个repo&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;personal_token&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;${{ secrets.ACTION_ACCESS_TOKEN }}	# 发布到其他repo需要提供上面生成的personal access token&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;publish_dir&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;./public	# 注意这里指的是要发布哪个文件夹的内容，而不是指发布到目的仓库的什么位置，因为hugo默认生成静态网页到public文件夹，所以这里发布public文件夹里的内容&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;publish_branch&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;main	# 发布到哪个branch&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description></item></channel></rss>
+&lt;/ol&gt;</description></item></channel></rss>

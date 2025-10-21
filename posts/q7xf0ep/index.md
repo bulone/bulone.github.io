@@ -3,7 +3,7 @@
 
 <!--more-->
 
-==本文章使用 AI 辅助创作==[danger]
+==本文章代码部分内容使用 AI 辅助创作==[danger]
 
 ## 引言
 之前就喜欢 [@张洪Heo](https://blog.zhheo.com/equipment/) 博主博客的我的装备页，模仿着主题的 Friends 模板进行修改，在 Fixit 上也增加了~~相同~~类似的装备展示页，因为设备没那么多所以也没进行分类。如果有想法直接修改 device.html 文件，不会的问 Deepseek<sub>这玩意可真好用啊，Hugo 文档较少比搜索引擎快得多。</sub>

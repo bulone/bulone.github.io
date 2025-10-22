@@ -14,7 +14,7 @@
 本博客使用的是个人免费使用的 [OPPO Sans4.0](https://www.coloros.com/article/A00000074/) 字体，主要喜欢这个字体的数字部分。利用 [中文网字计划网站](https://chinese-font.netlify.app/zh-cn/) 进行字体分包，在使用字体后不影响网站访问速度。
 ## 首页列表部分
 
-原主题的首页列表部分是每行一个，列排布。没有封面图还好，如果有封面图因为比例显示为 50:21，所以在屏幕上会显得很大，那么一页下来也显示不了几张图片。偶然进入 [Atpx](https://atpx.com/blog/) 的空间，发现其博客页很简约整齐，双列排布文章，每个文章块也很小。所以就借鉴了其样式内容，为了不同宽度设备整个块比例适当，所以也顺势调整了图片的宽高比达到合适程度。  
+原主题的首页列表部分是每行一个，列排布。没有封面图还好，如果有封面图因为比例显示为 2:1，所以在屏幕上会显得很大，那么一页下来也显示不了几张图片。偶然进入 [Atpx](https://atpx.com/blog/) 的空间，发现其博客页很简约整齐，双列排布文章，每个文章块也很小。所以就借鉴了其样式内容，为了不同宽度设备整个块比例适当，所以也顺势调整了图片的宽高比达到合适程度。  
 
 文件位置：
 - layouts/\_default/home.html & summary.html 
@@ -55,10 +55,10 @@ msemoji.parse(document.body,{
 ## Waline 评论系统
 博客使用的是 Waline，因为就它带有文章 Reaction，可以自定义图片。其他的几个评论系统都大差不差。使用方法请到 [Waline官网](https://waline.js.org/) 配置参数。
 
-## AOS动画库
+## AOS 动画库
 
-滑动动画库，依赖于Jquery。
-在`hugo.toml`中的[params.page.library]加入所需CSS，Js文件。然后再_custom.js中添加
+滑动动画库，依赖于 Jquery。  
+在 `hugo.toml` 中的 [params.page.library] 加入所需 CSS，Js 文件。然后再 _custom.js 中添加
 ```js
 AOS.init({
 	once:true,
@@ -66,7 +66,7 @@ AOS.init({
 	delay: 0,
 });
 ```
-init内可以自选参数初始化。
+init 内可以自选参数初始化。
 ## 相关链接
 
 1. 文章 Reaction 表情：[Animated-Fluent-Emojis](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis)

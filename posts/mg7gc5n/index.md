@@ -51,7 +51,7 @@ docker exec -it 容器名称 /bin/sh
 
 ![系统概览](./images/index-1750659931740.webp "系统概览")
 ## 参考
-1. [刷了flippy大神的openwrt固件，容器无法联网-斐讯无线路由器以及其它斐迅网络设备-恩山无线论坛](https://www.right.com.cn/FORUM/thread-4069232-1-1.html)、
+1. [刷了flippy大神的openwrt固件，容器无法联网-斐讯无线路由器以及其它斐迅网络设备-恩山无线论坛](https://www.right.com.cn/FORUM/thread-4069232-1-1.html)
 2. [132元的路由器新机皇BT-R320 刷机教程\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1zXzEYoEHs/?spm_id_from=333.337.search-card.all.click)
 3. [GitHub - whyour/qinglong: 支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）](https://github.com/whyour/qinglong)
 

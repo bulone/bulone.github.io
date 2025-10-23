@@ -2,8 +2,9 @@
 
 
 <!--more-->
-==本文章代码部分内容使用 AI 辅助创作==[danger]
-3-29：重新修改代码，使用主题的链接渲染。
+==本文章代码部分内容使用 AI 辅助创作==[danger]  
+3-29：重新修改代码，使用主题的链接渲染。  
+10-23：修改代码，增加白名单选项。[跳转重新复制粘贴](#链接渲染)
 
 ## 引言
 之前挺烦一些网站的链接跳转，类如 CSDN，掘金之类的，浪费时间还浪费精力。不过话说回来做中间页跳转还是有必要的，毕竟一些网站域名过期被一些非法网站使用，那么就会导致博客内文章直接引向非法网站，这是万万不可的。所以做中间页提醒访客链接安全未知，在此期间参考了一些博客站文章，感谢博主的分享🙇。  
@@ -39,9 +40,31 @@
   {{- $noreferrer = false -}}
 {{- end -}}
 {{- $url := urls.Parse .Destination -}}
+{{- $url := urls.Parse .Destination -}}
+{{ $host := lower $url.Host }}
+{{ $currentHost := lower (urls.Parse site.BaseURL).Host }}
+{{- /* 白名单：一行一个 */ -}}
+{{ $trustedDomains := slice 
+    "jd.com"
+    "tmall.com"
+}}
+{{ $isTrusted := false }}
+{{ $isSameDomain := eq $host $currentHost }}
+{{ range $trustedDomains }}
+    {{ if hasSuffix $host . }}
+        {{ $isTrusted = true }}
+    {{ end }}
+{{ end }}
+
+{{ $isSameDomain := eq $host $currentHost }}
 {{- if $url.IsAbs | or .Newtab -}}
+  
   {{- $rel = cond $noreferrer "external nofollow noopener noreferrer" "external nofollow" -}}
-  {{- $encoded  = printf "/redirect/?url=%s" (.Destination | base64Encode | safeURL) -}}
+  {{- if or $isTrusted $isSameDomain (hasPrefix .Destination "#") }}
+    {{- $encoded = .Destination | safeURL -}}
+  {{- else}}
+    {{- $encoded  = printf "/redirect/?url=%s" (.Destination | base64Encode | safeURL) -}}
+  {{- end -}}
   {{- $external = true -}}
 {{- end -}}
 {{- $class := .Class | default "" -}}
@@ -285,8 +308,8 @@ document.body.addEventListener('click', function (e) {
 });
 ```
 
-## 缺点
-文章内的链接没有做白名单处理，只是博客站才没进行链接加密操作。
+## ~~缺点~~
+~~文章内的链接没有做白名单处理，只是博客站才没进行链接加密操作。~~
 
 ## 参考链接
 1. [HUGO 外链跳转到中间页 - 空白Koobai](https://koobai.com/zhongjiantiaozhuan/)

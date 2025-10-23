@@ -70,9 +70,9 @@ init 内可以自选参数初始化。
 ## 相关链接
 
 1. 文章 Reaction 表情：[Animated-Fluent-Emojis](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis)
-2. [Deepseek](https://www.deepseek.com)：辅助生成样式代码。
-3. [前端炫酷的动画效果库--AOS使用详解\_aos-easing-CSDN博客](https://blog.csdn.net/weixin_45277161/article/details/112302569)
-4. [插件 ｜ AOS 滚动动画库aos.js - 掘金](https://juejin.cn/post/7018850667653496839)
+2. 辅助生成样式代码：[Deepseek](https://www.deepseek.com)
+3. AOS动画库使用：[前端炫酷的动画效果库--AOS使用详解\_aos-easing-CSDN博客](https://blog.csdn.net/weixin_45277161/article/details/112302569)
+4. AOS动画库插件：[插件 ｜ AOS 滚动动画库aos.js - 掘金](https://juejin.cn/post/7018850667653496839)
 
 ---
 

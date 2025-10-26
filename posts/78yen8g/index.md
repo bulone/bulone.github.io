@@ -66,16 +66,25 @@
     margin-bottom: 8px;
 }
 
-.muti-image a {
-    display: inherit;
-    break-inside: avoid;
-    // margin-bottom: 8px;
-}
+.muti-image {
+    a {
+        // width: 100%;
+        display: inherit;
+        break-inside: avoid;
+        // margin-bottom: 8px;
+    }
 
-.muti-image img {
-    width: 100%;
-    display: block;
-    border-radius: 0.25rem !important;
+    img {
+        // width: 100%;
+        // display: block;
+        border-radius: 0.25rem !important;
+        box-shadow: 3px 3px 7px 0px #dcdcdc;
+
+        @include dark-theme {
+            background: #4e4e4e;
+            box-shadow: 3px 3px 7px 0px #484848;
+        }
+    }
 }
 ```
 ## 使用

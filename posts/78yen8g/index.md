@@ -133,7 +133,7 @@
 {{< /muti-image >}}
 
 ## 参考
-1. [Hugo 多图排版这样来 :: 木木木木木](https://immmmm.com/about-images-gird/)
+ 1. [Hugo 多图排版这样来 :: 木木木木木](https://immmmm.com/about-images-gird/)
 
 ---
 

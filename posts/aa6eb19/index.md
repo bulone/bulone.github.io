@@ -36,7 +36,7 @@
 
 **使用方法**：
 1. 在配置文档中搜索 `params.page.library.js`，在其内部添加  
-   someJavascript = "https://unpkg.com/msemoji@1.1.2/dist/msemoji.min.js"
+   msemojijs = "https://unpkg.com/msemoji@1.1.2/dist/msemoji.min.js"
 2. 创建 `custom.js`，位置在 `assets/js/`
 ```js
 msemoji.parse(document.body,{
@@ -48,7 +48,7 @@ msemoji.parse(document.body,{
 
 | base   | ext   | folder |
 | ------ | ----- | ------ |
-| 表情仓库位置 | 表情拓展名 | 表情所在目录 |  
+| 表情仓库位置 | 表情拓展名 | 表情所在目录 |
 
 主要这三个参数即可，如果还想要其他参数配置，请参考原文档。
 

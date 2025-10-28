@@ -1,8 +1,8 @@
 # 增加多图排版功能
 
-
+:(fa-solid fa-copyright): 封面图片截于**Unsplash**官网
 <!--more-->
-==本文代码部分使用 Deepseek 生成==[danger]  
+==本文代码部分使用 Deepseek 修改==[danger]  
 
 连续多张图片无论手机上还是电脑上的观感都挺一般，没有增加这个功能之前如果遇到多张图片的话都是用表格进行排版，不过主题原因第一行表头的背景色为深灰色，改或不改都不绝对。之前想过增添多图排版，当时的想法是将主题的图片渲染模板进行修改，不过水平不够且修改的地方也有点多于是不了了之。最近看到文档可以自定义 shortcode，就有个想法把多张连续图片放在 shortcode 中，然后在进行单独的样式就能满足要求。
 
@@ -100,7 +100,7 @@
 ### 两张图片
 {{< muti-image >}}      
 ![Travel1](./images/1.webp)
-![Travel2](images/2.webp)
+![Travel2](./images/2.webp)
 {{< /muti-image >}}
 
 ### 三张图片
@@ -116,24 +116,26 @@
 {{< muti-image >}}  
 ![NothingPhone3](./images/index-1761479615431.webp)
 ![NothingPhone2](./images/index-1761479609128.webp)
-![NothingPhone3](./images/index-1761479615431.webp)
-![NothingPhone2](./images/index-1761479609128.webp)
+![NothingPhone1](./images/index-1761479603017.webp)
+![NothingPhone4](./images/index-1761619783313.webp)
 {{< /muti-image >}}
 ### 多张图片
 
 {{< muti-image >}}  
-![NothingPhone2](./images/index-1761479609128.webp)
-![Travel2](images/2.webp)
-![大熊猫](./images/Inserted%20image%2020251026195519.webp)
-![NothingPhone3](./images/index-1761479615431.webp)
-![Travel2](images/2.webp)
-![Travel1](./images/1.webp)
-![大熊猫](./images/Inserted%20image%2020251026195519.webp)
-![NothingPhone2](./images/index-1761479609128.webp)
+![NothingPhone2|45x100](./images/index-1761479609128.webp)
+![Travel2](./images/2.webp)
+![大熊猫](images/panada.webp)
+![重庆](images/chongqing.webp)
+![NothingPhone4](./images/index-1761619783313.webp)
+![Chicken](./images/chicken.webp)
+![春节](./images/spring_festival.webp)
 {{< /muti-image >}}
+~注:本文章图片以进行压缩处理~
 
 ## 参考
- 1. [Hugo 多图排版这样来 :: 木木木木木](https://immmmm.com/about-images-gird/)
+ 1. 样式参考：[Hugo 多图排版这样来 :: 木木木木木](https://immmmm.com/about-images-gird/)
+ 2. 图片资源：[Unplash](https://unsplash.com/)
+ 3. 长图片：[NothingPhone壁纸](https://nothingcn.com/pages/phone-2)
 
 ---
 

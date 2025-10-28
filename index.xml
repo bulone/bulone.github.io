@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>吐司气泡</title><link>https://blog.toastbubble.top/</link><description>吐司气泡是方向为生活，数码，实践方面的个人综合博客，用简单的话语记录简单的时刻。</description><generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.2-20251014082535-5c74d431</generator><language>zh-CN</language><lastBuildDate>Sun, 26 Oct 2025 19:32:18 +0800</lastBuildDate><atom:link href="https://blog.toastbubble.top/index.xml" rel="self" type="application/rss+xml"/><item><title>增加多图排版功能</title><link>https://blog.toastbubble.top/posts/78yen8g/</link><pubDate>Sun, 26 Oct 2025 16:32:38 +0800</pubDate><guid>https://blog.toastbubble.top/posts/78yen8g/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/78yen8g/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;&lt;mark class="mark-danger"&gt;本文代码部分使用 Deepseek 生成&lt;/mark&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>吐司气泡</title><link>https://blog.toastbubble.top/</link><description>吐司气泡是方向为生活，数码，实践方面的个人综合博客，用简单的话语记录简单的时刻。</description><generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.2-20251014082535-5c74d431</generator><language>zh-CN</language><lastBuildDate>Sun, 26 Oct 2025 19:32:18 +0800</lastBuildDate><atom:link href="https://blog.toastbubble.top/index.xml" rel="self" type="application/rss+xml"/><item><title>增加多图排版功能</title><link>https://blog.toastbubble.top/posts/78yen8g/</link><pubDate>Sun, 26 Oct 2025 16:32:38 +0800</pubDate><guid>https://blog.toastbubble.top/posts/78yen8g/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/78yen8g/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;&lt;i class="fa-solid fa-copyright" aria-hidden="true"&gt;&lt;/i&gt;&amp;nbsp;封面图片截于&lt;strong&gt;Unsplash&lt;/strong&gt;官网&lt;/p&gt;
+&lt;p&gt;&lt;mark class="mark-danger"&gt;本文代码部分使用 Deepseek 修改&lt;/mark&gt;&lt;/p&gt;
 &lt;p&gt;连续多张图片无论手机上还是电脑上的观感都挺一般，没有增加这个功能之前如果遇到多张图片的话都是用表格进行排版，不过主题原因第一行表头的背景色为深灰色，改或不改都不绝对。之前想过增添多图排版，当时的想法是将主题的图片渲染模板进行修改，不过水平不够且修改的地方也有点多于是不了了之。最近看到文档可以自定义 shortcode，就有个想法把多张连续图片放在 shortcode 中，然后在进行单独的样式就能满足要求。&lt;/p&gt;
 &lt;h2 class="heading-element" id="配置-shortcode"&gt;&lt;span&gt;配置 ShortCode&lt;/span&gt;
  &lt;a href="#%e9%85%8d%e7%bd%ae-shortcode" class="heading-mark"&gt;
@@ -194,7 +195,7 @@
 
 &lt;div class="muti-image"&gt;
  &lt;a class="lightgallery" href="./images/1.webp" title="Travel1" data-thumbnail="./images/1.webp" data-sub-html="&lt;h2&gt;Travel1&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/1.webp' alt="Travel1"&gt;&lt;/a&gt;
-&lt;a class="lightgallery" href="images/2.webp" title="Travel2" data-thumbnail="images/2.webp" data-sub-html="&lt;h2&gt;Travel2&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='images/2.webp' alt="Travel2"&gt;&lt;/a&gt;
+&lt;a class="lightgallery" href="./images/2.webp" title="Travel2" data-thumbnail="./images/2.webp" data-sub-html="&lt;h2&gt;Travel2&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/2.webp' alt="Travel2"&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h3 class="heading-element" id="三张图片"&gt;&lt;span&gt;三张图片&lt;/span&gt;
@@ -222,35 +223,35 @@
 &lt;div class="muti-image"&gt;
  &lt;a class="lightgallery" href="./images/index-1761479615431.webp" title="NothingPhone3" data-thumbnail="./images/index-1761479615431.webp" data-sub-html="&lt;h2&gt;NothingPhone3&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761479615431.webp' alt="NothingPhone3"&gt;&lt;/a&gt;
 &lt;a class="lightgallery" href="./images/index-1761479609128.webp" title="NothingPhone2" data-thumbnail="./images/index-1761479609128.webp" data-sub-html="&lt;h2&gt;NothingPhone2&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761479609128.webp' alt="NothingPhone2"&gt;&lt;/a&gt;
-&lt;a class="lightgallery" href="./images/index-1761479615431.webp" title="NothingPhone3" data-thumbnail="./images/index-1761479615431.webp" data-sub-html="&lt;h2&gt;NothingPhone3&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761479615431.webp' alt="NothingPhone3"&gt;&lt;/a&gt;
-&lt;a class="lightgallery" href="./images/index-1761479609128.webp" title="NothingPhone2" data-thumbnail="./images/index-1761479609128.webp" data-sub-html="&lt;h2&gt;NothingPhone2&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761479609128.webp' alt="NothingPhone2"&gt;&lt;/a&gt;
+&lt;a class="lightgallery" href="./images/index-1761479603017.webp" title="NothingPhone1" data-thumbnail="./images/index-1761479603017.webp" data-sub-html="&lt;h2&gt;NothingPhone1&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761479603017.webp' alt="NothingPhone1"&gt;&lt;/a&gt;
+&lt;a class="lightgallery" href="./images/index-1761619783313.webp" title="NothingPhone4" data-thumbnail="./images/index-1761619783313.webp" data-sub-html="&lt;h2&gt;NothingPhone4&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761619783313.webp' alt="NothingPhone4"&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h3 class="heading-element" id="多张图片"&gt;&lt;span&gt;多张图片&lt;/span&gt;
  &lt;a href="#%e5%a4%9a%e5%bc%a0%e5%9b%be%e7%89%87" class="heading-mark"&gt;
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
  &lt;/a&gt;
-&lt;/h3&gt;
+&lt;/h3&gt;&lt;p&gt;
 
 
 
 &lt;div class="muti-image"&gt;
- &lt;a class="lightgallery" href="./images/index-1761479609128.webp" title="NothingPhone2" data-thumbnail="./images/index-1761479609128.webp" data-sub-html="&lt;h2&gt;NothingPhone2&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761479609128.webp' alt="NothingPhone2"&gt;&lt;/a&gt;
-&lt;a class="lightgallery" href="images/2.webp" title="Travel2" data-thumbnail="images/2.webp" data-sub-html="&lt;h2&gt;Travel2&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='images/2.webp' alt="Travel2"&gt;&lt;/a&gt;
-&lt;a class="lightgallery" href="./images/Inserted%20image%2020251026195519.webp" title="大熊猫" data-thumbnail="./images/Inserted%20image%2020251026195519.webp" data-sub-html="&lt;h2&gt;大熊猫&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/Inserted%20image%2020251026195519.webp' alt="大熊猫"&gt;&lt;/a&gt;
-&lt;a class="lightgallery" href="./images/index-1761479615431.webp" title="NothingPhone3" data-thumbnail="./images/index-1761479615431.webp" data-sub-html="&lt;h2&gt;NothingPhone3&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761479615431.webp' alt="NothingPhone3"&gt;&lt;/a&gt;
-&lt;a class="lightgallery" href="images/2.webp" title="Travel2" data-thumbnail="images/2.webp" data-sub-html="&lt;h2&gt;Travel2&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='images/2.webp' alt="Travel2"&gt;&lt;/a&gt;
-&lt;a class="lightgallery" href="./images/1.webp" title="Travel1" data-thumbnail="./images/1.webp" data-sub-html="&lt;h2&gt;Travel1&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/1.webp' alt="Travel1"&gt;&lt;/a&gt;
-&lt;a class="lightgallery" href="./images/Inserted%20image%2020251026195519.webp" title="大熊猫" data-thumbnail="./images/Inserted%20image%2020251026195519.webp" data-sub-html="&lt;h2&gt;大熊猫&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/Inserted%20image%2020251026195519.webp' alt="大熊猫"&gt;&lt;/a&gt;
-&lt;a class="lightgallery" href="./images/index-1761479609128.webp" title="NothingPhone2" data-thumbnail="./images/index-1761479609128.webp" data-sub-html="&lt;h2&gt;NothingPhone2&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761479609128.webp' alt="NothingPhone2"&gt;&lt;/a&gt;
+ &lt;a class="lightgallery" href="./images/index-1761479609128.webp" title="NothingPhone2|45x100" data-thumbnail="./images/index-1761479609128.webp" data-sub-html="&lt;h2&gt;NothingPhone2|45x100&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761479609128.webp' alt="NothingPhone2|45x100"&gt;&lt;/a&gt;
+&lt;a class="lightgallery" href="./images/2.webp" title="Travel2" data-thumbnail="./images/2.webp" data-sub-html="&lt;h2&gt;Travel2&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/2.webp' alt="Travel2"&gt;&lt;/a&gt;
+&lt;a class="lightgallery" href="images/panada.webp" title="大熊猫" data-thumbnail="images/panada.webp" data-sub-html="&lt;h2&gt;大熊猫&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='images/panada.webp' alt="大熊猫"&gt;&lt;/a&gt;
+&lt;a class="lightgallery" href="images/chongqing.webp" title="重庆" data-thumbnail="images/chongqing.webp" data-sub-html="&lt;h2&gt;重庆&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='images/chongqing.webp' alt="重庆"&gt;&lt;/a&gt;
+&lt;a class="lightgallery" href="./images/index-1761619783313.webp" title="NothingPhone4" data-thumbnail="./images/index-1761619783313.webp" data-sub-html="&lt;h2&gt;NothingPhone4&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761619783313.webp' alt="NothingPhone4"&gt;&lt;/a&gt;
+&lt;a class="lightgallery" href="./images/chicken.webp" title="Chicken" data-thumbnail="./images/chicken.webp" data-sub-html="&lt;h2&gt;Chicken&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/chicken.webp' alt="Chicken"&gt;&lt;/a&gt;
+&lt;a class="lightgallery" href="./images/spring_festival.webp" title="春节" data-thumbnail="./images/spring_festival.webp" data-sub-html="&lt;h2&gt;春节&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/spring_festival.webp' alt="春节"&gt;&lt;/a&gt;
 &lt;/div&gt;
 
+&lt;sub&gt;注:本文章图片以进行压缩处理&lt;/sub&gt;&lt;/p&gt;
 &lt;h2 class="heading-element" id="参考"&gt;&lt;span&gt;参考&lt;/span&gt;
  &lt;a href="#%e5%8f%82%e8%80%83" class="heading-mark"&gt;
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
  &lt;/a&gt;
 &lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;
+&lt;li&gt;样式参考：
 
 
 
@@ -265,6 +266,36 @@
 
 
 &lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly9pbW1tbW0uY29tL2Fib3V0LWltYWdlcy1naXJkLw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;Hugo 多图排版这样来 :: 木木木木木&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;图片资源：
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly91bnNwbGFzaC5jb20v"target="_blank" rel="external nofollow noopener noreferrer"&gt;Unplash&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;长图片：
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly9ub3RoaW5nY24uY29tL3BhZ2VzL3Bob25lLTI="target="_blank" rel="external nofollow noopener noreferrer"&gt;NothingPhone壁纸&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;</description></item><item><title>OPPO小方瓶氮化镓充电器</title><link>https://blog.toastbubble.top/posts/0hd8aqy/</link><pubDate>Thu, 23 Oct 2025 21:33:53 +0800</pubDate><guid>https://blog.toastbubble.top/posts/0hd8aqy/</guid><category domain="https://blog.toastbubble.top/categories/%E6%95%B0%E7%A0%81%E7%83%A9/">数码烩</category><description>&lt;img src="https://blog.toastbubble.top/posts/0hd8aqy/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;买这款的主要原因还是搭配着 
 
 

@@ -378,13 +378,13 @@
 &lt;a class="lightgallery" href="./images/index-1761009928751.webp" title="PD档位" data-thumbnail="./images/index-1761009928751.webp" data-sub-html="&lt;h2&gt;PD档位&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761009928751.webp' alt="PD档位"&gt;&lt;/a&gt;
 &lt;/div&gt;&lt;/div&gt; 
 &lt;div role="tabpanel" aria-labelledby="tab-id-2" class="tab-panel"&gt;&lt;div class="muti-image"&gt;
- &lt;a class="lightgallery" href="./images/index-1761010063050.webp" title="支持协议" data-thumbnail="./images/index-1761010063050.webp" data-sub-html="&lt;h2&gt;支持协议&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761010063050.webp' alt="支持协议"&gt;&lt;/a&gt;
-&lt;a class="lightgallery" href="./images/index-1761010067407.webp" title="PD档位" data-thumbnail="./images/index-1761010067407.webp" data-sub-html="&lt;h2&gt;PD档位&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761010067407.webp' alt="PD档位"&gt;&lt;/a&gt;
+ &lt;a class="lightgallery" href="images/index-1761010063050.webp" title="支持协议" data-thumbnail="images/index-1761010063050.webp" data-sub-html="&lt;h2&gt;支持协议&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='images/index-1761010063050.webp' alt="支持协议"&gt;&lt;/a&gt;
+&lt;a class="lightgallery" href="images/index-1761010067407.webp" title="PD档位" data-thumbnail="images/index-1761010067407.webp" data-sub-html="&lt;h2&gt;PD档位&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='images/index-1761010067407.webp' alt="PD档位"&gt;&lt;/a&gt;
 &lt;/div&gt;&lt;/div&gt; 
 &lt;div role="tabpanel" aria-labelledby="tab-id-3" class="tab-panel"&gt;&lt;p&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/untpxpv/images/index-1761010089678.webp" title="支持协议" data-thumbnail="/posts/untpxpv/images/index-1761010089678.webp" data-sub-html="&lt;h2&gt;支持协议&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/untpxpv/images/index-1761010089678.webp' alt="支持协议" height="1280" width="1280"&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt; 
 &lt;/tab-container&gt;
-&lt;p&gt;因为没有相应设备，所以对于 A 口的 105W UFCS 存疑。通过协议检测此款充电宝支持的协议相对较多，针对华为系和 OPPO 系都有对应的私有协议支持，但是对于小米系和 VIVO 系私有协议支持较差。因为 SCP 和 PPS 在同一接口所以荣耀系列会首先握手 SCP 协议而非 PPS 协议。对于同时支持 UFCS/PPS 协议的手机，会首先握手 UFCS 协议，因此根据个人需求进行购买。&lt;/p&gt;
-&lt;p&gt;因为是输入功率为 65W，而且涓流时间过长，进一步导致充满时间大幅增加。通过多次充电测试，从 UI 0%-100% 至充满低功率输入，时间约为 1 小时 35 分钟 -1 小时 40 分钟左右，平均功率约为 40W 左右，充电功率受温度影响，不存在某些品牌定时器效应。
+&lt;p&gt;通过协议检测此款充电宝支持的协议相对较多，针对华为系和 OPPO 系都有对应的私有协议支持。测试OPPO系充电最大功率不超过50W，&lt;strong&gt;推测该充电宝的SuperVooc支持档位的是10V5A&lt;/strong&gt;。对于小米系和 VIVO 系私有协议支持较差,如果是已经开放PPS协议的新款手机来说还可以接受。因为 SCP 和 PPS 在同一接口，荣耀系列手机可能会首先握手 SCP 协议而非 PPS 协议。同时支持 UFCS/PPS 协议的手机来说，会首先握手 UFCS 协议，因此根据个人需求进行购买。&lt;/p&gt;
+&lt;p&gt;由于输入功率为 65W，而且涓流时间过长，进一步导致充满时间大幅增加。通过多次充电测试，从 UI 0%-100% 至充满低功率输入，时间约为 1 小时 35 分钟 -1 小时 40 分钟左右，平均功率约为 40W 左右，充电功率受温度影响，不存在某些品牌定时器效应。充电时的温度处于温热状态，充电宝是横放在桌子上。无论是站立还是横放充电时间都没有太大的区别，室温处于12度左右，夏天的话温度因素时间可能会有所增加。
 
 
 
@@ -395,13 +395,13 @@
 &lt;a class="lightgallery" href="images/index-1761043470835.webp" title="测试3" data-thumbnail="images/index-1761043470835.webp" data-sub-html="&lt;h2&gt;测试3&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='images/index-1761043470835.webp' alt="测试3"&gt;&lt;/a&gt;
 &lt;/div&gt;
 
-利用维简 K2 功率表，测试 3 次情况如上，整体来说充电时间大差不差，功率情况也是受温控影响，涓流时间拉长，冲入能量约为 70Wh 左右。&lt;/p&gt;
-&lt;p&gt;测试是支持边冲边放，商品详情页未写，所以还是&lt;strong&gt;建议不要这么做&lt;/strong&gt;，避免导致发热情况严重。&lt;/p&gt;
+利用维简 K2 功率表，测试 3 次情况如上，整体来说充电时间大差不差，功率情况也是受温控影响，涓流时间拉长，冲入能量约为 70Wh 左右。目前来说这个数据相对于额定的72Wh来说又有点差劲的，并且之间也会存在能量转换损耗。&lt;/p&gt;
+&lt;p&gt;测试是支持边冲边放，商品详情页中未注明，估计也是考虑温度影响，&lt;strong&gt;不建议这么做&lt;/strong&gt;，避免导致发热情况严重。&lt;/p&gt;
 &lt;h2 class="heading-element" id="总结"&gt;&lt;span&gt;总结&lt;/span&gt;
  &lt;a href="#%e6%80%bb%e7%bb%93" class="heading-mark"&gt;
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
  &lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;总体来说这是一款平平无奇的充电宝，没有什么出彩的地方，硬说有那也就是对于 OPPO 系和华为系的私有协议支持。没有目前流行的功率大屏，输入功率较低也是硬伤。如果个人有需求的话，200 元以下购入也是可以的。&lt;/p&gt;</description></item><item><title>保数据降级微信版本</title><link>https://blog.toastbubble.top/posts/e01fg78/</link><pubDate>Wed, 08 Oct 2025 10:31:46 +0800</pubDate><guid>https://blog.toastbubble.top/posts/e01fg78/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/e01fg78/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;blockquote&gt;
+&lt;/h2&gt;&lt;p&gt;总体来说这是一款中规中矩的充电宝，没有什么特别出彩的地方，对于 OPPO 系和华为系的私有协议支持算是亮点之一了，还有三口UFCS大功率支持对于未来来说也是有一战之地。缺点嘛没有目前流行的功率大屏，输入功率较低也是硬伤。个人有需求的话，在200元以下购入还是挺不错的，京东京造的产品和售后都还算中上，建议增购延长保避免自带线断裂。&lt;/p&gt;</description></item><item><title>保数据降级微信版本</title><link>https://blog.toastbubble.top/posts/e01fg78/</link><pubDate>Wed, 08 Oct 2025 10:31:46 +0800</pubDate><guid>https://blog.toastbubble.top/posts/e01fg78/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/e01fg78/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;blockquote&gt;
 &lt;p&gt;本内容适用于安卓系统。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;目前微信更新内容毫无实际内容的情况下，占用越来越大，运行越来越卡。并且新版本的公众号和服务号折叠在一条，导致看信息非常的麻烦和繁琐，所以利用adb命令进行保数据降级。&lt;/p&gt;

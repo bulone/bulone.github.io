@@ -55,6 +55,107 @@ msemoji.parse(document.body,{
 ## Waline 评论系统
 博客使用的是 Waline，因为就它带有文章 Reaction，可以自定义图片。其他的几个评论系统都大差不差。使用方法请到 [Waline官网](https://waline.js.org/) 配置参数。
 
+## 照片懒加载背景图问题
+![加载完成依旧显示加载图片](./images/index-1762336550071.webp "加载完成依旧显示加载图片")
+产生原因：因为图片设置懒加载属性，css 文件中针对该属性增加加载 loading 背景图片，导致即使加载完成后依旧显现。对于大图片还好，loading 加载图片尺寸不大，因此会被遮挡，小图片就会出现上述现象。  
+解决方案：增加 js 判断是否加载完成，完成后移除该属性。  
+```javascript
+/**
+ * 懒加载图片处理器
+ * 监控懒加载图片的加载状态，完成后移除loading="lazy"属性
+ */
+class LazyImageHandler {
+    constructor() {
+        this.init();
+    }
+
+    init() {
+        this.processExistingImages();
+        this.setupMutationObserver();
+    }
+
+    /**
+     * 处理现有图片
+     */
+    processExistingImages() {
+        const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+        
+        lazyImages.forEach(img => {
+            // 如果图片已经加载完成（来自缓存）
+            if (img.complete) {
+                this.markAsLoaded(img);
+                return;
+            }
+            
+            // 监听加载事件
+            img.addEventListener('load', () => this.markAsLoaded(img), { once: true });
+            img.addEventListener('error', () => this.markAsLoaded(img), { once: true });
+        });
+        
+        console.log(`初始化处理了 ${lazyImages.length} 个懒加载图片`);
+    }
+
+    /**
+     * 设置轻量级MutationObserver监听新图片
+     */
+    setupMutationObserver() {
+        const observer = new MutationObserver((mutations) => {
+            for (const mutation of mutations) {
+                for (const node of mutation.addedNodes) {
+                    if (node.nodeType === 1) {
+                        // 直接是图片元素
+                        if (node.tagName === 'IMG' && node.getAttribute('loading') === 'lazy') {
+                            this.handleNewImage(node);
+                        }
+                        // 容器内的图片
+                        if (node.querySelector) {
+                            const newImages = node.querySelectorAll('img[loading="lazy"]');
+                            newImages.forEach(img => this.handleNewImage(img));
+                        }
+                    }
+                }
+            }
+        });
+
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    }
+
+    /**
+     * 处理新添加的懒加载图片
+     */
+    handleNewImage(img) {
+        if (img.complete) {
+            this.markAsLoaded(img);
+            return;
+        }
+
+        img.addEventListener('load', () => this.markAsLoaded(img), { once: true });
+        img.addEventListener('error', () => this.markAsLoaded(img), { once: true });
+    }
+
+    /**
+     * 标记图片为已加载（核心逻辑）
+     */
+    markAsLoaded(img) {
+        img.removeAttribute('loading');
+        img.classList.add('lazy-loaded');
+        img.classList.remove('lazy-loading');
+    }
+}
+
+// 延迟初始化，避免影响首屏加载
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        setTimeout(() => new LazyImageHandler(), 100);
+    });
+} else {
+    setTimeout(() => new LazyImageHandler(), 100);
+}
+
+```
 ## AOS 动画库
 
 滑动动画库，依赖于 Jquery。  
@@ -71,8 +172,8 @@ init 内可以自选参数初始化。
 
 1. 文章 Reaction 表情：[Animated-Fluent-Emojis](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis)
 2. 辅助生成样式代码：[Deepseek](https://www.deepseek.com)
-3. AOS动画库使用：[前端炫酷的动画效果库--AOS使用详解\_aos-easing-CSDN博客](https://blog.csdn.net/weixin_45277161/article/details/112302569)
-4. AOS动画库插件：[插件 ｜ AOS 滚动动画库aos.js - 掘金](https://juejin.cn/post/7018850667653496839)
+3. AOS 动画库使用：[前端炫酷的动画效果库--AOS使用详解\_aos-easing-CSDN博客](https://blog.csdn.net/weixin_45277161/article/details/112302569)
+4. AOS 动画库插件：[插件 ｜ AOS 滚动动画库aos.js - 掘金](https://juejin.cn/post/7018850667653496839)
 
 ---
 

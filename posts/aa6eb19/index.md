@@ -91,8 +91,6 @@ class LazyImageHandler {
             img.addEventListener('load', () => this.markAsLoaded(img), { once: true });
             img.addEventListener('error', () => this.markAsLoaded(img), { once: true });
         });
-        
-        console.log(`初始化处理了 ${lazyImages.length} 个懒加载图片`);
     }
 
     /**

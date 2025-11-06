@@ -8,13 +8,14 @@
 
 ## 配置 ShortCode
 在根目录 `layouts` 内创建 `_shortcodes/muti-image.html` 文件，将下述代码复制粘贴。
-```html
-{{/* 解析内部内容中的图片 */}}
-{{ $content := .Inner }}
-{{ $class := "muti-image" }}
-
-<div class="{{ $class }}">
-  {{ $content | markdownify }}
+```go-htmltemplate
+<div class="muti-image">
+  {{ with .Inner }}
+    {{/* 预处理：移除单独的换行符，但保留图片之间的空行 */}}
+    {{ $processedContent := replace . "\n" " " }}
+    {{ $processedContent = $processedContent | markdownify }}
+    {{ $processedContent }}
+  {{ end }}
 </div>
 
 ```
@@ -88,7 +89,6 @@
 }
 ```
 ## 使用
-在文档内以下格式使用，注意图片之间 **可以换行但不空行**，每行之后也不能增加两个空格，否则会被识别成单独一列。
 ```markdown
 {{</* muti-image */>}}
 ![]()

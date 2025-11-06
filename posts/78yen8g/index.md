@@ -1,5 +1,6 @@
 # 增加多图排版功能
 
+
 :(fa-solid fa-copyright): 封面图片截于**Unsplash**官网
 <!--more-->
 ==本文代码部分使用 Deepseek 修改==[danger]  
@@ -98,39 +99,39 @@
 
 ## 示例
 ### 两张图片
-{{< muti-image >}}      
-![Travel1](./images/1.webp)
-![Travel2](./images/2.webp)
-{{< /muti-image >}}
+{{< muti-image >}}  
+![Travel1](./images/1.webp)  
+![Travel2](./images/2.webp)  
+{{< /muti-image>}}
 
 ### 三张图片
 
 {{< muti-image >}}  
-![NothingPhone1](./images/index-1761479603017.webp)
-![NothingPhone2](./images/index-1761479609128.webp)
-![NothingPhone3](./images/index-1761479615431.webp)
+![NothingPhone1](./images/index-1761479603017.webp)  
+![NothingPhone2](./images/index-1761479609128.webp)  
+![NothingPhone3](./images/index-1761479615431.webp)  
 {{< /muti-image >}}
 
 ### 四张图片
 
 {{< muti-image >}}  
-![NothingPhone3](./images/index-1761479615431.webp)
-![NothingPhone2](./images/index-1761479609128.webp)
-![NothingPhone1](./images/index-1761479603017.webp)
-![NothingPhone4](./images/index-1761619783313.webp)
+![NothingPhone3](./images/index-1761479615431.webp)  
+![NothingPhone2](./images/index-1761479609128.webp)  
+![NothingPhone1](./images/index-1761479603017.webp)  
+![NothingPhone4](./images/index-1761619783313.webp)  
 {{< /muti-image >}}
 ### 多张图片
 
 {{< muti-image >}}  
-![NothingPhone2|45x100](./images/index-1761479609128.webp)
-![Travel2](./images/2.webp)
-![大熊猫](images/panada.webp)
-![重庆](images/chongqing.webp)
-![NothingPhone4](./images/index-1761619783313.webp)
-![Chicken](./images/chicken.webp)
-![春节](./images/spring_festival.webp)
-{{< /muti-image >}}
-~注:本文章图片以进行压缩处理~
+![NothingPhone2|45x100](./images/index-1761479609128.webp)  
+![Travel2](./images/2.webp)  
+![大熊猫](images/panada.webp)  
+![重庆](images/chongqing.webp)  
+![NothingPhone4](./images/index-1761619783313.webp)  
+![Chicken](./images/chicken.webp)  
+![春节](./images/spring_festival.webp)  
+{{< /muti-image >}}  
+~注: 本文章图片以进行压缩处理~
 
 ## 参考
  1. 样式参考：[Hugo 多图排版这样来 :: 木木木木木](https://immmmm.com/about-images-gird/)

@@ -1,6 +1,9 @@
 # 关于
 
 
+
+  <img  src="https://count.getloli.com/@bulone?name=bulone&theme=normal-1&padding=3&offset=0&align=center&scale=0.8&pixelated=1&darkmode=auto" alt="示例图片1" width="auto">
+
 本人现实中极度社恐，网络上 [社牛]^(仅限不熟的网友)，我有一种熟人尴尬症。
 
 会的东西不多，完全是半吊子水平，没有深入研究的耐心，总是到表皮结束。

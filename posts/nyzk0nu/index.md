@@ -44,10 +44,7 @@
 {{ $host := lower $url.Host }}
 {{ $currentHost := lower (urls.Parse site.BaseURL).Host }}
 {{- /* 白名单：一行一个 */ -}}
-{{ $trustedDomains := slice 
-    "jd.com"
-    "tmall.com"
-}}
+{{ $trustedDomains := site.Params.whitelist }}
 {{ $isTrusted := false }}
 {{ $isSameDomain := eq $host $currentHost }}
 {{ range $trustedDomains }}
@@ -144,7 +141,8 @@
 </a>
 {{- /* EOF */ -}}
 ```
-
+在配置文档`hugo.toml`中的params下新增加名为`whitelist`数组，**开头空两格而非tab**，与下面格式一致即可。每个链接只需要主域名，英文逗号隔开，默认通配符适配。
+![示例](./images/index-1762501863433.png "示例")
 ## 跳转页网页
 在 `layouts/_default/` 中创建 `redirect.html` 文件，复制下面代码。  
 <sub>注：仅适用于 Fixit 主题，其他主题自行测试。</sub>

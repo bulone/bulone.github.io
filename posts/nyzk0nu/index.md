@@ -3,12 +3,12 @@
 
 <!--more-->
 ==本文章代码部分内容使用 AI 辅助创作==[danger]  
-3-29：重新修改代码，使用主题的链接渲染。  
-10-23：修改代码，增加白名单选项。[跳转重新复制粘贴](#链接渲染)
-
+3-29：修改代码，使用主题的链接渲染。  
+10-23：修改代码，增加白名单选项。[跳转重新复制粘贴](#链接渲染)  
+11-08：修改代码，简洁化跳转页。  
 ## 引言
 之前挺烦一些网站的链接跳转，类如 CSDN，掘金之类的，浪费时间还浪费精力。不过话说回来做中间页跳转还是有必要的，毕竟一些网站域名过期被一些非法网站使用，那么就会导致博客内文章直接引向非法网站，这是万万不可的。所以做中间页提醒访客链接安全未知，在此期间参考了一些博客站文章，感谢博主的分享🙇。  
-![跳转页效果](./images/index-1742980281921.webp "效果展示")
+![跳转页效果](./images/cover.webp "效果展示")
 ## 目录文件树
 ``` {data-open=true}
 .
@@ -43,7 +43,6 @@
 {{- $url := urls.Parse .Destination -}}
 {{ $host := lower $url.Host }}
 {{ $currentHost := lower (urls.Parse site.BaseURL).Host }}
-{{- /* 白名单：一行一个 */ -}}
 {{ $trustedDomains := site.Params.whitelist }}
 {{ $isTrusted := false }}
 {{ $isSameDomain := eq $host $currentHost }}
@@ -141,35 +140,43 @@
 </a>
 {{- /* EOF */ -}}
 ```
-在配置文档`hugo.toml`中的params下新增加名为`whitelist`数组，**开头空两格而非tab**，与下面格式一致即可。每个链接只需要主域名，英文逗号隔开，默认通配符适配。
+在配置文档 `hugo.toml` 中的 params 下新增加名为 `whitelist` 数组，**开头空两格而非 tab**，与下面格式一致即可。每个链接只需要主域名，英文逗号隔开，默认通配符适配。  
 ![示例](./images/index-1762501863433.png "示例")
 ## 跳转页网页
 在 `layouts/_default/` 中创建 `redirect.html` 文件，复制下面代码。  
 <sub>注：仅适用于 Fixit 主题，其他主题自行测试。</sub>
 ```html
-{{- define "title" -}}
-  {{- cond (.Param "capitalizeTitles") (title .Title) .Title -}}
-  {{- if .Site.Params.withSiteTitle }} {{ .Site.Params.titleDelimiter }} {{ .Site.Title }}{{- end -}}
-{{- end -}}
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="{{ .Site.LanguageCode }}">
 
-{{ define "custom-head" }}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
     <meta name="robots" content="noindex, nofollow">
     <meta name="referrer" content="no-referrer">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-{{ end }}
+    {{- partial "head/link.html" . -}}
+</head>
 
-{{ define "content" }}
-    <div class="external-warning">
-        <h2 class="warning-title">⚠️ 您即将离开 {{ .Site.Title }}</h2>
-        <p>将要访问的外部链接：</p>
-        <div class="external-url" id="target-url">{{ .Params.url }}</div>
-        
-        <p>🛡请自行识别链接是否安全，注意您的帐号和财产安全。</p>
-        
-        <div class="button-group">
-            <a href="{{ .Params.url }}" class="button continue-btn" id="proceed-link">🚀 继续访问</a>
-        </div>
+<body>
+    {{- /* Body wrapper */ -}}
+    <div class="wrapper" data-page-style="{{ (partial `function/params.html`).pageStyle | default `normal` }}">
+        <main class="fi-container" style="align-items: center;">
+            <div class="external-warning" data-aos="zoom-out-up">
+                <div class="logo-title-container">
+                    <img src="/logo.svg" class="logo">
+                    <span class="warning-title">即将离开{{ .Site.Title }}</span>
+                </div>
+                <p>您访问的网站可能包含未知的安全风险，请注意您的帐号和财产安全。</p>
+                <div class="external-url" id="target-url">{{ .Params.url }}</div>
+                <div class="button-group">
+                    <a class="button continue-btn" id="proceed-link">继续前往</a>
+                </div>
+            </div>
+        </main>
     </div>
 
     <script>
@@ -180,7 +187,10 @@
         document.getElementById('target-url').textContent = decodedUrl;
         document.getElementById('proceed-link').href = decodedUrl;
     </script>
-{{ end }}
+    {{- partial "assets.html" . -}}
+</body>
+
+</html>
 ```
 
 ## 页面文件

@@ -123,7 +123,7 @@
 ### 多张图片
 
 {{< muti-image >}}  
-![NothingPhone2|45x100](./images/index-1761479609128.webp)  
+![NothingPhone2](./images/index-1761479609128.webp)  
 ![Travel2](./images/2.webp)  
 ![大熊猫](images/panada.webp)  
 ![重庆](images/chongqing.webp)  

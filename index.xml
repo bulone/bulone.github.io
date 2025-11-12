@@ -406,22 +406,35 @@
  &lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/untpxpv/images/index-1761136934686.webp" title="功率分配" data-thumbnail="/posts/untpxpv/images/index-1761136934686.webp" data-sub-html="&lt;h2&gt;功率分配&lt;/h2&gt;&lt;p&gt;功率分配&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/untpxpv/images/index-1761136934686.webp' alt="功率分配" height="1042" width="794"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;功率分配&lt;/figcaption&gt;
  &lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;通过功率表协议检测，三个口的协议支持情况与商品详情图中出现不一致情况，反向虚标还是其他原因不得而知，以下是协议检测情况。&lt;/p&gt;
-&lt;tab-container default-tab="0" placement="top" type="card"&gt;&lt;button class="tab-button" type="button" role="tab" id="tab-id-1" aria-selected="true"&gt;自带线&lt;/button&gt;&lt;button class="tab-button" type="button" role="tab" id="tab-id-2" aria-selected="false"&gt;C1 口&lt;/button&gt;&lt;button class="tab-button" type="button" role="tab" id="tab-id-3" aria-selected="false"&gt;USB-A 口&lt;/button&gt; 
-&lt;div role="tabpanel" aria-labelledby="tab-id-1" class="tab-panel"&gt;&lt;div class="muti-image-container"&gt;
+&lt;p&gt;通过功率表协议检测，三个口的协议支持情况与商品详情图中出现不一致情况，反向虚标还是其他原因不得而知，以下是协议检测情况。
+&lt;div class="muti-image-container"&gt;
  &lt;div class="muti-image"&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;a&amp;ensp;class=&amp;quot;lightgallery&amp;quot;&amp;ensp;href=&amp;quot;./images/index-1761009904777.webp&amp;quot;&amp;ensp;title=&amp;quot;支持协议&amp;quot;&amp;ensp;data-thumbnail=&amp;quot;./images/index-1761009904777.webp&amp;quot;&amp;ensp;data-sub-html=&amp;quot;&amp;lt;h2&amp;gt;支持协议&amp;lt;/h2&amp;gt;&amp;quot;&amp;gt;&amp;lt;img&amp;ensp;loading=&amp;quot;lazy&amp;quot;&amp;ensp;src='./images/index-1761009904777.webp'&amp;ensp;alt=&amp;quot;支持协议&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;ensp;&amp;lt;a&amp;ensp;class=&amp;quot;lightgallery&amp;quot;&amp;ensp;href=&amp;quot;./images/index-1761009928751.webp&amp;quot;&amp;ensp;title=&amp;quot;PD档位&amp;quot;&amp;ensp;data-thumbnail=&amp;quot;./images/index-1761009928751.webp&amp;quot;&amp;ensp;data-sub-html=&amp;quot;&amp;lt;h2&amp;gt;PD档位&amp;lt;/h2&amp;gt;&amp;quot;&amp;gt;&amp;lt;img&amp;ensp;loading=&amp;quot;lazy&amp;quot;&amp;ensp;src='./images/index-1761009928751.webp'&amp;ensp;alt=&amp;quot;PD档位&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+ 
+ 
+ 
+ 
+ &lt;a class="lightgallery" href="./images/index-1761009904777.webp" title="支持协议" data-thumbnail="./images/index-1761009904777.webp" data-sub-html="&lt;h2&gt;支持协议&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761009904777.webp' alt="支持协议"&gt;&lt;/a&gt; &lt;a class="lightgallery" href="./images/index-1761009928751.webp" title="PD档位" data-thumbnail="./images/index-1761009928751.webp" data-sub-html="&lt;h2&gt;PD档位&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='./images/index-1761009928751.webp' alt="PD档位"&gt;&lt;/a&gt;
+ 
  &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt; 
-&lt;div role="tabpanel" aria-labelledby="tab-id-2" class="tab-panel"&gt;&lt;div class="muti-image-container"&gt;
+ 
+ &lt;div class="muti-image-title"&gt;自带线检测&lt;/div&gt;
+ 
+&lt;/div&gt;&lt;/p&gt;
+&lt;div class="muti-image-container"&gt;
  &lt;div class="muti-image"&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;a&amp;ensp;class=&amp;quot;lightgallery&amp;quot;&amp;ensp;href=&amp;quot;images/index-1761010063050.webp&amp;quot;&amp;ensp;title=&amp;quot;支持协议&amp;quot;&amp;ensp;data-thumbnail=&amp;quot;images/index-1761010063050.webp&amp;quot;&amp;ensp;data-sub-html=&amp;quot;&amp;lt;h2&amp;gt;支持协议&amp;lt;/h2&amp;gt;&amp;quot;&amp;gt;&amp;lt;img&amp;ensp;loading=&amp;quot;lazy&amp;quot;&amp;ensp;src='images/index-1761010063050.webp'&amp;ensp;alt=&amp;quot;支持协议&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;ensp;&amp;lt;a&amp;ensp;class=&amp;quot;lightgallery&amp;quot;&amp;ensp;href=&amp;quot;images/index-1761010067407.webp&amp;quot;&amp;ensp;title=&amp;quot;PD档位&amp;quot;&amp;ensp;data-thumbnail=&amp;quot;images/index-1761010067407.webp&amp;quot;&amp;ensp;data-sub-html=&amp;quot;&amp;lt;h2&amp;gt;PD档位&amp;lt;/h2&amp;gt;&amp;quot;&amp;gt;&amp;lt;img&amp;ensp;loading=&amp;quot;lazy&amp;quot;&amp;ensp;src='images/index-1761010067407.webp'&amp;ensp;alt=&amp;quot;PD档位&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+ 
+ 
+ 
+ 
+ &lt;a class="lightgallery" href="images/index-1761010063050.webp" title="支持协议" data-thumbnail="images/index-1761010063050.webp" data-sub-html="&lt;h2&gt;支持协议&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='images/index-1761010063050.webp' alt="支持协议"&gt;&lt;/a&gt; &lt;a class="lightgallery" href="images/index-1761010067407.webp" title="PD档位" data-thumbnail="images/index-1761010067407.webp" data-sub-html="&lt;h2&gt;PD档位&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='images/index-1761010067407.webp' alt="PD档位"&gt;&lt;/a&gt;
+ 
  &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt; 
-&lt;div role="tabpanel" aria-labelledby="tab-id-3" class="tab-panel"&gt;&lt;p&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/untpxpv/images/index-1761010089678.webp" title="支持协议" data-thumbnail="/posts/untpxpv/images/index-1761010089678.webp" data-sub-html="&lt;h2&gt;支持协议&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/untpxpv/images/index-1761010089678.webp' alt="支持协议" height="1280" width="1280"&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt; 
-&lt;/tab-container&gt;
+ 
+ &lt;div class="muti-image-title"&gt;C1口&lt;/div&gt;
+ 
+&lt;/div&gt;
+&lt;p&gt;&lt;figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;&lt;a class="lightgallery" href="https://blog.toastbubble.top/posts/untpxpv/images/index-1761010089678.webp" title="USB-A口" data-thumbnail="/posts/untpxpv/images/index-1761010089678.webp" data-sub-html="&lt;h2&gt;支持协议&lt;/h2&gt;&lt;p&gt;USB-A口&lt;/p&gt;"&gt;&lt;img loading="lazy" src='https://blog.toastbubble.top/posts/untpxpv/images/index-1761010089678.webp' alt="支持协议" height="1280" width="1280"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;USB-A口&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;通过协议检测此款充电宝支持的协议相对较多，针对华为系和 OPPO 系都有对应的私有协议支持。测试OPPO系充电最大功率不超过50W，&lt;strong&gt;推测该充电宝的SuperVooc支持档位的是10V5A&lt;/strong&gt;。对于小米系和 VIVO 系私有协议支持较差,如果是已经开放PPS协议的新款手机来说还可以接受。因为 SCP 和 PPS 在同一接口，荣耀系列手机可能会首先握手 SCP 协议而非 PPS 协议。同时支持 UFCS/PPS 协议的手机来说，会首先握手 UFCS 协议，因此根据个人需求进行购买。&lt;/p&gt;
 &lt;p&gt;由于输入功率为 65W，而且涓流时间过长，进一步导致充满时间大幅增加。通过多次充电测试，从 UI 0%-100% 至充满低功率输入，时间约为 1 小时 35 分钟 -1 小时 40 分钟左右，平均功率约为 40W 左右，充电功率受温度影响，不存在某些品牌定时器效应。充电时的温度处于温热状态，充电宝是横放在桌子上。无论是站立还是横放充电时间都没有太大的区别，室温处于12度左右，夏天的话温度因素时间可能会有所增加。
 &lt;div class="muti-image-container"&gt;

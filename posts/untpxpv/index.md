@@ -30,25 +30,21 @@
 ![功率分配](./images/index-1761136934686.webp "功率分配")
 
 通过功率表协议检测，三个口的协议支持情况与商品详情图中出现不一致情况，反向虚标还是其他原因不得而知，以下是协议检测情况。
-
-{{< tabs type="card" placement="top" >}}  
-{{% tab title=" 自带线 " %}}
-
-{{< muti-image >}}
+{{< muti-image title="自带线检测" >}}
 ![支持协议](./images/index-1761009904777.webp)
 ![PD档位](./images/index-1761009928751.webp)
 {{< /muti-image>}}
-{{% /tab %}}  
-{{% tab title="C1 口 " %}}
-{{< muti-image >}}
+
+{{< muti-image title="C1口" >}}
 ![支持协议](images/index-1761010063050.webp)
+
+
+
 ![PD档位](images/index-1761010067407.webp)
 {{< /muti-image>}}
-{{% /tab %}}  
-{{% tab title="USB-A 口 " %}}  
-![支持协议](./images/index-1761010089678.webp)  
-{{% /tab %}}  
-{{< /tabs >}}
+
+![支持协议](./images/index-1761010089678.webp "USB-A口")  
+
 
 通过协议检测此款充电宝支持的协议相对较多，针对华为系和 OPPO 系都有对应的私有协议支持。测试OPPO系充电最大功率不超过50W，**推测该充电宝的SuperVooc支持档位的是10V5A**。对于小米系和 VIVO 系私有协议支持较差,如果是已经开放PPS协议的新款手机来说还可以接受。因为 SCP 和 PPS 在同一接口，荣耀系列手机可能会首先握手 SCP 协议而非 PPS 协议。同时支持 UFCS/PPS 协议的手机来说，会首先握手 UFCS 协议，因此根据个人需求进行购买。
 

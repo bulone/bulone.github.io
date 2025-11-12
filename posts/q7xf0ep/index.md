@@ -1,18 +1,16 @@
-# 增加设备展示页
+# 增加装备页面
 
 
 <!--more-->
 
 ==本文章代码部分内容使用 AI 辅助创作==[danger]
-
+> 2025 年 6 月 30 日更新   
+将 devices.html 移到 layouts 目录下
 ## 引言
-之前就喜欢 [@张洪Heo](https://blog.zhheo.com/equipment/) 博主博客的我的装备页，模仿着主题的 Friends 模板进行修改，在 Fixit 上也增加了~~相同~~类似的装备展示页，因为设备没那么多所以也没进行分类。如果有想法直接修改 device.html 文件，不会的问 Deepseek<sub>这玩意可真好用啊，Hugo 文档较少比搜索引擎快得多。</sub>
-
-演示地址: [设备陈列馆](/devices)
+喜欢博主[@张洪Heo](https://blog.zhheo.com/equipment/)博客的我的装备页，也为了丰富下当前网站，模仿着主题的友链模板进行修改，在 Fixit 上也增加了~~相同~~类似的装备展示页。如果有想法直接修改 device.html 文件，不会的问 [Deepseek]^(这玩意可真好用啊，比搜索引擎快得多)。  
+演示地址: [装备](/devices)
 
 ## 目录文件树
---2025 年 6 月 30 日更新 --  
-将 devices.html 移到 layouts 目录下
 
 ``` { title="文件树状图"}
 根目录
@@ -198,13 +196,13 @@ layout: "devices"
   link(可选): 设备链接
   price(可选): 设备价格
 ```
-<sub>注：可选的意思是加活不加都行</sub>
+~注：可选的意思是加不加都行~
 
 以上配置完成后别忘了把图片放到 static/devices 内。图片的推荐大小比例为 1.5:2，尽量周围留有空白，保证图片完美展示。小点没关系，图片有点击放大功能。
 
-{{< link href="/devices/white.webp" title=" 展位图下载 " content=" 设备展位图 " card=true download="white.webp" >}}
+{{< link href="device-images/white.webp" title=" 展位图下载 " content=" 设备展位图 " card=true download="white.webp" >}}
 
-## 参考链接
+## 参考文章
 
 1. [好物beta](https://www.eallion.com/goods/)
 2. [我的装备 \| 张洪Heo](https://blog.zhheo.com/equipment/)

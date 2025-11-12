@@ -551,7 +551,7 @@
  
 &lt;/div&gt;
 利用维简 K2 功率表，测试 3 次情况如上，整体来说充电时间大差不差，功率情况也是受温控影响，涓流时间拉长，冲入能量约为 70Wh 左右。目前来说这个数据相对于额定的72Wh来说又有点差劲的，并且之间也会存在能量转换损耗。&lt;/p&gt;
-&lt;p&gt;测试是支持边冲边放，商品详情页中未注明，估计也是考虑温度影响，&lt;strong&gt;不建议这么做&lt;/strong&gt;，避免导致发热情况严重。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;支持边冲边放，商品详情页中未注明，估计也是考虑温度影响，&lt;strong&gt;不建议这么做&lt;/strong&gt;，避免导致发热情况严重。&lt;/del&gt;(待定)&lt;/p&gt;
 &lt;h2 class="heading-element" id="总结"&gt;&lt;span&gt;总结&lt;/span&gt;
  &lt;a href="#%e6%80%bb%e7%bb%93" class="heading-mark"&gt;
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
@@ -919,12 +919,16 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
  
  &lt;div class="muti-image-title"&gt;估计是保存在网盘里没原图上传现在都发绿了&lt;/div&gt;
  
-&lt;/div&gt;</description></item><item><title>增加设备展示页</title><link>https://blog.toastbubble.top/posts/q7xf0ep/</link><pubDate>Thu, 27 Mar 2025 20:23:46 +0800</pubDate><guid>https://blog.toastbubble.top/posts/q7xf0ep/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="https://blog.toastbubble.top/posts/q7xf0ep/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;&lt;mark class="mark-danger"&gt;本文章代码部分内容使用 AI 辅助创作&lt;/mark&gt;&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>增加装备页面</title><link>https://blog.toastbubble.top/posts/q7xf0ep/</link><pubDate>Thu, 27 Mar 2025 20:23:46 +0800</pubDate><guid>https://blog.toastbubble.top/posts/q7xf0ep/</guid><category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category><description>&lt;img src="images/cover.png" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;&lt;mark class="mark-danger"&gt;本文章代码部分内容使用 AI 辅助创作&lt;/mark&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2025 年 6 月 30 日更新&lt;br&gt;
+将 devices.html 移到 layouts 目录下&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 class="heading-element" id="引言"&gt;&lt;span&gt;引言&lt;/span&gt;
  &lt;a href="#%e5%bc%95%e8%a8%80" class="heading-mark"&gt;
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
  &lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;之前就喜欢 
+&lt;/h2&gt;&lt;p&gt;喜欢博主
 
 
 
@@ -941,8 +945,8 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
  
 
 
-&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly9ibG9nLnpoaGVvLmNvbS9lcXVpcG1lbnQv"target="_blank" rel="external nofollow noopener noreferrer"&gt;@张洪Heo&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 博主博客的我的装备页，模仿着主题的 Friends 模板进行修改，在 Fixit 上也增加了&lt;del&gt;相同&lt;/del&gt;类似的装备展示页，因为设备没那么多所以也没进行分类。如果有想法直接修改 device.html 文件，不会的问 Deepseek&lt;sub&gt;这玩意可真好用啊，Hugo 文档较少比搜索引擎快得多。&lt;/sub&gt;&lt;/p&gt;
-&lt;p&gt;演示地址: 
+&lt;a href="https://blog.toastbubble.top/redirect/?url=aHR0cHM6Ly9ibG9nLnpoaGVvLmNvbS9lcXVpcG1lbnQv"target="_blank" rel="external nofollow noopener noreferrer"&gt;@张洪Heo&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;博客的我的装备页，也为了丰富下当前网站，模仿着主题的友链模板进行修改，在 Fixit 上也增加了&lt;del&gt;相同&lt;/del&gt;类似的装备展示页。如果有想法直接修改 device.html 文件，不会的问 &lt;strong&gt;&lt;ruby&gt;Deepseek&lt;rt&gt;这玩意可真好用啊，比搜索引擎快得多&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt;。&lt;br&gt;
+演示地址: 
 
 
 
@@ -959,14 +963,12 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
  
 
 
-&lt;a href="https://blog.toastbubble.top/devices"&gt;设备陈列馆&lt;/a&gt;&lt;/p&gt;
+&lt;a href="https://blog.toastbubble.top/devices"&gt;装备&lt;/a&gt;&lt;/p&gt;
 &lt;h2 class="heading-element" id="目录文件树"&gt;&lt;span&gt;目录文件树&lt;/span&gt;
  &lt;a href="#%e7%9b%ae%e5%bd%95%e6%96%87%e4%bb%b6%e6%a0%91" class="heading-mark"&gt;
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
  &lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;&amp;ndash;2025 年 6 月 30 日更新 &amp;ndash;&lt;br&gt;
-将 devices.html 移到 layouts 目录下&lt;/p&gt;
-&lt;div class="highlight" title="文件树状图"&gt;&lt;div class="chroma"&gt;
+&lt;/h2&gt;&lt;div class="highlight" title="文件树状图"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
 &lt;/span&gt;&lt;span class="lnt"&gt; 2
@@ -1340,7 +1342,7 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;link(可选)&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;设备链接&lt;/span&gt;&lt;span class="w"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;price(可选)&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;设备价格&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;sub&gt;注：可选的意思是加活不加都行&lt;/sub&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;&lt;sub&gt;注：可选的意思是加不加都行&lt;/sub&gt;&lt;/p&gt;
 &lt;p&gt;以上配置完成后别忘了把图片放到 static/devices 内。图片的推荐大小比例为 1.5:2，尽量周围留有空白，保证图片完美展示。小点没关系，图片有点击放大功能。&lt;/p&gt;
 
 
@@ -1359,17 +1361,17 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
  
 
 
-&lt;a href="https://blog.toastbubble.top/devices/white.webp" title=" 展位图下载 " class="card-link" download="white.webp"&gt;&lt;span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"&gt;&lt;/span&gt;
+&lt;a href="https://blog.toastbubble.top/device-images/white.webp" title=" 展位图下载 " class="card-link" download="white.webp"&gt;&lt;span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"&gt;&lt;/span&gt;
  &lt;span class="cl-content"&gt;
  &lt;span class="cl-text"&gt;
  &lt;span class="cl-title"&gt; 设备展位图 &lt;/span&gt;
  &lt;span class="cl-meta"&gt;
  &lt;svg class="cl-icon-link" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"&gt;&lt;path d="M574 665.4c-3.1-3.1-8.2-3.1-11.3 0L446.5 781.6c-53.8 53.8-144.6 59.5-204 0-59.5-59.5-53.8-150.2 0-204l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3l-39.8-39.8c-3.1-3.1-8.2-3.1-11.3 0L191.4 526.5c-84.6 84.6-84.6 221.5 0 306s221.5 84.6 306 0l116.2-116.2c3.1-3.1 3.1-8.2 0-11.3L574 665.4zM832.6 191.4c-84.6-84.6-221.5-84.6-306 0L410.3 307.6c-3.1 3.1-3.1 8.2 0 11.3l39.7 39.7c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c53.8-53.8 144.6-59.5 204 0 59.5 59.5 53.8 150.2 0 204L665.3 562.6c-3.1 3.1-3.1 8.2 0 11.3l39.8 39.8c3.1 3.1 8.2 3.1 11.3 0l116.2-116.2c84.5-84.6 84.5-221.5 0-306.1z" fill="#a9a9b3"&gt;&lt;/path&gt;&lt;path d="M610.1 372.3c-3.1-3.1-8.2-3.1-11.3 0L372.3 598.7c-3.1 3.1-3.1 8.2 0 11.3l39.6 39.6c3.1 3.1 8.2 3.1 11.3 0l226.4-226.4c3.1-3.1 3.1-8.2 0-11.3l-39.5-39.6z" fill="#a9a9b3"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;span class="cl-url"&gt;/devices/white.webp&lt;/span&gt;
+ &lt;span class="cl-url"&gt;/device-images/white.webp&lt;/span&gt;
  &lt;/span&gt;
  &lt;/span&gt;&lt;svg class="cl-shortcut-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64"&gt;&lt;path d="M824.32 473.6c-15.36-2.56-25.6-15.36-25.6-30.72 0-112.64-71.68-217.6-179.2-250.88-148.48-46.08-289.28 38.4-332.8 166.4-2.56 10.24-12.8 17.92-23.04 20.48C143.36 401.92 51.2 509.44 51.2 637.44v2.56c0 115.2 97.28 204.8 209.92 204.8h524.8c102.4-2.56 184.32-84.48 184.32-186.88 2.56-89.6-61.44-163.84-145.92-184.32z m-273.92 225.28c-12.8 12.8-30.72 15.36-46.08 10.24H501.76c-5.12-2.56-10.24-5.12-15.36-10.24L366.08 578.56c-15.36-15.36-15.36-43.52 0-58.88 15.36-15.36 43.52-15.36 58.88 0l51.2 51.2V352.4608c0-23.04 17.92-40.96 40.96-40.96 23.04 0 40.96 17.92 40.96 40.96v218.4192l51.2-51.2c17.92-17.92 43.52-17.92 61.44 0 17.92 15.36 17.92 40.96 0 58.88l-120.32 120.32z" fill="#4FC089"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;
-&lt;h2 class="heading-element" id="参考链接"&gt;&lt;span&gt;参考链接&lt;/span&gt;
- &lt;a href="#%e5%8f%82%e8%80%83%e9%93%be%e6%8e%a5" class="heading-mark"&gt;
+&lt;h2 class="heading-element" id="参考文章"&gt;&lt;span&gt;参考文章&lt;/span&gt;
+ &lt;a href="#%e5%8f%82%e8%80%83%e6%96%87%e7%ab%a0" class="heading-mark"&gt;
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
  &lt;/a&gt;
 &lt;/h2&gt;&lt;ol&gt;

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog - 标签 - 吐司气泡</title>
+  <link href="" />
+  <updated>2025-06-30T16:07:47Z</updated>
+  <id></id>
+  <author>
+    <name>吐司气泡</name>
+  </author>
+  <generator uri="https://gohugo.io/" version="0.152.2">Hugo</generator>
+  <entry>
+    <title>增加装备页面</title>
+    <link href="https://blog.toastbubble.top/posts/q7xf0ep/" />
+    <id>https://blog.toastbubble.top/posts/q7xf0ep/</id>
+    <updated>2025-03-27T20:23:46Z</updated>
+    <summary>记录老伙伴们📱</summary>
+    <category term="搞点啥" />
+    <content type="html">记录老伙伴们📱</content>
+  </entry>
+  <entry>
+    <title>博客建站记录</title>
+    <link href="https://blog.toastbubble.top/posts/pougfvs/" />
+    <id>https://blog.toastbubble.top/posts/pougfvs/</id>
+    <updated>2025-02-10T21:14:45Z</updated>
+    <summary>好记性不如烂键盘⌨</summary>
+    <category term="搞点啥" />
+    <content type="html">好记性不如烂键盘⌨</content>
+  </entry>
+</feed>

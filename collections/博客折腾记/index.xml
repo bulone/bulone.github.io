@@ -6,8 +6,16 @@
     <description>吐司气泡是方向为生活，数码，实践方面的个人综合博客，用简单的话语记录简单的时刻。</description>
     <generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.3-20251119085609-237c2f3d</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 10 Nov 2025 16:41:43 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 20:43:20 +0800</lastBuildDate>
     <atom:link href="https://blog.toastbubble.top/collections/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixit主题美化</title>
+      <link>https://blog.toastbubble.top/posts/fexgwp8/</link>
+      <pubDate>Wed, 19 Nov 2025 19:26:27 +0800</pubDate>
+      <guid>https://blog.toastbubble.top/posts/fexgwp8/</guid>
+      <category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category>
+      <description>整理下修改的部分🎀</description>
+    </item>
     <item>
       <title>增加多图排版</title>
       <link>https://blog.toastbubble.top/posts/78yen8g/</link>

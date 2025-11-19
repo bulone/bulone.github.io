@@ -1,20 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.toastbubble.top/posts/</loc>
-    <lastmod>2025-11-19T20:03:39+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.toastbubble.top/</loc>
-    <lastmod>2025-11-19T20:03:39+08:00</lastmod>
+    <loc>https://blog.toastbubble.top/posts/fexgwp8/</loc>
+    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://blog.toastbubble.top/categories/</loc>
-    <lastmod>2025-11-19T17:03:00+08:00</lastmod>
+    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/collections/</loc>
+    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/tags/fixit/</loc>
+    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/tags/hugo/</loc>
+    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/posts/</loc>
+    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/tags/</loc>
+    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/collections/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E8%AE%B0/</loc>
+    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/</loc>
+    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/</loc>
+    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -26,12 +68,6 @@
   </url>
   <url>
     <loc>https://blog.toastbubble.top/posts/m1lz06m/</loc>
-    <lastmod>2025-11-19T17:03:00+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.toastbubble.top/tags/</loc>
     <lastmod>2025-11-19T17:03:00+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -73,37 +109,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://blog.toastbubble.top/collections/</loc>
-    <lastmod>2025-11-10T16:41:43+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.toastbubble.top/tags/fixit/</loc>
-    <lastmod>2025-11-10T16:41:43+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.toastbubble.top/tags/hugo/</loc>
-    <lastmod>2025-11-10T16:41:43+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.toastbubble.top/collections/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E8%AE%B0/</loc>
-    <lastmod>2025-11-10T16:41:43+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://blog.toastbubble.top/tags/%E5%A4%9A%E5%9B%BE/</loc>
-    <lastmod>2025-11-10T16:41:43+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/</loc>
     <lastmod>2025-11-10T16:41:43+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

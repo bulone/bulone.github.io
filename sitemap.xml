@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.toastbubble.top/categories/</loc>
+    <lastmod>2025-11-19T13:37:47+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/tags/cloudflare/</loc>
+    <lastmod>2025-11-19T13:37:47+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/posts/m1lz06m/</loc>
+    <lastmod>2025-11-19T13:37:47+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://blog.toastbubble.top/posts/</loc>
+    <lastmod>2025-11-19T13:37:47+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/tags/</loc>
     <lastmod>2025-11-19T13:37:47+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -13,8 +37,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://blog.toastbubble.top/categories/</loc>
-    <lastmod>2025-11-10T16:41:43+08:00</lastmod>
+    <loc>https://blog.toastbubble.top/categories/%E9%97%B2%E8%81%8A/</loc>
+    <lastmod>2025-11-19T13:37:47+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -27,12 +51,6 @@
   <url>
     <loc>https://blog.toastbubble.top/tags/mova%E7%94%B5%E5%8A%A8%E7%89%99%E5%88%B7/</loc>
     <lastmod>2025-11-08T10:53:33+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.toastbubble.top/tags/</loc>
-    <lastmod>2025-11-10T16:41:43+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

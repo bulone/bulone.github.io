@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>闲聊 - 分类 - 吐司气泡</title>
+    <link>https://blog.toastbubble.top/categories/%E9%97%B2%E8%81%8A/</link>
+    <description>吐司气泡是方向为生活，数码，实践方面的个人综合博客，用简单的话语记录简单的时刻。</description>
+    <generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.2-20251119032325-aad75044</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 19 Nov 2025 13:37:47 +0800</lastBuildDate>
+    <atom:link href="https://blog.toastbubble.top/categories/%E9%97%B2%E8%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloudflare宕机</title>
+      <link>https://blog.toastbubble.top/posts/m1lz06m/</link>
+      <pubDate>Wed, 19 Nov 2025 13:31:20 +0800</pubDate>
+      <guid>https://blog.toastbubble.top/posts/m1lz06m/</guid>
+      <category domain="https://blog.toastbubble.top/categories/%E9%97%B2%E8%81%8A/">闲聊</category>
+      <description>两个鸡蛋不要放在一个篮子里🧺</description>
+    </item>
+  </channel>
+</rss>

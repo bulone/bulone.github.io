@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Cloudflare - 标签 - 吐司气泡</title>
+  <link href="" />
+  <updated>2025-11-19T13:37:47Z</updated>
+  <id></id>
+  <author>
+    <name>吐司气泡</name>
+  </author>
+  <generator uri="https://gohugo.io/" version="0.152.2">Hugo</generator>
+  <entry>
+    <title>Cloudflare宕机</title>
+    <link href="https://blog.toastbubble.top/posts/m1lz06m/" />
+    <id>https://blog.toastbubble.top/posts/m1lz06m/</id>
+    <updated>2025-11-19T13:31:20Z</updated>
+    <summary>两个鸡蛋不要放在一个篮子里🧺</summary>
+    <category term="闲聊" />
+    <content type="html">两个鸡蛋不要放在一个篮子里🧺</content>
+  </entry>
+</feed>

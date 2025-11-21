@@ -7,13 +7,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://blog.toastbubble.top/posts/</loc>
-    <lastmod>2025-11-21T11:46:25+08:00</lastmod>
+    <loc>https://blog.toastbubble.top/tzone/</loc>
+    <lastmod>2025-11-21T21:51:16+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://blog.toastbubble.top/</loc>
+    <lastmod>2025-11-21T21:51:16+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/posts/</loc>
     <lastmod>2025-11-21T11:46:25+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -297,11 +303,6 @@
   <url>
     <loc>https://blog.toastbubble.top/posts/pougfvs/</loc>
     <lastmod>2025-02-15T08:49:51+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.toastbubble.top/tzone/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

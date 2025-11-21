@@ -8,21 +8,22 @@
 <meta name="description" content=" @bulone 今天 21:15 蜜雪冰城那个奥利奥奶绿真的一般，喝一口奥利奥全占了口感，回味有一点点绿茶味。奥利奥也在奶茶里泡成了糊状，与预期不符😥
 @bulone 今天 16:14 手机端使用obsidian搭配quickadd也很方便😋
 @bulone 今天 14:06 测试说说页面瀑布流。
-重新布局中... "><meta name="keywords" content='吐司气泡, ToastBubble, Blog'>
+说说加载中请稍后...
+"><meta name="keywords" content='吐司气泡, ToastBubble, Blog'>
   <meta itemprop="name" content="T空间">
   <meta itemprop="description" content="@bulone 今天 21:15 蜜雪冰城那个奥利奥奶绿真的一般，喝一口奥利奥全占了口感，回味有一点点绿茶味。奥利奥也在奶茶里泡成了糊状，与预期不符😥
 @bulone 今天 16:14 手机端使用obsidian搭配quickadd也很方便😋
 @bulone 今天 14:06 测试说说页面瀑布流。
-重新布局中...">
+说说加载中请稍后...">
   <meta itemprop="datePublished" content="2025-11-21T21:51:16+08:00">
   <meta itemprop="dateModified" content="2025-11-21T21:51:16+08:00">
-  <meta itemprop="wordCount" content="116"><meta property="og:url" content="https://blog.toastbubble.top/tzone/">
+  <meta itemprop="wordCount" content="119"><meta property="og:url" content="https://blog.toastbubble.top/tzone/">
   <meta property="og:site_name" content="吐司气泡">
   <meta property="og:title" content="T空间">
   <meta property="og:description" content="@bulone 今天 21:15 蜜雪冰城那个奥利奥奶绿真的一般，喝一口奥利奥全占了口感，回味有一点点绿茶味。奥利奥也在奶茶里泡成了糊状，与预期不符😥
 @bulone 今天 16:14 手机端使用obsidian搭配quickadd也很方便😋
 @bulone 今天 14:06 测试说说页面瀑布流。
-重新布局中...">
+说说加载中请稍后...">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:type" content="article">
     <meta property="article:published_time" content="2025-11-21T21:51:16+08:00">
@@ -33,7 +34,7 @@
   <meta name="twitter:description" content="@bulone 今天 21:15 蜜雪冰城那个奥利奥奶绿真的一般，喝一口奥利奥全占了口感，回味有一点点绿茶味。奥利奥也在奶茶里泡成了糊状，与预期不符😥
 @bulone 今天 16:14 手机端使用obsidian搭配quickadd也很方便😋
 @bulone 今天 14:06 测试说说页面瀑布流。
-重新布局中...">
+说说加载中请稍后...">
 <meta name="application-name" content="Toastbubble">
 <meta name="apple-mobile-web-app-title" content="Toastbubble"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -48,7 +49,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https:\/\/blog.toastbubble.top\/tzone\/"
-    },"image": ["https:\/\/blog.toastbubble.top\/avatar.webp"],"genre": "page","wordcount":  116 ,
+    },"image": ["https:\/\/blog.toastbubble.top\/avatar.webp"],"genre": "page","wordcount":  119 ,
     "url": "https:\/\/blog.toastbubble.top\/tzone\/","datePublished": "2025-11-21T21:51:16+08:00","dateModified": "2025-11-21T21:51:16+08:00","publisher": {
       "@type": "Organization",
       "name": "吐司气泡","logo": "https:\/\/blog.toastbubble.top\/favicon.ico"},"author": {
@@ -242,8 +243,15 @@
       
     </div></div>
 
-  <div class="tzone-layout-overlay" id="tzone-layout-overlay" style="display: none;">
-    <div class="tzone-loading-text">重新布局中...</div>
+  <div class="tzone-layout-overlay" id="tzone-layout-overlay">
+    <div class="wave-container">
+      <div class="wave-bar"></div>
+      <div class="wave-bar"></div>
+      <div class="wave-bar"></div>
+      <div class="wave-bar"></div>
+      <div class="wave-bar"></div>
+    </div>
+    <p>说说加载中请稍后...</p>
   </div>
 
 </div>
@@ -342,9 +350,8 @@
         
         setTimeout(() => {
           if (overlay) {
-            overlay.classList.remove('show');
             setTimeout(() => {
-              overlay.style.display = 'none';
+              overlay.classList.add("loaded");
             }, 500);
           }
         }, items.length * 80 + 300);

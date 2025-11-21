@@ -22,6 +22,6 @@ Cloudflare 官方表示，该问题并非由任何形式的网络攻击或恶意
 
 ---
 
-> 作者: 吐司气泡  
+> 作者: bulone  
 > URL: https://blog.toastbubble.top/posts/m1lz06m/  
 

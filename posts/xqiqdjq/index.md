@@ -23,6 +23,6 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 
 ---
 
-> 作者: 吐司气泡  
+> 作者: bulone  
 > URL: https://blog.toastbubble.top/posts/xqiqdjq/  
 

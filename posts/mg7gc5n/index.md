@@ -57,6 +57,6 @@ docker exec -it 容器名称 /bin/sh
 
 ---
 
-> 作者: 吐司气泡  
+> 作者: bulone  
 > URL: https://blog.toastbubble.top/posts/mg7gc5n/  
 

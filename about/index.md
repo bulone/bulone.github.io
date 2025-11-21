@@ -15,13 +15,27 @@
 建立博客的初衷总要在网络宇宙上留些什么吧......
 
 :(fa-solid fa-clock): **网站大事记**  
-{{< timeline reverse=true height=400px placement=top data="web-history"  />}}
 
+```timeline {reverse="true" height="400px"}
+events:
+  - timestamp: 2025-03-24
+    content: 创建博客站并托管在Github Pages上。
+    color: "#FF5733"
+  - timestamp: 2025-03-28
+    content: "在华为云注册域名toastbubble.top，为博客站启用独立域名。"
+    color: "#FF5733"
+  - timestamp: 2025-03-29
+    content: 因Github Pages访问速度问题，将网站部署Cloudflare Pages上，并使用Cloudflare CDN加速。
+    color: "#FF5733"
+  - timestamp: 2025-11-09
+    content: 申请加入[**开往|有链接力**](https://www.travellings.cn/)通过
+    color: "#FF5733"
+```
 
 
 
 ---
 
-> 作者: 吐司气泡  
+> 作者: bulone  
 > URL: https://blog.toastbubble.top/about/  
 

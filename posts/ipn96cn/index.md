@@ -51,6 +51,6 @@ Mova Fresh20 根据说明书有 2000mAh 电池，每天两次刷牙的话能够�
 
 ---
 
-> 作者: 吐司气泡  
+> 作者: bulone  
 > URL: https://blog.toastbubble.top/posts/ipn96cn/  
 

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>所有文章 - 吐司气泡</title>
   <link href="" />
-  <updated>2025-11-19T20:43:20Z</updated>
+  <updated>2025-11-21T11:46:25Z</updated>
   <id></id>
   <author>
     <name>bulone</name>
@@ -16,6 +16,14 @@
     <summary>整理下修改的部分🎀</summary>
     <category term="搞点啥" />
     <content type="html">整理下修改的部分🎀</content>
+  </entry>
+  <entry>
+    <title>另类说说页</title>
+    <link href="https://blog.toastbubble.top/posts/0vtdshi/" />
+    <id>https://blog.toastbubble.top/posts/0vtdshi/</id>
+    <updated>2025-11-21T08:55:56Z</updated>
+    <summary>鬼点子生成中🎃</summary>
+    <content type="html">鬼点子生成中🎃</content>
   </entry>
   <entry>
     <title>Cloudflare宕机</title>

@@ -3,7 +3,6 @@
 
 :(fa-solid fa-copyright): 封面图片截于**Unsplash**官网
 <!--more-->
-==本文代码部分使用 Deepseek 修改==[danger]  
 
 - 2025 年 11 月 10 日：增加标题功能
 

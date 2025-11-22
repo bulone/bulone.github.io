@@ -3,7 +3,6 @@
 
 <!--more-->
 
-==本文章代码部分内容使用 AI 辅助创作==[danger]
 > 2025 年 6 月 30 日更新   
 将 devices.html 移到 layouts 目录下
 ## 引言

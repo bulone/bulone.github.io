@@ -14,25 +14,61 @@
   </url>
   <url>
     <loc>https://blog.toastbubble.top/</loc>
-    <lastmod>2025-11-21T21:51:16+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.toastbubble.top/posts/</loc>
-    <lastmod>2025-11-21T11:46:25+08:00</lastmod>
+    <lastmod>2025-11-22T15:06:39+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://blog.toastbubble.top/categories/</loc>
-    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
+    <lastmod>2025-11-22T15:06:39+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://blog.toastbubble.top/collections/</loc>
-    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
+    <lastmod>2025-11-22T15:06:39+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/posts/0vtdshi/</loc>
+    <lastmod>2025-11-22T15:06:39+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/tags/memos/</loc>
+    <lastmod>2025-11-22T15:06:39+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/posts/</loc>
+    <lastmod>2025-11-22T15:06:39+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/tags/</loc>
+    <lastmod>2025-11-22T15:06:39+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/collections/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E8%AE%B0/</loc>
+    <lastmod>2025-11-22T15:06:39+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/</loc>
+    <lastmod>2025-11-22T15:06:39+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/tags/%E8%AF%B4%E8%AF%B4/</loc>
+    <lastmod>2025-11-22T15:06:39+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -44,24 +80,6 @@
   </url>
   <url>
     <loc>https://blog.toastbubble.top/tags/hugo/</loc>
-    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.toastbubble.top/tags/</loc>
-    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.toastbubble.top/collections/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E8%AE%B0/</loc>
-    <lastmod>2025-11-19T20:43:20+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/</loc>
     <lastmod>2025-11-19T20:43:20+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

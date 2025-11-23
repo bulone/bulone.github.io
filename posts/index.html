@@ -72,7 +72,7 @@
 </ul>
     </nav>
   </div>
-</header><header class="mobile animate__faster" id="header-mobile" data-aos="fade-down" data-aos-duration="400">
+</header><header class="mobile animate__faster" id="header-mobile">
   <div class="header-container">
     <div class="header-wrapper">
       <div class="header-title">
@@ -270,19 +270,27 @@
   };
   const startDate = new Date(window.siteConfig.startDate);
 
+  
+  const getBeijingTime = () => {
+    const now = new Date();
+    
+    return new Date(now.getTime() + (8 * 60 * 60 * 1000) + (now.getTimezoneOffset() * 60000));
+  };
 
   const updateRunningDays = () => {
-    const currentDate = new Date();
+    const currentDate = getBeijingTime(); 
     const diffTime = currentDate - startDate;
     const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
     const startYear = startDate.getFullYear();
     const currentYear = currentDate.getFullYear();
+
     document.getElementById('run-times').textContent = diffDays.toLocaleString();
     document.getElementById('run-years').textContent =
       startYear === currentYear ? startYear : `${startYear} - ${currentYear}`;
   };
 
-  updateRunningDays()
+  
+  updateRunningDays();
 </script><div class="footer-line beian order-5"><span class="icp footer-divider"><a href="https://icp.gov.moe/?keyword=20259129" target="_blank">萌ICP备20259129号</a></span></div></div>
   </footer></div><div class="widgets"><div class="fixed-buttons"><div class="fixed-button back-to-top animate__faster d-none" role="button" aria-label="回到顶部"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><svg viewBox="0 0 100 100">
               <circle class="bg" cx="50" cy="50" r="50"></circle>

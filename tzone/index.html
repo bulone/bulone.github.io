@@ -10,7 +10,7 @@
   <meta itemprop="description" content="Bulone&#39;s Tzone">
   <meta itemprop="datePublished" content="2025-11-21T21:51:16+08:00">
   <meta itemprop="dateModified" content="2025-11-21T21:51:16+08:00">
-  <meta itemprop="wordCount" content="209"><meta property="og:url" content="https://blog.toastbubble.top/tzone/">
+  <meta itemprop="wordCount" content="282"><meta property="og:url" content="https://blog.toastbubble.top/tzone/">
   <meta property="og:site_name" content="吐司气泡">
   <meta property="og:title" content="T空间">
   <meta property="og:description" content="Bulone&#39;s Tzone">
@@ -36,7 +36,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https:\/\/blog.toastbubble.top\/tzone\/"
-    },"image": ["https:\/\/blog.toastbubble.top\/avatar.webp"],"genre": "page","wordcount":  209 ,
+    },"image": ["https:\/\/blog.toastbubble.top\/avatar.webp"],"genre": "page","wordcount":  282 ,
     "url": "https:\/\/blog.toastbubble.top\/tzone\/","datePublished": "2025-11-21T21:51:16+08:00","dateModified": "2025-11-21T21:51:16+08:00","publisher": {
       "@type": "Organization",
       "name": "吐司气泡","logo": "https:\/\/blog.toastbubble.top\/favicon.ico"},"author": {
@@ -154,8 +154,7 @@
         <div class="info">
           <span class="author-name">@bulone</span>
           
-          
-          <span class="date">昨天 19:04</span>
+          <span class="date" data-date="2025年11月22日 19点04分">2025年11月22日 19点04分</span>
           
         </div>
       </div>
@@ -176,8 +175,7 @@
         <div class="info">
           <span class="author-name">@bulone</span>
           
-          
-          <span class="date">昨天 14:25</span>
+          <span class="date" data-date="2025年11月22日 14点25分">2025年11月22日 14点25分</span>
           
         </div>
       </div>
@@ -218,8 +216,7 @@
         <div class="info">
           <span class="author-name">@bulone</span>
           
-          
-          <span class="date">11-21 21:15</span>
+          <span class="date" data-date="2025年11月21日 21点15分">2025年11月21日 21点15分</span>
           
         </div>
       </div>
@@ -253,8 +250,7 @@
         <div class="info">
           <span class="author-name">@bulone</span>
           
-          
-          <span class="date">11-21 16:14</span>
+          <span class="date" data-date="2025年11月21日 16点14分">2025年11月21日 16点14分</span>
           
         </div>
       </div>
@@ -275,8 +271,7 @@
         <div class="info">
           <span class="author-name">@bulone</span>
           
-          
-          <span class="date">11-21 14:06</span>
+          <span class="date" data-date="2025年11月21日 14点06分">2025年11月21日 14点06分</span>
           
         </div>
       </div>
@@ -330,6 +325,77 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    
+    
+    function formatDate(dateString) {
+      
+      const match = dateString.match(/(\d{4})年(\d{2})月(\d{2})日 (\d{2})点(\d{2})分/);
+
+      if (match) {
+        const [, year, month, day, hour, minute] = match;
+
+        
+        const beijingDate = new Date(
+          parseInt(year),
+          parseInt(month) - 1,
+          parseInt(day),
+          parseInt(hour),
+          parseInt(minute)
+        );
+
+        
+        const now = new Date();
+        const nowBeijing = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Shanghai" }));
+
+        
+        const beijingDateOnly = new Date(beijingDate.getFullYear(), beijingDate.getMonth(), beijingDate.getDate());
+        const nowBeijingOnly = new Date(nowBeijing.getFullYear(), nowBeijing.getMonth(), nowBeijing.getDate());
+
+        const diffTime = nowBeijingOnly.getTime() - beijingDateOnly.getTime();
+        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+        
+        const timeStr = `${hour}:${minute}`;
+
+        
+        if (diffDays === 0) {
+          return `今天 ${timeStr}`;
+        }
+        
+        else if (diffDays === 1) {
+          return `昨天 ${timeStr}`;
+        }
+        
+        else {
+          const currentYear = nowBeijing.getFullYear();
+          const postYear = parseInt(year);
+
+          if (postYear === currentYear) {
+            
+            return `${month}月${day}日 ${timeStr}`;
+          } else {
+            
+            return `${year}年${month}月${day}日 ${timeStr}`;
+          }
+        }
+      } else {
+        
+        console.warn('无法解析日期格式:', dateString);
+        return dateString;
+      }
+    }
+
+    
+    function initDates() {
+      const dateElements = document.querySelectorAll('.tzone-header .date[data-date]');
+      dateElements.forEach(element => {
+        const originalDate = element.getAttribute('data-date');
+        if (originalDate) {
+          element.textContent = formatDate(originalDate);
+        }
+      });
+    }
+
     
     function initViewImage() {
       if (window.ViewImage) {
@@ -423,6 +489,7 @@
     }
 
     
+    initDates();
     initViewImage();
 
     

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>所有文章 - 吐司气泡</title>
   <link href="" />
-  <updated>2025-11-22T15:06:39Z</updated>
+  <updated>2025-11-24T19:39:25Z</updated>
   <id></id>
   <author>
     <name>bulone</name>
@@ -16,6 +16,14 @@
     <summary>整理下修改的部分🎀</summary>
     <category term="搞点啥" />
     <content type="html">整理下修改的部分🎀</content>
+  </entry>
+  <entry>
+    <title>在Leaflow上部署Openlist</title>
+    <link href="https://blog.toastbubble.top/posts/8fvzly4/" />
+    <id>https://blog.toastbubble.top/posts/8fvzly4/</id>
+    <updated>2025-11-24T17:29:25Z</updated>
+    <summary>在Leaflow上部署Openlist</summary>
+    <content type="html">在Leaflow上部署Openlist</content>
   </entry>
   <entry>
     <title>Hugo另类说说页</title>

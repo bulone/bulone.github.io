@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>在Leaflow上部署Openlist - 吐司气泡</title><meta name="author" content="bulone">
+<meta name="description" content="吐司气泡是方向为生活，数码，实践方面的个人综合博客，用简单的话语记录简单的时刻。"><meta name="keywords" content=''>
+  <meta itemprop="name" content="在Leaflow上部署Openlist">
+  <meta itemprop="description" content="吐司气泡是方向为生活，数码，实践方面的个人综合博客，用简单的话语记录简单的时刻。">
+  <meta itemprop="datePublished" content="2025-11-24T17:29:25+08:00">
+  <meta itemprop="dateModified" content="2025-11-24T19:39:25+08:00">
+  <meta itemprop="wordCount" content="846"><meta property="og:url" content="https://blog.toastbubble.top/posts/8fvzly4/">
+  <meta property="og:site_name" content="吐司气泡">
+  <meta property="og:title" content="在Leaflow上部署Openlist">
+  <meta property="og:description" content="吐司气泡是方向为生活，数码，实践方面的个人综合博客，用简单的话语记录简单的时刻。">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-24T17:29:25+08:00">
+    <meta property="article:modified_time" content="2025-11-24T19:39:25+08:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="在Leaflow上部署Openlist">
+  <meta name="twitter:description" content="吐司气泡是方向为生活，数码，实践方面的个人综合博客，用简单的话语记录简单的时刻。">
+<meta name="application-name" content="Toastbubble">
+<meta name="apple-mobile-web-app-title" content="Toastbubble"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://blog.toastbubble.top/posts/8fvzly4/" title="在Leaflow上部署Openlist - 吐司气泡" /><link rel="prev" type="text/html" href="https://blog.toastbubble.top/tzone/" title="T空间" /><link rel="next" type="text/html" href="https://blog.toastbubble.top/posts/fexgwp8/" title="Fixit主题美化" /><link rel="alternate" type="text/markdown" href="https://blog.toastbubble.top/posts/8fvzly4/index.md" title="在Leaflow上部署Openlist - 吐司气泡"><link rel="stylesheet" href="/css/config.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.cbd.int/@fortawesome/fontawesome-free@6.7.1/css/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.cbd.int/@fortawesome/fontawesome-free@6.7.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.cbd.int/animate.css@4.1.1/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.cbd.int/animate.css@4.1.1/animate.min.css"></noscript><meta name="msvalidate.01" content="075F7A684DB895B644338892540F119E" /><meta name="baidu-site-verification" content="codeva-clK2FKu9ID" /><meta name="sogou_site_verification" content="k8jHsjKq7n" /><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "在Leaflow上部署Openlist",
+    "inLanguage": "zh-CN",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https:\/\/blog.toastbubble.top\/posts\/8fvzly4\/"
+    },"image": ["https:\/\/blog.toastbubble.top\/avatar.webp"],"genre": "posts","keywords": "","wordcount":  846 ,
+    "url": "https:\/\/blog.toastbubble.top\/posts\/8fvzly4\/","datePublished": "2025-11-24T17:29:25+08:00","dateModified": "2025-11-24T19:39:25+08:00","publisher": {
+      "@type": "Organization",
+      "name": "吐司气泡","logo": "https:\/\/blog.toastbubble.top\/favicon.ico"},"author": {
+        "@type": "Person",
+        "name": "bulone"
+      },"description": ""
+  }
+  </script><script src="/js/head/color-scheme.min.js"></script></head>
+  <body data-header-desktop="sticky" data-header-mobile="sticky">
+    <div class="wrapper" data-page-style="custom"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/" title="吐司气泡"><img class="logo" src='/logo.svg' alt="吐司气泡" height="32" width="32"><span class="header-title-text">吐司气泡</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a class="menu-link" href="/archives/">归档</a></li><li class="menu-item has-children">
+              <a class="menu-link" href="/categories/">类别</a><i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+                <ul class="sub-menu"><li class="menu-item">
+                        <a class="menu-link" href="/collections/">合集</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/tags/">标签</a>
+                      </li></ul></li><li class="menu-item">
+              <a class="menu-link" href="/friends/">友链</a></li><li class="menu-item">
+              <a class="menu-link" href="/devices/">装备</a></li><li class="menu-item">
+              <a class="menu-link" href="/about/">关于</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
+            <input type="text" placeholder="搜索文章标题或内容……" id="search-input-desktop">
+            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+              <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+            </a>
+            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+              <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+            </a>
+            <span class="search-button search-loading" id="search-loading-desktop">
+              <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+            </span>
+          </li><li class="menu-item theme-switch" title="切换主题">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li>
+
+<li class="menu-item tzone" title="T空间">
+    <a href="/tzone/" title="T空间">
+        <i class="fa-solid fa-soap" aria-hidden="true"></i>
+    </a>
+</li>
+
+<li class="menu-item travel-go" title="开往-友链接力">
+    <a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
+        <i class="fa-solid fa-train-subway" aria-hidden="true"></i>
+    </a>
+</li>
+
+
+</ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="吐司气泡"><img class="logo" src='/logo.svg' alt="吐司气泡" height="26" width="26"><span class="header-title-text">吐司气泡</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="search-wrapper">
+            <div class="search mobile" id="search-mobile">
+              <input type="text" placeholder="搜索文章标题或内容……" id="search-input-mobile">
+              <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+              </a>
+              <span class="search-button search-loading" id="search-loading-mobile">
+                <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+              </span>
+            </div>
+            <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+              取消
+            </a>
+          </li><li class="menu-item"><a class="menu-link" href="/archives/">归档</a></li><li class="menu-item"><span class="nested-item">
+                  <a class="menu-link" href="/categories/">类别</a>
+                  <i class="dropdown-icon fa-solid fa-chevron-right" aria-hidden="true"></i>
+                </span>
+                <ul class="sub-menu"><li class="menu-item">
+                        <a class="menu-link" href="/collections/">合集</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/tags/">标签</a>
+                      </li></ul></li><li class="menu-item"><a class="menu-link" href="/friends/">友链</a></li><li class="menu-item"><a class="menu-link" href="/devices/">装备</a></li><li class="menu-item"><a class="menu-link" href="/about/">关于</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="切换主题"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span>
+
+<li class="menu-item menu-system tzone" title="T空间">
+    <a href="/tzone/" target="_blank" rel="noopener" title="T空间">
+        <i class="fa-solid fa-soap me-1" aria-hidden="true"></i><span>T空间</span>
+    </a>
+     <a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
+        <i class="fa-solid fa-train-subway me-1" aria-hidden="true"></i><span>开往-友链接力</span>
+    </a>
+</li>
+</li>
+      </ul>
+    </nav>
+  </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+  </div>
+  <div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+  </div><main class="fi-container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label=""></aside>
+
+<article class="page single" >
+  <div class="header"><div class="post-meta-line  animate__animated animate__flipInX">
+      <span class="post-included-in"></span></div><h1 class="single-title  animate__animated animate__flipInX"><span>在Leaflow上部署Openlist</span>
+    </h1></div><div class="post-meta"><div class="post-meta-line"><span title="创建于&lt;no value&gt;"><i class="fa-regular fa-calendar fa-fw me-1" aria-hidden="true"></i><time datetime="2025年11月24日">2025年11月24日</time></span>&nbsp;<span title="更新于&lt;no value&gt;"><i class="fa-regular fa-calendar-plus fa-fw me-1" aria-hidden="true"></i><time datetime="2025年11月24日">2025年11月24日</time></span>&nbsp;<span title="约846字"><i class="fa-solid fa-mug-hot fa-fw me-1" aria-hidden="true"></i>约 2 分钟</span>&nbsp;<span class="comment-visitors" data-flag-title="在Leaflow上部署Openlist"><i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span data-path="/posts/8fvzly4/" class="waline-pageview-count">-</span>&nbsp;次阅读
+      </span>&nbsp;<span class="comment-count" data-flag-title="在Leaflow上部署Openlist">
+        <i class="fa-regular fa-comments fa-fw me-1" aria-hidden="true"></i><span data-path="/posts/8fvzly4/" class="waline-comment-count">-</span>&nbsp;条评论
+      </span>&nbsp;</div>
+  </div><div class="featured-image"><img src='/posts/8fvzly4/images/cover.webp' alt="/posts/8fvzly4/images/cover.webp"></div><div class="details toc" id="toc-static"
+    data-kept="false">
+    <div class="details-summary toc-title">
+      <span>目录</span>
+      <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+    </div>
+    <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#部署">部署</a>
+      <ul>
+        <li><a href="#问题">问题</a></li>
+      </ul>
+    </li>
+    <li><a href="#域名绑定">域名绑定</a></li>
+    <li><a href="#参考">参考</a></li>
+  </ul>
+</nav></div>
+  </div><div class="content" id="content"  data-end-flag="- 本文结束 🍞 感谢阅读 -" ><h2 class="heading-element" id="前言"><span>前言</span>
+  <a href="#%e5%89%8d%e8%a8%80" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>Leaflow 是类似于 ClawCloud 的容器部署平台，目前在内测阶段，跟当初 <strong><ruby>爪云<rt>ClawCloud</rt></ruby></strong> 一样注册用户赠送 5 元余额。当初注册爪云只是为了搭建 Openlist 的做 Webdav 观影平台，后续用户激增导致访问断断续续，直到几个月前访问部署的网站时出现 not healthy 等字样，换区域部署依旧是该现状最后就删除了部署的所有内容。</p>
+<p>十月份左右在 L 站看到了类似平台 Leaflow，也能够部署 docker 容器。只不过错过了当时的宣传期，新用户没有邀请码则无法注册。不过通过万能的“黑市”闲鱼，花了 3￥就能获得一个新鲜的邀请码注册上了。</p>
+<h2 class="heading-element" id="部署"><span>部署</span>
+  <a href="#%e9%83%a8%e7%bd%b2" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><ol>
+<li>存储管理 - 创建存储卷；对于 openlist 来说不需要太大的存储空间，256Mi 即可。<br>
+<figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a class="lightgallery" href="/posts/8fvzly4/images/index-1763980619832.png" title="扩容选项" data-thumbnail="/posts/8fvzly4/images/index-1763980619832.png" data-sub-html="<h2>后续可以继续扩容</h2><p>扩容选项</p>"><img loading="lazy" src='/posts/8fvzly4/images/index-1763980619832.png' srcset="/posts/8fvzly4/images/index-1763980619832_hu_e8bbfbd53be7a4fb.webp 700w, /posts/8fvzly4/images/index-1763980619832_hu_c06457953242a8e4.webp 1200w, /posts/8fvzly4/images/index-1763980619832_hu_ab973fbcb0ed83fd.webp 1600w" alt="后续可以继续扩容" height="161" width="1536"></a><figcaption class="image-caption">扩容选项</figcaption>
+  </figure></li>
+<li>应用管理 - 新建应用。如图所示，镜像填入 <code>openlistteam/openlist:latest</code>，资源限制和 CPU 看着填，没必要太大。<br>
+<a class="lightgallery" href="/posts/8fvzly4/images/index-1763980950069.png" title="对应参数" data-thumbnail="/posts/8fvzly4/images/index-1763980950069.png" data-sub-html="<h2>对应参数</h2>"><img loading="lazy" src='/posts/8fvzly4/images/index-1763980950069.png' srcset="/posts/8fvzly4/images/index-1763980950069_hu_28a36112f946a9fb.webp 700w, /posts/8fvzly4/images/index-1763980950069_hu_cef66eaab999a7e3.webp 1200w, /posts/8fvzly4/images/index-1763980950069_hu_26f4e9da8acc863.webp 1600w" alt="对应参数" height="558" width="1130"></a></li>
+<li>网络配置设置暴露端口为 5244。</li>
+<li>挂载路径 <code>/opt/openlist/data</code>，存储名称选择第一步所创建的存储卷。<br>
+<a class="lightgallery" href="/posts/8fvzly4/images/index-1763981882526.png" title="挂载路径部分" data-thumbnail="/posts/8fvzly4/images/index-1763981882526.png" data-sub-html="<h2>挂载路径部分</h2>"><img loading="lazy" src='/posts/8fvzly4/images/index-1763981882526.png' srcset="/posts/8fvzly4/images/index-1763981882526_hu_598b03d7fcb0db5.webp 700w, /posts/8fvzly4/images/index-1763981882526_hu_1d0a896a253b3c06.webp 1200w, /posts/8fvzly4/images/index-1763981882526_hu_9e83adc9ad54057b.webp 1600w" alt="挂载路径部分" height="203" width="1070"></a></li>
+<li>添加 Init 容器，对应所需参数如图；<br>
+镜像：<code>busybox:latest</code><br>
+内存：<code>64</code>，CPU：<code>50</code><br>
+启动命令：<code>sh</code><br>
+命令参数：<code>-c</code> <code>chown -R 1001:1001 /opt/openlist/data</code><br>
+存储配置与第 4 步一致。<br>
+<figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a class="lightgallery" href="/posts/8fvzly4/images/index-1763981964663.png" title="Init容器参数" data-thumbnail="/posts/8fvzly4/images/index-1763981964663.png" data-sub-html="<h2>非必须内容自行填写</h2><p>Init容器参数</p>"><img loading="lazy" src='/posts/8fvzly4/images/index-1763981964663.png' srcset="/posts/8fvzly4/images/index-1763981964663_hu_6d914ebdbe60394.webp 700w, /posts/8fvzly4/images/index-1763981964663_hu_87c1e394dc0a604c.webp 1200w, /posts/8fvzly4/images/index-1763981964663_hu_55976e3d5be9a0dc.webp 1600w" alt="非必须内容自行填写" height="867" width="1179"></a><figcaption class="image-caption">Init容器参数</figcaption>
+  </figure></li>
+</ol>
+<h3 class="heading-element" id="问题"><span>问题</span>
+  <a href="#%e9%97%ae%e9%a2%98" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>第一次安装时如果没有设置密码 Openlist 的密码时随机，重新设置密码进入Leaflow服务管理-对应容器-进入终端，设置密码输入 <code>./openlist admin set 密码</code></p>
+<h2 class="heading-element" id="域名绑定"><span>域名绑定</span>
+  <a href="#%e5%9f%9f%e5%90%8d%e7%bb%91%e5%ae%9a" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>利用 Cloudflare Tunnel 内网穿透绑定无备案域名。</p>
+<ol>
+<li>服务管理 - 创建服务，选择刚才新建的 openlist 应用，创建完成后复制访问地址。<br>
+<a class="lightgallery" href="/posts/8fvzly4/images/index-1763983388237.png" title="如图" data-thumbnail="/posts/8fvzly4/images/index-1763983388237.png" data-sub-html="<h2>如图</h2>"><img loading="lazy" src='/posts/8fvzly4/images/index-1763983388237.png' srcset="/posts/8fvzly4/images/index-1763983388237_hu_19a5b53958ef372a.webp 700w, /posts/8fvzly4/images/index-1763983388237_hu_cf7a7b6c68bfe3d2.webp 1200w, /posts/8fvzly4/images/index-1763983388237_hu_86e0ee781ad9c86d.webp 1600w" alt="如图" height="715" width="1519"></a></li>
+<li>在 
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+<a href="/redirect/?url=aHR0cHM6Ly93d3cuY2xvdWRmbGFyZS1jbi5jb20vcHJvZHVjdHMvdHVubmVsLw=="target="_blank" rel="external nofollow noopener noreferrer">Tunnel | Zero Trust 应用连接器 | Cloudflare<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a> 新建隧道，复制 token<br>
+<figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a class="lightgallery" href="/posts/8fvzly4/images/index-1763983528564.png" title="Token部分" data-thumbnail="/posts/8fvzly4/images/index-1763983528564.png" data-sub-html="<h2>右边复制按钮只需要token部分</h2><p>Token部分</p>"><img loading="lazy" src='/posts/8fvzly4/images/index-1763983528564.png' srcset="/posts/8fvzly4/images/index-1763983528564_hu_7091d00561427006.webp 700w, /posts/8fvzly4/images/index-1763983528564_hu_347b8ebc86ab55f1.webp 1200w, /posts/8fvzly4/images/index-1763983528564_hu_e199bf1e2c1a43cf.webp 1600w" alt="右边复制按钮只需要token部分" height="87" width="768"></a><figcaption class="image-caption">Token部分</figcaption>
+  </figure></li>
+<li>在 Leaflow 中创建应用。<br>
+镜像：<code>cloudflare/cloudflared:latest</code><br>
+启动命令：<code>/usr/local/bin/cloudflared</code><br>
+命令参数：<code>tunnel</code> <code>--no-autoupdate</code> <code>run</code> <code>--token</code> <code>您的token</code><br>
+<figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a class="lightgallery" href="/posts/8fvzly4/images/index-1763983760849.png" title="参考填入" data-thumbnail="/posts/8fvzly4/images/index-1763983760849.png" data-sub-html="<h2>示例参数</h2><p>参考填入</p>"><img loading="lazy" src='/posts/8fvzly4/images/index-1763983760849.png' srcset="/posts/8fvzly4/images/index-1763983760849_hu_e38b242b4a064e06.webp 700w, /posts/8fvzly4/images/index-1763983760849_hu_616f3364eb880ce6.webp 1200w, /posts/8fvzly4/images/index-1763983760849_hu_ee0ecc8af2c64763.webp 1600w" alt="示例参数" height="454" width="893"></a><figcaption class="image-caption">参考填入</figcaption>
+  </figure></li>
+<li>网络配置新增端口设置 80，之后创建即可。</li>
+<li>返回 Cloudflare Tunnel，如图填入第一步的访问地址，第一行为您配置的域名。<br>
+<figure data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a class="lightgallery" href="/posts/8fvzly4/images/index-1763983966303.png" title="示例参数" data-thumbnail="/posts/8fvzly4/images/index-1763983966303.png" data-sub-html="<h2>将访问地址填入第二行URL</h2><p>示例参数</p>"><img loading="lazy" src='/posts/8fvzly4/images/index-1763983966303.png' srcset="/posts/8fvzly4/images/index-1763983966303_hu_edd08755d0c88d79.webp 700w, /posts/8fvzly4/images/index-1763983966303_hu_3634777ab7744125.webp 1200w, /posts/8fvzly4/images/index-1763983966303_hu_b9fb75fb173bc620.webp 1600w" alt="将访问地址填入第二行URL" height="319" width="1481"></a><figcaption class="image-caption">示例参数</figcaption>
+  </figure></li>
+<li>配置完成后访问您的域名即可。</li>
+</ol>
+<h2 class="heading-element" id="参考"><span>参考</span>
+  <a href="#%e5%8f%82%e8%80%83" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><ol>
+<li><i class="fa-solid fa-water-ladder" aria-hidden="true"></i>&nbsp; 
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+<a href="/redirect/?url=aHR0cHM6Ly9saW51eC5kby90L3RvcGljLzExMTI1NzY="target="_blank" rel="external nofollow noopener noreferrer">leaflow部署openlist - Linux.do<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a></li>
+<li><i class="fa-solid fa-water-ladder" aria-hidden="true"></i>&nbsp;
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+<a href="/redirect/?url=aHR0cHM6Ly9saW51eC5kby90L3RvcGljLzEwNDczNDEvMw=="target="_blank" rel="external nofollow noopener noreferrer">leaflow不能绑定没备案的个人域名吗？- Linux.do<i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"></i></a><br>
+<sub>*<i class="fa-solid fa-water-ladder" aria-hidden="true"></i>&nbsp;链接需要特殊访问</sub></li>
+</ol></div><div class="aside-custom">
+    <div class="foreverblog-tips">
+        <img src="/foreverblog.svg" />
+        <span>十年之约</span>
+    </div>
+    <div class="foreverblog-timeline">
+        
+        <div class="progress-background">
+            
+            <div class="progress-text">
+                0%
+            </div>
+        </div>
+
+        
+        <div class="external-progress-text">
+            0%
+        </div>
+    </div>
+    <div class="foreverblog-time-lab">
+        <span>2025/03/28</span>
+        <span>2035/03/28</span>
+    </div>
+</div>
+
+<script>
+    
+    function calculateProgress() {
+        const startDate = new Date('2025-03-28');
+        const endDate = new Date('2035-03-28');
+        const currentDate = new Date();
+
+        
+        if (currentDate < startDate) return { progress: 0, daysPassed: 0, totalDays: 3650 };
+        if (currentDate > endDate) return { progress: 100, daysPassed: 3650, totalDays: 3650 };
+
+        const totalDuration = endDate - startDate;
+        const elapsedDuration = currentDate - startDate;
+
+        const progress = (elapsedDuration / totalDuration) * 100;
+        const daysPassed = Math.floor(elapsedDuration / (1000 * 60 * 60 * 24));
+        const totalDays = 3650; 
+
+        return {
+            progress: Math.min(Math.max(progress, 0), 100),
+            daysPassed: daysPassed,
+            totalDays: totalDays
+        };
+    }
+
+    
+    function showTextWithAnimation(element) {
+        
+        element.classList.remove('text-visible');
+
+        
+        void element.offsetWidth;
+
+        
+        setTimeout(() => {
+            element.classList.add('text-visible');
+        }, 100);
+    }
+
+
+    
+    function updateProgressBar() {
+        const { progress, daysPassed, totalDays } = calculateProgress();
+        const progressBar = document.querySelector('.progress-background');
+        const progressText = document.querySelector('.progress-text');
+        const externalText = document.querySelector('.external-progress-text');
+
+        if (progressBar && progressText && externalText) {
+            
+            setTimeout(() => {
+                
+                const progressPercent = progress / 100;
+                progressBar.style.transform = `scaleX(${progressPercent})`;
+
+                const progressValue = `${Math.round(progress)}%`;
+
+                
+                progressText.textContent = progressValue;
+                externalText.textContent = progressValue;
+
+                
+                if (progress < 15) {
+                    
+                    progressText.style.display = 'none';
+                    externalText.style.display = 'block';
+                    showTextWithAnimation(externalText);
+                } else {
+                    
+                    progressText.style.display = 'block';
+                    externalText.style.display = 'none';
+                    showTextWithAnimation(progressText);
+                }
+            }, 300);
+        }
+    }
+
+    
+    document.addEventListener('DOMContentLoaded', function () {
+        updateProgressBar();
+
+    });
+</script><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod"><span title="2025-11-24 19:39:25">2025年11月24日&nbsp;</span>
+      </div><div class="post-info-license">
+            <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+          </div></div><div class="post-info-line">
+        <div class="post-info-md"><span>
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+<a href="/posts/8fvzly4/index.md" title="阅读源文档" class="link-to-markdown">阅读源文档</a></span></div>
+        <div class="post-info-share">
+          <span><a href="javascript:void(0);" title="分享到 X" data-sharer="twitter" data-url="https://blog.toastbubble.top/posts/8fvzly4/" data-title="在Leaflow上部署Openlist" data-hashtags=""><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://blog.toastbubble.top/posts/8fvzly4/" data-hashtag=""><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://blog.toastbubble.top/posts/8fvzly4/" data-title="在Leaflow上部署Openlist" data-image="images/cover.webp"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  </span>
+        </div>
+      </div></div>
+
+  <div class="post-info-more">
+    <section class="post-tags"></section>
+    <section><span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+    </section>
+  </div><div class="post-nav"><a href="/posts/0vtdshi/" class="post-nav-item" rel="prev" title="Hugo另类说说页"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Hugo另类说说页</a><a href="/posts/fexgwp8/" class="post-nav-item" rel="next" title="Fixit主题美化">Fixit主题美化<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="waline" class="comment"></div><noscript>
+        Please enable JavaScript to view the comments powered by <a href="https://waline.js.org/" rel="external nofollow noopener noreferrer">Waline</a>.
+      </noscript></div></article>
+
+<aside class="toc" id="toc-auto" aria-label=""><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+  <div
+    class="toc-content"
+    id="toc-content-auto"></div></aside><dialog id="toc-dialog">
+  <div class="toc">
+    <h2 class="toc-title">目录</h2>
+    <div class="toc-content" id="toc-content-drawer"><nav >
+  <ul>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#部署">部署</a>
+      <ul>
+        <li><a href="#问题">问题</a></li>
+      </ul>
+    </li>
+    <li><a href="#域名绑定">域名绑定</a></li>
+    <li><a href="#参考">参考</a></li>
+  </ul>
+</nav></div>
+  </div>
+</dialog></main><footer class="footer">
+    <div class="footer-container"><div class="powered-theme-container">
+  <div class="powered-container">
+    <div class="powered-custom">
+      <span>Powered by</span>
+      <div class="provide">
+        <a href="https://gohugo.io/" title="hugo"><svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Hugo</title><path d="M11.754.0A3.998 3.998.0 009.705.596L3.33 4.532A4.252 4.252.0 001.313 8.147v8.03c0 1.473.79 2.838 2.067 3.574l6.486 3.733a3.88 3.88.0 003.835.018l7.043-3.966a3.817 3.817.0 001.943-3.323V7.752a3.57 3.57.0 00-1.774-3.084L13.817.541a3.998 3.998.0 00-2.063-.54zm.022 1.674c.413-.006.828.1 1.2.315l7.095 4.127c.584.34.941.96.94 1.635v8.462c0 .774-.414 1.484-1.089 1.864l-7.042 3.966a2.199 2.199.0 01-2.179-.01l-6.485-3.734a2.447 2.447.0 01-1.228-2.123v-8.03c0-.893.461-1.72 1.221-2.19l6.376-3.935a2.323 2.323.0 011.19-.347zm-4.7 3.844V18.37h2.69v-5.62h4.46v5.62h2.696V5.518h-2.696v4.681h-4.46V5.518z"/></svg></a>
+        <a href="https://www.cloudflare-cn.com/developer-platform/products/pages/" title="Cloudflares pages"><svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Cloudflare Pages</title><path d="M10.715 14.32H5.442l-.64-1.203L13.673.0l1.397.579-1.752 9.112h5.24l.648 1.192L10.719 24l-1.412-.54zM4.091 5.448a.5787.5787.0 110-1.1574.5787.5787.0 010 1.1574zm1.543.0a.5787.5787.0 110-1.1574.5787.5787.0 010 1.1574zm1.544.0a.5787.5787.0 110-1.1574.5787.5787.0 010 1.1574zm8.657-2.7h5.424l.772.771v16.975l-.772.772h-7.392l.374-.579h6.779l.432-.432V3.758l-.432-.432h-4.676l-.552 2.85h-.59l.529-2.877.108-.552zM2.74 21.265l-.772-.772V3.518l.772-.771h7.677l-.386.579H2.98l-.432.432v16.496l.432.432h5.586l-.092.579zm1.157-1.93h3.28l-.116.58h-3.55l-.192-.193v-3.473l.578 1.158zm13.117.0.579.58H14.7l.385-.58z"/></svg></a>
+        <a href="https://github.com" title="Github"><svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63.0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577.0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93.0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176.0.0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22.0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22.0 1.606-.015 2.896-.015 3.286.0.315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+        <a href="https://obsidian.md/" title="obsidian"><svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Obsidian</title><path d="M19.355 18.538a68.967 68.959.0 001.858-2.954.81.81.0 00-.062-.9c-.516-.685-1.504-2.075-2.042-3.362-.553-1.321-.636-3.375-.64-4.377a1.707 1.707.0 00-.358-1.05l-3.198-4.064a3.744 3.744.0 01-.076.543c-.106.503-.307 1.004-.536 1.5-.134.29-.29.6-.446.914l-.31.626c-.516 1.068-.997 2.227-1.132 3.59-.124 1.26.046 2.73.815 4.481.128.011.257.025.386.044a6.363 6.363.0 013.326 1.505c.916.79 1.744 1.922 2.415 3.5zM8.199 22.569c.073.012.146.02.22.02.78.024 2.095.092 3.16.29.87.16 2.593.64 4.01 1.055 1.083.316 2.198-.548 2.355-1.664.114-.814.33-1.735.725-2.58l-.01.005c-.67-1.87-1.522-3.078-2.416-3.849a5.295 5.295.0 00-2.778-1.257c-1.54-.216-2.952.19-3.84.45.532 2.218.368 4.829-1.425 7.531zM5.533 9.938c-.023.1-.056.197-.098.29L2.82 16.059a1.602 1.602.0 00.313 1.772l4.116 4.24c2.103-3.101 1.796-6.02.836-8.3-.728-1.73-1.832-3.081-2.55-3.831zM9.32 14.01c.615-.183 1.606-.465 2.745-.534-.683-1.725-.848-3.233-.716-4.577.154-1.552.7-2.847 1.235-3.95.113-.235.223-.454.328-.664.149-.297.288-.577.419-.86.217-.47.379-.885.46-1.27.08-.38.08-.72-.014-1.043-.095-.325-.297-.675-.68-1.06a1.6 1.6.0 00-1.475.36l-4.95 4.452a1.602 1.602.0 00-.513.952l-.427 2.83c.672.59 2.328 2.316 3.335 4.711.09.21.175.43.253.653z"/></svg></a>
+      </div>
+    </div>
+    <div class="theme-container">
+      <button class="theme-btn" data-theme="light" title="亮色模式">
+        <span><i class="fa-solid fa-sun"></i></span>
+      </button>
+      <button class="theme-btn" data-theme="auto" title="跟随设备">
+        <span><i class="fa-solid fa-laptop"></i></span>
+      </button>
+      <button class="theme-btn" data-theme="dark" title="深色模式">
+        <span><i class="fa-solid fa-moon"></i></span>
+      </button>
+    </div>
+  </div>
+  <div class="secondary-row">
+    <div class="powered-theme">
+      <span>Theme by </span>
+      <a href="https://github.com/hugo-fixit/FixIt" title="Fixit" class="fixit"><svg xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512" width="12" height="12"
+          style="vertical-align: middle;margin-right:.1rem;margin-bottom:.1rem;" fill="currentColor">
+          <defs>
+            <style>
+              .fixit-ban {
+                opacity: 0.9;
+              }
+            </style>
+          </defs>
+          <path
+            d="M159.12 338.69l24.8-16.54a78.87 78.87.0 01-6.77-22.72l-30.88 4.41a16 16 0 01-4.54-31.68l34.27-4.9v-.76l98.94 98.95a76.89 76.89.0 01-71.68-17.73l-26.39 17.59c-.15.11-.31.21-.47.31a16 16 0 01-17.28-26.93zm224.72-48.42a16 16 0 00-13.57-18.11l-34.27-4.9V244.9l34.27-4.9a16 16 0 10-4.54-31.68l-30.54 4.36a79.31 79.31.0 00-6.85-22.85l24.54-16.36a16 16 0 10-17.29-26.93l-.46.31-26 17.34a79.9 79.9.0 00-102.64-3l139.83 139.88 19.41 2.77a16 16 0 0018.11-13.57z"
+            class="fixit-bug" />
+          <path
+            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 432c-101.46.0-184-82.54-184-184a182.84 182.84.0 0133.38-105.37l256 256A182.86 182.86.0 01256 440zm150.62-78.63-256-256A182.84 182.84.0 01256 72c101.46.0 184 82.54 184 184a182.84 182.84.0 01-33.38 105.37z"
+            class="fixit-ban" />
+        </svg>Fixit</a>
+    </div>
+    <div class="site-running-days">
+      <span>
+        <a href="/atom.xml" title="Atom订阅" style="margin-right:.3rem;">
+          <i class="fa-solid fa-rss" aria-hidden="true"></i> </a>在网络宇宙中航行</span>
+      <span id="run-times">0</span>
+      <span>光年</span>
+    </div>
+  </div>
+</div>
+
+<div class="copyright-container">
+  <div class="copyright">
+    <span><i class="fa-regular fa-copyright"></i></span>
+    <span id="run-years"></span>
+    <a href="/">吐司气泡</a>
+  </div>
+  <div class="ccbns4">
+    <a class="footer-bar-link cc" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank"
+      title="cc协议">
+      <i class="fa-regular fa-copyright"></i>
+      <i class="fa-brands fa-creative-commons-by"></i>
+      <i class="fa-brands fa-creative-commons-nc"></i>
+      <i class="fa-brands fa-creative-commons-nd"></i>
+    </a>
+  </div>
+</div>
+
+
+<script>
+  window.siteConfig = {
+    startDate: "2025-03-24T14:07:23\u002b08:00"
+  };
+  const startDate = new Date(window.siteConfig.startDate);
+
+  
+  const getBeijingTime = () => {
+    const now = new Date();
+    
+    return new Date(now.getTime() + (8 * 60 * 60 * 1000) + (now.getTimezoneOffset() * 60000));
+  };
+
+  const updateRunningDays = () => {
+    const currentDate = getBeijingTime(); 
+    const diffTime = currentDate - startDate;
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+    const startYear = startDate.getFullYear();
+    const currentYear = currentDate.getFullYear();
+
+    document.getElementById('run-times').textContent = diffDays.toLocaleString();
+    document.getElementById('run-years').textContent =
+      startYear === currentYear ? startYear : `${startYear} - ${currentYear}`;
+  };
+
+  
+  updateRunningDays();
+</script><div class="footer-line beian order-5"><span class="icp footer-divider"><a href="https://icp.gov.moe/?keyword=20259129" target="_blank">萌ICP备20259129号</a></span></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons"><div class="fixed-button back-to-top animate__faster d-none" role="button" aria-label="回到顶部"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><svg viewBox="0 0 100 100">
+              <circle class="bg" cx="50" cy="50" r="50"></circle>
+              <circle class="progress" cx="50" cy="50" r="50"></circle>
+            </svg></div><div id="toc-drawer-button" class="fixed-button toc-drawer-button d-none" role="button" aria-label="目录"><i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i></div><div class="fixed-button view-comments d-none" role="button" aria-label="查看评论"><i class="fa-solid fa-comment fa-fw" aria-hidden="true"></i></div></div><div id="mask"></div><noscript>
+    <div class="noscript-warning">该网站在启用 JavaScript 的情况下效果最佳。</div>
+  </noscript>
+</div><link rel="stylesheet" href="https://cdn.cbd.int/@waline/client@latest/dist/waline.css"><link rel="stylesheet" href="https://cdn.cbd.int/lightgallery@2.7.2/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="https://cdn.cbd.int/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.cbd.int/aos@2.3.1/dist/aos.css"><script src="https://cdn.cbd.int/@waline/client@latest/dist/waline.umd.js" defer></script><script src="https://cdn.cbd.int/autocomplete.js@0.38.1/dist/autocomplete.min.js" defer></script><script src="https://cdn.cbd.int/fuse.js@6.6.2/dist/fuse.min.js" defer></script><script src="https://cdn.cbd.int/lightgallery@2.7.2/lightgallery.min.js" defer></script><script src="https://cdn.cbd.int/lightgallery@2.7.2/plugins/thumbnail/lg-thumbnail.min.js" defer></script><script src="https://cdn.cbd.int/lightgallery@2.7.2/plugins/zoom/lg-zoom.min.js" defer></script><script src="https://cdn.cbd.int/sharer.js@0.5.1/sharer.min.js" async defer></script><script src="https://cdn.cbd.int/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script src="https://cdn.cbd.int/pangu@4.0.7/dist/browser/pangu.min.js" defer></script><script src="https://cdn.cbd.int/aos@2.3.1/dist/aos.js" defer></script><script src="https://cdn.cbd.int/msemoji@1.2.0/dist/msemoji.min.js" defer></script><script src="https://tokinx.github.io/ViewImage/view-image.min.js" defer></script><script src="/js/config/812c5ec3d92126d2a769eef85f243f9d.js" defer></script><script src="/js/theme.min.js" defer></script><script src="/js/custom.min.js" defer></script></body>
+</html>

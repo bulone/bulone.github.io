@@ -7,7 +7,43 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://blog.toastbubble.top/categories/</loc>
+    <lastmod>2025-11-24T20:07:04+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/tags/clawcloud/</loc>
+    <lastmod>2025-11-24T20:07:04+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/tags/leaflow/</loc>
+    <lastmod>2025-11-24T20:07:04+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/tags/openlsit/</loc>
+    <lastmod>2025-11-24T20:07:04+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://blog.toastbubble.top/posts/</loc>
+    <lastmod>2025-11-24T20:07:04+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/tags/</loc>
+    <lastmod>2025-11-24T20:07:04+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/</loc>
     <lastmod>2025-11-24T20:07:04+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -31,12 +67,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://blog.toastbubble.top/categories/</loc>
-    <lastmod>2025-11-22T15:06:39+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://blog.toastbubble.top/collections/</loc>
     <lastmod>2025-11-22T15:06:39+08:00</lastmod>
     <changefreq>daily</changefreq>
@@ -55,19 +85,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://blog.toastbubble.top/tags/</loc>
-    <lastmod>2025-11-22T15:06:39+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://blog.toastbubble.top/collections/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E8%AE%B0/</loc>
-    <lastmod>2025-11-22T15:06:39+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/</loc>
     <lastmod>2025-11-22T15:06:39+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

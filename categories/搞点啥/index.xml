@@ -6,7 +6,7 @@
     <description>吐司气泡是方向为生活，数码，实践方面的个人综合博客，用简单的话语记录简单的时刻。</description>
     <generator>Hugo 0.152.2 &amp; FixIt v0.4.0-alpha.3-20251124100610-99fd4fb7</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 22 Nov 2025 15:06:39 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 20:07:04 +0800</lastBuildDate>
     <atom:link href="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fixit主题美化</title>
@@ -15,6 +15,14 @@
       <guid>https://blog.toastbubble.top/posts/fexgwp8/</guid>
       <category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category>
       <description>整理下修改的部分🎀</description>
+    </item>
+    <item>
+      <title>在Leaflow上部署Openlist</title>
+      <link>https://blog.toastbubble.top/posts/8fvzly4/</link>
+      <pubDate>Mon, 24 Nov 2025 17:29:25 +0800</pubDate>
+      <guid>https://blog.toastbubble.top/posts/8fvzly4/</guid>
+      <category domain="https://blog.toastbubble.top/categories/%E6%90%9E%E7%82%B9%E5%95%A5/">搞点啥</category>
+      <description>负担不大，做一个简易的webdav平台也挺好的。</description>
     </item>
     <item>
       <title>Hugo另类说说页</title>

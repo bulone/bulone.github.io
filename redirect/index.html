@@ -14,7 +14,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://blog.toastbubble.top/redirect/" title="跳转提示 - 吐司气泡" /><link rel="prev" type="text/html" href="https://blog.toastbubble.top/devices/" title="装备" /><link rel="next" type="text/html" href="https://blog.toastbubble.top/posts/pougfvs/" title="博客建站记录" /><link rel="alternate" type="text/markdown" href="https://blog.toastbubble.top/redirect/index.md" title="跳转提示 - 吐司气泡"><link rel="stylesheet" href="/css/config.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.cbd.int/@fortawesome/fontawesome-free@6.7.1/css/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdn.cbd.int/@fortawesome/fontawesome-free@6.7.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.cbd.int/animate.css@4.1.1/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdn.cbd.int/animate.css@4.1.1/animate.min.css"></noscript><script src="/js/head/color-scheme.min.js"></script><style>
-        .footer-line:not(.copyright){
+        .footer-line:not(.copyright) {
             display: none;
         }
     </style>
@@ -22,7 +22,7 @@
 
 <body><div class="wrapper" data-page-style="custom">
         <main class="fi-container" style="align-items: center;">
-            <div class="external-warning" data-aos="zoom-out-up">
+            <div class="external-warning animate__animated animate__zoomIn">
                 <div class="logo-title-container">
                     <img src="/logo.svg" class="logo">
                     <span class="warning-title">即将离开吐司气泡</span>
@@ -34,10 +34,26 @@
                 </div>
             </div>
         </main>
-        
+        <div class="redirect-footer animate__animated animate__fadeIn" style="text-align: center;padding-bottom:1rem">
+            <span id="footer-year">2025</span>
+            <a href="https://blog.toastbubble.top/">吐司气泡</a>
+        </div>
     </div>
 
     <script>
+        
+        const currentYear = new Date().getFullYear();
+        const baseYear = 2025;
+
+        
+        const footerYear = document.getElementById('footer-year');
+        if (footerYear) {
+            if (currentYear === baseYear) {
+                footerYear.textContent = `© ${baseYear}`;
+            } else {
+                footerYear.textContent = `© ${baseYear}-${currentYear}`;
+            }
+        }
         
         const params = new URLSearchParams(window.location.search);
         const encodedUrl = params.get("url");

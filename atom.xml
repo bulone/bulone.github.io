@@ -1,4 +1,152 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>吐司气泡</title><link href=""/><updated>2025-11-24T20:07:04Z</updated><id/><author><name>bulone</name></author><generator uri="https://gohugo.io/" version="0.152.2">Hugo</generator><entry><title>Fixit主题美化</title><link href="https://blog.toastbubble.top/posts/fexgwp8/"/><id>https://blog.toastbubble.top/posts/fexgwp8/</id><updated>2025-11-19T19:26:27Z</updated><summary>整理下修改的部分🎀</summary><category term="搞点啥"/><content type="html">&lt;img src="https://blog.toastbubble.top/posts/fexgwp8/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;div class="details admonition note open disabled"&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>吐司气泡</title><link href=""/><updated>2025-11-24T20:07:04Z</updated><id/><author><name>bulone</name></author><generator uri="https://gohugo.io/" version="0.152.2">Hugo</generator><entry><title>在Leaflow上部署Openlist</title><link href="https://blog.toastbubble.top/posts/8fvzly4/"/><id>https://blog.toastbubble.top/posts/8fvzly4/</id><updated>2025-11-24T17:29:25Z</updated><summary>负担不大，做一个简易的webdav平台也挺好的。</summary><category term="搞点啥"/><content type="html">&lt;img src="https://blog.toastbubble.top/posts/8fvzly4/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;h2 class="heading-element" id="前言"&gt;&lt;span&gt;前言&lt;/span&gt;
+ &lt;a href="#%e5%89%8d%e8%a8%80" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;Leaflow 是类似于 ClawCloud 的容器部署平台，目前在内测阶段，跟当初 &lt;strong&gt;&lt;ruby&gt;爪云&lt;rt&gt;ClawCloud&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; 一样注册用户赠送 5 元余额。当初注册爪云只是为了搭建 Openlist 的做 Webdav 观影平台，后续用户激增导致访问断断续续，直到几个月前访问部署的网站时出现 not healthy 等字样，换区域部署依旧是该现状最后就删除了部署的所有内容。&lt;/p&gt;
+&lt;p&gt;十月份左右在 L 站看到了类似平台 Leaflow，也能够部署 docker 容器。只不过错过了当时的宣传期，新用户没有邀请码则无法注册。不过通过万能的“黑市”闲鱼，花了 3￥就能获得一个新鲜的邀请码注册上了。&lt;/p&gt;
+&lt;h2 class="heading-element" id="部署"&gt;&lt;span&gt;部署&lt;/span&gt;
+ &lt;a href="#%e9%83%a8%e7%bd%b2" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;存储管理 - 创建存储卷；对于 openlist 来说不需要太大的存储空间，256Mi 即可。&lt;br&gt;
+&lt;figure&gt;&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763980619832.png" title="扩容选项" data-thumbnail="/posts/8fvzly4/images/index-1763980619832.png" data-sub-html="&lt;h2&gt;后续可以继续扩容&lt;/h2&gt;&lt;p&gt;扩容选项&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763980619832.png' srcset="/posts/8fvzly4/images/index-1763980619832_hu_e8bbfbd53be7a4fb.webp 700w, /posts/8fvzly4/images/index-1763980619832_hu_c06457953242a8e4.webp 1200w, /posts/8fvzly4/images/index-1763980619832_hu_ab973fbcb0ed83fd.webp 1600w" alt="后续可以继续扩容" height="161" width="1536"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;扩容选项&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;应用管理 - 新建应用。如图所示，镜像填入 &lt;code&gt;openlistteam/openlist:latest&lt;/code&gt;，资源限制和 CPU 看着填，没必要太大。&lt;br&gt;
+&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763980950069.png" title="对应参数" data-thumbnail="/posts/8fvzly4/images/index-1763980950069.png" data-sub-html="&lt;h2&gt;对应参数&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763980950069.png' srcset="/posts/8fvzly4/images/index-1763980950069_hu_28a36112f946a9fb.webp 700w, /posts/8fvzly4/images/index-1763980950069_hu_cef66eaab999a7e3.webp 1200w, /posts/8fvzly4/images/index-1763980950069_hu_26f4e9da8acc863.webp 1600w" alt="对应参数" height="558" width="1130"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;网络配置设置暴露端口为 5244。&lt;/li&gt;
+&lt;li&gt;挂载路径 &lt;code&gt;/opt/openlist/data&lt;/code&gt;，存储名称选择第一步所创建的存储卷。&lt;br&gt;
+&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763981882526.png" title="挂载路径部分" data-thumbnail="/posts/8fvzly4/images/index-1763981882526.png" data-sub-html="&lt;h2&gt;挂载路径部分&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763981882526.png' srcset="/posts/8fvzly4/images/index-1763981882526_hu_598b03d7fcb0db5.webp 700w, /posts/8fvzly4/images/index-1763981882526_hu_1d0a896a253b3c06.webp 1200w, /posts/8fvzly4/images/index-1763981882526_hu_9e83adc9ad54057b.webp 1600w" alt="挂载路径部分" height="203" width="1070"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;添加 Init 容器，对应所需参数如图；&lt;br&gt;
+镜像：&lt;code&gt;busybox:latest&lt;/code&gt;&lt;br&gt;
+内存：&lt;code&gt;64&lt;/code&gt;，CPU：&lt;code&gt;50&lt;/code&gt;&lt;br&gt;
+启动命令：&lt;code&gt;sh&lt;/code&gt;&lt;br&gt;
+命令参数：&lt;code&gt;-c&lt;/code&gt; &lt;code&gt;chown&amp;ensp;-R&amp;ensp;1001:1001&amp;ensp;/opt/openlist/data&lt;/code&gt;&lt;br&gt;
+存储配置与第 4 步一致。&lt;br&gt;
+&lt;figure&gt;&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763981964663.png" title="Init容器参数" data-thumbnail="/posts/8fvzly4/images/index-1763981964663.png" data-sub-html="&lt;h2&gt;非必须内容自行填写&lt;/h2&gt;&lt;p&gt;Init容器参数&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763981964663.png' srcset="/posts/8fvzly4/images/index-1763981964663_hu_6d914ebdbe60394.webp 700w, /posts/8fvzly4/images/index-1763981964663_hu_87c1e394dc0a604c.webp 1200w, /posts/8fvzly4/images/index-1763981964663_hu_55976e3d5be9a0dc.webp 1600w" alt="非必须内容自行填写" height="867" width="1179"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;Init容器参数&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 class="heading-element" id="问题"&gt;&lt;span&gt;问题&lt;/span&gt;
+ &lt;a href="#%e9%97%ae%e9%a2%98" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;&lt;p&gt;第一次安装时如果没有设置密码 Openlist 的密码时随机，重新设置密码进入 Leaflow 服务管理 - 对应容器 - 进入终端，设置密码输入 &lt;code&gt;./openlist&amp;ensp;admin&amp;ensp;set&amp;ensp;密码&lt;/code&gt;&lt;/p&gt;
+&lt;h2 class="heading-element" id="域名绑定"&gt;&lt;span&gt;域名绑定&lt;/span&gt;
+ &lt;a href="#%e5%9f%9f%e5%90%8d%e7%bb%91%e5%ae%9a" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;利用 Cloudflare Tunnel 内网穿透绑定无备案域名。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;服务管理 - 创建服务，选择刚才新建的 openlist 应用，创建完成后复制访问地址。&lt;br&gt;
+&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763983388237.png" title="如图" data-thumbnail="/posts/8fvzly4/images/index-1763983388237.png" data-sub-html="&lt;h2&gt;如图&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763983388237.png' srcset="/posts/8fvzly4/images/index-1763983388237_hu_19a5b53958ef372a.webp 700w, /posts/8fvzly4/images/index-1763983388237_hu_cf7a7b6c68bfe3d2.webp 1200w, /posts/8fvzly4/images/index-1763983388237_hu_86e0ee781ad9c86d.webp 1600w" alt="如图" height="715" width="1519"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;在 
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly93d3cuY2xvdWRmbGFyZS1jbi5jb20vcHJvZHVjdHMvdHVubmVsLw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;Tunnel | Zero Trust 应用连接器 | Cloudflare&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 新建隧道，复制 token&lt;br&gt;
+&lt;figure&gt;&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763983528564.png" title="Token部分" data-thumbnail="/posts/8fvzly4/images/index-1763983528564.png" data-sub-html="&lt;h2&gt;右边复制按钮只需要token部分&lt;/h2&gt;&lt;p&gt;Token部分&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763983528564.png' srcset="/posts/8fvzly4/images/index-1763983528564_hu_7091d00561427006.webp 700w, /posts/8fvzly4/images/index-1763983528564_hu_347b8ebc86ab55f1.webp 1200w, /posts/8fvzly4/images/index-1763983528564_hu_e199bf1e2c1a43cf.webp 1600w" alt="右边复制按钮只需要token部分" height="87" width="768"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;Token部分&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;在 Leaflow 中创建应用。&lt;br&gt;
+镜像：&lt;code&gt;cloudflare/cloudflared:latest&lt;/code&gt;&lt;br&gt;
+启动命令：&lt;code&gt;/usr/local/bin/cloudflared&lt;/code&gt;&lt;br&gt;
+命令参数：&lt;code&gt;tunnel&lt;/code&gt; &lt;code&gt;--no-autoupdate&lt;/code&gt; &lt;code&gt;run&lt;/code&gt; &lt;code&gt;--token&lt;/code&gt; &lt;code&gt;您的token&lt;/code&gt;&lt;br&gt;
+&lt;figure&gt;&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763983760849.png" title="参考填入" data-thumbnail="/posts/8fvzly4/images/index-1763983760849.png" data-sub-html="&lt;h2&gt;示例参数&lt;/h2&gt;&lt;p&gt;参考填入&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763983760849.png' srcset="/posts/8fvzly4/images/index-1763983760849_hu_e38b242b4a064e06.webp 700w, /posts/8fvzly4/images/index-1763983760849_hu_616f3364eb880ce6.webp 1200w, /posts/8fvzly4/images/index-1763983760849_hu_ee0ecc8af2c64763.webp 1600w" alt="示例参数" height="454" width="893"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;参考填入&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;网络配置新增端口设置 80，之后创建即可。&lt;/li&gt;
+&lt;li&gt;返回 Cloudflare Tunnel，如图填入第一步的访问地址，第一行为您配置的域名。&lt;br&gt;
+&lt;figure&gt;&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763983966303.png" title="示例参数" data-thumbnail="/posts/8fvzly4/images/index-1763983966303.png" data-sub-html="&lt;h2&gt;将访问地址填入第二行URL&lt;/h2&gt;&lt;p&gt;示例参数&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763983966303.png' srcset="/posts/8fvzly4/images/index-1763983966303_hu_edd08755d0c88d79.webp 700w, /posts/8fvzly4/images/index-1763983966303_hu_3634777ab7744125.webp 1200w, /posts/8fvzly4/images/index-1763983966303_hu_b9fb75fb173bc620.webp 1600w" alt="将访问地址填入第二行URL" height="319" width="1481"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;示例参数&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;配置完成后访问您的域名即可。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 class="heading-element" id="参考"&gt;&lt;span&gt;参考&lt;/span&gt;
+ &lt;a href="#%e5%8f%82%e8%80%83" class="heading-mark"&gt;
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;i class="fa-solid fa-water-ladder" aria-hidden="true"&gt;&lt;/i&gt;&amp;nbsp; 
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly9saW51eC5kby90L3RvcGljLzExMTI1NzY="target="_blank" rel="external nofollow noopener noreferrer"&gt;leaflow部署openlist - Linux.do&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class="fa-solid fa-water-ladder" aria-hidden="true"&gt;&lt;/i&gt;&amp;nbsp;
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly9saW51eC5kby90L3RvcGljLzEwNDczNDEvMw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;leaflow不能绑定没备案的个人域名吗？- Linux.do&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;
+&lt;sub&gt;*&lt;i class="fa-solid fa-water-ladder" aria-hidden="true"&gt;&lt;/i&gt;&amp;nbsp;链接需要特殊访问&lt;/sub&gt;&lt;/li&gt;
+&lt;/ol&gt;</content></entry><entry><title>Hugo另类说说页</title><link href="https://blog.toastbubble.top/posts/0vtdshi/"/><id>https://blog.toastbubble.top/posts/0vtdshi/</id><updated>2025-11-21T08:55:56Z</updated><summary>☝🤓吾有一计</summary><category term="搞点啥"/><content type="html">&lt;img src="https://blog.toastbubble.top/posts/0vtdshi/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;在博客里面增加一个类似说说/朋友圈的页面。在网上搜索相关教程一部分时类似友链那种，将对应的数据单独存放到如.toml/.yml/.json 中，然后创建单独的模板在进行读取渲染。另一部分是通过可用平台或者服务器搭建在线对应程序，比如 Memos，Moments 等程序。毕竟我都搭建静态博客了，当然我也没有服务器之类的，爪云免费区也因为人太多导致新建容器都是错误。看向 Cloudflare Worker，最后也是因为各种问题放弃了。&lt;/p&gt;
+&lt;p&gt;静态单独模板吧，需要创建一个单独的文件来进行编辑，在 obsidian 中用 quickadd 插件调用 js 文件也能直接插入文本内容，但是对于如果需要增加图片链接的情况下就要用另一个文件去进行编辑。说说类是能够尽量简易发布，最好不利用电脑，所以在手机上这一系列步骤就有些许繁琐了。&lt;/p&gt;
+&lt;pre class="mermaid"&gt;flowchart&amp;ensp;LR
+A[新说说]&amp;ensp;--&gt;|Obsidian|&amp;ensp;B(调用命令输入内容)
+B&amp;ensp;--&gt;&amp;ensp;C{是否插入图片}
+C&amp;ensp;--&gt;|否|&amp;ensp;D[发布]
+C&amp;ensp;--&gt;|是|&amp;ensp;E[处理好图片]
+E&amp;ensp;--&gt;&amp;ensp;F(选择其他程序编辑文件)&lt;/pre&gt;&lt;/div&gt;&lt;a class="lightgallery" href="/posts/0vtdshi/images/index-1763793082104.webp" title="吾有一计" data-thumbnail="/posts/0vtdshi/images/index-1763793082104.webp" data-sub-html="&lt;h2&gt;吾有一计&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='/posts/0vtdshi/images/index-1763793082104.webp' alt="吾有一计" height="488" width="35%"&gt;&lt;/a&gt;
+&lt;p&gt;思考之下，说说不就是另类的时间线吗，该主题配有时间线的 codeblock/shortcode，只要在文档中调用就行。那么模仿着创建类似的文件去读取渲染直接就可以直接在文档中去编辑相关内容。在手机上就可以直接不调用其他软件的情况下完成增加说说内容，导入图片并压缩处理，增加图片链接一气呵成。最后在通过第三方 Git 软件同步即可，后续每次发说说就不用那么麻烦了。&lt;br&gt;
+&lt;figure&gt;&lt;a class="lightgallery" href="/posts/0vtdshi/images/index-1763794547024.png" title="文档内格式" data-thumbnail="/posts/0vtdshi/images/index-1763794547024.png" data-sub-html="&lt;h2&gt;直接调用很简单&lt;/h2&gt;&lt;p&gt;文档内格式&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/0vtdshi/images/index-1763794547024.png' srcset="/posts/0vtdshi/images/index-1763794547024_hu_f833d6674f3dd4f0.webp 700w, /posts/0vtdshi/images/index-1763794547024_hu_35cf9b0fa87221e9.webp 1200w, /posts/0vtdshi/images/index-1763794547024_hu_51d8bf796c2ccb8a.webp 1600w" alt="直接调用很简单" height="468" width="881"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;文档内格式&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;目前支持内容 markdown 渲染，图片根据数量进行排版。页面上的说说项目在不同宽度上对应显示效果不同，支持瀑布流。&lt;br&gt;
+&lt;figure&gt;&lt;a class="lightgallery" href="/posts/0vtdshi/images/index-1763795084876.png" title="页面预览" data-thumbnail="/posts/0vtdshi/images/index-1763795084876.png" data-sub-html="&lt;h2&gt;瀑布流显示&lt;/h2&gt;&lt;p&gt;页面预览&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/0vtdshi/images/index-1763795084876.png' srcset="/posts/0vtdshi/images/index-1763795084876_hu_330c851c617972ae.webp 700w, /posts/0vtdshi/images/index-1763795084876_hu_83f980b625a1b1c3.webp 1200w, /posts/0vtdshi/images/index-1763795084876_hu_c5d2f4aa803c092f.webp 1600w" alt="瀑布流显示" height="652" width="926"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;页面预览&lt;/figcaption&gt;
+ &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;不过这样使用不知道有没有性能上的损耗，目前内容也不太多可能体现不出来，后面如果真影响加载还是转用其他方式吧。目前这种做法所有文件都存在本地不会丢失，后续转移方面也很方便。&lt;/p&gt;
+&lt;p&gt;所有的页面代码都是利用 Deepseek 进行生成然后在对应修改，不得不说 AI 对于一个小白来说解决了很多问题，像之前都是直接搜然后一点点对应修改有点浪费时间。最后点击 
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+&lt;a href="/tzone"&gt;T空间&lt;/a&gt; 进行概览吧。&lt;/p&gt;
+&lt;p&gt;因为对于修改的内容有点杂，所以代码部分就不放出来了，如果有需求的话可以评论留言，将参与到的部分内容发送到您的&lt;strong&gt;邮箱&lt;/strong&gt;里面，后续自己参照着修改。&lt;/p&gt;</content></entry><entry><title>Fixit主题美化</title><link href="https://blog.toastbubble.top/posts/fexgwp8/"/><id>https://blog.toastbubble.top/posts/fexgwp8/</id><updated>2025-11-19T19:26:27Z</updated><summary>整理下修改的部分🎀</summary><category term="搞点啥"/><content type="html">&lt;img src="https://blog.toastbubble.top/posts/fexgwp8/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;div class="details admonition note open disabled"&gt;
  &lt;div class="details-summary admonition-title"&gt;&lt;i class="icon fa-fw fa-solid fa-pencil-alt" aria-hidden="true"&gt;&lt;/i&gt;提示&lt;/div&gt;
  &lt;div class="details-content"&gt;
  &lt;div class="admonition-content"&gt;&lt;ol&gt;
@@ -537,16 +685,16 @@ msemojijs = &amp;ldquo;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;ensp;&amp;ensp;&lt;span class="p"&gt;});&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;
- &lt;th&gt;base&lt;/th&gt;
- &lt;th&gt;ext&lt;/th&gt;
- &lt;th&gt;folder&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;base&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;ext&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;folder&lt;/th&gt;
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
  &lt;tr&gt;
- &lt;td&gt;表情仓库位置&lt;/td&gt;
- &lt;td&gt;表情拓展名&lt;/td&gt;
- &lt;td&gt;表情所在目录&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;表情仓库位置&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;表情拓展名&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;表情所在目录&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
@@ -788,155 +936,7 @@ msemojijs = &amp;ldquo;
 
 
 &lt;a href="/redirect/?url=aHR0cHM6Ly9qdWVqaW4uY24vcG9zdC83MDE4ODUwNjY3NjUzNDk2ODM5"target="_blank" rel="external nofollow noopener noreferrer"&gt;插件 ｜ AOS 滚动动画库aos.js - 掘金&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content></entry><entry><title>在Leaflow上部署Openlist</title><link href="https://blog.toastbubble.top/posts/8fvzly4/"/><id>https://blog.toastbubble.top/posts/8fvzly4/</id><updated>2025-11-24T17:29:25Z</updated><summary>负担不大，做一个简易的webdav平台也挺好的。</summary><category term="搞点啥"/><content type="html">&lt;img src="https://blog.toastbubble.top/posts/8fvzly4/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;h2 class="heading-element" id="前言"&gt;&lt;span&gt;前言&lt;/span&gt;
- &lt;a href="#%e5%89%8d%e8%a8%80" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;Leaflow 是类似于 ClawCloud 的容器部署平台，目前在内测阶段，跟当初 &lt;strong&gt;&lt;ruby&gt;爪云&lt;rt&gt;ClawCloud&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt; 一样注册用户赠送 5 元余额。当初注册爪云只是为了搭建 Openlist 的做 Webdav 观影平台，后续用户激增导致访问断断续续，直到几个月前访问部署的网站时出现 not healthy 等字样，换区域部署依旧是该现状最后就删除了部署的所有内容。&lt;/p&gt;
-&lt;p&gt;十月份左右在 L 站看到了类似平台 Leaflow，也能够部署 docker 容器。只不过错过了当时的宣传期，新用户没有邀请码则无法注册。不过通过万能的“黑市”闲鱼，花了 3￥就能获得一个新鲜的邀请码注册上了。&lt;/p&gt;
-&lt;h2 class="heading-element" id="部署"&gt;&lt;span&gt;部署&lt;/span&gt;
- &lt;a href="#%e9%83%a8%e7%bd%b2" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;存储管理 - 创建存储卷；对于 openlist 来说不需要太大的存储空间，256Mi 即可。&lt;br&gt;
-&lt;figure&gt;&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763980619832.png" title="扩容选项" data-thumbnail="/posts/8fvzly4/images/index-1763980619832.png" data-sub-html="&lt;h2&gt;后续可以继续扩容&lt;/h2&gt;&lt;p&gt;扩容选项&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763980619832.png' srcset="/posts/8fvzly4/images/index-1763980619832_hu_e8bbfbd53be7a4fb.webp 700w, /posts/8fvzly4/images/index-1763980619832_hu_c06457953242a8e4.webp 1200w, /posts/8fvzly4/images/index-1763980619832_hu_ab973fbcb0ed83fd.webp 1600w" alt="后续可以继续扩容" height="161" width="1536"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;扩容选项&lt;/figcaption&gt;
- &lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;应用管理 - 新建应用。如图所示，镜像填入 &lt;code&gt;openlistteam/openlist:latest&lt;/code&gt;，资源限制和 CPU 看着填，没必要太大。&lt;br&gt;
-&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763980950069.png" title="对应参数" data-thumbnail="/posts/8fvzly4/images/index-1763980950069.png" data-sub-html="&lt;h2&gt;对应参数&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763980950069.png' srcset="/posts/8fvzly4/images/index-1763980950069_hu_28a36112f946a9fb.webp 700w, /posts/8fvzly4/images/index-1763980950069_hu_cef66eaab999a7e3.webp 1200w, /posts/8fvzly4/images/index-1763980950069_hu_26f4e9da8acc863.webp 1600w" alt="对应参数" height="558" width="1130"&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;网络配置设置暴露端口为 5244。&lt;/li&gt;
-&lt;li&gt;挂载路径 &lt;code&gt;/opt/openlist/data&lt;/code&gt;，存储名称选择第一步所创建的存储卷。&lt;br&gt;
-&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763981882526.png" title="挂载路径部分" data-thumbnail="/posts/8fvzly4/images/index-1763981882526.png" data-sub-html="&lt;h2&gt;挂载路径部分&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763981882526.png' srcset="/posts/8fvzly4/images/index-1763981882526_hu_598b03d7fcb0db5.webp 700w, /posts/8fvzly4/images/index-1763981882526_hu_1d0a896a253b3c06.webp 1200w, /posts/8fvzly4/images/index-1763981882526_hu_9e83adc9ad54057b.webp 1600w" alt="挂载路径部分" height="203" width="1070"&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;添加 Init 容器，对应所需参数如图；&lt;br&gt;
-镜像：&lt;code&gt;busybox:latest&lt;/code&gt;&lt;br&gt;
-内存：&lt;code&gt;64&lt;/code&gt;，CPU：&lt;code&gt;50&lt;/code&gt;&lt;br&gt;
-启动命令：&lt;code&gt;sh&lt;/code&gt;&lt;br&gt;
-命令参数：&lt;code&gt;-c&lt;/code&gt; &lt;code&gt;chown&amp;ensp;-R&amp;ensp;1001:1001&amp;ensp;/opt/openlist/data&lt;/code&gt;&lt;br&gt;
-存储配置与第 4 步一致。&lt;br&gt;
-&lt;figure&gt;&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763981964663.png" title="Init容器参数" data-thumbnail="/posts/8fvzly4/images/index-1763981964663.png" data-sub-html="&lt;h2&gt;非必须内容自行填写&lt;/h2&gt;&lt;p&gt;Init容器参数&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763981964663.png' srcset="/posts/8fvzly4/images/index-1763981964663_hu_6d914ebdbe60394.webp 700w, /posts/8fvzly4/images/index-1763981964663_hu_87c1e394dc0a604c.webp 1200w, /posts/8fvzly4/images/index-1763981964663_hu_55976e3d5be9a0dc.webp 1600w" alt="非必须内容自行填写" height="867" width="1179"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;Init容器参数&lt;/figcaption&gt;
- &lt;/figure&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 class="heading-element" id="问题"&gt;&lt;span&gt;问题&lt;/span&gt;
- &lt;a href="#%e9%97%ae%e9%a2%98" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h3&gt;&lt;p&gt;第一次安装时如果没有设置密码 Openlist 的密码时随机，重新设置密码进入 Leaflow 服务管理 - 对应容器 - 进入终端，设置密码输入 &lt;code&gt;./openlist&amp;ensp;admin&amp;ensp;set&amp;ensp;密码&lt;/code&gt;&lt;/p&gt;
-&lt;h2 class="heading-element" id="域名绑定"&gt;&lt;span&gt;域名绑定&lt;/span&gt;
- &lt;a href="#%e5%9f%9f%e5%90%8d%e7%bb%91%e5%ae%9a" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;利用 Cloudflare Tunnel 内网穿透绑定无备案域名。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;服务管理 - 创建服务，选择刚才新建的 openlist 应用，创建完成后复制访问地址。&lt;br&gt;
-&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763983388237.png" title="如图" data-thumbnail="/posts/8fvzly4/images/index-1763983388237.png" data-sub-html="&lt;h2&gt;如图&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763983388237.png' srcset="/posts/8fvzly4/images/index-1763983388237_hu_19a5b53958ef372a.webp 700w, /posts/8fvzly4/images/index-1763983388237_hu_cf7a7b6c68bfe3d2.webp 1200w, /posts/8fvzly4/images/index-1763983388237_hu_86e0ee781ad9c86d.webp 1600w" alt="如图" height="715" width="1519"&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;在 
-
-
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-&lt;a href="/redirect/?url=aHR0cHM6Ly93d3cuY2xvdWRmbGFyZS1jbi5jb20vcHJvZHVjdHMvdHVubmVsLw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;Tunnel | Zero Trust 应用连接器 | Cloudflare&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 新建隧道，复制 token&lt;br&gt;
-&lt;figure&gt;&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763983528564.png" title="Token部分" data-thumbnail="/posts/8fvzly4/images/index-1763983528564.png" data-sub-html="&lt;h2&gt;右边复制按钮只需要token部分&lt;/h2&gt;&lt;p&gt;Token部分&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763983528564.png' srcset="/posts/8fvzly4/images/index-1763983528564_hu_7091d00561427006.webp 700w, /posts/8fvzly4/images/index-1763983528564_hu_347b8ebc86ab55f1.webp 1200w, /posts/8fvzly4/images/index-1763983528564_hu_e199bf1e2c1a43cf.webp 1600w" alt="右边复制按钮只需要token部分" height="87" width="768"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;Token部分&lt;/figcaption&gt;
- &lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;在 Leaflow 中创建应用。&lt;br&gt;
-镜像：&lt;code&gt;cloudflare/cloudflared:latest&lt;/code&gt;&lt;br&gt;
-启动命令：&lt;code&gt;/usr/local/bin/cloudflared&lt;/code&gt;&lt;br&gt;
-命令参数：&lt;code&gt;tunnel&lt;/code&gt; &lt;code&gt;--no-autoupdate&lt;/code&gt; &lt;code&gt;run&lt;/code&gt; &lt;code&gt;--token&lt;/code&gt; &lt;code&gt;您的token&lt;/code&gt;&lt;br&gt;
-&lt;figure&gt;&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763983760849.png" title="参考填入" data-thumbnail="/posts/8fvzly4/images/index-1763983760849.png" data-sub-html="&lt;h2&gt;示例参数&lt;/h2&gt;&lt;p&gt;参考填入&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763983760849.png' srcset="/posts/8fvzly4/images/index-1763983760849_hu_e38b242b4a064e06.webp 700w, /posts/8fvzly4/images/index-1763983760849_hu_616f3364eb880ce6.webp 1200w, /posts/8fvzly4/images/index-1763983760849_hu_ee0ecc8af2c64763.webp 1600w" alt="示例参数" height="454" width="893"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;参考填入&lt;/figcaption&gt;
- &lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;网络配置新增端口设置 80，之后创建即可。&lt;/li&gt;
-&lt;li&gt;返回 Cloudflare Tunnel，如图填入第一步的访问地址，第一行为您配置的域名。&lt;br&gt;
-&lt;figure&gt;&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763983966303.png" title="示例参数" data-thumbnail="/posts/8fvzly4/images/index-1763983966303.png" data-sub-html="&lt;h2&gt;将访问地址填入第二行URL&lt;/h2&gt;&lt;p&gt;示例参数&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763983966303.png' srcset="/posts/8fvzly4/images/index-1763983966303_hu_edd08755d0c88d79.webp 700w, /posts/8fvzly4/images/index-1763983966303_hu_3634777ab7744125.webp 1200w, /posts/8fvzly4/images/index-1763983966303_hu_b9fb75fb173bc620.webp 1600w" alt="将访问地址填入第二行URL" height="319" width="1481"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;示例参数&lt;/figcaption&gt;
- &lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;配置完成后访问您的域名即可。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 class="heading-element" id="参考"&gt;&lt;span&gt;参考&lt;/span&gt;
- &lt;a href="#%e5%8f%82%e8%80%83" class="heading-mark"&gt;
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
- &lt;/a&gt;
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;i class="fa-solid fa-water-ladder" aria-hidden="true"&gt;&lt;/i&gt;&amp;nbsp; 
-
-
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-&lt;a href="/redirect/?url=aHR0cHM6Ly9saW51eC5kby90L3RvcGljLzExMTI1NzY="target="_blank" rel="external nofollow noopener noreferrer"&gt;leaflow部署openlist - Linux.do&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;i class="fa-solid fa-water-ladder" aria-hidden="true"&gt;&lt;/i&gt;&amp;nbsp;
-
-
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-&lt;a href="/redirect/?url=aHR0cHM6Ly9saW51eC5kby90L3RvcGljLzEwNDczNDEvMw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;leaflow不能绑定没备案的个人域名吗？- Linux.do&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;
-&lt;sub&gt;*&lt;i class="fa-solid fa-water-ladder" aria-hidden="true"&gt;&lt;/i&gt;&amp;nbsp;链接需要特殊访问&lt;/sub&gt;&lt;/li&gt;
-&lt;/ol&gt;</content></entry><entry><title>Hugo另类说说页</title><link href="https://blog.toastbubble.top/posts/0vtdshi/"/><id>https://blog.toastbubble.top/posts/0vtdshi/</id><updated>2025-11-21T08:55:56Z</updated><summary>☝🤓吾有一计</summary><category term="搞点啥"/><content type="html">&lt;img src="https://blog.toastbubble.top/posts/0vtdshi/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;在博客里面增加一个类似说说/朋友圈的页面。在网上搜索相关教程一部分时类似友链那种，将对应的数据单独存放到如.toml/.yml/.json 中，然后创建单独的模板在进行读取渲染。另一部分是通过可用平台或者服务器搭建在线对应程序，比如 Memos，Moments 等程序。毕竟我都搭建静态博客了，当然我也没有服务器之类的，爪云免费区也因为人太多导致新建容器都是错误。看向 Cloudflare Worker，最后也是因为各种问题放弃了。&lt;/p&gt;
-&lt;p&gt;静态单独模板吧，需要创建一个单独的文件来进行编辑，在 obsidian 中用 quickadd 插件调用 js 文件也能直接插入文本内容，但是对于如果需要增加图片链接的情况下就要用另一个文件去进行编辑。说说类是能够尽量简易发布，最好不利用电脑，所以在手机上这一系列步骤就有些许繁琐了。&lt;/p&gt;
-&lt;pre class="mermaid"&gt;flowchart&amp;ensp;LR
-A[新说说]&amp;ensp;--&gt;|Obsidian|&amp;ensp;B(调用命令输入内容)
-B&amp;ensp;--&gt;&amp;ensp;C{是否插入图片}
-C&amp;ensp;--&gt;|否|&amp;ensp;D[发布]
-C&amp;ensp;--&gt;|是|&amp;ensp;E[处理好图片]
-E&amp;ensp;--&gt;&amp;ensp;F(选择其他程序编辑文件)&lt;/pre&gt;&lt;/div&gt;&lt;a class="lightgallery" href="/posts/0vtdshi/images/index-1763793082104.webp" title="吾有一计" data-thumbnail="/posts/0vtdshi/images/index-1763793082104.webp" data-sub-html="&lt;h2&gt;吾有一计&lt;/h2&gt;"&gt;&lt;img loading="lazy" src='/posts/0vtdshi/images/index-1763793082104.webp' alt="吾有一计" height="488" width="35%"&gt;&lt;/a&gt;
-&lt;p&gt;思考之下，说说不就是另类的时间线吗，该主题配有时间线的 codeblock/shortcode，只要在文档中调用就行。那么模仿着创建类似的文件去读取渲染直接就可以直接在文档中去编辑相关内容。在手机上就可以直接不调用其他软件的情况下完成增加说说内容，导入图片并压缩处理，增加图片链接一气呵成。最后在通过第三方 Git 软件同步即可，后续每次发说说就不用那么麻烦了。&lt;br&gt;
-&lt;figure&gt;&lt;a class="lightgallery" href="/posts/0vtdshi/images/index-1763794547024.png" title="文档内格式" data-thumbnail="/posts/0vtdshi/images/index-1763794547024.png" data-sub-html="&lt;h2&gt;直接调用很简单&lt;/h2&gt;&lt;p&gt;文档内格式&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/0vtdshi/images/index-1763794547024.png' srcset="/posts/0vtdshi/images/index-1763794547024_hu_f833d6674f3dd4f0.webp 700w, /posts/0vtdshi/images/index-1763794547024_hu_35cf9b0fa87221e9.webp 1200w, /posts/0vtdshi/images/index-1763794547024_hu_51d8bf796c2ccb8a.webp 1600w" alt="直接调用很简单" height="468" width="881"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;文档内格式&lt;/figcaption&gt;
- &lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;目前支持内容 markdown 渲染，图片根据数量进行排版。页面上的说说项目在不同宽度上对应显示效果不同，支持瀑布流。&lt;br&gt;
-&lt;figure&gt;&lt;a class="lightgallery" href="/posts/0vtdshi/images/index-1763795084876.png" title="页面预览" data-thumbnail="/posts/0vtdshi/images/index-1763795084876.png" data-sub-html="&lt;h2&gt;瀑布流显示&lt;/h2&gt;&lt;p&gt;页面预览&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/0vtdshi/images/index-1763795084876.png' srcset="/posts/0vtdshi/images/index-1763795084876_hu_330c851c617972ae.webp 700w, /posts/0vtdshi/images/index-1763795084876_hu_83f980b625a1b1c3.webp 1200w, /posts/0vtdshi/images/index-1763795084876_hu_c5d2f4aa803c092f.webp 1600w" alt="瀑布流显示" height="652" width="926"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;页面预览&lt;/figcaption&gt;
- &lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;不过这样使用不知道有没有性能上的损耗，目前内容也不太多可能体现不出来，后面如果真影响加载还是转用其他方式吧。目前这种做法所有文件都存在本地不会丢失，后续转移方面也很方便。&lt;/p&gt;
-&lt;p&gt;所有的页面代码都是利用 Deepseek 进行生成然后在对应修改，不得不说 AI 对于一个小白来说解决了很多问题，像之前都是直接搜然后一点点对应修改有点浪费时间。最后点击 
-
-
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-&lt;a href="/tzone"&gt;T空间&lt;/a&gt; 进行概览吧。&lt;/p&gt;
-&lt;p&gt;因为对于修改的内容有点杂，所以代码部分就不放出来了，如果有需求的话可以评论留言，将参与到的部分内容发送到您的&lt;strong&gt;邮箱&lt;/strong&gt;里面，后续自己参照着修改。&lt;/p&gt;</content></entry><entry><title>Cloudflare宕机</title><link href="https://blog.toastbubble.top/posts/m1lz06m/"/><id>https://blog.toastbubble.top/posts/m1lz06m/</id><updated>2025-11-19T13:31:20Z</updated><summary>我的博客也进不去了😭</summary><category term="闲聊"/><content type="html">&lt;img src="https://blog.toastbubble.top/posts/m1lz06m/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;大概是昨天晚上，全球网络基础设施提供商 Cloudflare 出现宕机事件，访问由其管理的任何网页会出现 500error 错误；具有 WAF 保护的网站访问时提示 &lt;code&gt;请取消阻止 challenges.cloudflare.com后继续&lt;/code&gt;。&lt;br&gt;
+&lt;/ol&gt;</content></entry><entry><title>Cloudflare宕机</title><link href="https://blog.toastbubble.top/posts/m1lz06m/"/><id>https://blog.toastbubble.top/posts/m1lz06m/</id><updated>2025-11-19T13:31:20Z</updated><summary>我的博客也进不去了😭</summary><category term="闲聊"/><content type="html">&lt;img src="https://blog.toastbubble.top/posts/m1lz06m/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;大概是昨天晚上，全球网络基础设施提供商 Cloudflare 出现宕机事件，访问由其管理的任何网页会出现 500error 错误；具有 WAF 保护的网站访问时提示 &lt;code&gt;请取消阻止 challenges.cloudflare.com后继续&lt;/code&gt;。&lt;br&gt;
 &lt;figure&gt;&lt;a class="lightgallery" href="/posts/m1lz06m/images/index-1763531359105.jpeg" title="500错误" data-thumbnail="/posts/m1lz06m/images/index-1763531359105.jpeg" data-sub-html="&lt;h2&gt;访问出错&lt;/h2&gt;&lt;p&gt;500错误&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/m1lz06m/images/index-1763531359105.jpeg' srcset="/posts/m1lz06m/images/index-1763531359105_hu_c583dc6efb6e5d5d.webp 700w, /posts/m1lz06m/images/index-1763531359105_hu_bc8e3e9f468634f4.webp 1200w, /posts/m1lz06m/images/index-1763531359105_hu_a6a5fb9f019c6b3a.webp 1600w" alt="访问出错" height="1496" width="2258"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;500错误&lt;/figcaption&gt;
  &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;最初访问由其保护的网站时出现提示语，我还以为时 ip 被拉黑或者时因为广告拦截插件的缘故，通过其他设备并关掉广告拦截插件依旧出现该问题，于是去搜索出现的原因，当时并没有考虑到因为 Cloudflare 出现问题，搜索出来的结果也都是毫无关联，后面在搜索 cloudflare 才发现宕机的消息。&lt;/p&gt;

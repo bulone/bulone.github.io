@@ -55,8 +55,10 @@
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly93d3cuY2xvdWRmbGFyZS1jbi5jb20vcHJvZHVjdHMvdHVubmVsLw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;Tunnel | Zero Trust 应用连接器 | Cloudflare&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 新建隧道，复制 token&lt;br&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly93d3cuY2xvdWRmbGFyZS1jbi5jb20vcHJvZHVjdHMvdHVubmVsLw%3D%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;Tunnel | Zero Trust 应用连接器 | Cloudflare&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 新建隧道，复制 token&lt;br&gt;
 &lt;figure&gt;&lt;a class="lightgallery" href="/posts/8fvzly4/images/index-1763983528564.png" title="Token部分" data-thumbnail="/posts/8fvzly4/images/index-1763983528564.png" data-sub-html="&lt;h2&gt;右边复制按钮只需要token部分&lt;/h2&gt;&lt;p&gt;Token部分&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/8fvzly4/images/index-1763983528564.png' srcset="/posts/8fvzly4/images/index-1763983528564_hu_7091d00561427006.webp 700w, /posts/8fvzly4/images/index-1763983528564_hu_347b8ebc86ab55f1.webp 1200w, /posts/8fvzly4/images/index-1763983528564_hu_e199bf1e2c1a43cf.webp 1600w" alt="右边复制按钮只需要token部分" height="87" width="768"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;Token部分&lt;/figcaption&gt;
  &lt;/figure&gt;&lt;/li&gt;
 &lt;li&gt;在 Leaflow 中创建应用。&lt;br&gt;
@@ -92,8 +94,10 @@
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly9saW51eC5kby90L3RvcGljLzExMTI1NzY="target="_blank" rel="external nofollow noopener noreferrer"&gt;leaflow部署openlist - Linux.do&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly9saW51eC5kby90L3RvcGljLzExMTI1NzY%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;leaflow部署openlist - Linux.do&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;i class="fa-solid fa-water-ladder" aria-hidden="true"&gt;&lt;/i&gt;&amp;nbsp;
 
 
@@ -110,8 +114,10 @@
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly9saW51eC5kby90L3RvcGljLzEwNDczNDEvMw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;leaflow不能绑定没备案的个人域名吗？- Linux.do&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly9saW51eC5kby90L3RvcGljLzEwNDczNDEvMw%3D%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;leaflow不能绑定没备案的个人域名吗？- Linux.do&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;
 &lt;sub&gt;*&lt;i class="fa-solid fa-water-ladder" aria-hidden="true"&gt;&lt;/i&gt;&amp;nbsp;链接需要特殊访问&lt;/sub&gt;&lt;/li&gt;
 &lt;/ol&gt;</content></entry><entry><title>Hugo另类说说页</title><link href="https://blog.toastbubble.top/posts/0vtdshi/"/><id>https://blog.toastbubble.top/posts/0vtdshi/</id><updated>2025-11-21T08:55:56Z</updated><summary>☝🤓吾有一计</summary><category term="搞点啥"/><content type="html">&lt;img src="https://blog.toastbubble.top/posts/0vtdshi/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;在博客里面增加一个类似说说/朋友圈的页面。在网上搜索相关教程一部分时类似友链那种，将对应的数据单独存放到如.toml/.yml/.json 中，然后创建单独的模板在进行读取渲染。另一部分是通过可用平台或者服务器搭建在线对应程序，比如 Memos，Moments 等程序。毕竟我都搭建静态博客了，当然我也没有服务器之类的，爪云免费区也因为人太多导致新建容器都是错误。看向 Cloudflare Worker，最后也是因为各种问题放弃了。&lt;/p&gt;
 &lt;p&gt;静态单独模板吧，需要创建一个单独的文件来进行编辑，在 obsidian 中用 quickadd 插件调用 js 文件也能直接插入文本内容，但是对于如果需要增加图片链接的情况下就要用另一个文件去进行编辑。说说类是能够尽量简易发布，最好不利用电脑，所以在手机上这一系列步骤就有些许繁琐了。&lt;/p&gt;
@@ -133,6 +139,8 @@ E&amp;ensp;--&gt;&amp;ensp;F(选择其他程序编辑文件)&lt;/pre&gt;&lt;/div
 
 
 
+
+ 
 
  
 
@@ -195,12 +203,16 @@ E&amp;ensp;--&gt;&amp;ensp;F(选择其他程序编辑文件)&lt;/pre&gt;&lt;/div
 
  
 
+ 
+
 
 &lt;a href="/redirect/?url=aHR0cHM6Ly93d3cuY29sb3Jvcy5jb20vYXJ0aWNsZS9BMDAwMDAwNzQv"target="_blank" rel="external nofollow noopener noreferrer"&gt;OPPO Sans4.0&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 字体，主要喜欢这个字体的数字部分。利用 
 
 
 
 
+
+ 
 
  
 
@@ -266,8 +278,10 @@ E&amp;ensp;--&gt;&amp;ensp;F(选择其他程序编辑文件)&lt;/pre&gt;&lt;/div
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly93d3cua2VsZWp1bi5jbi8="target="_blank" rel="external nofollow noopener noreferrer"&gt;可乐君の小站&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 网站页尾增加自定义页尾。&lt;br&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly93d3cua2VsZWp1bi5jbi8%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;可乐君の小站&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 网站页尾增加自定义页尾。&lt;br&gt;
 方案： 主题配置中的 footer 部分 enable=true 其他部分全为 false，然后在主题自定义块中 footer 部分增加 &lt;code&gt;custom/footer.html&lt;/code&gt;。在 &lt;code&gt;layout\partial\custom\footer.html&lt;/code&gt; 新增文件。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;figure&gt;&lt;a class="lightgallery" href="/posts/fexgwp8/images/index-1763554486928.png" title="只关注这两项" data-thumbnail="/posts/fexgwp8/images/index-1763554486928.png" data-sub-html="&lt;h2&gt;其他全部关闭&lt;/h2&gt;&lt;p&gt;只关注这两项&lt;/p&gt;"&gt;&lt;img loading="lazy" src='/posts/fexgwp8/images/index-1763554486928.png' srcset="/posts/fexgwp8/images/index-1763554486928_hu_a900542befcee0b6.webp 700w, /posts/fexgwp8/images/index-1763554486928_hu_46e59265f78ed502.webp 1200w, /posts/fexgwp8/images/index-1763554486928_hu_ba029d383b0e48df.webp 1600w" alt="其他全部关闭" height="641" width="997"&gt;&lt;/a&gt;&lt;figcaption class="image-caption"&gt;只关注这两项&lt;/figcaption&gt;
@@ -644,6 +658,8 @@ E&amp;ensp;--&gt;&amp;ensp;F(选择其他程序编辑文件)&lt;/pre&gt;&lt;/div
 
  
 
+ 
+
 
 &lt;a href="https://github.com/DellZHackintosh/msemoji" title=" 基于 Twemoji 修改的微软风格表情 Emoji。"target="_blank" rel="external nofollow noopener noreferrer" class="card-link"&gt;&lt;span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"&gt;&lt;/span&gt;
  &lt;span class="cl-content"&gt;
@@ -673,8 +689,10 @@ msemojijs = &amp;ldquo;
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly91bnBrZy5jb20vbXNlbW9qaUAxLjEuMi9kaXN0L21zZW1vamkubWluLmpzIg=="target="_blank" rel="external nofollow noopener noreferrer"&gt;https://unpkg.com/msemoji@1.1.2/dist/msemoji.min.js"&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly91bnBrZy5jb20vbXNlbW9qaUAxLjEuMi9kaXN0L21zZW1vamkubWluLmpzIg%3D%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;https://unpkg.com/msemoji@1.1.2/dist/msemoji.min.js"&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;在 &lt;code&gt;custom.js&lt;/code&gt; 文件内添加&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -719,8 +737,10 @@ msemojijs = &amp;ldquo;
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly93YWxpbmUuanMub3JnLw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;Waline官网&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 配置参数。&lt;/p&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly93YWxpbmUuanMub3JnLw%3D%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;Waline官网&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt; 配置参数。&lt;/p&gt;
 &lt;h3 class="heading-element" id="个性化-waline-邮件模板"&gt;&lt;span&gt;个性化 Waline 邮件模板&lt;/span&gt;
  &lt;a href="#%e4%b8%aa%e6%80%a7%e5%8c%96-waline-%e9%82%ae%e4%bb%b6%e6%a8%a1%e6%9d%bf" class="heading-mark"&gt;
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
@@ -860,8 +880,10 @@ msemojijs = &amp;ldquo;
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly9ibG9nLmJzZ3VuLmNuLw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;梦爱吃鱼&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly9ibG9nLmJzZ3VuLmNuLw%3D%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;梦爱吃鱼&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;文章 Reaction 表情：
 
 
@@ -880,6 +902,8 @@ msemojijs = &amp;ldquo;
 
  
 
+ 
+
 
 &lt;a href="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis"target="_blank" rel="external nofollow noopener noreferrer"&gt;Animated-Fluent-Emojis&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;辅助生成样式代码：
@@ -887,6 +911,8 @@ msemojijs = &amp;ldquo;
 
 
 
+
+ 
 
  
 
@@ -916,6 +942,8 @@ msemojijs = &amp;ldquo;
 
  
 
+ 
+
 
 &lt;a href="/redirect/?url=aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTI3NzE2MS9hcnRpY2xlL2RldGFpbHMvMTEyMzAyNTY5"target="_blank" rel="external nofollow noopener noreferrer"&gt;前端炫酷的动画效果库&amp;ndash;AOS使用详解_aos-easing-CSDN博客&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;AOS 动画库插件：
@@ -923,6 +951,8 @@ msemojijs = &amp;ldquo;
 
 
 
+
+ 
 
  
 
@@ -963,8 +993,10 @@ msemojijs = &amp;ldquo;
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly9iYWlqaWFoYW8uYmFpZHUuY29tL3M/aWQ9MTg0OTE3ODQ5OTY4NjM2NDM1NiZ3ZnI9YmFpa2U="target="_blank" rel="external nofollow noopener noreferrer"&gt;IT之家：Cloudflare 突发全球故障原因揭秘：官方发文称不是网络攻击&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly9iYWlqaWFoYW8uYmFpZHUuY29tL3M%2FaWQ9MTg0OTE3ODQ5OTY4NjM2NDM1NiZ3ZnI9YmFpa2U%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;IT之家：Cloudflare 突发全球故障原因揭秘：官方发文称不是网络攻击&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</content></entry><entry><title>Mova Fresh20电动牙刷</title><link href="https://blog.toastbubble.top/posts/ipn96cn/"/><id>https://blog.toastbubble.top/posts/ipn96cn/</id><updated>2025-11-07T21:44:24Z</updated><summary>&lt;p&gt;:(fa-solid fa-calendar-check): 90 天打卡完成🥳&lt;/p&gt;</summary><category term="数码烩"/><content type="html">&lt;img src="https://blog.toastbubble.top/posts/ipn96cn/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;&lt;i class="fa-solid fa-calendar-check" aria-hidden="true"&gt;&lt;/i&gt;&amp;nbsp;90 天打卡完成🥳&lt;/p&gt;
@@ -981,6 +1013,8 @@ msemojijs = &amp;ldquo;
 
 
 
+
+ 
 
  
 
@@ -1218,13 +1252,17 @@ msemojijs = &amp;ldquo;
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly9pbW1tbW0uY29tL2Fib3V0LWltYWdlcy1naXJkLw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;Hugo 多图排版这样来 :: 木木木木木&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly9pbW1tbW0uY29tL2Fib3V0LWltYWdlcy1naXJkLw%3D%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;Hugo 多图排版这样来 :: 木木木木木&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;图片资源：
 
 
 
 
+
+ 
 
  
 
@@ -1254,13 +1292,17 @@ msemojijs = &amp;ldquo;
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly9ub3RoaW5nY24uY29tL3BhZ2VzL3Bob25lLTI="target="_blank" rel="external nofollow noopener noreferrer"&gt;NothingPhone壁纸&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly9ub3RoaW5nY24uY29tL3BhZ2VzL3Bob25lLTI%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;NothingPhone壁纸&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;</content></entry><entry><title>OPPO小方瓶氮化镓充电器</title><link href="https://blog.toastbubble.top/posts/0hd8aqy/"/><id>https://blog.toastbubble.top/posts/0hd8aqy/</id><updated>2025-10-23T21:33:53Z</updated><summary>小体积，大能量💪</summary><category term="数码烩"/><content type="html">&lt;img src="https://blog.toastbubble.top/posts/0hd8aqy/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;买这款的主要原因还是搭配着 
 
 
 
 
+
+ 
 
  
 
@@ -1379,8 +1421,10 @@ msemojijs = &amp;ldquo;
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly93d3B3LmxhbnpvdWIuY29tL2l1YjBaMzd3cnQwag=="target="_blank" rel="external nofollow noopener noreferrer"&gt;platform-tools.zip - 蓝奏云&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;并进行解压，在系统环境变量的path中增加解压的路径，完成后打开cmd输入adb测试即可。&lt;/p&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly93d3B3LmxhbnpvdWIuY29tL2l1YjBaMzd3cnQwag%3D%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;platform-tools.zip - 蓝奏云&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;并进行解压，在系统环境变量的path中增加解压的路径，完成后打开cmd输入adb测试即可。&lt;/p&gt;
 &lt;h3 class="heading-element" id="降级"&gt;&lt;span&gt;降级&lt;/span&gt;
  &lt;a href="#%e9%99%8d%e7%ba%a7" class="heading-mark"&gt;
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
@@ -1427,6 +1471,8 @@ msemojijs = &amp;ldquo;
 
  
 
+ 
+
 
 &lt;a href="/redirect/?url=aHR0cHM6Ly9ibG9nLjUxY3RvLmNvbS91XzEyMTkyODYyLzExNjA4NzAz"target="_blank" rel="external nofollow noopener noreferrer"&gt;微信各平台历史版本含下载地址大全（ 安卓 | Windows | MAC ）_51CTO博客_官方微信历史版本大全&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;</content></entry><entry><title>笔记本清灰</title><link href="https://blog.toastbubble.top/posts/mvml7er/"/><id>https://blog.toastbubble.top/posts/mvml7er/</id><updated>2025-07-28T23:48:52Z</updated><summary>清理一遍散热好多了♨️</summary><category term="搞点啥"/><content type="html">&lt;img src="https://blog.toastbubble.top/posts/mvml7er/images/cover.webp" alt="featured image" referrerpolicy="no-referrer"&gt;&lt;p&gt;笔记本使用已经多年有余，无论什么季节使用表面都十分的烫手，于是打算将其拆开然后把风扇取下清灰。如果网上有类似的拆机视频，建议还是看下那些地方需要格外注意以及拆机手法，否则拆坏了就得不偿失。&lt;/p&gt;
@@ -1453,6 +1499,8 @@ msemojijs = &amp;ldquo;
 
 
 
+
+ 
 
  
 
@@ -1523,6 +1571,8 @@ msemojijs = &amp;ldquo;
 
  
 
+ 
+
 
 &lt;a href="/redirect/?url=aHR0cHM6Ly93d3cucmlnaHQuY29tLmNuL0ZPUlVNL3RocmVhZC00MDY5MjMyLTEtMS5odG1s"target="_blank" rel="external nofollow noopener noreferrer"&gt;刷了flippy大神的openwrt固件，容器无法联网-斐讯无线路由器以及其它斐迅网络设备-恩山无线论坛&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
@@ -1541,8 +1591,10 @@ msemojijs = &amp;ldquo;
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXpYekVZb0VIcy8/c3BtX2lkX2Zyb209MzMzLjMzNy5zZWFyY2gtY2FyZC5hbGwuY2xpY2s="target="_blank" rel="external nofollow noopener noreferrer"&gt;132元的路由器新机皇BT-R320 刷机教程_哔哩哔哩_bilibili&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXpYekVZb0VIcy8%2Fc3BtX2lkX2Zyb209MzMzLjMzNy5zZWFyY2gtY2FyZC5hbGwuY2xpY2s%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;132元的路由器新机皇BT-R320 刷机教程_哔哩哔哩_bilibili&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
 
 
@@ -1553,6 +1605,8 @@ msemojijs = &amp;ldquo;
 
  
  
+ 
+
  
 
  
@@ -1619,8 +1673,10 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vcGljLyVFNCVCOSU5MCVFOCVBNyU4NiVFOCVCNiU4NSVFNyVCQSVBNyVFNiU4OSU4QiVFNiU5QyVCQTIvMTk0NTA5MjQvNTU1NTcwMzUxMy85MzQ1ZDY4OGQ0M2Y4Nzk0YTRjMjlmMjQwNzQyMTlmNDFiZDVhZDZlOGMzZD9mcj1uZXdhbGJ1bSZmcm9tTW9kdWxlPWFsYnVtI2FpZD01NTU1NzAzNTEzJnBpYz0zODEyYjMxYmIwNTFmODE5ODYxODJiNDEwZmVkNWRlZDJlNzM4YmQ0NDkzYw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;图片©中关村在线&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/sub&gt;&lt;/div&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vcGljLyVFNCVCOSU5MCVFOCVBNyU4NiVFOCVCNiU4NSVFNyVCQSVBNyVFNiU4OSU4QiVFNiU5QyVCQTIvMTk0NTA5MjQvNTU1NTcwMzUxMy85MzQ1ZDY4OGQ0M2Y4Nzk0YTRjMjlmMjQwNzQyMTlmNDFiZDVhZDZlOGMzZD9mcj1uZXdhbGJ1bSZmcm9tTW9kdWxlPWFsYnVtI2FpZD01NTU1NzAzNTEzJnBpYz0zODEyYjMxYmIwNTFmODE5ODYxODJiNDEwZmVkNWRlZDJlNzM4YmQ0NDkzYw%3D%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;图片©中关村在线&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/sub&gt;&lt;/div&gt;
 &lt;p&gt;在酷安上看到「我的第一步手机」话题，突然就想起了之前的真正属于我的第一部智能手机乐视 2X620。在拥有该手机之前，一直都在用我爸淘汰下来的手机，什么按键机、按键触摸机、杂牌智能机、大可乐 2 等等。这些手机好像也是印证了时代手机的发展方向。高中毕业后手机借给高中同学使用后续没还，所以一些内容都是凭借记忆去描述。&lt;/p&gt;
 &lt;p&gt;中考后，我爸在网上给我买了这部乐视 2 手机，那是 16 年。那时候的魅族还如日中天，小米利用互联网发展也风声水起，OV 也凭借着综艺赞助深入人心。我是没有想到我爸会给我买乐视这个品牌，第一次听见乐视赞助的湖南台「全员加速中」，在节目里嘉宾是不是掏出手机完成任务各种展示手机功能。那个时候乐视的各种资源仿佛还是十分雄厚的。&lt;/p&gt;
 &lt;p&gt;跑偏了，还是说回手机。拿到手的时候整个手机盒子很大很白很简约，正因为宽所以手机和很 &amp;quot; 薄 &amp;ldquo;。打开后里面的东西也很平平无奇，除了赠送送的 Type-C 转 3.5MM 线。乐视在我印象里应该是国产第一个做 Typec 接口的手机，这点好评是不错，可是它把 3.5MM 接口砍了，虽有赠送的转接线，不能边充电边听歌也是些许遗憾，那时候的蓝牙耳机发展还是初始阶段。&lt;sub&gt;图先欠着。&lt;br&gt;
@@ -1633,6 +1689,8 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 
 
 
+
+ 
 
  
 
@@ -1681,6 +1739,8 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 
  
 
+ 
+
 
 &lt;a href="/redirect/?url=aHR0cHM6Ly9ibG9nLnpoaGVvLmNvbS9lcXVpcG1lbnQv"target="_blank" rel="external nofollow noopener noreferrer"&gt;@张洪Heo&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;博客的我的装备页，也为了丰富下当前网站，模仿着主题的友链模板进行修改，在 Fixit 上也增加了&lt;del&gt;相同&lt;/del&gt;类似的装备展示页。如果有想法直接修改 device.html 文件，不会的问 &lt;strong&gt;&lt;ruby&gt;Deepseek&lt;rt&gt;这玩意可真好用啊，比搜索引擎快得多&lt;/rt&gt;&lt;/ruby&gt;&lt;/strong&gt;。&lt;br&gt;
 演示地址: 
@@ -1688,6 +1748,8 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 
 
 
+
+ 
 
  
 
@@ -1915,6 +1977,8 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 
  
 
+ 
+
 
 &lt;a href="/device-images/white.webp" title=" 展位图下载 " class="card-link" download="white.webp"&gt;&lt;span class="cl-backdrop" style="--cl-bg-url: url(/images/fixit.min.svg);"&gt;&lt;/span&gt;
  &lt;span class="cl-content"&gt;
@@ -1946,6 +2010,8 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 
  
 
+ 
+
 
 &lt;a href="/redirect/?url=aHR0cHM6Ly93d3cuZWFsbGlvbi5jb20vZ29vZHMv"target="_blank" rel="external nofollow noopener noreferrer"&gt;好物beta&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
@@ -1953,6 +2019,8 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 
 
 
+
+ 
 
  
 
@@ -1982,13 +2050,17 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly93d3cuY2RuZm9udHMuY29tL2QtZGluLmZvbnQ/X19jZl9jaGxfcnRfdGs9bnpvUlNTdEJmTXlwTjQ3aXNONjFlTVdhd05lSGN5OC5Db3BHT2d1ajF4WS0xNzQzMDgxMTMzLTEuMC4xLjEtNjlMbGZhWmhGMEQ0MndwME95R3EwU0xlZ0p3blFkTGR4aW52cGFoUVJiWQ=="target="_blank" rel="external nofollow noopener noreferrer"&gt;DIN- CDNFont&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly93d3cuY2RuZm9udHMuY29tL2QtZGluLmZvbnQ%2FX19jZl9jaGxfcnRfdGs9bnpvUlNTdEJmTXlwTjQ3aXNONjFlTVdhd05lSGN5OC5Db3BHT2d1ajF4WS0xNzQzMDgxMTMzLTEuMC4xLjEtNjlMbGZhWmhGMEQ0MndwME95R3EwU0xlZ0p3blFkTGR4aW52cGFoUVJiWQ%3D%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;DIN- CDNFont&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
 
 
 
 
+
+ 
 
  
 
@@ -2008,6 +2080,8 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 
 
 
+
+ 
 
  
 
@@ -2302,8 +2376,10 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly9rb29iYWkuY29tL3pob25namlhbnRpYW96aHVhbi8="target="_blank" rel="external nofollow noopener noreferrer"&gt;@空白Koobai&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly9rb29iYWkuY29tL3pob25namlhbnRpYW96aHVhbi8%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;@空白Koobai&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-js" data-lang="js"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cm"&gt;/*&amp;ensp;------------------&amp;ensp;跳转风险提示&amp;ensp;------------------&amp;ensp;*/&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;body&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;addEventListener&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&amp;ensp;&lt;span class="kd"&gt;function&lt;/span&gt;&amp;ensp;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;e&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&amp;ensp;&lt;span class="p"&gt;{&lt;/span&gt;
@@ -2380,13 +2456,17 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly9rb29iYWkuY29tL3pob25namlhbnRpYW96aHVhbi8="target="_blank" rel="external nofollow noopener noreferrer"&gt;HUGO 外链跳转到中间页 - 空白Koobai&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly9rb29iYWkuY29tL3pob25namlhbnRpYW96aHVhbi8%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;HUGO 外链跳转到中间页 - 空白Koobai&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
 
 
 
 
+
+ 
 
  
 
@@ -2416,6 +2496,8 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 
  
 
+ 
+
 
 &lt;a href="/redirect/?url=aHR0cHM6Ly9ibG9nLnlzaWNpbmcubmV0L3NpdGUtanVtcC1leHRlcm5hbC1saW5r"target="_blank" rel="external nofollow noopener noreferrer"&gt;博客外链跳转到中间页 | Solitudes&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
@@ -2423,6 +2505,8 @@ KepassXC 还有数据库报告功能，针对你的密码文件进行健康度�
 
 
 
+
+ 
 
  
 
@@ -2460,8 +2544,10 @@ Git 无需多言，之间下载安装即可。&lt;br&gt;
 
  
 
+ 
 
-&lt;a href="/redirect/?url=aHR0cHM6Ly9nb2h1Z28uaW8vaW5zdGFsbGF0aW9uLw=="target="_blank" rel="external nofollow noopener noreferrer"&gt;Hugo官网&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;Windows 提供三种三种通过包管理器进行安装，之后选择按照教程安装即可。&lt;/p&gt;
+
+&lt;a href="/redirect/?url=aHR0cHM6Ly9nb2h1Z28uaW8vaW5zdGFsbGF0aW9uLw%3D%3D"target="_blank" rel="external nofollow noopener noreferrer"&gt;Hugo官网&lt;i class="fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;Windows 提供三种三种通过包管理器进行安装，之后选择按照教程安装即可。&lt;/p&gt;
 &lt;h2 class="heading-element" id="选择主题"&gt;&lt;span&gt;选择主题&lt;/span&gt;
  &lt;a href="#%e9%80%89%e6%8b%a9%e4%b8%bb%e9%a2%98" class="heading-mark"&gt;
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"&gt;&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"&gt;&lt;/path&gt;&lt;/svg&gt;
@@ -2579,6 +2665,8 @@ Git 无需多言，之间下载安装即可。&lt;br&gt;
 
 
 
+
+ 
 
  
 

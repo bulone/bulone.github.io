@@ -16,20 +16,20 @@
   description: 🍞这里有多的吐司快来品鉴
 ```
 
-评论格式如下:
+**评论格式如下:**
 
-````markdown
+~点击右侧:(fa-regular fa-copy fa-fw me-1 ms-1):，直接修改里面对应的内容即可。~
+
+````markdown {title=""}
 ```yaml
-- nickname: <your nickname>
-  avatar: <your avatar>
-  url: <your site link>
-  description: <description of your site>
+- nickname: 您的昵称
+  avatar: 头像/网站Logo链接
+  url: 网站地址
+  description: 签名/网站描述
 ```
 ````
 
-| nickname | avatar | url  | description |
-| :--------: | :------: | :----: | :-----------: |
-| 您的昵称     | 所用头像   | 网站链接 | 您的签名/网站介绍   |
+当然您也可以直接复制您网站对应的友链信息，无需按照此格式修改。
 
 {{< admonition tip " 须知 " true >}}  
 1. 仅接受个人非商业博客或原创内容网站，拒绝商业推广、采集站、违规内容（如政治敏感、色情、侵权等）。  

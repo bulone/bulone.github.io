@@ -11,7 +11,7 @@
 - nickname: 吐司气泡
   avatar: https://blog.toastbubble.top/avatar.webp
   url: https://blog.toastbubble.top
-  description: 🍞这里有多的吐司快来品鉴
+  description: 热爱我的热爱
 ```
 
 **评论格式如下:**
